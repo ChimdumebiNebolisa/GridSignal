@@ -10,7 +10,7 @@ const DATA_DIR = resolve(__dirname, "../src/data");
 const TX_ZIP_GEOJSON =
   "https://raw.githubusercontent.com/OpenDataDE/State-zip-code-GeoJSON/master/tx_texas_zip_codes_geo.min.json";
 const US_CITIES_CSV =
-  "https://raw.githubusercontent.com/kelvins/US-Cities-Database/main/us-cities.csv";
+  "https://raw.githubusercontent.com/kelvins/US-Cities-Database/main/csv/us_cities.csv";
 
 type GeoJSONFeature = {
   properties: { ZCTA5CE10?: string; INTPTLAT10?: string; INTPTLON10?: string };
@@ -84,22 +84,25 @@ async function generateCityLookup() {
   const resp = await fetch(US_CITIES_CSV);
   if (!resp.ok) throw new Error(`Cities CSV HTTP ${resp.status}`);
   const text = await resp.text();
-  const lines = text.trim().split("\n");
-  const header = lines[0].split(",");
+  const lines = text.trim().split(/\r?\n/);
+  const header = lines[0].replace(/^\uFEFF/, "").split(",");
 
-  const nameIdx = header.indexOf("city");
-  const stateIdx = header.indexOf("state_id");
-  const latIdx = header.indexOf("lat");
-  const lngIdx = header.indexOf("lng");
+  const nameIdx = header.indexOf("CITY");
+  const stateIdx = header.indexOf("STATE_CODE");
+  const latIdx = header.indexOf("LATITUDE");
+  const lngIdx = header.indexOf("LONGITUDE");
 
   const cityMap: Record<string, { countyFips: string; countyName: string }> = {};
 
+  const cell = (cols: string[], idx: number) =>
+    cols[idx]?.replace(/"/g, "").replace(/\r/g, "").trim() ?? "";
+
   for (let i = 1; i < lines.length; i++) {
-    const cols = lines[i].split(",");
-    if (cols[stateIdx] !== "TX") continue;
-    const cityName = cols[nameIdx]?.replace(/"/g, "").trim();
-    const lat = parseFloat(cols[latIdx]);
-    const lon = parseFloat(cols[lngIdx]);
+    const cols = lines[i].match(/(".*?"|[^,]+)(?=,|$)/g);
+    if (!cols || cell(cols, stateIdx) !== "TX") continue;
+    const cityName = cell(cols, nameIdx);
+    const lat = parseFloat(cell(cols, latIdx));
+    const lon = parseFloat(cell(cols, lngIdx));
     if (!cityName || Number.isNaN(lat) || Number.isNaN(lon)) continue;
 
     const match = countyGeo.features.find((f) => pointInPolygon(lon, lat, f.geometry));

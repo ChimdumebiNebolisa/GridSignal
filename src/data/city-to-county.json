@@ -1,1 +1,5850 @@
-{}
+{
+  "Abbott": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Abernathy": {
+    "countyFips": "48189",
+    "countyName": "Hale County"
+  },
+  "Abilene": {
+    "countyFips": "48441",
+    "countyName": "Taylor County"
+  },
+  "Ace": {
+    "countyFips": "48373",
+    "countyName": "Polk County"
+  },
+  "Ackerly": {
+    "countyFips": "48115",
+    "countyName": "Dawson County"
+  },
+  "Addison": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Adkins": {
+    "countyFips": "48029",
+    "countyName": "Bexar County"
+  },
+  "Adrian": {
+    "countyFips": "48359",
+    "countyName": "Oldham County"
+  },
+  "Afton": {
+    "countyFips": "48125",
+    "countyName": "Dickens County"
+  },
+  "Agua Dulce": {
+    "countyFips": "48355",
+    "countyName": "Nueces County"
+  },
+  "Aiken": {
+    "countyFips": "48153",
+    "countyName": "Floyd County"
+  },
+  "Alamo": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Alanreed": {
+    "countyFips": "48179",
+    "countyName": "Gray County"
+  },
+  "Alba": {
+    "countyFips": "48499",
+    "countyName": "Wood County"
+  },
+  "Albany": {
+    "countyFips": "48417",
+    "countyName": "Shackelford County"
+  },
+  "Aledo": {
+    "countyFips": "48367",
+    "countyName": "Parker County"
+  },
+  "Alice": {
+    "countyFips": "48249",
+    "countyName": "Jim Wells County"
+  },
+  "Alief": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Allen": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Alleyton": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "Allison": {
+    "countyFips": "48483",
+    "countyName": "Wheeler County"
+  },
+  "Alpine": {
+    "countyFips": "48043",
+    "countyName": "Brewster County"
+  },
+  "Altair": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "Alto": {
+    "countyFips": "48073",
+    "countyName": "Cherokee County"
+  },
+  "Alvarado": {
+    "countyFips": "48251",
+    "countyName": "Johnson County"
+  },
+  "Alvin": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Alvord": {
+    "countyFips": "48497",
+    "countyName": "Wise County"
+  },
+  "Amarillo": {
+    "countyFips": "48381",
+    "countyName": "Randall County"
+  },
+  "Amherst": {
+    "countyFips": "48279",
+    "countyName": "Lamb County"
+  },
+  "Anahuac": {
+    "countyFips": "48071",
+    "countyName": "Chambers County"
+  },
+  "Anderson": {
+    "countyFips": "48185",
+    "countyName": "Grimes County"
+  },
+  "Andrews": {
+    "countyFips": "48003",
+    "countyName": "Andrews County"
+  },
+  "Angleton": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Anna": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Annona": {
+    "countyFips": "48387",
+    "countyName": "Red River County"
+  },
+  "Anson": {
+    "countyFips": "48253",
+    "countyName": "Jones County"
+  },
+  "Anthony": {
+    "countyFips": "48141",
+    "countyName": "El Paso County"
+  },
+  "Anton": {
+    "countyFips": "48219",
+    "countyName": "Hockley County"
+  },
+  "Apple Springs": {
+    "countyFips": "48455",
+    "countyName": "Trinity County"
+  },
+  "Aquilla": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Aransas Pass": {
+    "countyFips": "48409",
+    "countyName": "San Patricio County"
+  },
+  "Archer City": {
+    "countyFips": "48009",
+    "countyName": "Archer County"
+  },
+  "Argyle": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Arlington": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Armstrong": {
+    "countyFips": "48261",
+    "countyName": "Kenedy County"
+  },
+  "Arp": {
+    "countyFips": "48423",
+    "countyName": "Smith County"
+  },
+  "Art": {
+    "countyFips": "48319",
+    "countyName": "Mason County"
+  },
+  "Artesia Wells": {
+    "countyFips": "48283",
+    "countyName": "La Salle County"
+  },
+  "Arthur City": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Asherton": {
+    "countyFips": "48127",
+    "countyName": "Dimmit County"
+  },
+  "Aspermont": {
+    "countyFips": "48433",
+    "countyName": "Stonewall County"
+  },
+  "Atascosa": {
+    "countyFips": "48029",
+    "countyName": "Bexar County"
+  },
+  "Athens": {
+    "countyFips": "48213",
+    "countyName": "Henderson County"
+  },
+  "Atlanta": {
+    "countyFips": "48067",
+    "countyName": "Cass County"
+  },
+  "Aubrey": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Austin": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Austwell": {
+    "countyFips": "48391",
+    "countyName": "Refugio County"
+  },
+  "Avalon": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Avery": {
+    "countyFips": "48387",
+    "countyName": "Red River County"
+  },
+  "Avinger": {
+    "countyFips": "48315",
+    "countyName": "Marion County"
+  },
+  "Avoca": {
+    "countyFips": "48253",
+    "countyName": "Jones County"
+  },
+  "Axtell": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Azle": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Bacliff": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "Bagwell": {
+    "countyFips": "48387",
+    "countyName": "Red River County"
+  },
+  "Bailey": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Baird": {
+    "countyFips": "48059",
+    "countyName": "Callahan County"
+  },
+  "Ballinger": {
+    "countyFips": "48399",
+    "countyName": "Runnels County"
+  },
+  "Balmorhea": {
+    "countyFips": "48389",
+    "countyName": "Reeves County"
+  },
+  "Bandera": {
+    "countyFips": "48019",
+    "countyName": "Bandera County"
+  },
+  "Bangs": {
+    "countyFips": "48049",
+    "countyName": "Brown County"
+  },
+  "Banquete": {
+    "countyFips": "48355",
+    "countyName": "Nueces County"
+  },
+  "Bardwell": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Barker": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Barksdale": {
+    "countyFips": "48137",
+    "countyName": "Edwards County"
+  },
+  "Barnhart": {
+    "countyFips": "48235",
+    "countyName": "Irion County"
+  },
+  "Barry": {
+    "countyFips": "48349",
+    "countyName": "Navarro County"
+  },
+  "Barstow": {
+    "countyFips": "48475",
+    "countyName": "Ward County"
+  },
+  "Bartlett": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Bastrop": {
+    "countyFips": "48021",
+    "countyName": "Bastrop County"
+  },
+  "Batesville": {
+    "countyFips": "48507",
+    "countyName": "Zavala County"
+  },
+  "Batson": {
+    "countyFips": "48199",
+    "countyName": "Hardin County"
+  },
+  "Bay City": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Bayside": {
+    "countyFips": "48391",
+    "countyName": "Refugio County"
+  },
+  "Baytown": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Beasley": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Beaumont": {
+    "countyFips": "48245",
+    "countyName": "Jefferson County"
+  },
+  "Beckville": {
+    "countyFips": "48365",
+    "countyName": "Panola County"
+  },
+  "Bedford": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Bedias": {
+    "countyFips": "48185",
+    "countyName": "Grimes County"
+  },
+  "Beeville": {
+    "countyFips": "48025",
+    "countyName": "Bee County"
+  },
+  "Bellaire": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Bellevue": {
+    "countyFips": "48077",
+    "countyName": "Clay County"
+  },
+  "Bells": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Bellville": {
+    "countyFips": "48015",
+    "countyName": "Austin County"
+  },
+  "Belmont": {
+    "countyFips": "48177",
+    "countyName": "Gonzales County"
+  },
+  "Belton": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Ben Bolt": {
+    "countyFips": "48249",
+    "countyName": "Jim Wells County"
+  },
+  "Ben Franklin": {
+    "countyFips": "48119",
+    "countyName": "Delta County"
+  },
+  "Ben Wheeler": {
+    "countyFips": "48467",
+    "countyName": "Van Zandt County"
+  },
+  "Benavides": {
+    "countyFips": "48131",
+    "countyName": "Duval County"
+  },
+  "Bend": {
+    "countyFips": "48281",
+    "countyName": "Lampasas County"
+  },
+  "Benjamin": {
+    "countyFips": "48275",
+    "countyName": "Knox County"
+  },
+  "Berclair": {
+    "countyFips": "48175",
+    "countyName": "Goliad County"
+  },
+  "Bergheim": {
+    "countyFips": "48259",
+    "countyName": "Kendall County"
+  },
+  "Bertram": {
+    "countyFips": "48053",
+    "countyName": "Burnet County"
+  },
+  "Big Bend National Park": {
+    "countyFips": "48043",
+    "countyName": "Brewster County"
+  },
+  "Big Lake": {
+    "countyFips": "48383",
+    "countyName": "Reagan County"
+  },
+  "Big Sandy": {
+    "countyFips": "48459",
+    "countyName": "Upshur County"
+  },
+  "Big Spring": {
+    "countyFips": "48227",
+    "countyName": "Howard County"
+  },
+  "Big Wells": {
+    "countyFips": "48127",
+    "countyName": "Dimmit County"
+  },
+  "Bigfoot": {
+    "countyFips": "48163",
+    "countyName": "Frio County"
+  },
+  "Bishop": {
+    "countyFips": "48355",
+    "countyName": "Nueces County"
+  },
+  "Bivins": {
+    "countyFips": "48067",
+    "countyName": "Cass County"
+  },
+  "Blackwell": {
+    "countyFips": "48081",
+    "countyName": "Coke County"
+  },
+  "Blanco": {
+    "countyFips": "48031",
+    "countyName": "Blanco County"
+  },
+  "Blanket": {
+    "countyFips": "48049",
+    "countyName": "Brown County"
+  },
+  "Bledsoe": {
+    "countyFips": "48079",
+    "countyName": "Cochran County"
+  },
+  "Bleiblerville": {
+    "countyFips": "48015",
+    "countyName": "Austin County"
+  },
+  "Blessing": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Bloomburg": {
+    "countyFips": "48067",
+    "countyName": "Cass County"
+  },
+  "Blooming Grove": {
+    "countyFips": "48349",
+    "countyName": "Navarro County"
+  },
+  "Bloomington": {
+    "countyFips": "48469",
+    "countyName": "Victoria County"
+  },
+  "Blossom": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Blue Ridge": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Bluegrove": {
+    "countyFips": "48077",
+    "countyName": "Clay County"
+  },
+  "Bluff Dale": {
+    "countyFips": "48143",
+    "countyName": "Erath County"
+  },
+  "Bluffton": {
+    "countyFips": "48299",
+    "countyName": "Llano County"
+  },
+  "Blum": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Boerne": {
+    "countyFips": "48259",
+    "countyName": "Kendall County"
+  },
+  "Bogata": {
+    "countyFips": "48387",
+    "countyName": "Red River County"
+  },
+  "Boling": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "Bon Wier": {
+    "countyFips": "48351",
+    "countyName": "Newton County"
+  },
+  "Bonham": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Booker": {
+    "countyFips": "48295",
+    "countyName": "Lipscomb County"
+  },
+  "Borger": {
+    "countyFips": "48233",
+    "countyName": "Hutchinson County"
+  },
+  "Bovina": {
+    "countyFips": "48369",
+    "countyName": "Parmer County"
+  },
+  "Bowie": {
+    "countyFips": "48337",
+    "countyName": "Montague County"
+  },
+  "Boyd": {
+    "countyFips": "48497",
+    "countyName": "Wise County"
+  },
+  "Boys Ranch": {
+    "countyFips": "48359",
+    "countyName": "Oldham County"
+  },
+  "Brackettville": {
+    "countyFips": "48271",
+    "countyName": "Kinney County"
+  },
+  "Brady": {
+    "countyFips": "48307",
+    "countyName": "McCulloch County"
+  },
+  "Brandon": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Brashear": {
+    "countyFips": "48223",
+    "countyName": "Hopkins County"
+  },
+  "Brazoria": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Breckenridge": {
+    "countyFips": "48429",
+    "countyName": "Stephens County"
+  },
+  "Bremond": {
+    "countyFips": "48395",
+    "countyName": "Robertson County"
+  },
+  "Brenham": {
+    "countyFips": "48477",
+    "countyName": "Washington County"
+  },
+  "Bridge City": {
+    "countyFips": "48361",
+    "countyName": "Orange County"
+  },
+  "Bridgeport": {
+    "countyFips": "48497",
+    "countyName": "Wise County"
+  },
+  "Briggs": {
+    "countyFips": "48053",
+    "countyName": "Burnet County"
+  },
+  "Briscoe": {
+    "countyFips": "48483",
+    "countyName": "Wheeler County"
+  },
+  "Broaddus": {
+    "countyFips": "48405",
+    "countyName": "San Augustine County"
+  },
+  "Bronson": {
+    "countyFips": "48403",
+    "countyName": "Sabine County"
+  },
+  "Bronte": {
+    "countyFips": "48081",
+    "countyName": "Coke County"
+  },
+  "Brookeland": {
+    "countyFips": "48241",
+    "countyName": "Jasper County"
+  },
+  "Brookesmith": {
+    "countyFips": "48049",
+    "countyName": "Brown County"
+  },
+  "Brookshire": {
+    "countyFips": "48473",
+    "countyName": "Waller County"
+  },
+  "Brookston": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Brownfield": {
+    "countyFips": "48445",
+    "countyName": "Terry County"
+  },
+  "Brownsboro": {
+    "countyFips": "48213",
+    "countyName": "Henderson County"
+  },
+  "Brownsville": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "Brownwood": {
+    "countyFips": "48049",
+    "countyName": "Brown County"
+  },
+  "Bruceville": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Bruni": {
+    "countyFips": "48479",
+    "countyName": "Webb County"
+  },
+  "Bryan": {
+    "countyFips": "48041",
+    "countyName": "Brazos County"
+  },
+  "Bryson": {
+    "countyFips": "48237",
+    "countyName": "Jack County"
+  },
+  "Buchanan Dam": {
+    "countyFips": "48299",
+    "countyName": "Llano County"
+  },
+  "Buckholts": {
+    "countyFips": "48331",
+    "countyName": "Milam County"
+  },
+  "Buda": {
+    "countyFips": "48209",
+    "countyName": "Hays County"
+  },
+  "Buffalo": {
+    "countyFips": "48289",
+    "countyName": "Leon County"
+  },
+  "Buffalo Gap": {
+    "countyFips": "48441",
+    "countyName": "Taylor County"
+  },
+  "Bula": {
+    "countyFips": "48017",
+    "countyName": "Bailey County"
+  },
+  "Bullard": {
+    "countyFips": "48073",
+    "countyName": "Cherokee County"
+  },
+  "Bulverde": {
+    "countyFips": "48091",
+    "countyName": "Comal County"
+  },
+  "Buna": {
+    "countyFips": "48241",
+    "countyName": "Jasper County"
+  },
+  "Burkburnett": {
+    "countyFips": "48485",
+    "countyName": "Wichita County"
+  },
+  "Burkett": {
+    "countyFips": "48083",
+    "countyName": "Coleman County"
+  },
+  "Burkeville": {
+    "countyFips": "48351",
+    "countyName": "Newton County"
+  },
+  "Burleson": {
+    "countyFips": "48251",
+    "countyName": "Johnson County"
+  },
+  "Burlington": {
+    "countyFips": "48331",
+    "countyName": "Milam County"
+  },
+  "Burnet": {
+    "countyFips": "48053",
+    "countyName": "Burnet County"
+  },
+  "Burton": {
+    "countyFips": "48477",
+    "countyName": "Washington County"
+  },
+  "Bushland": {
+    "countyFips": "48375",
+    "countyName": "Potter County"
+  },
+  "Byers": {
+    "countyFips": "48077",
+    "countyName": "Clay County"
+  },
+  "Bynum": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Cactus": {
+    "countyFips": "48341",
+    "countyName": "Moore County"
+  },
+  "Caddo": {
+    "countyFips": "48429",
+    "countyName": "Stephens County"
+  },
+  "Caddo Mills": {
+    "countyFips": "48231",
+    "countyName": "Hunt County"
+  },
+  "Caldwell": {
+    "countyFips": "48051",
+    "countyName": "Burleson County"
+  },
+  "Call": {
+    "countyFips": "48351",
+    "countyName": "Newton County"
+  },
+  "Calliham": {
+    "countyFips": "48311",
+    "countyName": "McMullen County"
+  },
+  "Calvert": {
+    "countyFips": "48395",
+    "countyName": "Robertson County"
+  },
+  "Camden": {
+    "countyFips": "48373",
+    "countyName": "Polk County"
+  },
+  "Cameron": {
+    "countyFips": "48331",
+    "countyName": "Milam County"
+  },
+  "Camp Wood": {
+    "countyFips": "48385",
+    "countyName": "Real County"
+  },
+  "Campbell": {
+    "countyFips": "48231",
+    "countyName": "Hunt County"
+  },
+  "Campbellton": {
+    "countyFips": "48013",
+    "countyName": "Atascosa County"
+  },
+  "Canadian": {
+    "countyFips": "48211",
+    "countyName": "Hemphill County"
+  },
+  "Canton": {
+    "countyFips": "48467",
+    "countyName": "Van Zandt County"
+  },
+  "Canutillo": {
+    "countyFips": "48141",
+    "countyName": "El Paso County"
+  },
+  "Canyon": {
+    "countyFips": "48381",
+    "countyName": "Randall County"
+  },
+  "Canyon Lake": {
+    "countyFips": "48091",
+    "countyName": "Comal County"
+  },
+  "Carbon": {
+    "countyFips": "48133",
+    "countyName": "Eastland County"
+  },
+  "Carlsbad": {
+    "countyFips": "48451",
+    "countyName": "Tom Green County"
+  },
+  "Carlton": {
+    "countyFips": "48193",
+    "countyName": "Hamilton County"
+  },
+  "Carmine": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "Carrizo Springs": {
+    "countyFips": "48127",
+    "countyName": "Dimmit County"
+  },
+  "Carrollton": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Carthage": {
+    "countyFips": "48365",
+    "countyName": "Panola County"
+  },
+  "Cason": {
+    "countyFips": "48343",
+    "countyName": "Morris County"
+  },
+  "Castell": {
+    "countyFips": "48299",
+    "countyName": "Llano County"
+  },
+  "Castroville": {
+    "countyFips": "48325",
+    "countyName": "Medina County"
+  },
+  "Cat Spring": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "Catarina": {
+    "countyFips": "48127",
+    "countyName": "Dimmit County"
+  },
+  "Cayuga": {
+    "countyFips": "48001",
+    "countyName": "Anderson County"
+  },
+  "Cedar Creek": {
+    "countyFips": "48021",
+    "countyName": "Bastrop County"
+  },
+  "Cedar Hill": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Cedar Lane": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Cedar Park": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Cee Vee": {
+    "countyFips": "48101",
+    "countyName": "Cottle County"
+  },
+  "Celeste": {
+    "countyFips": "48231",
+    "countyName": "Hunt County"
+  },
+  "Celina": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Center": {
+    "countyFips": "48419",
+    "countyName": "Shelby County"
+  },
+  "Center Point": {
+    "countyFips": "48265",
+    "countyName": "Kerr County"
+  },
+  "Centerville": {
+    "countyFips": "48289",
+    "countyName": "Leon County"
+  },
+  "Centralia": {
+    "countyFips": "48455",
+    "countyName": "Trinity County"
+  },
+  "Chandler": {
+    "countyFips": "48213",
+    "countyName": "Henderson County"
+  },
+  "Channelview": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Channing": {
+    "countyFips": "48205",
+    "countyName": "Hartley County"
+  },
+  "Chapman Ranch": {
+    "countyFips": "48355",
+    "countyName": "Nueces County"
+  },
+  "Chappell Hill": {
+    "countyFips": "48477",
+    "countyName": "Washington County"
+  },
+  "Charlotte": {
+    "countyFips": "48013",
+    "countyName": "Atascosa County"
+  },
+  "Chatfield": {
+    "countyFips": "48349",
+    "countyName": "Navarro County"
+  },
+  "Cherokee": {
+    "countyFips": "48411",
+    "countyName": "San Saba County"
+  },
+  "Chester": {
+    "countyFips": "48457",
+    "countyName": "Tyler County"
+  },
+  "Chico": {
+    "countyFips": "48497",
+    "countyName": "Wise County"
+  },
+  "Chicota": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Childress": {
+    "countyFips": "48075",
+    "countyName": "Childress County"
+  },
+  "Chillicothe": {
+    "countyFips": "48197",
+    "countyName": "Hardeman County"
+  },
+  "Chilton": {
+    "countyFips": "48145",
+    "countyName": "Falls County"
+  },
+  "China": {
+    "countyFips": "48245",
+    "countyName": "Jefferson County"
+  },
+  "China Spring": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Chireno": {
+    "countyFips": "48347",
+    "countyName": "Nacogdoches County"
+  },
+  "Chriesman": {
+    "countyFips": "48051",
+    "countyName": "Burleson County"
+  },
+  "Christine": {
+    "countyFips": "48013",
+    "countyName": "Atascosa County"
+  },
+  "Christoval": {
+    "countyFips": "48451",
+    "countyName": "Tom Green County"
+  },
+  "Cibolo": {
+    "countyFips": "48187",
+    "countyName": "Guadalupe County"
+  },
+  "Cisco": {
+    "countyFips": "48133",
+    "countyName": "Eastland County"
+  },
+  "Clarendon": {
+    "countyFips": "48129",
+    "countyName": "Donley County"
+  },
+  "Clarksville": {
+    "countyFips": "48387",
+    "countyName": "Red River County"
+  },
+  "Claude": {
+    "countyFips": "48011",
+    "countyName": "Armstrong County"
+  },
+  "Clayton": {
+    "countyFips": "48365",
+    "countyName": "Panola County"
+  },
+  "Cleburne": {
+    "countyFips": "48251",
+    "countyName": "Johnson County"
+  },
+  "Cleveland": {
+    "countyFips": "48291",
+    "countyName": "Liberty County"
+  },
+  "Clifton": {
+    "countyFips": "48035",
+    "countyName": "Bosque County"
+  },
+  "Clint": {
+    "countyFips": "48141",
+    "countyName": "El Paso County"
+  },
+  "Clute": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Clyde": {
+    "countyFips": "48059",
+    "countyName": "Callahan County"
+  },
+  "Coahoma": {
+    "countyFips": "48227",
+    "countyName": "Howard County"
+  },
+  "Coldspring": {
+    "countyFips": "48407",
+    "countyName": "San Jacinto County"
+  },
+  "Coleman": {
+    "countyFips": "48083",
+    "countyName": "Coleman County"
+  },
+  "College Station": {
+    "countyFips": "48041",
+    "countyName": "Brazos County"
+  },
+  "Collegeport": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Colleyville": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Collinsville": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Colmesneil": {
+    "countyFips": "48457",
+    "countyName": "Tyler County"
+  },
+  "Colorado City": {
+    "countyFips": "48335",
+    "countyName": "Mitchell County"
+  },
+  "Columbus": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "Comanche": {
+    "countyFips": "48093",
+    "countyName": "Comanche County"
+  },
+  "Combes": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "Comfort": {
+    "countyFips": "48259",
+    "countyName": "Kendall County"
+  },
+  "Commerce": {
+    "countyFips": "48231",
+    "countyName": "Hunt County"
+  },
+  "Como": {
+    "countyFips": "48223",
+    "countyName": "Hopkins County"
+  },
+  "Comstock": {
+    "countyFips": "48465",
+    "countyName": "Val Verde County"
+  },
+  "Concan": {
+    "countyFips": "48463",
+    "countyName": "Uvalde County"
+  },
+  "Concepcion": {
+    "countyFips": "48131",
+    "countyName": "Duval County"
+  },
+  "Concord": {
+    "countyFips": "48289",
+    "countyName": "Leon County"
+  },
+  "Conroe": {
+    "countyFips": "48339",
+    "countyName": "Montgomery County"
+  },
+  "Converse": {
+    "countyFips": "48029",
+    "countyName": "Bexar County"
+  },
+  "Cookville": {
+    "countyFips": "48449",
+    "countyName": "Titus County"
+  },
+  "Coolidge": {
+    "countyFips": "48293",
+    "countyName": "Limestone County"
+  },
+  "Cooper": {
+    "countyFips": "48119",
+    "countyName": "Delta County"
+  },
+  "Copeville": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Coppell": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Copperas Cove": {
+    "countyFips": "48099",
+    "countyName": "Coryell County"
+  },
+  "Corpus Christi": {
+    "countyFips": "48355",
+    "countyName": "Nueces County"
+  },
+  "Corrigan": {
+    "countyFips": "48373",
+    "countyName": "Polk County"
+  },
+  "Corsicana": {
+    "countyFips": "48349",
+    "countyName": "Navarro County"
+  },
+  "Cost": {
+    "countyFips": "48177",
+    "countyName": "Gonzales County"
+  },
+  "Cotton Center": {
+    "countyFips": "48189",
+    "countyName": "Hale County"
+  },
+  "Cotulla": {
+    "countyFips": "48283",
+    "countyName": "La Salle County"
+  },
+  "Coupland": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Covington": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Coyanosa": {
+    "countyFips": "48371",
+    "countyName": "Pecos County"
+  },
+  "Crandall": {
+    "countyFips": "48257",
+    "countyName": "Kaufman County"
+  },
+  "Crane": {
+    "countyFips": "48103",
+    "countyName": "Crane County"
+  },
+  "Cranfills Gap": {
+    "countyFips": "48035",
+    "countyName": "Bosque County"
+  },
+  "Crawford": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Cresson": {
+    "countyFips": "48221",
+    "countyName": "Hood County"
+  },
+  "Crockett": {
+    "countyFips": "48225",
+    "countyName": "Houston County"
+  },
+  "Crosby": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Crosbyton": {
+    "countyFips": "48107",
+    "countyName": "Crosby County"
+  },
+  "Cross Plains": {
+    "countyFips": "48059",
+    "countyName": "Callahan County"
+  },
+  "Crowell": {
+    "countyFips": "48155",
+    "countyName": "Foard County"
+  },
+  "Crowley": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Crp Christi": {
+    "countyFips": "48355",
+    "countyName": "Nueces County"
+  },
+  "Crystal City": {
+    "countyFips": "48507",
+    "countyName": "Zavala County"
+  },
+  "Cuero": {
+    "countyFips": "48123",
+    "countyName": "DeWitt County"
+  },
+  "Cumby": {
+    "countyFips": "48223",
+    "countyName": "Hopkins County"
+  },
+  "Cuney": {
+    "countyFips": "48073",
+    "countyName": "Cherokee County"
+  },
+  "Cunningham": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Cushing": {
+    "countyFips": "48347",
+    "countyName": "Nacogdoches County"
+  },
+  "Cypress": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "D Hanis": {
+    "countyFips": "48325",
+    "countyName": "Medina County"
+  },
+  "Daingerfield": {
+    "countyFips": "48343",
+    "countyName": "Morris County"
+  },
+  "Daisetta": {
+    "countyFips": "48291",
+    "countyName": "Liberty County"
+  },
+  "Dale": {
+    "countyFips": "48055",
+    "countyName": "Caldwell County"
+  },
+  "Dalhart": {
+    "countyFips": "48111",
+    "countyName": "Dallam County"
+  },
+  "Dallardsville": {
+    "countyFips": "48373",
+    "countyName": "Polk County"
+  },
+  "Dallas": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Damon": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Danbury": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Danciger": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Danevang": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "Darrouzett": {
+    "countyFips": "48295",
+    "countyName": "Lipscomb County"
+  },
+  "Davilla": {
+    "countyFips": "48331",
+    "countyName": "Milam County"
+  },
+  "Dawn": {
+    "countyFips": "48117",
+    "countyName": "Deaf Smith County"
+  },
+  "Dawson": {
+    "countyFips": "48349",
+    "countyName": "Navarro County"
+  },
+  "Dayton": {
+    "countyFips": "48291",
+    "countyName": "Liberty County"
+  },
+  "De Berry": {
+    "countyFips": "48365",
+    "countyName": "Panola County"
+  },
+  "De Kalb": {
+    "countyFips": "48037",
+    "countyName": "Bowie County"
+  },
+  "De Leon": {
+    "countyFips": "48093",
+    "countyName": "Comanche County"
+  },
+  "Deanville": {
+    "countyFips": "48051",
+    "countyName": "Burleson County"
+  },
+  "Decatur": {
+    "countyFips": "48497",
+    "countyName": "Wise County"
+  },
+  "Deer Park": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Del Rio": {
+    "countyFips": "48465",
+    "countyName": "Val Verde County"
+  },
+  "Del Valle": {
+    "countyFips": "48453",
+    "countyName": "Travis County"
+  },
+  "Dell City": {
+    "countyFips": "48229",
+    "countyName": "Hudspeth County"
+  },
+  "Delmita": {
+    "countyFips": "48427",
+    "countyName": "Starr County"
+  },
+  "Denison": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Dennis": {
+    "countyFips": "48367",
+    "countyName": "Parker County"
+  },
+  "Denton": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Denver City": {
+    "countyFips": "48501",
+    "countyName": "Yoakum County"
+  },
+  "Deport": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Desdemona": {
+    "countyFips": "48133",
+    "countyName": "Eastland County"
+  },
+  "Desoto": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Detroit": {
+    "countyFips": "48387",
+    "countyName": "Red River County"
+  },
+  "Devers": {
+    "countyFips": "48291",
+    "countyName": "Liberty County"
+  },
+  "Devine": {
+    "countyFips": "48325",
+    "countyName": "Medina County"
+  },
+  "Deweyville": {
+    "countyFips": "48351",
+    "countyName": "Newton County"
+  },
+  "Diana": {
+    "countyFips": "48203",
+    "countyName": "Harrison County"
+  },
+  "Diboll": {
+    "countyFips": "48005",
+    "countyName": "Angelina County"
+  },
+  "Dickens": {
+    "countyFips": "48125",
+    "countyName": "Dickens County"
+  },
+  "Dickinson": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "Dike": {
+    "countyFips": "48223",
+    "countyName": "Hopkins County"
+  },
+  "Dilley": {
+    "countyFips": "48163",
+    "countyName": "Frio County"
+  },
+  "Dime Box": {
+    "countyFips": "48287",
+    "countyName": "Lee County"
+  },
+  "Dimmitt": {
+    "countyFips": "48069",
+    "countyName": "Castro County"
+  },
+  "Dinero": {
+    "countyFips": "48297",
+    "countyName": "Live Oak County"
+  },
+  "Dobbin": {
+    "countyFips": "48339",
+    "countyName": "Montgomery County"
+  },
+  "Dodd City": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Dodge": {
+    "countyFips": "48471",
+    "countyName": "Walker County"
+  },
+  "Dodson": {
+    "countyFips": "48087",
+    "countyName": "Collingsworth County"
+  },
+  "Donie": {
+    "countyFips": "48161",
+    "countyName": "Freestone County"
+  },
+  "Donna": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Doole": {
+    "countyFips": "48307",
+    "countyName": "McCulloch County"
+  },
+  "Doss": {
+    "countyFips": "48171",
+    "countyName": "Gillespie County"
+  },
+  "Doucette": {
+    "countyFips": "48457",
+    "countyName": "Tyler County"
+  },
+  "Dougherty": {
+    "countyFips": "48153",
+    "countyName": "Floyd County"
+  },
+  "Douglass": {
+    "countyFips": "48347",
+    "countyName": "Nacogdoches County"
+  },
+  "Douglassville": {
+    "countyFips": "48067",
+    "countyName": "Cass County"
+  },
+  "Driftwood": {
+    "countyFips": "48209",
+    "countyName": "Hays County"
+  },
+  "Dripping Springs": {
+    "countyFips": "48209",
+    "countyName": "Hays County"
+  },
+  "Driscoll": {
+    "countyFips": "48355",
+    "countyName": "Nueces County"
+  },
+  "Dryden": {
+    "countyFips": "48443",
+    "countyName": "Terrell County"
+  },
+  "Dublin": {
+    "countyFips": "48143",
+    "countyName": "Erath County"
+  },
+  "Dumas": {
+    "countyFips": "48341",
+    "countyName": "Moore County"
+  },
+  "Duncanville": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Dunn": {
+    "countyFips": "48415",
+    "countyName": "Scurry County"
+  },
+  "Dyess Afb": {
+    "countyFips": "48441",
+    "countyName": "Taylor County"
+  },
+  "Eagle Lake": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "Eagle Pass": {
+    "countyFips": "48323",
+    "countyName": "Maverick County"
+  },
+  "Early": {
+    "countyFips": "48049",
+    "countyName": "Brown County"
+  },
+  "Earth": {
+    "countyFips": "48279",
+    "countyName": "Lamb County"
+  },
+  "East Bernard": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "Eastland": {
+    "countyFips": "48133",
+    "countyName": "Eastland County"
+  },
+  "Easton": {
+    "countyFips": "48183",
+    "countyName": "Gregg County"
+  },
+  "Ecleto": {
+    "countyFips": "48255",
+    "countyName": "Karnes County"
+  },
+  "Ector": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Edcouch": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Eddy": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Eden": {
+    "countyFips": "48095",
+    "countyName": "Concho County"
+  },
+  "Edgewood": {
+    "countyFips": "48467",
+    "countyName": "Van Zandt County"
+  },
+  "Edinburg": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Edmonson": {
+    "countyFips": "48189",
+    "countyName": "Hale County"
+  },
+  "Edna": {
+    "countyFips": "48239",
+    "countyName": "Jackson County"
+  },
+  "Edroy": {
+    "countyFips": "48409",
+    "countyName": "San Patricio County"
+  },
+  "Egypt": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "El Campo": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "El Indio": {
+    "countyFips": "48323",
+    "countyName": "Maverick County"
+  },
+  "El Paso": {
+    "countyFips": "48141",
+    "countyName": "El Paso County"
+  },
+  "Eldorado": {
+    "countyFips": "48413",
+    "countyName": "Schleicher County"
+  },
+  "Electra": {
+    "countyFips": "48485",
+    "countyName": "Wichita County"
+  },
+  "Elgin": {
+    "countyFips": "48021",
+    "countyName": "Bastrop County"
+  },
+  "Elkhart": {
+    "countyFips": "48001",
+    "countyName": "Anderson County"
+  },
+  "Ellinger": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "Elm Mott": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Elmaton": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Elmendorf": {
+    "countyFips": "48029",
+    "countyName": "Bexar County"
+  },
+  "Elmo": {
+    "countyFips": "48257",
+    "countyName": "Kaufman County"
+  },
+  "Elsa": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Elysian Fields": {
+    "countyFips": "48203",
+    "countyName": "Harrison County"
+  },
+  "Emory": {
+    "countyFips": "48379",
+    "countyName": "Rains County"
+  },
+  "Encinal": {
+    "countyFips": "48283",
+    "countyName": "La Salle County"
+  },
+  "Encino": {
+    "countyFips": "48047",
+    "countyName": "Brooks County"
+  },
+  "Energy": {
+    "countyFips": "48093",
+    "countyName": "Comanche County"
+  },
+  "Enloe": {
+    "countyFips": "48119",
+    "countyName": "Delta County"
+  },
+  "Ennis": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Enochs": {
+    "countyFips": "48017",
+    "countyName": "Bailey County"
+  },
+  "Eola": {
+    "countyFips": "48095",
+    "countyName": "Concho County"
+  },
+  "Era": {
+    "countyFips": "48097",
+    "countyName": "Cooke County"
+  },
+  "Estelline": {
+    "countyFips": "48191",
+    "countyName": "Hall County"
+  },
+  "Etoile": {
+    "countyFips": "48347",
+    "countyName": "Nacogdoches County"
+  },
+  "Euless": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Eustace": {
+    "countyFips": "48213",
+    "countyName": "Henderson County"
+  },
+  "Evadale": {
+    "countyFips": "48241",
+    "countyName": "Jasper County"
+  },
+  "Evant": {
+    "countyFips": "48099",
+    "countyName": "Coryell County"
+  },
+  "Fabens": {
+    "countyFips": "48141",
+    "countyName": "El Paso County"
+  },
+  "Fairfield": {
+    "countyFips": "48161",
+    "countyName": "Freestone County"
+  },
+  "Falcon Heights": {
+    "countyFips": "48427",
+    "countyName": "Starr County"
+  },
+  "Falfurrias": {
+    "countyFips": "48047",
+    "countyName": "Brooks County"
+  },
+  "Falls City": {
+    "countyFips": "48255",
+    "countyName": "Karnes County"
+  },
+  "Fannin": {
+    "countyFips": "48175",
+    "countyName": "Goliad County"
+  },
+  "Farmersville": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Farnsworth": {
+    "countyFips": "48357",
+    "countyName": "Ochiltree County"
+  },
+  "Farwell": {
+    "countyFips": "48369",
+    "countyName": "Parmer County"
+  },
+  "Fate": {
+    "countyFips": "48397",
+    "countyName": "Rockwall County"
+  },
+  "Fayetteville": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "Fentress": {
+    "countyFips": "48055",
+    "countyName": "Caldwell County"
+  },
+  "Ferris": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Fieldton": {
+    "countyFips": "48279",
+    "countyName": "Lamb County"
+  },
+  "Fischer": {
+    "countyFips": "48091",
+    "countyName": "Comal County"
+  },
+  "Flat": {
+    "countyFips": "48099",
+    "countyName": "Coryell County"
+  },
+  "Flatonia": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "Flint": {
+    "countyFips": "48423",
+    "countyName": "Smith County"
+  },
+  "Flomot": {
+    "countyFips": "48345",
+    "countyName": "Motley County"
+  },
+  "Florence": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Floresville": {
+    "countyFips": "48493",
+    "countyName": "Wilson County"
+  },
+  "Flower Mound": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Floydada": {
+    "countyFips": "48153",
+    "countyName": "Floyd County"
+  },
+  "Fluvanna": {
+    "countyFips": "48415",
+    "countyName": "Scurry County"
+  },
+  "Flynn": {
+    "countyFips": "48289",
+    "countyName": "Leon County"
+  },
+  "Follett": {
+    "countyFips": "48295",
+    "countyName": "Lipscomb County"
+  },
+  "Forestburg": {
+    "countyFips": "48337",
+    "countyName": "Montague County"
+  },
+  "Forney": {
+    "countyFips": "48257",
+    "countyName": "Kaufman County"
+  },
+  "Forreston": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Forsan": {
+    "countyFips": "48227",
+    "countyName": "Howard County"
+  },
+  "Fort Bliss": {
+    "countyFips": "48141",
+    "countyName": "El Paso County"
+  },
+  "Fort Davis": {
+    "countyFips": "48243",
+    "countyName": "Jeff Davis County"
+  },
+  "Fort Hancock": {
+    "countyFips": "48229",
+    "countyName": "Hudspeth County"
+  },
+  "Fort Mc Kavett": {
+    "countyFips": "48327",
+    "countyName": "Menard County"
+  },
+  "Fort Stockton": {
+    "countyFips": "48371",
+    "countyName": "Pecos County"
+  },
+  "Fort Worth": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Fowlerton": {
+    "countyFips": "48283",
+    "countyName": "La Salle County"
+  },
+  "Francitas": {
+    "countyFips": "48239",
+    "countyName": "Jackson County"
+  },
+  "Franklin": {
+    "countyFips": "48395",
+    "countyName": "Robertson County"
+  },
+  "Frankston": {
+    "countyFips": "48001",
+    "countyName": "Anderson County"
+  },
+  "Fred": {
+    "countyFips": "48457",
+    "countyName": "Tyler County"
+  },
+  "Fredericksburg": {
+    "countyFips": "48171",
+    "countyName": "Gillespie County"
+  },
+  "Fredonia": {
+    "countyFips": "48319",
+    "countyName": "Mason County"
+  },
+  "Freeport": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Freer": {
+    "countyFips": "48131",
+    "countyName": "Duval County"
+  },
+  "Fresno": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Friendswood": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "Friona": {
+    "countyFips": "48369",
+    "countyName": "Parmer County"
+  },
+  "Frisco": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Fritch": {
+    "countyFips": "48233",
+    "countyName": "Hutchinson County"
+  },
+  "Frost": {
+    "countyFips": "48349",
+    "countyName": "Navarro County"
+  },
+  "Fruitvale": {
+    "countyFips": "48467",
+    "countyName": "Van Zandt County"
+  },
+  "Fulshear": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Fulton": {
+    "countyFips": "48007",
+    "countyName": "Aransas County"
+  },
+  "Gail": {
+    "countyFips": "48033",
+    "countyName": "Borden County"
+  },
+  "Gainesville": {
+    "countyFips": "48097",
+    "countyName": "Cooke County"
+  },
+  "Galena Park": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Gallatin": {
+    "countyFips": "48073",
+    "countyName": "Cherokee County"
+  },
+  "Galveston": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "Ganado": {
+    "countyFips": "48239",
+    "countyName": "Jackson County"
+  },
+  "Garciasville": {
+    "countyFips": "48427",
+    "countyName": "Starr County"
+  },
+  "Garden City": {
+    "countyFips": "48173",
+    "countyName": "Glasscock County"
+  },
+  "Gardendale": {
+    "countyFips": "48135",
+    "countyName": "Ector County"
+  },
+  "Garland": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Garrison": {
+    "countyFips": "48347",
+    "countyName": "Nacogdoches County"
+  },
+  "Garwood": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "Gary": {
+    "countyFips": "48365",
+    "countyName": "Panola County"
+  },
+  "Gatesville": {
+    "countyFips": "48099",
+    "countyName": "Coryell County"
+  },
+  "Gause": {
+    "countyFips": "48331",
+    "countyName": "Milam County"
+  },
+  "George West": {
+    "countyFips": "48297",
+    "countyName": "Live Oak County"
+  },
+  "Georgetown": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Geronimo": {
+    "countyFips": "48187",
+    "countyName": "Guadalupe County"
+  },
+  "Giddings": {
+    "countyFips": "48287",
+    "countyName": "Lee County"
+  },
+  "Gilchrist": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "Gillett": {
+    "countyFips": "48255",
+    "countyName": "Karnes County"
+  },
+  "Gilmer": {
+    "countyFips": "48459",
+    "countyName": "Upshur County"
+  },
+  "Girard": {
+    "countyFips": "48263",
+    "countyName": "Kent County"
+  },
+  "Girvin": {
+    "countyFips": "48371",
+    "countyName": "Pecos County"
+  },
+  "Gladewater": {
+    "countyFips": "48183",
+    "countyName": "Gregg County"
+  },
+  "Glen Flora": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "Glen Rose": {
+    "countyFips": "48425",
+    "countyName": "Somervell County"
+  },
+  "Glidden": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "Gober": {
+    "countyFips": "48257",
+    "countyName": "Kaufman County"
+  },
+  "Godley": {
+    "countyFips": "48251",
+    "countyName": "Johnson County"
+  },
+  "Golden": {
+    "countyFips": "48499",
+    "countyName": "Wood County"
+  },
+  "Goldsboro": {
+    "countyFips": "48083",
+    "countyName": "Coleman County"
+  },
+  "Goldsmith": {
+    "countyFips": "48135",
+    "countyName": "Ector County"
+  },
+  "Goldthwaite": {
+    "countyFips": "48333",
+    "countyName": "Mills County"
+  },
+  "Goliad": {
+    "countyFips": "48175",
+    "countyName": "Goliad County"
+  },
+  "Gonzales": {
+    "countyFips": "48177",
+    "countyName": "Gonzales County"
+  },
+  "Goodfellow Afb": {
+    "countyFips": "48451",
+    "countyName": "Tom Green County"
+  },
+  "Goodrich": {
+    "countyFips": "48373",
+    "countyName": "Polk County"
+  },
+  "Gordon": {
+    "countyFips": "48363",
+    "countyName": "Palo Pinto County"
+  },
+  "Gordonville": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Goree": {
+    "countyFips": "48275",
+    "countyName": "Knox County"
+  },
+  "Gorman": {
+    "countyFips": "48133",
+    "countyName": "Eastland County"
+  },
+  "Gouldbusk": {
+    "countyFips": "48083",
+    "countyName": "Coleman County"
+  },
+  "Graford": {
+    "countyFips": "48363",
+    "countyName": "Palo Pinto County"
+  },
+  "Graham": {
+    "countyFips": "48503",
+    "countyName": "Young County"
+  },
+  "Granbury": {
+    "countyFips": "48221",
+    "countyName": "Hood County"
+  },
+  "Grand Prairie": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Grand Saline": {
+    "countyFips": "48467",
+    "countyName": "Van Zandt County"
+  },
+  "Grandfalls": {
+    "countyFips": "48475",
+    "countyName": "Ward County"
+  },
+  "Grandview": {
+    "countyFips": "48251",
+    "countyName": "Johnson County"
+  },
+  "Granger": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Grapeland": {
+    "countyFips": "48225",
+    "countyName": "Houston County"
+  },
+  "Grapevine": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Greenville": {
+    "countyFips": "48231",
+    "countyName": "Hunt County"
+  },
+  "Greenwood": {
+    "countyFips": "48497",
+    "countyName": "Wise County"
+  },
+  "Gregory": {
+    "countyFips": "48409",
+    "countyName": "San Patricio County"
+  },
+  "Groesbeck": {
+    "countyFips": "48293",
+    "countyName": "Limestone County"
+  },
+  "Groom": {
+    "countyFips": "48065",
+    "countyName": "Carson County"
+  },
+  "Groves": {
+    "countyFips": "48245",
+    "countyName": "Jefferson County"
+  },
+  "Groveton": {
+    "countyFips": "48455",
+    "countyName": "Trinity County"
+  },
+  "Grulla": {
+    "countyFips": "48427",
+    "countyName": "Starr County"
+  },
+  "Gruver": {
+    "countyFips": "48195",
+    "countyName": "Hansford County"
+  },
+  "Guerra": {
+    "countyFips": "48247",
+    "countyName": "Jim Hogg County"
+  },
+  "Gunter": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Gustine": {
+    "countyFips": "48093",
+    "countyName": "Comanche County"
+  },
+  "Guthrie": {
+    "countyFips": "48269",
+    "countyName": "King County"
+  },
+  "Guy": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Hale Center": {
+    "countyFips": "48189",
+    "countyName": "Hale County"
+  },
+  "Hallettsville": {
+    "countyFips": "48285",
+    "countyName": "Lavaca County"
+  },
+  "Hallsville": {
+    "countyFips": "48203",
+    "countyName": "Harrison County"
+  },
+  "Haltom City": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Hamilton": {
+    "countyFips": "48193",
+    "countyName": "Hamilton County"
+  },
+  "Hamlin": {
+    "countyFips": "48253",
+    "countyName": "Jones County"
+  },
+  "Hamshire": {
+    "countyFips": "48245",
+    "countyName": "Jefferson County"
+  },
+  "Hankamer": {
+    "countyFips": "48071",
+    "countyName": "Chambers County"
+  },
+  "Happy": {
+    "countyFips": "48437",
+    "countyName": "Swisher County"
+  },
+  "Hardin": {
+    "countyFips": "48291",
+    "countyName": "Liberty County"
+  },
+  "Hargill": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Harker Heights": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Harleton": {
+    "countyFips": "48203",
+    "countyName": "Harrison County"
+  },
+  "Harlingen": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "Harper": {
+    "countyFips": "48171",
+    "countyName": "Gillespie County"
+  },
+  "Harrold": {
+    "countyFips": "48487",
+    "countyName": "Wilbarger County"
+  },
+  "Hart": {
+    "countyFips": "48069",
+    "countyName": "Castro County"
+  },
+  "Hartley": {
+    "countyFips": "48205",
+    "countyName": "Hartley County"
+  },
+  "Harwood": {
+    "countyFips": "48177",
+    "countyName": "Gonzales County"
+  },
+  "Haskell": {
+    "countyFips": "48207",
+    "countyName": "Haskell County"
+  },
+  "Haslet": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Hawkins": {
+    "countyFips": "48499",
+    "countyName": "Wood County"
+  },
+  "Hawley": {
+    "countyFips": "48253",
+    "countyName": "Jones County"
+  },
+  "Hearne": {
+    "countyFips": "48395",
+    "countyName": "Robertson County"
+  },
+  "Hebbronville": {
+    "countyFips": "48247",
+    "countyName": "Jim Hogg County"
+  },
+  "Hedley": {
+    "countyFips": "48129",
+    "countyName": "Donley County"
+  },
+  "Heidenheimer": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Helotes": {
+    "countyFips": "48029",
+    "countyName": "Bexar County"
+  },
+  "Hemphill": {
+    "countyFips": "48403",
+    "countyName": "Sabine County"
+  },
+  "Hempstead": {
+    "countyFips": "48473",
+    "countyName": "Waller County"
+  },
+  "Henderson": {
+    "countyFips": "48401",
+    "countyName": "Rusk County"
+  },
+  "Henrietta": {
+    "countyFips": "48077",
+    "countyName": "Clay County"
+  },
+  "Hereford": {
+    "countyFips": "48117",
+    "countyName": "Deaf Smith County"
+  },
+  "Hermleigh": {
+    "countyFips": "48415",
+    "countyName": "Scurry County"
+  },
+  "Hewitt": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Hext": {
+    "countyFips": "48327",
+    "countyName": "Menard County"
+  },
+  "Hico": {
+    "countyFips": "48193",
+    "countyName": "Hamilton County"
+  },
+  "Hidalgo": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Higgins": {
+    "countyFips": "48295",
+    "countyName": "Lipscomb County"
+  },
+  "High Island": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "Highlands": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Hillister": {
+    "countyFips": "48457",
+    "countyName": "Tyler County"
+  },
+  "Hillsboro": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Hitchcock": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "Hobson": {
+    "countyFips": "48255",
+    "countyName": "Karnes County"
+  },
+  "Hochheim": {
+    "countyFips": "48123",
+    "countyName": "DeWitt County"
+  },
+  "Hockley": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Holland": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Holliday": {
+    "countyFips": "48009",
+    "countyName": "Archer County"
+  },
+  "Hondo": {
+    "countyFips": "48325",
+    "countyName": "Medina County"
+  },
+  "Honey Grove": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Hooks": {
+    "countyFips": "48037",
+    "countyName": "Bowie County"
+  },
+  "Horseshoe Bay": {
+    "countyFips": "48053",
+    "countyName": "Burnet County"
+  },
+  "Houston": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Howe": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Hubbard": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Huffman": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Hufsmith": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Hughes Springs": {
+    "countyFips": "48067",
+    "countyName": "Cass County"
+  },
+  "Hull": {
+    "countyFips": "48291",
+    "countyName": "Liberty County"
+  },
+  "Humble": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Hungerford": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "Hunt": {
+    "countyFips": "48265",
+    "countyName": "Kerr County"
+  },
+  "Huntington": {
+    "countyFips": "48005",
+    "countyName": "Angelina County"
+  },
+  "Huntsville": {
+    "countyFips": "48471",
+    "countyName": "Walker County"
+  },
+  "Hurst": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Hutchins": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Hutto": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Hye": {
+    "countyFips": "48031",
+    "countyName": "Blanco County"
+  },
+  "Idalou": {
+    "countyFips": "48303",
+    "countyName": "Lubbock County"
+  },
+  "Imperial": {
+    "countyFips": "48371",
+    "countyName": "Pecos County"
+  },
+  "Industry": {
+    "countyFips": "48015",
+    "countyName": "Austin County"
+  },
+  "Inez": {
+    "countyFips": "48469",
+    "countyName": "Victoria County"
+  },
+  "Ingleside": {
+    "countyFips": "48409",
+    "countyName": "San Patricio County"
+  },
+  "Ingram": {
+    "countyFips": "48265",
+    "countyName": "Kerr County"
+  },
+  "Iola": {
+    "countyFips": "48185",
+    "countyName": "Grimes County"
+  },
+  "Iowa Park": {
+    "countyFips": "48485",
+    "countyName": "Wichita County"
+  },
+  "Ira": {
+    "countyFips": "48415",
+    "countyName": "Scurry County"
+  },
+  "Iraan": {
+    "countyFips": "48371",
+    "countyName": "Pecos County"
+  },
+  "Iredell": {
+    "countyFips": "48035",
+    "countyName": "Bosque County"
+  },
+  "Irene": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Irving": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Italy": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Itasca": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Ivanhoe": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Jacksboro": {
+    "countyFips": "48237",
+    "countyName": "Jack County"
+  },
+  "Jacksonville": {
+    "countyFips": "48073",
+    "countyName": "Cherokee County"
+  },
+  "Jarrell": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Jasper": {
+    "countyFips": "48241",
+    "countyName": "Jasper County"
+  },
+  "Jayton": {
+    "countyFips": "48263",
+    "countyName": "Kent County"
+  },
+  "Jefferson": {
+    "countyFips": "48315",
+    "countyName": "Marion County"
+  },
+  "Jermyn": {
+    "countyFips": "48237",
+    "countyName": "Jack County"
+  },
+  "Jewett": {
+    "countyFips": "48289",
+    "countyName": "Leon County"
+  },
+  "Joaquin": {
+    "countyFips": "48419",
+    "countyName": "Shelby County"
+  },
+  "Johnson City": {
+    "countyFips": "48031",
+    "countyName": "Blanco County"
+  },
+  "Joinerville": {
+    "countyFips": "48401",
+    "countyName": "Rusk County"
+  },
+  "Jonesboro": {
+    "countyFips": "48099",
+    "countyName": "Coryell County"
+  },
+  "Jonesville": {
+    "countyFips": "48203",
+    "countyName": "Harrison County"
+  },
+  "Josephine": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Joshua": {
+    "countyFips": "48251",
+    "countyName": "Johnson County"
+  },
+  "Jourdanton": {
+    "countyFips": "48013",
+    "countyName": "Atascosa County"
+  },
+  "Judson": {
+    "countyFips": "48183",
+    "countyName": "Gregg County"
+  },
+  "Junction": {
+    "countyFips": "48267",
+    "countyName": "Kimble County"
+  },
+  "Justiceburg": {
+    "countyFips": "48169",
+    "countyName": "Garza County"
+  },
+  "Justin": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Kamay": {
+    "countyFips": "48485",
+    "countyName": "Wichita County"
+  },
+  "Karnack": {
+    "countyFips": "48203",
+    "countyName": "Harrison County"
+  },
+  "Karnes City": {
+    "countyFips": "48255",
+    "countyName": "Karnes County"
+  },
+  "Katy": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Kaufman": {
+    "countyFips": "48257",
+    "countyName": "Kaufman County"
+  },
+  "Keene": {
+    "countyFips": "48251",
+    "countyName": "Johnson County"
+  },
+  "Keller": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Kemah": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "Kemp": {
+    "countyFips": "48257",
+    "countyName": "Kaufman County"
+  },
+  "Kempner": {
+    "countyFips": "48281",
+    "countyName": "Lampasas County"
+  },
+  "Kendalia": {
+    "countyFips": "48259",
+    "countyName": "Kendall County"
+  },
+  "Kendleton": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Kenedy": {
+    "countyFips": "48255",
+    "countyName": "Karnes County"
+  },
+  "Kennard": {
+    "countyFips": "48225",
+    "countyName": "Houston County"
+  },
+  "Kennedale": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Kenney": {
+    "countyFips": "48015",
+    "countyName": "Austin County"
+  },
+  "Kerens": {
+    "countyFips": "48349",
+    "countyName": "Navarro County"
+  },
+  "Kermit": {
+    "countyFips": "48495",
+    "countyName": "Winkler County"
+  },
+  "Kerrick": {
+    "countyFips": "48111",
+    "countyName": "Dallam County"
+  },
+  "Kerrville": {
+    "countyFips": "48265",
+    "countyName": "Kerr County"
+  },
+  "Kildare": {
+    "countyFips": "48067",
+    "countyName": "Cass County"
+  },
+  "Kilgore": {
+    "countyFips": "48183",
+    "countyName": "Gregg County"
+  },
+  "Killeen": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Kingsbury": {
+    "countyFips": "48187",
+    "countyName": "Guadalupe County"
+  },
+  "Kingsland": {
+    "countyFips": "48299",
+    "countyName": "Llano County"
+  },
+  "Kingsville": {
+    "countyFips": "48273",
+    "countyName": "Kleberg County"
+  },
+  "Kingwood": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Kirbyville": {
+    "countyFips": "48241",
+    "countyName": "Jasper County"
+  },
+  "Kirvin": {
+    "countyFips": "48161",
+    "countyName": "Freestone County"
+  },
+  "Klondike": {
+    "countyFips": "48119",
+    "countyName": "Delta County"
+  },
+  "Knickerbocker": {
+    "countyFips": "48451",
+    "countyName": "Tom Green County"
+  },
+  "Knippa": {
+    "countyFips": "48463",
+    "countyName": "Uvalde County"
+  },
+  "Knott": {
+    "countyFips": "48227",
+    "countyName": "Howard County"
+  },
+  "Knox City": {
+    "countyFips": "48275",
+    "countyName": "Knox County"
+  },
+  "Kopperl": {
+    "countyFips": "48035",
+    "countyName": "Bosque County"
+  },
+  "Kosse": {
+    "countyFips": "48293",
+    "countyName": "Limestone County"
+  },
+  "Kountze": {
+    "countyFips": "48199",
+    "countyName": "Hardin County"
+  },
+  "Kress": {
+    "countyFips": "48437",
+    "countyName": "Swisher County"
+  },
+  "Krum": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Kurten": {
+    "countyFips": "48041",
+    "countyName": "Brazos County"
+  },
+  "Kyle": {
+    "countyFips": "48209",
+    "countyName": "Hays County"
+  },
+  "La Blanca": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "La Coste": {
+    "countyFips": "48325",
+    "countyName": "Medina County"
+  },
+  "La Feria": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "La Grange": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "La Joya": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "La Marque": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "La Porte": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "La Pryor": {
+    "countyFips": "48507",
+    "countyName": "Zavala County"
+  },
+  "La Salle": {
+    "countyFips": "48239",
+    "countyName": "Jackson County"
+  },
+  "La Vernia": {
+    "countyFips": "48493",
+    "countyName": "Wilson County"
+  },
+  "La Villa": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "La Ward": {
+    "countyFips": "48239",
+    "countyName": "Jackson County"
+  },
+  "Ladonia": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Laguna Park": {
+    "countyFips": "48035",
+    "countyName": "Bosque County"
+  },
+  "Laird Hill": {
+    "countyFips": "48401",
+    "countyName": "Rusk County"
+  },
+  "Lake Creek": {
+    "countyFips": "48119",
+    "countyName": "Delta County"
+  },
+  "Lake Dallas": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Lake Jackson": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Lakehills": {
+    "countyFips": "48019",
+    "countyName": "Bandera County"
+  },
+  "Lakeview": {
+    "countyFips": "48191",
+    "countyName": "Hall County"
+  },
+  "Lamesa": {
+    "countyFips": "48115",
+    "countyName": "Dawson County"
+  },
+  "Lampasas": {
+    "countyFips": "48281",
+    "countyName": "Lampasas County"
+  },
+  "Lancaster": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Lane City": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "Laneville": {
+    "countyFips": "48401",
+    "countyName": "Rusk County"
+  },
+  "Langtry": {
+    "countyFips": "48465",
+    "countyName": "Val Verde County"
+  },
+  "Larue": {
+    "countyFips": "48213",
+    "countyName": "Henderson County"
+  },
+  "Lasara": {
+    "countyFips": "48489",
+    "countyName": "Willacy County"
+  },
+  "Latexo": {
+    "countyFips": "48225",
+    "countyName": "Houston County"
+  },
+  "Laughlin A F B": {
+    "countyFips": "48465",
+    "countyName": "Val Verde County"
+  },
+  "Lavon": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Lawn": {
+    "countyFips": "48441",
+    "countyName": "Taylor County"
+  },
+  "Lazbuddie": {
+    "countyFips": "48369",
+    "countyName": "Parmer County"
+  },
+  "League City": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "Leakey": {
+    "countyFips": "48385",
+    "countyName": "Real County"
+  },
+  "Leander": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Ledbetter": {
+    "countyFips": "48287",
+    "countyName": "Lee County"
+  },
+  "Leesburg": {
+    "countyFips": "48063",
+    "countyName": "Camp County"
+  },
+  "Leesville": {
+    "countyFips": "48177",
+    "countyName": "Gonzales County"
+  },
+  "Lefors": {
+    "countyFips": "48179",
+    "countyName": "Gray County"
+  },
+  "Leggett": {
+    "countyFips": "48373",
+    "countyName": "Polk County"
+  },
+  "Lelia Lake": {
+    "countyFips": "48129",
+    "countyName": "Donley County"
+  },
+  "Leming": {
+    "countyFips": "48013",
+    "countyName": "Atascosa County"
+  },
+  "Lenorah": {
+    "countyFips": "48317",
+    "countyName": "Martin County"
+  },
+  "Leona": {
+    "countyFips": "48289",
+    "countyName": "Leon County"
+  },
+  "Leonard": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Leroy": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Levelland": {
+    "countyFips": "48219",
+    "countyName": "Hockley County"
+  },
+  "Lewisville": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Lexington": {
+    "countyFips": "48287",
+    "countyName": "Lee County"
+  },
+  "Liberty": {
+    "countyFips": "48291",
+    "countyName": "Liberty County"
+  },
+  "Liberty Hill": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Lillian": {
+    "countyFips": "48251",
+    "countyName": "Johnson County"
+  },
+  "Lincoln": {
+    "countyFips": "48287",
+    "countyName": "Lee County"
+  },
+  "Lindale": {
+    "countyFips": "48423",
+    "countyName": "Smith County"
+  },
+  "Linden": {
+    "countyFips": "48067",
+    "countyName": "Cass County"
+  },
+  "Lindsay": {
+    "countyFips": "48097",
+    "countyName": "Cooke County"
+  },
+  "Lingleville": {
+    "countyFips": "48143",
+    "countyName": "Erath County"
+  },
+  "Linn": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Lipan": {
+    "countyFips": "48221",
+    "countyName": "Hood County"
+  },
+  "Lipscomb": {
+    "countyFips": "48295",
+    "countyName": "Lipscomb County"
+  },
+  "Lissie": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "Little Elm": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Little River Academy": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Littlefield": {
+    "countyFips": "48279",
+    "countyName": "Lamb County"
+  },
+  "Liverpool": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Livingston": {
+    "countyFips": "48373",
+    "countyName": "Polk County"
+  },
+  "Llano": {
+    "countyFips": "48299",
+    "countyName": "Llano County"
+  },
+  "Lockhart": {
+    "countyFips": "48055",
+    "countyName": "Caldwell County"
+  },
+  "Lockney": {
+    "countyFips": "48153",
+    "countyName": "Floyd County"
+  },
+  "Lodi": {
+    "countyFips": "48315",
+    "countyName": "Marion County"
+  },
+  "Lohn": {
+    "countyFips": "48307",
+    "countyName": "McCulloch County"
+  },
+  "Lolita": {
+    "countyFips": "48239",
+    "countyName": "Jackson County"
+  },
+  "Lometa": {
+    "countyFips": "48281",
+    "countyName": "Lampasas County"
+  },
+  "London": {
+    "countyFips": "48267",
+    "countyName": "Kimble County"
+  },
+  "Lone Oak": {
+    "countyFips": "48231",
+    "countyName": "Hunt County"
+  },
+  "Lone Star": {
+    "countyFips": "48343",
+    "countyName": "Morris County"
+  },
+  "Long Branch": {
+    "countyFips": "48365",
+    "countyName": "Panola County"
+  },
+  "Longview": {
+    "countyFips": "48183",
+    "countyName": "Gregg County"
+  },
+  "Loop": {
+    "countyFips": "48165",
+    "countyName": "Gaines County"
+  },
+  "Lopeno": {
+    "countyFips": "48505",
+    "countyName": "Zapata County"
+  },
+  "Loraine": {
+    "countyFips": "48335",
+    "countyName": "Mitchell County"
+  },
+  "Lorena": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Lorenzo": {
+    "countyFips": "48107",
+    "countyName": "Crosby County"
+  },
+  "Los Fresnos": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "Los Indios": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "Lott": {
+    "countyFips": "48145",
+    "countyName": "Falls County"
+  },
+  "Louise": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "Lovelady": {
+    "countyFips": "48225",
+    "countyName": "Houston County"
+  },
+  "Loving": {
+    "countyFips": "48503",
+    "countyName": "Young County"
+  },
+  "Lowake": {
+    "countyFips": "48095",
+    "countyName": "Concho County"
+  },
+  "Lozano": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "Lubbock": {
+    "countyFips": "48303",
+    "countyName": "Lubbock County"
+  },
+  "Lueders": {
+    "countyFips": "48253",
+    "countyName": "Jones County"
+  },
+  "Lufkin": {
+    "countyFips": "48005",
+    "countyName": "Angelina County"
+  },
+  "Luling": {
+    "countyFips": "48055",
+    "countyName": "Caldwell County"
+  },
+  "Lumberton": {
+    "countyFips": "48199",
+    "countyName": "Hardin County"
+  },
+  "Lyford": {
+    "countyFips": "48489",
+    "countyName": "Willacy County"
+  },
+  "Lyons": {
+    "countyFips": "48051",
+    "countyName": "Burleson County"
+  },
+  "Lytle": {
+    "countyFips": "48013",
+    "countyName": "Atascosa County"
+  },
+  "Mabank": {
+    "countyFips": "48213",
+    "countyName": "Henderson County"
+  },
+  "Macdona": {
+    "countyFips": "48029",
+    "countyName": "Bexar County"
+  },
+  "Madisonville": {
+    "countyFips": "48313",
+    "countyName": "Madison County"
+  },
+  "Magnolia": {
+    "countyFips": "48339",
+    "countyName": "Montgomery County"
+  },
+  "Malakoff": {
+    "countyFips": "48213",
+    "countyName": "Henderson County"
+  },
+  "Malone": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Manchaca": {
+    "countyFips": "48209",
+    "countyName": "Hays County"
+  },
+  "Manor": {
+    "countyFips": "48453",
+    "countyName": "Travis County"
+  },
+  "Mansfield": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Manvel": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Maple": {
+    "countyFips": "48017",
+    "countyName": "Bailey County"
+  },
+  "Marathon": {
+    "countyFips": "48043",
+    "countyName": "Brewster County"
+  },
+  "Marble Falls": {
+    "countyFips": "48053",
+    "countyName": "Burnet County"
+  },
+  "Marfa": {
+    "countyFips": "48377",
+    "countyName": "Presidio County"
+  },
+  "Marietta": {
+    "countyFips": "48067",
+    "countyName": "Cass County"
+  },
+  "Marion": {
+    "countyFips": "48187",
+    "countyName": "Guadalupe County"
+  },
+  "Markham": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Marlin": {
+    "countyFips": "48145",
+    "countyName": "Falls County"
+  },
+  "Marquez": {
+    "countyFips": "48289",
+    "countyName": "Leon County"
+  },
+  "Marshall": {
+    "countyFips": "48203",
+    "countyName": "Harrison County"
+  },
+  "Mart": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Martindale": {
+    "countyFips": "48055",
+    "countyName": "Caldwell County"
+  },
+  "Martinsville": {
+    "countyFips": "48347",
+    "countyName": "Nacogdoches County"
+  },
+  "Maryneal": {
+    "countyFips": "48353",
+    "countyName": "Nolan County"
+  },
+  "Mason": {
+    "countyFips": "48319",
+    "countyName": "Mason County"
+  },
+  "Masterson": {
+    "countyFips": "48205",
+    "countyName": "Hartley County"
+  },
+  "Matador": {
+    "countyFips": "48345",
+    "countyName": "Motley County"
+  },
+  "Matagorda": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Mathis": {
+    "countyFips": "48409",
+    "countyName": "San Patricio County"
+  },
+  "Maud": {
+    "countyFips": "48037",
+    "countyName": "Bowie County"
+  },
+  "Mauriceville": {
+    "countyFips": "48361",
+    "countyName": "Orange County"
+  },
+  "Maxwell": {
+    "countyFips": "48055",
+    "countyName": "Caldwell County"
+  },
+  "May": {
+    "countyFips": "48049",
+    "countyName": "Brown County"
+  },
+  "Maydelle": {
+    "countyFips": "48073",
+    "countyName": "Cherokee County"
+  },
+  "Maypearl": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Mc Camey": {
+    "countyFips": "48461",
+    "countyName": "Upton County"
+  },
+  "Mc Caulley": {
+    "countyFips": "48151",
+    "countyName": "Fisher County"
+  },
+  "Mc Dade": {
+    "countyFips": "48021",
+    "countyName": "Bastrop County"
+  },
+  "Mc Gregor": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Mc Leod": {
+    "countyFips": "48067",
+    "countyName": "Cass County"
+  },
+  "Mc Neil": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Mc Queeney": {
+    "countyFips": "48187",
+    "countyName": "Guadalupe County"
+  },
+  "Mcadoo": {
+    "countyFips": "48125",
+    "countyName": "Dickens County"
+  },
+  "Mcallen": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Mcfaddin": {
+    "countyFips": "48469",
+    "countyName": "Victoria County"
+  },
+  "Mckinney": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Mclean": {
+    "countyFips": "48179",
+    "countyName": "Gray County"
+  },
+  "Meadow": {
+    "countyFips": "48445",
+    "countyName": "Terry County"
+  },
+  "Medina": {
+    "countyFips": "48019",
+    "countyName": "Bandera County"
+  },
+  "Megargel": {
+    "countyFips": "48009",
+    "countyName": "Archer County"
+  },
+  "Melissa": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Melvin": {
+    "countyFips": "48307",
+    "countyName": "McCulloch County"
+  },
+  "Memphis": {
+    "countyFips": "48191",
+    "countyName": "Hall County"
+  },
+  "Menard": {
+    "countyFips": "48327",
+    "countyName": "Menard County"
+  },
+  "Mentone": {
+    "countyFips": "48301",
+    "countyName": "Loving County"
+  },
+  "Mercedes": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Mereta": {
+    "countyFips": "48451",
+    "countyName": "Tom Green County"
+  },
+  "Meridian": {
+    "countyFips": "48035",
+    "countyName": "Bosque County"
+  },
+  "Merit": {
+    "countyFips": "48231",
+    "countyName": "Hunt County"
+  },
+  "Merkel": {
+    "countyFips": "48441",
+    "countyName": "Taylor County"
+  },
+  "Mertens": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Mertzon": {
+    "countyFips": "48235",
+    "countyName": "Irion County"
+  },
+  "Mesquite": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Mexia": {
+    "countyFips": "48293",
+    "countyName": "Limestone County"
+  },
+  "Meyersville": {
+    "countyFips": "48123",
+    "countyName": "DeWitt County"
+  },
+  "Miami": {
+    "countyFips": "48393",
+    "countyName": "Roberts County"
+  },
+  "Mico": {
+    "countyFips": "48325",
+    "countyName": "Medina County"
+  },
+  "Midfield": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Midkiff": {
+    "countyFips": "48461",
+    "countyName": "Upton County"
+  },
+  "Midland": {
+    "countyFips": "48329",
+    "countyName": "Midland County"
+  },
+  "Midlothian": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Midway": {
+    "countyFips": "48313",
+    "countyName": "Madison County"
+  },
+  "Milam": {
+    "countyFips": "48403",
+    "countyName": "Sabine County"
+  },
+  "Milano": {
+    "countyFips": "48331",
+    "countyName": "Milam County"
+  },
+  "Miles": {
+    "countyFips": "48399",
+    "countyName": "Runnels County"
+  },
+  "Milford": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Millersview": {
+    "countyFips": "48095",
+    "countyName": "Concho County"
+  },
+  "Millican": {
+    "countyFips": "48041",
+    "countyName": "Brazos County"
+  },
+  "Millsap": {
+    "countyFips": "48367",
+    "countyName": "Parker County"
+  },
+  "Minden": {
+    "countyFips": "48401",
+    "countyName": "Rusk County"
+  },
+  "Mineola": {
+    "countyFips": "48499",
+    "countyName": "Wood County"
+  },
+  "Mineral": {
+    "countyFips": "48025",
+    "countyName": "Bee County"
+  },
+  "Mineral Wells": {
+    "countyFips": "48363",
+    "countyName": "Palo Pinto County"
+  },
+  "Mingus": {
+    "countyFips": "48363",
+    "countyName": "Palo Pinto County"
+  },
+  "Mirando City": {
+    "countyFips": "48479",
+    "countyName": "Webb County"
+  },
+  "Mission": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Missouri City": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Mobeetie": {
+    "countyFips": "48483",
+    "countyName": "Wheeler County"
+  },
+  "Monahans": {
+    "countyFips": "48475",
+    "countyName": "Ward County"
+  },
+  "Mont Belvieu": {
+    "countyFips": "48071",
+    "countyName": "Chambers County"
+  },
+  "Montague": {
+    "countyFips": "48337",
+    "countyName": "Montague County"
+  },
+  "Montalba": {
+    "countyFips": "48001",
+    "countyName": "Anderson County"
+  },
+  "Montgomery": {
+    "countyFips": "48339",
+    "countyName": "Montgomery County"
+  },
+  "Moody": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Moore": {
+    "countyFips": "48163",
+    "countyName": "Frio County"
+  },
+  "Moran": {
+    "countyFips": "48417",
+    "countyName": "Shackelford County"
+  },
+  "Morgan": {
+    "countyFips": "48035",
+    "countyName": "Bosque County"
+  },
+  "Morgan Mill": {
+    "countyFips": "48143",
+    "countyName": "Erath County"
+  },
+  "Morse": {
+    "countyFips": "48195",
+    "countyName": "Hansford County"
+  },
+  "Morton": {
+    "countyFips": "48079",
+    "countyName": "Cochran County"
+  },
+  "Moscow": {
+    "countyFips": "48373",
+    "countyName": "Polk County"
+  },
+  "Moulton": {
+    "countyFips": "48285",
+    "countyName": "Lavaca County"
+  },
+  "Mound": {
+    "countyFips": "48099",
+    "countyName": "Coryell County"
+  },
+  "Mount Calm": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Mount Enterprise": {
+    "countyFips": "48401",
+    "countyName": "Rusk County"
+  },
+  "Mount Pleasant": {
+    "countyFips": "48449",
+    "countyName": "Titus County"
+  },
+  "Mount Vernon": {
+    "countyFips": "48159",
+    "countyName": "Franklin County"
+  },
+  "Mountain Home": {
+    "countyFips": "48265",
+    "countyName": "Kerr County"
+  },
+  "Muenster": {
+    "countyFips": "48097",
+    "countyName": "Cooke County"
+  },
+  "Muldoon": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "Muleshoe": {
+    "countyFips": "48017",
+    "countyName": "Bailey County"
+  },
+  "Mullin": {
+    "countyFips": "48333",
+    "countyName": "Mills County"
+  },
+  "Mumford": {
+    "countyFips": "48395",
+    "countyName": "Robertson County"
+  },
+  "Munday": {
+    "countyFips": "48275",
+    "countyName": "Knox County"
+  },
+  "Murchison": {
+    "countyFips": "48213",
+    "countyName": "Henderson County"
+  },
+  "Myra": {
+    "countyFips": "48097",
+    "countyName": "Cooke County"
+  },
+  "Nacogdoches": {
+    "countyFips": "48347",
+    "countyName": "Nacogdoches County"
+  },
+  "Nada": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "Naples": {
+    "countyFips": "48343",
+    "countyName": "Morris County"
+  },
+  "Nash": {
+    "countyFips": "48037",
+    "countyName": "Bowie County"
+  },
+  "Natalia": {
+    "countyFips": "48325",
+    "countyName": "Medina County"
+  },
+  "Naval Air Station/ Jrb": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Navasota": {
+    "countyFips": "48185",
+    "countyName": "Grimes County"
+  },
+  "Nazareth": {
+    "countyFips": "48069",
+    "countyName": "Castro County"
+  },
+  "Neches": {
+    "countyFips": "48001",
+    "countyName": "Anderson County"
+  },
+  "Nederland": {
+    "countyFips": "48245",
+    "countyName": "Jefferson County"
+  },
+  "Needville": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Nemo": {
+    "countyFips": "48425",
+    "countyName": "Somervell County"
+  },
+  "Nevada": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "New Baden": {
+    "countyFips": "48395",
+    "countyName": "Robertson County"
+  },
+  "New Boston": {
+    "countyFips": "48037",
+    "countyName": "Bowie County"
+  },
+  "New Braunfels": {
+    "countyFips": "48091",
+    "countyName": "Comal County"
+  },
+  "New Caney": {
+    "countyFips": "48339",
+    "countyName": "Montgomery County"
+  },
+  "New Deal": {
+    "countyFips": "48303",
+    "countyName": "Lubbock County"
+  },
+  "New Home": {
+    "countyFips": "48305",
+    "countyName": "Lynn County"
+  },
+  "New London": {
+    "countyFips": "48401",
+    "countyName": "Rusk County"
+  },
+  "New Summerfield": {
+    "countyFips": "48073",
+    "countyName": "Cherokee County"
+  },
+  "New Ulm": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "New Waverly": {
+    "countyFips": "48471",
+    "countyName": "Walker County"
+  },
+  "Newark": {
+    "countyFips": "48497",
+    "countyName": "Wise County"
+  },
+  "Newcastle": {
+    "countyFips": "48503",
+    "countyName": "Young County"
+  },
+  "Newton": {
+    "countyFips": "48351",
+    "countyName": "Newton County"
+  },
+  "Nixon": {
+    "countyFips": "48177",
+    "countyName": "Gonzales County"
+  },
+  "Nocona": {
+    "countyFips": "48337",
+    "countyName": "Montague County"
+  },
+  "Nolan": {
+    "countyFips": "48353",
+    "countyName": "Nolan County"
+  },
+  "Nolanville": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Nome": {
+    "countyFips": "48245",
+    "countyName": "Jefferson County"
+  },
+  "Nordheim": {
+    "countyFips": "48123",
+    "countyName": "DeWitt County"
+  },
+  "Normangee": {
+    "countyFips": "48289",
+    "countyName": "Leon County"
+  },
+  "Normanna": {
+    "countyFips": "48025",
+    "countyName": "Bee County"
+  },
+  "North Houston": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "North Richland Hills": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "North Zulch": {
+    "countyFips": "48313",
+    "countyName": "Madison County"
+  },
+  "Norton": {
+    "countyFips": "48399",
+    "countyName": "Runnels County"
+  },
+  "Notrees": {
+    "countyFips": "48135",
+    "countyName": "Ector County"
+  },
+  "Novice": {
+    "countyFips": "48083",
+    "countyName": "Coleman County"
+  },
+  "Nursery": {
+    "countyFips": "48469",
+    "countyName": "Victoria County"
+  },
+  "O Brien": {
+    "countyFips": "48207",
+    "countyName": "Haskell County"
+  },
+  "Oakhurst": {
+    "countyFips": "48407",
+    "countyName": "San Jacinto County"
+  },
+  "Oakland": {
+    "countyFips": "48285",
+    "countyName": "Lavaca County"
+  },
+  "Oakville": {
+    "countyFips": "48297",
+    "countyName": "Live Oak County"
+  },
+  "Oakwood": {
+    "countyFips": "48161",
+    "countyName": "Freestone County"
+  },
+  "Odell": {
+    "countyFips": "48487",
+    "countyName": "Wilbarger County"
+  },
+  "Odem": {
+    "countyFips": "48409",
+    "countyName": "San Patricio County"
+  },
+  "Odessa": {
+    "countyFips": "48135",
+    "countyName": "Ector County"
+  },
+  "Odonnell": {
+    "countyFips": "48305",
+    "countyName": "Lynn County"
+  },
+  "Oglesby": {
+    "countyFips": "48099",
+    "countyName": "Coryell County"
+  },
+  "Oilton": {
+    "countyFips": "48479",
+    "countyName": "Webb County"
+  },
+  "Oklaunion": {
+    "countyFips": "48487",
+    "countyName": "Wilbarger County"
+  },
+  "Old Glory": {
+    "countyFips": "48433",
+    "countyName": "Stonewall County"
+  },
+  "Old Ocean": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Olden": {
+    "countyFips": "48133",
+    "countyName": "Eastland County"
+  },
+  "Olmito": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "Olney": {
+    "countyFips": "48503",
+    "countyName": "Young County"
+  },
+  "Olton": {
+    "countyFips": "48279",
+    "countyName": "Lamb County"
+  },
+  "Omaha": {
+    "countyFips": "48343",
+    "countyName": "Morris County"
+  },
+  "Onalaska": {
+    "countyFips": "48373",
+    "countyName": "Polk County"
+  },
+  "Orange": {
+    "countyFips": "48361",
+    "countyName": "Orange County"
+  },
+  "Orange Grove": {
+    "countyFips": "48249",
+    "countyName": "Jim Wells County"
+  },
+  "Orangefield": {
+    "countyFips": "48361",
+    "countyName": "Orange County"
+  },
+  "Orchard": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Ore City": {
+    "countyFips": "48459",
+    "countyName": "Upshur County"
+  },
+  "Orla": {
+    "countyFips": "48389",
+    "countyName": "Reeves County"
+  },
+  "Ottine": {
+    "countyFips": "48177",
+    "countyName": "Gonzales County"
+  },
+  "Ovalo": {
+    "countyFips": "48441",
+    "countyName": "Taylor County"
+  },
+  "Overton": {
+    "countyFips": "48401",
+    "countyName": "Rusk County"
+  },
+  "Ozona": {
+    "countyFips": "48105",
+    "countyName": "Crockett County"
+  },
+  "Paducah": {
+    "countyFips": "48101",
+    "countyName": "Cottle County"
+  },
+  "Paige": {
+    "countyFips": "48021",
+    "countyName": "Bastrop County"
+  },
+  "Paint Rock": {
+    "countyFips": "48095",
+    "countyName": "Concho County"
+  },
+  "Palacios": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Palestine": {
+    "countyFips": "48001",
+    "countyName": "Anderson County"
+  },
+  "Palmer": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Palo Pinto": {
+    "countyFips": "48363",
+    "countyName": "Palo Pinto County"
+  },
+  "Paluxy": {
+    "countyFips": "48221",
+    "countyName": "Hood County"
+  },
+  "Pampa": {
+    "countyFips": "48179",
+    "countyName": "Gray County"
+  },
+  "Pandora": {
+    "countyFips": "48493",
+    "countyName": "Wilson County"
+  },
+  "Panhandle": {
+    "countyFips": "48065",
+    "countyName": "Carson County"
+  },
+  "Panna Maria": {
+    "countyFips": "48255",
+    "countyName": "Karnes County"
+  },
+  "Panola": {
+    "countyFips": "48365",
+    "countyName": "Panola County"
+  },
+  "Paradise": {
+    "countyFips": "48497",
+    "countyName": "Wise County"
+  },
+  "Paris": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Pasadena": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Pattison": {
+    "countyFips": "48473",
+    "countyName": "Waller County"
+  },
+  "Pattonville": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Pawnee": {
+    "countyFips": "48025",
+    "countyName": "Bee County"
+  },
+  "Pearland": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Pearsall": {
+    "countyFips": "48163",
+    "countyName": "Frio County"
+  },
+  "Peaster": {
+    "countyFips": "48367",
+    "countyName": "Parker County"
+  },
+  "Pecan Gap": {
+    "countyFips": "48119",
+    "countyName": "Delta County"
+  },
+  "Pecos": {
+    "countyFips": "48389",
+    "countyName": "Reeves County"
+  },
+  "Peggy": {
+    "countyFips": "48013",
+    "countyName": "Atascosa County"
+  },
+  "Pendleton": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Penelope": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Penitas": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Pennington": {
+    "countyFips": "48455",
+    "countyName": "Trinity County"
+  },
+  "Penwell": {
+    "countyFips": "48135",
+    "countyName": "Ector County"
+  },
+  "Pep": {
+    "countyFips": "48219",
+    "countyName": "Hockley County"
+  },
+  "Perrin": {
+    "countyFips": "48237",
+    "countyName": "Jack County"
+  },
+  "Perryton": {
+    "countyFips": "48357",
+    "countyName": "Ochiltree County"
+  },
+  "Petersburg": {
+    "countyFips": "48189",
+    "countyName": "Hale County"
+  },
+  "Petrolia": {
+    "countyFips": "48077",
+    "countyName": "Clay County"
+  },
+  "Pettus": {
+    "countyFips": "48025",
+    "countyName": "Bee County"
+  },
+  "Petty": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Pflugerville": {
+    "countyFips": "48453",
+    "countyName": "Travis County"
+  },
+  "Pharr": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Pickton": {
+    "countyFips": "48223",
+    "countyName": "Hopkins County"
+  },
+  "Pierce": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "Pilot Point": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Pinehurst": {
+    "countyFips": "48339",
+    "countyName": "Montgomery County"
+  },
+  "Pineland": {
+    "countyFips": "48403",
+    "countyName": "Sabine County"
+  },
+  "Pittsburg": {
+    "countyFips": "48063",
+    "countyName": "Camp County"
+  },
+  "Placedo": {
+    "countyFips": "48469",
+    "countyName": "Victoria County"
+  },
+  "Plains": {
+    "countyFips": "48501",
+    "countyName": "Yoakum County"
+  },
+  "Plainview": {
+    "countyFips": "48189",
+    "countyName": "Hale County"
+  },
+  "Plano": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Plantersville": {
+    "countyFips": "48185",
+    "countyName": "Grimes County"
+  },
+  "Pleasanton": {
+    "countyFips": "48013",
+    "countyName": "Atascosa County"
+  },
+  "Pledger": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Plum": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "Point": {
+    "countyFips": "48379",
+    "countyName": "Rains County"
+  },
+  "Point Comfort": {
+    "countyFips": "48057",
+    "countyName": "Calhoun County"
+  },
+  "Pointblank": {
+    "countyFips": "48407",
+    "countyName": "San Jacinto County"
+  },
+  "Pollok": {
+    "countyFips": "48005",
+    "countyName": "Angelina County"
+  },
+  "Ponder": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Pontotoc": {
+    "countyFips": "48319",
+    "countyName": "Mason County"
+  },
+  "Poolville": {
+    "countyFips": "48367",
+    "countyName": "Parker County"
+  },
+  "Port Aransas": {
+    "countyFips": "48273",
+    "countyName": "Kleberg County"
+  },
+  "Port Arthur": {
+    "countyFips": "48245",
+    "countyName": "Jefferson County"
+  },
+  "Port Lavaca": {
+    "countyFips": "48057",
+    "countyName": "Calhoun County"
+  },
+  "Port Mansfield": {
+    "countyFips": "48489",
+    "countyName": "Willacy County"
+  },
+  "Port Neches": {
+    "countyFips": "48245",
+    "countyName": "Jefferson County"
+  },
+  "Port O Connor": {
+    "countyFips": "48057",
+    "countyName": "Calhoun County"
+  },
+  "Porter": {
+    "countyFips": "48339",
+    "countyName": "Montgomery County"
+  },
+  "Portland": {
+    "countyFips": "48409",
+    "countyName": "San Patricio County"
+  },
+  "Post": {
+    "countyFips": "48169",
+    "countyName": "Garza County"
+  },
+  "Poteet": {
+    "countyFips": "48013",
+    "countyName": "Atascosa County"
+  },
+  "Poth": {
+    "countyFips": "48493",
+    "countyName": "Wilson County"
+  },
+  "Pottsboro": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Pottsville": {
+    "countyFips": "48193",
+    "countyName": "Hamilton County"
+  },
+  "Powderly": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Powell": {
+    "countyFips": "48349",
+    "countyName": "Navarro County"
+  },
+  "Poynor": {
+    "countyFips": "48213",
+    "countyName": "Henderson County"
+  },
+  "Prairie Hill": {
+    "countyFips": "48293",
+    "countyName": "Limestone County"
+  },
+  "Prairie Lea": {
+    "countyFips": "48055",
+    "countyName": "Caldwell County"
+  },
+  "Prairie View": {
+    "countyFips": "48473",
+    "countyName": "Waller County"
+  },
+  "Premont": {
+    "countyFips": "48249",
+    "countyName": "Jim Wells County"
+  },
+  "Presidio": {
+    "countyFips": "48377",
+    "countyName": "Presidio County"
+  },
+  "Price": {
+    "countyFips": "48401",
+    "countyName": "Rusk County"
+  },
+  "Priddy": {
+    "countyFips": "48333",
+    "countyName": "Mills County"
+  },
+  "Princeton": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Proctor": {
+    "countyFips": "48093",
+    "countyName": "Comanche County"
+  },
+  "Progreso": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Prosper": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Purdon": {
+    "countyFips": "48349",
+    "countyName": "Navarro County"
+  },
+  "Purmela": {
+    "countyFips": "48099",
+    "countyName": "Coryell County"
+  },
+  "Putnam": {
+    "countyFips": "48059",
+    "countyName": "Callahan County"
+  },
+  "Pyote": {
+    "countyFips": "48475",
+    "countyName": "Ward County"
+  },
+  "Quail": {
+    "countyFips": "48087",
+    "countyName": "Collingsworth County"
+  },
+  "Quanah": {
+    "countyFips": "48197",
+    "countyName": "Hardeman County"
+  },
+  "Queen City": {
+    "countyFips": "48067",
+    "countyName": "Cass County"
+  },
+  "Quemado": {
+    "countyFips": "48323",
+    "countyName": "Maverick County"
+  },
+  "Quinlan": {
+    "countyFips": "48231",
+    "countyName": "Hunt County"
+  },
+  "Quitaque": {
+    "countyFips": "48045",
+    "countyName": "Briscoe County"
+  },
+  "Quitman": {
+    "countyFips": "48499",
+    "countyName": "Wood County"
+  },
+  "Rainbow": {
+    "countyFips": "48425",
+    "countyName": "Somervell County"
+  },
+  "Ralls": {
+    "countyFips": "48107",
+    "countyName": "Crosby County"
+  },
+  "Randolph": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Ranger": {
+    "countyFips": "48133",
+    "countyName": "Eastland County"
+  },
+  "Rankin": {
+    "countyFips": "48461",
+    "countyName": "Upton County"
+  },
+  "Ransom Canyon": {
+    "countyFips": "48303",
+    "countyName": "Lubbock County"
+  },
+  "Ratcliff": {
+    "countyFips": "48225",
+    "countyName": "Houston County"
+  },
+  "Ravenna": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Raymondville": {
+    "countyFips": "48489",
+    "countyName": "Willacy County"
+  },
+  "Raywood": {
+    "countyFips": "48291",
+    "countyName": "Liberty County"
+  },
+  "Reagan": {
+    "countyFips": "48145",
+    "countyName": "Falls County"
+  },
+  "Realitos": {
+    "countyFips": "48131",
+    "countyName": "Duval County"
+  },
+  "Red Oak": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Red Rock": {
+    "countyFips": "48021",
+    "countyName": "Bastrop County"
+  },
+  "Redford": {
+    "countyFips": "48377",
+    "countyName": "Presidio County"
+  },
+  "Redwater": {
+    "countyFips": "48037",
+    "countyName": "Bowie County"
+  },
+  "Refugio": {
+    "countyFips": "48391",
+    "countyName": "Refugio County"
+  },
+  "Reklaw": {
+    "countyFips": "48073",
+    "countyName": "Cherokee County"
+  },
+  "Rhome": {
+    "countyFips": "48497",
+    "countyName": "Wise County"
+  },
+  "Rice": {
+    "countyFips": "48349",
+    "countyName": "Navarro County"
+  },
+  "Richards": {
+    "countyFips": "48185",
+    "countyName": "Grimes County"
+  },
+  "Richardson": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Richland": {
+    "countyFips": "48349",
+    "countyName": "Navarro County"
+  },
+  "Richland Springs": {
+    "countyFips": "48411",
+    "countyName": "San Saba County"
+  },
+  "Richmond": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Riesel": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Ringgold": {
+    "countyFips": "48337",
+    "countyName": "Montague County"
+  },
+  "Rio Frio": {
+    "countyFips": "48385",
+    "countyName": "Real County"
+  },
+  "Rio Grande City": {
+    "countyFips": "48427",
+    "countyName": "Starr County"
+  },
+  "Rio Hondo": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "Rio Medina": {
+    "countyFips": "48325",
+    "countyName": "Medina County"
+  },
+  "Rio Vista": {
+    "countyFips": "48251",
+    "countyName": "Johnson County"
+  },
+  "Rising Star": {
+    "countyFips": "48133",
+    "countyName": "Eastland County"
+  },
+  "Riverside": {
+    "countyFips": "48471",
+    "countyName": "Walker County"
+  },
+  "Riviera": {
+    "countyFips": "48273",
+    "countyName": "Kleberg County"
+  },
+  "Roanoke": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Roans Prairie": {
+    "countyFips": "48185",
+    "countyName": "Grimes County"
+  },
+  "Roaring Springs": {
+    "countyFips": "48345",
+    "countyName": "Motley County"
+  },
+  "Robert Lee": {
+    "countyFips": "48081",
+    "countyName": "Coke County"
+  },
+  "Robstown": {
+    "countyFips": "48355",
+    "countyName": "Nueces County"
+  },
+  "Roby": {
+    "countyFips": "48151",
+    "countyName": "Fisher County"
+  },
+  "Rochelle": {
+    "countyFips": "48307",
+    "countyName": "McCulloch County"
+  },
+  "Rochester": {
+    "countyFips": "48207",
+    "countyName": "Haskell County"
+  },
+  "Rock Island": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "Rockdale": {
+    "countyFips": "48331",
+    "countyName": "Milam County"
+  },
+  "Rockport": {
+    "countyFips": "48007",
+    "countyName": "Aransas County"
+  },
+  "Rocksprings": {
+    "countyFips": "48137",
+    "countyName": "Edwards County"
+  },
+  "Rockwall": {
+    "countyFips": "48397",
+    "countyName": "Rockwall County"
+  },
+  "Rockwood": {
+    "countyFips": "48083",
+    "countyName": "Coleman County"
+  },
+  "Rogers": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Roma": {
+    "countyFips": "48427",
+    "countyName": "Starr County"
+  },
+  "Romayor": {
+    "countyFips": "48291",
+    "countyName": "Liberty County"
+  },
+  "Roosevelt": {
+    "countyFips": "48267",
+    "countyName": "Kimble County"
+  },
+  "Ropesville": {
+    "countyFips": "48219",
+    "countyName": "Hockley County"
+  },
+  "Rosanky": {
+    "countyFips": "48021",
+    "countyName": "Bastrop County"
+  },
+  "Roscoe": {
+    "countyFips": "48353",
+    "countyName": "Nolan County"
+  },
+  "Rosebud": {
+    "countyFips": "48145",
+    "countyName": "Falls County"
+  },
+  "Rosenberg": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Rosharon": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Ross": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Rosser": {
+    "countyFips": "48257",
+    "countyName": "Kaufman County"
+  },
+  "Rosston": {
+    "countyFips": "48097",
+    "countyName": "Cooke County"
+  },
+  "Rotan": {
+    "countyFips": "48151",
+    "countyName": "Fisher County"
+  },
+  "Round Mountain": {
+    "countyFips": "48031",
+    "countyName": "Blanco County"
+  },
+  "Round Rock": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Round Top": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "Rowena": {
+    "countyFips": "48399",
+    "countyName": "Runnels County"
+  },
+  "Rowlett": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Roxton": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Royse City": {
+    "countyFips": "48397",
+    "countyName": "Rockwall County"
+  },
+  "Rule": {
+    "countyFips": "48207",
+    "countyName": "Haskell County"
+  },
+  "Runge": {
+    "countyFips": "48255",
+    "countyName": "Karnes County"
+  },
+  "Rusk": {
+    "countyFips": "48073",
+    "countyName": "Cherokee County"
+  },
+  "Rye": {
+    "countyFips": "48291",
+    "countyName": "Liberty County"
+  },
+  "Sabinal": {
+    "countyFips": "48463",
+    "countyName": "Uvalde County"
+  },
+  "Sabine Pass": {
+    "countyFips": "48245",
+    "countyName": "Jefferson County"
+  },
+  "Sachse": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Sacul": {
+    "countyFips": "48347",
+    "countyName": "Nacogdoches County"
+  },
+  "Sadler": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Saint Hedwig": {
+    "countyFips": "48029",
+    "countyName": "Bexar County"
+  },
+  "Saint Jo": {
+    "countyFips": "48337",
+    "countyName": "Montague County"
+  },
+  "Salado": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Salineno": {
+    "countyFips": "48427",
+    "countyName": "Starr County"
+  },
+  "Salt Flat": {
+    "countyFips": "48109",
+    "countyName": "Culberson County"
+  },
+  "Saltillo": {
+    "countyFips": "48223",
+    "countyName": "Hopkins County"
+  },
+  "Sam Norwood": {
+    "countyFips": "48087",
+    "countyName": "Collingsworth County"
+  },
+  "San Angelo": {
+    "countyFips": "48451",
+    "countyName": "Tom Green County"
+  },
+  "San Antonio": {
+    "countyFips": "48091",
+    "countyName": "Comal County"
+  },
+  "San Augustine": {
+    "countyFips": "48405",
+    "countyName": "San Augustine County"
+  },
+  "San Benito": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "San Diego": {
+    "countyFips": "48131",
+    "countyName": "Duval County"
+  },
+  "San Elizario": {
+    "countyFips": "48141",
+    "countyName": "El Paso County"
+  },
+  "San Felipe": {
+    "countyFips": "48015",
+    "countyName": "Austin County"
+  },
+  "San Isidro": {
+    "countyFips": "48427",
+    "countyName": "Starr County"
+  },
+  "San Juan": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "San Marcos": {
+    "countyFips": "48209",
+    "countyName": "Hays County"
+  },
+  "San Perlita": {
+    "countyFips": "48489",
+    "countyName": "Willacy County"
+  },
+  "San Saba": {
+    "countyFips": "48411",
+    "countyName": "San Saba County"
+  },
+  "San Ygnacio": {
+    "countyFips": "48505",
+    "countyName": "Zapata County"
+  },
+  "Sanderson": {
+    "countyFips": "48443",
+    "countyName": "Terrell County"
+  },
+  "Sandia": {
+    "countyFips": "48297",
+    "countyName": "Live Oak County"
+  },
+  "Sanford": {
+    "countyFips": "48233",
+    "countyName": "Hutchinson County"
+  },
+  "Sanger": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Santa Anna": {
+    "countyFips": "48083",
+    "countyName": "Coleman County"
+  },
+  "Santa Elena": {
+    "countyFips": "48427",
+    "countyName": "Starr County"
+  },
+  "Santa Fe": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "Santa Maria": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "Santa Rosa": {
+    "countyFips": "48061",
+    "countyName": "Cameron County"
+  },
+  "Santo": {
+    "countyFips": "48363",
+    "countyName": "Palo Pinto County"
+  },
+  "Saragosa": {
+    "countyFips": "48389",
+    "countyName": "Reeves County"
+  },
+  "Saratoga": {
+    "countyFips": "48199",
+    "countyName": "Hardin County"
+  },
+  "Sarita": {
+    "countyFips": "48261",
+    "countyName": "Kenedy County"
+  },
+  "Satin": {
+    "countyFips": "48145",
+    "countyName": "Falls County"
+  },
+  "Savoy": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Schertz": {
+    "countyFips": "48187",
+    "countyName": "Guadalupe County"
+  },
+  "Schulenburg": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "Schwertner": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Scotland": {
+    "countyFips": "48009",
+    "countyName": "Archer County"
+  },
+  "Scottsville": {
+    "countyFips": "48203",
+    "countyName": "Harrison County"
+  },
+  "Scroggins": {
+    "countyFips": "48159",
+    "countyName": "Franklin County"
+  },
+  "Scurry": {
+    "countyFips": "48257",
+    "countyName": "Kaufman County"
+  },
+  "Seabrook": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Seadrift": {
+    "countyFips": "48057",
+    "countyName": "Calhoun County"
+  },
+  "Seagoville": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Seagraves": {
+    "countyFips": "48165",
+    "countyName": "Gaines County"
+  },
+  "Sealy": {
+    "countyFips": "48015",
+    "countyName": "Austin County"
+  },
+  "Sebastian": {
+    "countyFips": "48489",
+    "countyName": "Willacy County"
+  },
+  "Seguin": {
+    "countyFips": "48187",
+    "countyName": "Guadalupe County"
+  },
+  "Selman City": {
+    "countyFips": "48401",
+    "countyName": "Rusk County"
+  },
+  "Seminole": {
+    "countyFips": "48165",
+    "countyName": "Gaines County"
+  },
+  "Seymour": {
+    "countyFips": "48023",
+    "countyName": "Baylor County"
+  },
+  "Shallowater": {
+    "countyFips": "48303",
+    "countyName": "Lubbock County"
+  },
+  "Shamrock": {
+    "countyFips": "48483",
+    "countyName": "Wheeler County"
+  },
+  "Sheffield": {
+    "countyFips": "48371",
+    "countyName": "Pecos County"
+  },
+  "Shelbyville": {
+    "countyFips": "48419",
+    "countyName": "Shelby County"
+  },
+  "Shepherd": {
+    "countyFips": "48407",
+    "countyName": "San Jacinto County"
+  },
+  "Sheppard Afb": {
+    "countyFips": "48485",
+    "countyName": "Wichita County"
+  },
+  "Sheridan": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "Sherman": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Shiner": {
+    "countyFips": "48285",
+    "countyName": "Lavaca County"
+  },
+  "Shiro": {
+    "countyFips": "48185",
+    "countyName": "Grimes County"
+  },
+  "Sidney": {
+    "countyFips": "48093",
+    "countyName": "Comanche County"
+  },
+  "Sierra Blanca": {
+    "countyFips": "48229",
+    "countyName": "Hudspeth County"
+  },
+  "Silsbee": {
+    "countyFips": "48199",
+    "countyName": "Hardin County"
+  },
+  "Silver": {
+    "countyFips": "48081",
+    "countyName": "Coke County"
+  },
+  "Silverton": {
+    "countyFips": "48045",
+    "countyName": "Briscoe County"
+  },
+  "Simms": {
+    "countyFips": "48037",
+    "countyName": "Bowie County"
+  },
+  "Simonton": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Sinton": {
+    "countyFips": "48409",
+    "countyName": "San Patricio County"
+  },
+  "Skellytown": {
+    "countyFips": "48065",
+    "countyName": "Carson County"
+  },
+  "Skidmore": {
+    "countyFips": "48025",
+    "countyName": "Bee County"
+  },
+  "Slaton": {
+    "countyFips": "48303",
+    "countyName": "Lubbock County"
+  },
+  "Slidell": {
+    "countyFips": "48497",
+    "countyName": "Wise County"
+  },
+  "Smiley": {
+    "countyFips": "48177",
+    "countyName": "Gonzales County"
+  },
+  "Smithville": {
+    "countyFips": "48021",
+    "countyName": "Bastrop County"
+  },
+  "Smyer": {
+    "countyFips": "48219",
+    "countyName": "Hockley County"
+  },
+  "Snook": {
+    "countyFips": "48051",
+    "countyName": "Burleson County"
+  },
+  "Snyder": {
+    "countyFips": "48415",
+    "countyName": "Scurry County"
+  },
+  "Somerset": {
+    "countyFips": "48029",
+    "countyName": "Bexar County"
+  },
+  "Somerville": {
+    "countyFips": "48051",
+    "countyName": "Burleson County"
+  },
+  "Sonora": {
+    "countyFips": "48435",
+    "countyName": "Sutton County"
+  },
+  "Sour Lake": {
+    "countyFips": "48199",
+    "countyName": "Hardin County"
+  },
+  "South Bend": {
+    "countyFips": "48503",
+    "countyName": "Young County"
+  },
+  "South Houston": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "South Padre Island": {
+    "countyFips": "48261",
+    "countyName": "Kenedy County"
+  },
+  "South Plains": {
+    "countyFips": "48153",
+    "countyName": "Floyd County"
+  },
+  "Southlake": {
+    "countyFips": "48439",
+    "countyName": "Tarrant County"
+  },
+  "Southmayd": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Spade": {
+    "countyFips": "48279",
+    "countyName": "Lamb County"
+  },
+  "Spearman": {
+    "countyFips": "48195",
+    "countyName": "Hansford County"
+  },
+  "Spicewood": {
+    "countyFips": "48453",
+    "countyName": "Travis County"
+  },
+  "Splendora": {
+    "countyFips": "48339",
+    "countyName": "Montgomery County"
+  },
+  "Spring": {
+    "countyFips": "48339",
+    "countyName": "Montgomery County"
+  },
+  "Spring Branch": {
+    "countyFips": "48091",
+    "countyName": "Comal County"
+  },
+  "Springlake": {
+    "countyFips": "48279",
+    "countyName": "Lamb County"
+  },
+  "Springtown": {
+    "countyFips": "48367",
+    "countyName": "Parker County"
+  },
+  "Spur": {
+    "countyFips": "48125",
+    "countyName": "Dickens County"
+  },
+  "Spurger": {
+    "countyFips": "48457",
+    "countyName": "Tyler County"
+  },
+  "Stafford": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Stamford": {
+    "countyFips": "48253",
+    "countyName": "Jones County"
+  },
+  "Stanton": {
+    "countyFips": "48317",
+    "countyName": "Martin County"
+  },
+  "Staples": {
+    "countyFips": "48187",
+    "countyName": "Guadalupe County"
+  },
+  "Star": {
+    "countyFips": "48333",
+    "countyName": "Mills County"
+  },
+  "Stephenville": {
+    "countyFips": "48143",
+    "countyName": "Erath County"
+  },
+  "Sterling City": {
+    "countyFips": "48431",
+    "countyName": "Sterling County"
+  },
+  "Stinnett": {
+    "countyFips": "48233",
+    "countyName": "Hutchinson County"
+  },
+  "Stockdale": {
+    "countyFips": "48493",
+    "countyName": "Wilson County"
+  },
+  "Stonewall": {
+    "countyFips": "48171",
+    "countyName": "Gillespie County"
+  },
+  "Stowell": {
+    "countyFips": "48071",
+    "countyName": "Chambers County"
+  },
+  "Stratford": {
+    "countyFips": "48421",
+    "countyName": "Sherman County"
+  },
+  "Strawn": {
+    "countyFips": "48363",
+    "countyName": "Palo Pinto County"
+  },
+  "Streetman": {
+    "countyFips": "48161",
+    "countyName": "Freestone County"
+  },
+  "Sublime": {
+    "countyFips": "48285",
+    "countyName": "Lavaca County"
+  },
+  "Sudan": {
+    "countyFips": "48279",
+    "countyName": "Lamb County"
+  },
+  "Sugar Land": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Sullivan City": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "Sulphur Bluff": {
+    "countyFips": "48223",
+    "countyName": "Hopkins County"
+  },
+  "Sulphur Springs": {
+    "countyFips": "48223",
+    "countyName": "Hopkins County"
+  },
+  "Summerfield": {
+    "countyFips": "48069",
+    "countyName": "Castro County"
+  },
+  "Sumner": {
+    "countyFips": "48277",
+    "countyName": "Lamar County"
+  },
+  "Sundown": {
+    "countyFips": "48219",
+    "countyName": "Hockley County"
+  },
+  "Sunnyvale": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Sunray": {
+    "countyFips": "48341",
+    "countyName": "Moore County"
+  },
+  "Sunset": {
+    "countyFips": "48337",
+    "countyName": "Montague County"
+  },
+  "Sutherland Springs": {
+    "countyFips": "48493",
+    "countyName": "Wilson County"
+  },
+  "Sweeny": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "Sweet Home": {
+    "countyFips": "48285",
+    "countyName": "Lavaca County"
+  },
+  "Sweetwater": {
+    "countyFips": "48353",
+    "countyName": "Nolan County"
+  },
+  "Sylvester": {
+    "countyFips": "48151",
+    "countyName": "Fisher County"
+  },
+  "Taft": {
+    "countyFips": "48409",
+    "countyName": "San Patricio County"
+  },
+  "Tahoka": {
+    "countyFips": "48305",
+    "countyName": "Lynn County"
+  },
+  "Talco": {
+    "countyFips": "48449",
+    "countyName": "Titus County"
+  },
+  "Talpa": {
+    "countyFips": "48083",
+    "countyName": "Coleman County"
+  },
+  "Tarpley": {
+    "countyFips": "48019",
+    "countyName": "Bandera County"
+  },
+  "Tarzan": {
+    "countyFips": "48317",
+    "countyName": "Martin County"
+  },
+  "Tatum": {
+    "countyFips": "48401",
+    "countyName": "Rusk County"
+  },
+  "Taylor": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Teague": {
+    "countyFips": "48161",
+    "countyName": "Freestone County"
+  },
+  "Tehuacana": {
+    "countyFips": "48293",
+    "countyName": "Limestone County"
+  },
+  "Telegraph": {
+    "countyFips": "48267",
+    "countyName": "Kimble County"
+  },
+  "Telephone": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Telferner": {
+    "countyFips": "48469",
+    "countyName": "Victoria County"
+  },
+  "Tell": {
+    "countyFips": "48075",
+    "countyName": "Childress County"
+  },
+  "Temple": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Tenaha": {
+    "countyFips": "48419",
+    "countyName": "Shelby County"
+  },
+  "Tennessee Colony": {
+    "countyFips": "48001",
+    "countyName": "Anderson County"
+  },
+  "Tennyson": {
+    "countyFips": "48081",
+    "countyName": "Coke County"
+  },
+  "Terlingua": {
+    "countyFips": "48043",
+    "countyName": "Brewster County"
+  },
+  "Terrell": {
+    "countyFips": "48257",
+    "countyName": "Kaufman County"
+  },
+  "Texarkana": {
+    "countyFips": "48037",
+    "countyName": "Bowie County"
+  },
+  "Texas City": {
+    "countyFips": "48167",
+    "countyName": "Galveston County"
+  },
+  "Texline": {
+    "countyFips": "48111",
+    "countyName": "Dallam County"
+  },
+  "The Colony": {
+    "countyFips": "48121",
+    "countyName": "Denton County"
+  },
+  "Thicket": {
+    "countyFips": "48199",
+    "countyName": "Hardin County"
+  },
+  "Thomaston": {
+    "countyFips": "48123",
+    "countyName": "DeWitt County"
+  },
+  "Thompsons": {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County"
+  },
+  "Thorndale": {
+    "countyFips": "48331",
+    "countyName": "Milam County"
+  },
+  "Thornton": {
+    "countyFips": "48293",
+    "countyName": "Limestone County"
+  },
+  "Thrall": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Three Rivers": {
+    "countyFips": "48297",
+    "countyName": "Live Oak County"
+  },
+  "Throckmorton": {
+    "countyFips": "48447",
+    "countyName": "Throckmorton County"
+  },
+  "Tilden": {
+    "countyFips": "48311",
+    "countyName": "McMullen County"
+  },
+  "Timpson": {
+    "countyFips": "48419",
+    "countyName": "Shelby County"
+  },
+  "Tioga": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Tivoli": {
+    "countyFips": "48391",
+    "countyName": "Refugio County"
+  },
+  "Tokio": {
+    "countyFips": "48445",
+    "countyName": "Terry County"
+  },
+  "Tolar": {
+    "countyFips": "48221",
+    "countyName": "Hood County"
+  },
+  "Tom Bean": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Tomball": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Tornillo": {
+    "countyFips": "48141",
+    "countyName": "El Paso County"
+  },
+  "Tow": {
+    "countyFips": "48299",
+    "countyName": "Llano County"
+  },
+  "Toyah": {
+    "countyFips": "48389",
+    "countyName": "Reeves County"
+  },
+  "Toyahvale": {
+    "countyFips": "48389",
+    "countyName": "Reeves County"
+  },
+  "Trent": {
+    "countyFips": "48441",
+    "countyName": "Taylor County"
+  },
+  "Trenton": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Trinidad": {
+    "countyFips": "48213",
+    "countyName": "Henderson County"
+  },
+  "Trinity": {
+    "countyFips": "48455",
+    "countyName": "Trinity County"
+  },
+  "Troup": {
+    "countyFips": "48073",
+    "countyName": "Cherokee County"
+  },
+  "Troy": {
+    "countyFips": "48027",
+    "countyName": "Bell County"
+  },
+  "Tuleta": {
+    "countyFips": "48025",
+    "countyName": "Bee County"
+  },
+  "Tulia": {
+    "countyFips": "48437",
+    "countyName": "Swisher County"
+  },
+  "Turkey": {
+    "countyFips": "48191",
+    "countyName": "Hall County"
+  },
+  "Tuscola": {
+    "countyFips": "48441",
+    "countyName": "Taylor County"
+  },
+  "Tye": {
+    "countyFips": "48441",
+    "countyName": "Taylor County"
+  },
+  "Tyler": {
+    "countyFips": "48423",
+    "countyName": "Smith County"
+  },
+  "Tynan": {
+    "countyFips": "48025",
+    "countyName": "Bee County"
+  },
+  "Umbarger": {
+    "countyFips": "48381",
+    "countyName": "Randall County"
+  },
+  "Universal City": {
+    "countyFips": "48029",
+    "countyName": "Bexar County"
+  },
+  "Utopia": {
+    "countyFips": "48463",
+    "countyName": "Uvalde County"
+  },
+  "Uvalde": {
+    "countyFips": "48463",
+    "countyName": "Uvalde County"
+  },
+  "Valentine": {
+    "countyFips": "48243",
+    "countyName": "Jeff Davis County"
+  },
+  "Valera": {
+    "countyFips": "48083",
+    "countyName": "Coleman County"
+  },
+  "Valley Mills": {
+    "countyFips": "48035",
+    "countyName": "Bosque County"
+  },
+  "Valley Spring": {
+    "countyFips": "48299",
+    "countyName": "Llano County"
+  },
+  "Valley View": {
+    "countyFips": "48097",
+    "countyName": "Cooke County"
+  },
+  "Van": {
+    "countyFips": "48467",
+    "countyName": "Van Zandt County"
+  },
+  "Van Alstyne": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Van Horn": {
+    "countyFips": "48109",
+    "countyName": "Culberson County"
+  },
+  "Van Vleck": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Vancourt": {
+    "countyFips": "48451",
+    "countyName": "Tom Green County"
+  },
+  "Vanderbilt": {
+    "countyFips": "48239",
+    "countyName": "Jackson County"
+  },
+  "Vanderpool": {
+    "countyFips": "48019",
+    "countyName": "Bandera County"
+  },
+  "Vega": {
+    "countyFips": "48359",
+    "countyName": "Oldham County"
+  },
+  "Venus": {
+    "countyFips": "48251",
+    "countyName": "Johnson County"
+  },
+  "Veribest": {
+    "countyFips": "48451",
+    "countyName": "Tom Green County"
+  },
+  "Vernon": {
+    "countyFips": "48487",
+    "countyName": "Wilbarger County"
+  },
+  "Victoria": {
+    "countyFips": "48469",
+    "countyName": "Victoria County"
+  },
+  "Vidor": {
+    "countyFips": "48361",
+    "countyName": "Orange County"
+  },
+  "Village Mills": {
+    "countyFips": "48199",
+    "countyName": "Hardin County"
+  },
+  "Voca": {
+    "countyFips": "48307",
+    "countyName": "McCulloch County"
+  },
+  "Von Ormy": {
+    "countyFips": "48029",
+    "countyName": "Bexar County"
+  },
+  "Voss": {
+    "countyFips": "48083",
+    "countyName": "Coleman County"
+  },
+  "Votaw": {
+    "countyFips": "48199",
+    "countyName": "Hardin County"
+  },
+  "Waco": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Wadsworth": {
+    "countyFips": "48321",
+    "countyName": "Matagorda County"
+  },
+  "Waelder": {
+    "countyFips": "48177",
+    "countyName": "Gonzales County"
+  },
+  "Waka": {
+    "countyFips": "48357",
+    "countyName": "Ochiltree County"
+  },
+  "Walburg": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Wall": {
+    "countyFips": "48451",
+    "countyName": "Tom Green County"
+  },
+  "Waller": {
+    "countyFips": "48473",
+    "countyName": "Waller County"
+  },
+  "Wallis": {
+    "countyFips": "48015",
+    "countyName": "Austin County"
+  },
+  "Wallisville": {
+    "countyFips": "48071",
+    "countyName": "Chambers County"
+  },
+  "Walnut Springs": {
+    "countyFips": "48035",
+    "countyName": "Bosque County"
+  },
+  "Warda": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "Waring": {
+    "countyFips": "48259",
+    "countyName": "Kendall County"
+  },
+  "Warren": {
+    "countyFips": "48457",
+    "countyName": "Tyler County"
+  },
+  "Warrenton": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "Washington": {
+    "countyFips": "48477",
+    "countyName": "Washington County"
+  },
+  "Waskom": {
+    "countyFips": "48203",
+    "countyName": "Harrison County"
+  },
+  "Water Valley": {
+    "countyFips": "48451",
+    "countyName": "Tom Green County"
+  },
+  "Waxahachie": {
+    "countyFips": "48139",
+    "countyName": "Ellis County"
+  },
+  "Wayside": {
+    "countyFips": "48011",
+    "countyName": "Armstrong County"
+  },
+  "Weatherford": {
+    "countyFips": "48367",
+    "countyName": "Parker County"
+  },
+  "Webster": {
+    "countyFips": "48201",
+    "countyName": "Harris County"
+  },
+  "Weesatche": {
+    "countyFips": "48175",
+    "countyName": "Goliad County"
+  },
+  "Weimar": {
+    "countyFips": "48089",
+    "countyName": "Colorado County"
+  },
+  "Weinert": {
+    "countyFips": "48207",
+    "countyName": "Haskell County"
+  },
+  "Weir": {
+    "countyFips": "48491",
+    "countyName": "Williamson County"
+  },
+  "Welch": {
+    "countyFips": "48115",
+    "countyName": "Dawson County"
+  },
+  "Wellborn": {
+    "countyFips": "48041",
+    "countyName": "Brazos County"
+  },
+  "Wellington": {
+    "countyFips": "48087",
+    "countyName": "Collingsworth County"
+  },
+  "Wellman": {
+    "countyFips": "48445",
+    "countyName": "Terry County"
+  },
+  "Wells": {
+    "countyFips": "48073",
+    "countyName": "Cherokee County"
+  },
+  "Weslaco": {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County"
+  },
+  "West": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "West Columbia": {
+    "countyFips": "48039",
+    "countyName": "Brazoria County"
+  },
+  "West Point": {
+    "countyFips": "48149",
+    "countyName": "Fayette County"
+  },
+  "Westbrook": {
+    "countyFips": "48335",
+    "countyName": "Mitchell County"
+  },
+  "Westhoff": {
+    "countyFips": "48123",
+    "countyName": "DeWitt County"
+  },
+  "Westminster": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Weston": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Wharton": {
+    "countyFips": "48481",
+    "countyName": "Wharton County"
+  },
+  "Wheeler": {
+    "countyFips": "48483",
+    "countyName": "Wheeler County"
+  },
+  "Wheelock": {
+    "countyFips": "48395",
+    "countyName": "Robertson County"
+  },
+  "White Deer": {
+    "countyFips": "48065",
+    "countyName": "Carson County"
+  },
+  "White Oak": {
+    "countyFips": "48183",
+    "countyName": "Gregg County"
+  },
+  "Whiteface": {
+    "countyFips": "48079",
+    "countyName": "Cochran County"
+  },
+  "Whitehouse": {
+    "countyFips": "48423",
+    "countyName": "Smith County"
+  },
+  "Whitesboro": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Whitewright": {
+    "countyFips": "48181",
+    "countyName": "Grayson County"
+  },
+  "Whitharral": {
+    "countyFips": "48219",
+    "countyName": "Hockley County"
+  },
+  "Whitney": {
+    "countyFips": "48217",
+    "countyName": "Hill County"
+  },
+  "Whitsett": {
+    "countyFips": "48297",
+    "countyName": "Live Oak County"
+  },
+  "Whitt": {
+    "countyFips": "48367",
+    "countyName": "Parker County"
+  },
+  "Wichita Falls": {
+    "countyFips": "48485",
+    "countyName": "Wichita County"
+  },
+  "Wickett": {
+    "countyFips": "48475",
+    "countyName": "Ward County"
+  },
+  "Wiergate": {
+    "countyFips": "48351",
+    "countyName": "Newton County"
+  },
+  "Wildorado": {
+    "countyFips": "48359",
+    "countyName": "Oldham County"
+  },
+  "Willis": {
+    "countyFips": "48339",
+    "countyName": "Montgomery County"
+  },
+  "Willow City": {
+    "countyFips": "48171",
+    "countyName": "Gillespie County"
+  },
+  "Wills Point": {
+    "countyFips": "48467",
+    "countyName": "Van Zandt County"
+  },
+  "Wilmer": {
+    "countyFips": "48113",
+    "countyName": "Dallas County"
+  },
+  "Wilson": {
+    "countyFips": "48305",
+    "countyName": "Lynn County"
+  },
+  "Wimberley": {
+    "countyFips": "48209",
+    "countyName": "Hays County"
+  },
+  "Windom": {
+    "countyFips": "48147",
+    "countyName": "Fannin County"
+  },
+  "Windthorst": {
+    "countyFips": "48009",
+    "countyName": "Archer County"
+  },
+  "Winfield": {
+    "countyFips": "48449",
+    "countyName": "Titus County"
+  },
+  "Wingate": {
+    "countyFips": "48399",
+    "countyName": "Runnels County"
+  },
+  "Wink": {
+    "countyFips": "48495",
+    "countyName": "Winkler County"
+  },
+  "Winnie": {
+    "countyFips": "48245",
+    "countyName": "Jefferson County"
+  },
+  "Winnsboro": {
+    "countyFips": "48499",
+    "countyName": "Wood County"
+  },
+  "Winona": {
+    "countyFips": "48423",
+    "countyName": "Smith County"
+  },
+  "Winters": {
+    "countyFips": "48399",
+    "countyName": "Runnels County"
+  },
+  "Woden": {
+    "countyFips": "48347",
+    "countyName": "Nacogdoches County"
+  },
+  "Wolfe City": {
+    "countyFips": "48231",
+    "countyName": "Hunt County"
+  },
+  "Wolfforth": {
+    "countyFips": "48303",
+    "countyName": "Lubbock County"
+  },
+  "Woodlake": {
+    "countyFips": "48455",
+    "countyName": "Trinity County"
+  },
+  "Woodlawn": {
+    "countyFips": "48203",
+    "countyName": "Harrison County"
+  },
+  "Woodsboro": {
+    "countyFips": "48391",
+    "countyName": "Refugio County"
+  },
+  "Woodson": {
+    "countyFips": "48447",
+    "countyName": "Throckmorton County"
+  },
+  "Woodville": {
+    "countyFips": "48457",
+    "countyName": "Tyler County"
+  },
+  "Woodway": {
+    "countyFips": "48309",
+    "countyName": "McLennan County"
+  },
+  "Wortham": {
+    "countyFips": "48161",
+    "countyName": "Freestone County"
+  },
+  "Wrightsboro": {
+    "countyFips": "48177",
+    "countyName": "Gonzales County"
+  },
+  "Wylie": {
+    "countyFips": "48085",
+    "countyName": "Collin County"
+  },
+  "Yancey": {
+    "countyFips": "48325",
+    "countyName": "Medina County"
+  },
+  "Yantis": {
+    "countyFips": "48499",
+    "countyName": "Wood County"
+  },
+  "Yoakum": {
+    "countyFips": "48285",
+    "countyName": "Lavaca County"
+  },
+  "Yorktown": {
+    "countyFips": "48123",
+    "countyName": "DeWitt County"
+  },
+  "Zapata": {
+    "countyFips": "48505",
+    "countyName": "Zapata County"
+  },
+  "Zavalla": {
+    "countyFips": "48005",
+    "countyName": "Angelina County"
+  },
+  "Zephyr": {
+    "countyFips": "48049",
+    "countyName": "Brown County"
+  }
+}
