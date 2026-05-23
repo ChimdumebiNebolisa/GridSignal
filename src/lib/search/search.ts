@@ -32,10 +32,29 @@ export function searchAll(query: string, limit = 10): SearchResult[] {
   }
 
   const cityResult = lookupCity(trimmed, getCityToCountyMap());
-  if (cityResult) add(cityResult);
+  const countyResults = searchCountyNames(trimmed, counties, limit);
+  const exactNamesakeCounty = countyResults.find(
+    (r) =>
+      r.confidence === "exact" &&
+      r.displayName.toLowerCase() === `${trimmed.toLowerCase()} county`
+  );
 
-  for (const countyResult of searchCountyNames(trimmed, counties, limit)) {
+  const preferCityFirst =
+    cityResult &&
+    exactNamesakeCounty &&
+    exactNamesakeCounty.countyFips !== cityResult.countyFips &&
+    !trimmed.toLowerCase().includes("county");
+
+  if (preferCityFirst && cityResult) {
+    add(cityResult);
+  }
+
+  for (const countyResult of countyResults) {
     add(countyResult);
+  }
+
+  if (cityResult && !preferCityFirst) {
+    add(cityResult);
   }
 
   return results.slice(0, limit);
