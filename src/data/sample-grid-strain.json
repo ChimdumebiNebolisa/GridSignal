@@ -1,0 +1,9 @@
+{
+  "region": "ERCOT",
+  "currentDemandMw": null,
+  "forecastPeakDemandMw": null,
+  "gridStrainScore": 50,
+  "fetchedAt": "2026-05-23T04:42:54.611Z",
+  "quality": "estimated",
+  "explanation": "Neutral statewide grid strain fallback used when EIA data is unavailable. This is a balancing-authority-level signal, not county-level grid reliability."
+}

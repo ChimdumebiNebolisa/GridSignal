@@ -1,0 +1,1526 @@
+[
+  {
+    "countyFips": "48001",
+    "countyName": "Anderson County",
+    "centroidLat": 31.7833,
+    "centroidLon": -95.7268
+  },
+  {
+    "countyFips": "48003",
+    "countyName": "Andrews County",
+    "centroidLat": 32.1941,
+    "centroidLon": -102.6726
+  },
+  {
+    "countyFips": "48005",
+    "countyName": "Angelina County",
+    "centroidLat": 31.3649,
+    "centroidLon": -94.8418
+  },
+  {
+    "countyFips": "48007",
+    "countyName": "Aransas County",
+    "centroidLat": 28.0707,
+    "centroidLon": -96.9519
+  },
+  {
+    "countyFips": "48009",
+    "countyName": "Archer County",
+    "centroidLat": 33.6512,
+    "centroidLon": -98.6614
+  },
+  {
+    "countyFips": "48011",
+    "countyName": "Armstrong County",
+    "centroidLat": 34.8723,
+    "centroidLon": -101.4288
+  },
+  {
+    "countyFips": "48013",
+    "countyName": "Atascosa County",
+    "centroidLat": 28.8328,
+    "centroidLon": -98.5379
+  },
+  {
+    "countyFips": "48015",
+    "countyName": "Austin County",
+    "centroidLat": 29.8579,
+    "centroidLon": -96.2481
+  },
+  {
+    "countyFips": "48017",
+    "countyName": "Bailey County",
+    "centroidLat": 34.0631,
+    "centroidLon": -103.0085
+  },
+  {
+    "countyFips": "48019",
+    "countyName": "Bandera County",
+    "centroidLat": 29.7236,
+    "centroidLon": -99.1828
+  },
+  {
+    "countyFips": "48021",
+    "countyName": "Bastrop County",
+    "centroidLat": 30.1938,
+    "centroidLon": -97.3297
+  },
+  {
+    "countyFips": "48023",
+    "countyName": "Baylor County",
+    "centroidLat": 33.6721,
+    "centroidLon": -99.3009
+  },
+  {
+    "countyFips": "48025",
+    "countyName": "Bee County",
+    "centroidLat": 28.4369,
+    "centroidLon": -97.6986
+  },
+  {
+    "countyFips": "48027",
+    "countyName": "Bell County",
+    "centroidLat": 31.0257,
+    "centroidLon": -97.5217
+  },
+  {
+    "countyFips": "48029",
+    "countyName": "Bexar County",
+    "centroidLat": 29.5278,
+    "centroidLon": -98.4123
+  },
+  {
+    "countyFips": "48031",
+    "countyName": "Blanco County",
+    "centroidLat": 30.3205,
+    "centroidLon": -98.3938
+  },
+  {
+    "countyFips": "48033",
+    "countyName": "Borden County",
+    "centroidLat": 32.7753,
+    "centroidLon": -101.3762
+  },
+  {
+    "countyFips": "48035",
+    "countyName": "Bosque County",
+    "centroidLat": 31.9085,
+    "centroidLon": -97.5622
+  },
+  {
+    "countyFips": "48037",
+    "countyName": "Bowie County",
+    "centroidLat": 33.4779,
+    "centroidLon": -94.2934
+  },
+  {
+    "countyFips": "48039",
+    "countyName": "Brazoria County",
+    "centroidLat": 29.2482,
+    "centroidLon": -95.3919
+  },
+  {
+    "countyFips": "48041",
+    "countyName": "Brazos County",
+    "centroidLat": 30.5531,
+    "centroidLon": -96.3432
+  },
+  {
+    "countyFips": "48043",
+    "countyName": "Brewster County",
+    "centroidLat": 29.4775,
+    "centroidLon": -103.0294
+  },
+  {
+    "countyFips": "48045",
+    "countyName": "Briscoe County",
+    "centroidLat": 34.4577,
+    "centroidLon": -101.1046
+  },
+  {
+    "countyFips": "48047",
+    "countyName": "Brooks County",
+    "centroidLat": 27.0866,
+    "centroidLon": -98.2853
+  },
+  {
+    "countyFips": "48049",
+    "countyName": "Brown County",
+    "centroidLat": 31.8239,
+    "centroidLon": -99.0104
+  },
+  {
+    "countyFips": "48051",
+    "countyName": "Burleson County",
+    "centroidLat": 30.4981,
+    "centroidLon": -96.4343
+  },
+  {
+    "countyFips": "48053",
+    "countyName": "Burnet County",
+    "centroidLat": 30.7799,
+    "centroidLon": -98.174
+  },
+  {
+    "countyFips": "48055",
+    "countyName": "Caldwell County",
+    "centroidLat": 29.8579,
+    "centroidLon": -97.6112
+  },
+  {
+    "countyFips": "48057",
+    "countyName": "Calhoun County",
+    "centroidLat": 28.4214,
+    "centroidLon": -96.6034
+  },
+  {
+    "countyFips": "48059",
+    "countyName": "Callahan County",
+    "centroidLat": 32.2247,
+    "centroidLon": -99.3079
+  },
+  {
+    "countyFips": "48061",
+    "countyName": "Cameron County",
+    "centroidLat": 26.1568,
+    "centroidLon": -97.3644
+  },
+  {
+    "countyFips": "48063",
+    "countyName": "Camp County",
+    "centroidLat": 32.9925,
+    "centroidLon": -95.0549
+  },
+  {
+    "countyFips": "48065",
+    "countyName": "Carson County",
+    "centroidLat": 35.4572,
+    "centroidLon": -101.3545
+  },
+  {
+    "countyFips": "48067",
+    "countyName": "Cass County",
+    "centroidLat": 33.1277,
+    "centroidLon": -94.1539
+  },
+  {
+    "countyFips": "48069",
+    "countyName": "Castro County",
+    "centroidLat": 34.5613,
+    "centroidLon": -102.2108
+  },
+  {
+    "countyFips": "48071",
+    "countyName": "Chambers County",
+    "centroidLat": 29.6033,
+    "centroidLon": -94.6893
+  },
+  {
+    "countyFips": "48073",
+    "countyName": "Cherokee County",
+    "centroidLat": 31.7636,
+    "centroidLon": -95.1592
+  },
+  {
+    "countyFips": "48075",
+    "countyName": "Childress County",
+    "centroidLat": 34.5139,
+    "centroidLon": -100.1032
+  },
+  {
+    "countyFips": "48077",
+    "countyName": "Clay County",
+    "centroidLat": 33.9554,
+    "centroidLon": -98.2046
+  },
+  {
+    "countyFips": "48079",
+    "countyName": "Cochran County",
+    "centroidLat": 33.6365,
+    "centroidLon": -102.9876
+  },
+  {
+    "countyFips": "48081",
+    "countyName": "Coke County",
+    "centroidLat": 31.8894,
+    "centroidLon": -100.5032
+  },
+  {
+    "countyFips": "48083",
+    "countyName": "Coleman County",
+    "centroidLat": 31.6637,
+    "centroidLon": -99.502
+  },
+  {
+    "countyFips": "48085",
+    "countyName": "Collin County",
+    "centroidLat": 33.1168,
+    "centroidLon": -96.6253
+  },
+  {
+    "countyFips": "48087",
+    "countyName": "Collingsworth County",
+    "centroidLat": 34.9072,
+    "centroidLon": -100.2265
+  },
+  {
+    "countyFips": "48089",
+    "countyName": "Colorado County",
+    "centroidLat": 29.525,
+    "centroidLon": -96.5391
+  },
+  {
+    "countyFips": "48091",
+    "countyName": "Comal County",
+    "centroidLat": 29.7639,
+    "centroidLon": -98.3529
+  },
+  {
+    "countyFips": "48093",
+    "countyName": "Comanche County",
+    "centroidLat": 31.9106,
+    "centroidLon": -98.4698
+  },
+  {
+    "countyFips": "48095",
+    "countyName": "Concho County",
+    "centroidLat": 31.4008,
+    "centroidLon": -99.8774
+  },
+  {
+    "countyFips": "48097",
+    "countyName": "Cooke County",
+    "centroidLat": 33.7761,
+    "centroidLon": -97.2322
+  },
+  {
+    "countyFips": "48099",
+    "countyName": "Coryell County",
+    "centroidLat": 31.4996,
+    "centroidLon": -97.7619
+  },
+  {
+    "countyFips": "48101",
+    "countyName": "Cottle County",
+    "centroidLat": 34.2144,
+    "centroidLon": -100.2114
+  },
+  {
+    "countyFips": "48103",
+    "countyName": "Crane County",
+    "centroidLat": 31.3981,
+    "centroidLon": -102.576
+  },
+  {
+    "countyFips": "48105",
+    "countyName": "Crockett County",
+    "centroidLat": 30.7361,
+    "centroidLon": -101.6863
+  },
+  {
+    "countyFips": "48107",
+    "countyName": "Crosby County",
+    "centroidLat": 33.6573,
+    "centroidLon": -101.3528
+  },
+  {
+    "countyFips": "48109",
+    "countyName": "Culberson County",
+    "centroidLat": 31.6488,
+    "centroidLon": -104.6096
+  },
+  {
+    "countyFips": "48111",
+    "countyName": "Dallam County",
+    "centroidLat": 36.3582,
+    "centroidLon": -102.6466
+  },
+  {
+    "countyFips": "48113",
+    "countyName": "Dallas County",
+    "centroidLat": 32.8764,
+    "centroidLon": -96.7473
+  },
+  {
+    "countyFips": "48115",
+    "countyName": "Dawson County",
+    "centroidLat": 32.8147,
+    "centroidLon": -102.0127
+  },
+  {
+    "countyFips": "48117",
+    "countyName": "Deaf Smith County",
+    "centroidLat": 35.0305,
+    "centroidLon": -102.9166
+  },
+  {
+    "countyFips": "48119",
+    "countyName": "Delta County",
+    "centroidLat": 33.3785,
+    "centroidLon": -95.5876
+  },
+  {
+    "countyFips": "48121",
+    "countyName": "Denton County",
+    "centroidLat": 33.139,
+    "centroidLon": -97.0797
+  },
+  {
+    "countyFips": "48123",
+    "countyName": "DeWitt County",
+    "centroidLat": 29.0027,
+    "centroidLon": -97.4322
+  },
+  {
+    "countyFips": "48125",
+    "countyName": "Dickens County",
+    "centroidLat": 33.6596,
+    "centroidLon": -100.8314
+  },
+  {
+    "countyFips": "48127",
+    "countyName": "Dimmit County",
+    "centroidLat": 28.4967,
+    "centroidLon": -99.7569
+  },
+  {
+    "countyFips": "48129",
+    "countyName": "Donley County",
+    "centroidLat": 34.9347,
+    "centroidLon": -100.7545
+  },
+  {
+    "countyFips": "48131",
+    "countyName": "Duval County",
+    "centroidLat": 27.594,
+    "centroidLon": -98.531
+  },
+  {
+    "countyFips": "48133",
+    "countyName": "Eastland County",
+    "centroidLat": 32.3405,
+    "centroidLon": -98.7487
+  },
+  {
+    "countyFips": "48135",
+    "countyName": "Ector County",
+    "centroidLat": 31.8145,
+    "centroidLon": -102.5432
+  },
+  {
+    "countyFips": "48137",
+    "countyName": "Edwards County",
+    "centroidLat": 30.0293,
+    "centroidLon": -100.1742
+  },
+  {
+    "countyFips": "48139",
+    "countyName": "Ellis County",
+    "centroidLat": 32.3971,
+    "centroidLon": -96.8601
+  },
+  {
+    "countyFips": "48141",
+    "countyName": "El Paso County",
+    "centroidLat": 31.7851,
+    "centroidLon": -106.4231
+  },
+  {
+    "countyFips": "48143",
+    "countyName": "Erath County",
+    "centroidLat": 32.1848,
+    "centroidLon": -98.1716
+  },
+  {
+    "countyFips": "48145",
+    "countyName": "Falls County",
+    "centroidLat": 31.1835,
+    "centroidLon": -96.9409
+  },
+  {
+    "countyFips": "48147",
+    "countyName": "Fannin County",
+    "centroidLat": 33.6838,
+    "centroidLon": -96.1884
+  },
+  {
+    "countyFips": "48149",
+    "countyName": "Fayette County",
+    "centroidLat": 29.8777,
+    "centroidLon": -96.9639
+  },
+  {
+    "countyFips": "48151",
+    "countyName": "Fisher County",
+    "centroidLat": 32.7116,
+    "centroidLon": -100.3789
+  },
+  {
+    "countyFips": "48153",
+    "countyName": "Floyd County",
+    "centroidLat": 34.1523,
+    "centroidLon": -101.359
+  },
+  {
+    "countyFips": "48155",
+    "countyName": "Foard County",
+    "centroidLat": 33.9798,
+    "centroidLon": -99.7229
+  },
+  {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County",
+    "centroidLat": 29.5192,
+    "centroidLon": -95.7374
+  },
+  {
+    "countyFips": "48159",
+    "countyName": "Franklin County",
+    "centroidLat": 33.1532,
+    "centroidLon": -95.1915
+  },
+  {
+    "countyFips": "48161",
+    "countyName": "Freestone County",
+    "centroidLat": 31.8131,
+    "centroidLon": -96.0531
+  },
+  {
+    "countyFips": "48163",
+    "countyName": "Frio County",
+    "centroidLat": 28.8668,
+    "centroidLon": -99.1049
+  },
+  {
+    "countyFips": "48165",
+    "countyName": "Gaines County",
+    "centroidLat": 32.7588,
+    "centroidLon": -102.9204
+  },
+  {
+    "countyFips": "48167",
+    "countyName": "Galveston County",
+    "centroidLat": 29.4371,
+    "centroidLon": -94.8319
+  },
+  {
+    "countyFips": "48169",
+    "countyName": "Garza County",
+    "centroidLat": 33.1095,
+    "centroidLon": -101.234
+  },
+  {
+    "countyFips": "48171",
+    "countyName": "Gillespie County",
+    "centroidLat": 30.2918,
+    "centroidLon": -98.9863
+  },
+  {
+    "countyFips": "48173",
+    "countyName": "Glasscock County",
+    "centroidLat": 31.8691,
+    "centroidLon": -101.5076
+  },
+  {
+    "countyFips": "48175",
+    "countyName": "Goliad County",
+    "centroidLat": 28.6553,
+    "centroidLon": -97.4245
+  },
+  {
+    "countyFips": "48177",
+    "countyName": "Gonzales County",
+    "centroidLat": 29.479,
+    "centroidLon": -97.4623
+  },
+  {
+    "countyFips": "48179",
+    "countyName": "Gray County",
+    "centroidLat": 35.4446,
+    "centroidLon": -100.8675
+  },
+  {
+    "countyFips": "48181",
+    "countyName": "Grayson County",
+    "centroidLat": 33.8215,
+    "centroidLon": -96.6882
+  },
+  {
+    "countyFips": "48183",
+    "countyName": "Gregg County",
+    "centroidLat": 32.4462,
+    "centroidLon": -94.7964
+  },
+  {
+    "countyFips": "48185",
+    "countyName": "Grimes County",
+    "centroidLat": 30.401,
+    "centroidLon": -95.9727
+  },
+  {
+    "countyFips": "48187",
+    "countyName": "Guadalupe County",
+    "centroidLat": 29.5734,
+    "centroidLon": -98.0402
+  },
+  {
+    "countyFips": "48189",
+    "countyName": "Hale County",
+    "centroidLat": 34.1511,
+    "centroidLon": -101.8834
+  },
+  {
+    "countyFips": "48191",
+    "countyName": "Hall County",
+    "centroidLat": 34.5066,
+    "centroidLon": -100.5775
+  },
+  {
+    "countyFips": "48193",
+    "countyName": "Hamilton County",
+    "centroidLat": 31.6847,
+    "centroidLon": -98.154
+  },
+  {
+    "countyFips": "48195",
+    "countyName": "Hansford County",
+    "centroidLat": 36.2777,
+    "centroidLon": -101.2649
+  },
+  {
+    "countyFips": "48197",
+    "countyName": "Hardeman County",
+    "centroidLat": 34.3903,
+    "centroidLon": -99.7751
+  },
+  {
+    "countyFips": "48199",
+    "countyName": "Hardin County",
+    "centroidLat": 30.3299,
+    "centroidLon": -94.3398
+  },
+  {
+    "countyFips": "48201",
+    "countyName": "Harris County",
+    "centroidLat": 29.7004,
+    "centroidLon": -95.1677
+  },
+  {
+    "countyFips": "48203",
+    "countyName": "Harrison County",
+    "centroidLat": 32.5309,
+    "centroidLon": -94.182
+  },
+  {
+    "countyFips": "48205",
+    "countyName": "Hartley County",
+    "centroidLat": 35.8592,
+    "centroidLon": -102.6021
+  },
+  {
+    "countyFips": "48207",
+    "countyName": "Haskell County",
+    "centroidLat": 33.1783,
+    "centroidLon": -99.668
+  },
+  {
+    "countyFips": "48209",
+    "countyName": "Hays County",
+    "centroidLat": 30.04,
+    "centroidLon": -98.0182
+  },
+  {
+    "countyFips": "48211",
+    "countyName": "Hemphill County",
+    "centroidLat": 35.8813,
+    "centroidLon": -100.2703
+  },
+  {
+    "countyFips": "48213",
+    "countyName": "Henderson County",
+    "centroidLat": 32.1868,
+    "centroidLon": -95.8119
+  },
+  {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County",
+    "centroidLat": 26.2911,
+    "centroidLon": -98.1518
+  },
+  {
+    "countyFips": "48217",
+    "countyName": "Hill County",
+    "centroidLat": 31.9216,
+    "centroidLon": -97.1322
+  },
+  {
+    "countyFips": "48219",
+    "countyName": "Hockley County",
+    "centroidLat": 33.5635,
+    "centroidLon": -102.2896
+  },
+  {
+    "countyFips": "48221",
+    "countyName": "Hood County",
+    "centroidLat": 32.3897,
+    "centroidLon": -97.8631
+  },
+  {
+    "countyFips": "48223",
+    "countyName": "Hopkins County",
+    "centroidLat": 33.1511,
+    "centroidLon": -95.6362
+  },
+  {
+    "countyFips": "48225",
+    "countyName": "Houston County",
+    "centroidLat": 31.372,
+    "centroidLon": -95.1762
+  },
+  {
+    "countyFips": "48227",
+    "countyName": "Howard County",
+    "centroidLat": 32.3061,
+    "centroidLon": -101.4492
+  },
+  {
+    "countyFips": "48229",
+    "countyName": "Hudspeth County",
+    "centroidLat": 31.3698,
+    "centroidLon": -105.3901
+  },
+  {
+    "countyFips": "48231",
+    "countyName": "Hunt County",
+    "centroidLat": 33.0131,
+    "centroidLon": -96.0481
+  },
+  {
+    "countyFips": "48233",
+    "countyName": "Hutchinson County",
+    "centroidLat": 35.7971,
+    "centroidLon": -101.3008
+  },
+  {
+    "countyFips": "48235",
+    "countyName": "Irion County",
+    "centroidLat": 31.3058,
+    "centroidLon": -101.0028
+  },
+  {
+    "countyFips": "48237",
+    "countyName": "Jack County",
+    "centroidLat": 33.2975,
+    "centroidLon": -98.1224
+  },
+  {
+    "countyFips": "48239",
+    "countyName": "Jackson County",
+    "centroidLat": 28.8483,
+    "centroidLon": -96.5984
+  },
+  {
+    "countyFips": "48241",
+    "countyName": "Jasper County",
+    "centroidLat": 30.7891,
+    "centroidLon": -94.1356
+  },
+  {
+    "countyFips": "48243",
+    "countyName": "Jeff Davis County",
+    "centroidLat": 30.6548,
+    "centroidLon": -104.2825
+  },
+  {
+    "countyFips": "48245",
+    "countyName": "Jefferson County",
+    "centroidLat": 29.8383,
+    "centroidLon": -94.087
+  },
+  {
+    "countyFips": "48247",
+    "countyName": "Jim Hogg County",
+    "centroidLat": 27.1091,
+    "centroidLon": -98.6641
+  },
+  {
+    "countyFips": "48249",
+    "countyName": "Jim Wells County",
+    "centroidLat": 27.6726,
+    "centroidLon": -98.0418
+  },
+  {
+    "countyFips": "48251",
+    "countyName": "Johnson County",
+    "centroidLat": 32.3254,
+    "centroidLon": -97.4488
+  },
+  {
+    "countyFips": "48253",
+    "countyName": "Jones County",
+    "centroidLat": 32.7387,
+    "centroidLon": -99.844
+  },
+  {
+    "countyFips": "48255",
+    "countyName": "Karnes County",
+    "centroidLat": 28.8686,
+    "centroidLon": -97.8758
+  },
+  {
+    "countyFips": "48257",
+    "countyName": "Kaufman County",
+    "centroidLat": 32.6497,
+    "centroidLon": -96.3378
+  },
+  {
+    "countyFips": "48259",
+    "countyName": "Kendall County",
+    "centroidLat": 29.8567,
+    "centroidLon": -98.7342
+  },
+  {
+    "countyFips": "48261",
+    "countyName": "Kenedy County",
+    "centroidLat": 26.8704,
+    "centroidLon": -97.4301
+  },
+  {
+    "countyFips": "48263",
+    "countyName": "Kent County",
+    "centroidLat": 33.1092,
+    "centroidLon": -100.7376
+  },
+  {
+    "countyFips": "48265",
+    "countyName": "Kerr County",
+    "centroidLat": 30.0514,
+    "centroidLon": -99.4426
+  },
+  {
+    "countyFips": "48267",
+    "countyName": "Kimble County",
+    "centroidLat": 30.4474,
+    "centroidLon": -99.6644
+  },
+  {
+    "countyFips": "48269",
+    "countyName": "King County",
+    "centroidLat": 33.6898,
+    "centroidLon": -100.2651
+  },
+  {
+    "countyFips": "48271",
+    "countyName": "Kinney County",
+    "centroidLat": 29.2602,
+    "centroidLon": -100.584
+  },
+  {
+    "countyFips": "48273",
+    "countyName": "Kleberg County",
+    "centroidLat": 27.5033,
+    "centroidLon": -97.3547
+  },
+  {
+    "countyFips": "48275",
+    "countyName": "Knox County",
+    "centroidLat": 33.6748,
+    "centroidLon": -99.692
+  },
+  {
+    "countyFips": "48277",
+    "countyName": "Lamar County",
+    "centroidLat": 33.7725,
+    "centroidLon": -95.6064
+  },
+  {
+    "countyFips": "48279",
+    "countyName": "Lamb County",
+    "centroidLat": 34.1503,
+    "centroidLon": -102.4097
+  },
+  {
+    "countyFips": "48281",
+    "countyName": "Lampasas County",
+    "centroidLat": 31.1996,
+    "centroidLon": -98.2772
+  },
+  {
+    "countyFips": "48283",
+    "countyName": "La Salle County",
+    "centroidLat": 28.3265,
+    "centroidLon": -99.0553
+  },
+  {
+    "countyFips": "48285",
+    "countyName": "Lavaca County",
+    "centroidLat": 29.2963,
+    "centroidLon": -96.9361
+  },
+  {
+    "countyFips": "48287",
+    "countyName": "Lee County",
+    "centroidLat": 30.2475,
+    "centroidLon": -96.9633
+  },
+  {
+    "countyFips": "48289",
+    "countyName": "Leon County",
+    "centroidLat": 31.3302,
+    "centroidLon": -96.0309
+  },
+  {
+    "countyFips": "48291",
+    "countyName": "Liberty County",
+    "centroidLat": 30.2157,
+    "centroidLon": -94.8519
+  },
+  {
+    "countyFips": "48293",
+    "countyName": "Limestone County",
+    "centroidLat": 31.5282,
+    "centroidLon": -96.5183
+  },
+  {
+    "countyFips": "48295",
+    "countyName": "Lipscomb County",
+    "centroidLat": 36.4423,
+    "centroidLon": -100.3701
+  },
+  {
+    "countyFips": "48297",
+    "countyName": "Live Oak County",
+    "centroidLat": 28.3143,
+    "centroidLon": -98.0359
+  },
+  {
+    "countyFips": "48299",
+    "countyName": "Llano County",
+    "centroidLat": 30.6553,
+    "centroidLon": -98.6064
+  },
+  {
+    "countyFips": "48301",
+    "countyName": "Loving County",
+    "centroidLat": 31.8538,
+    "centroidLon": -103.6432
+  },
+  {
+    "countyFips": "48303",
+    "countyName": "Lubbock County",
+    "centroidLat": 33.654,
+    "centroidLon": -101.7691
+  },
+  {
+    "countyFips": "48305",
+    "countyName": "Lynn County",
+    "centroidLat": 33.1047,
+    "centroidLon": -101.7525
+  },
+  {
+    "countyFips": "48307",
+    "countyName": "McCulloch County",
+    "centroidLat": 31.2821,
+    "centroidLon": -99.4102
+  },
+  {
+    "countyFips": "48309",
+    "countyName": "McLennan County",
+    "centroidLat": 31.5393,
+    "centroidLon": -97.2075
+  },
+  {
+    "countyFips": "48311",
+    "countyName": "McMullen County",
+    "centroidLat": 28.3469,
+    "centroidLon": -98.4905
+  },
+  {
+    "countyFips": "48313",
+    "countyName": "Madison County",
+    "centroidLat": 30.9754,
+    "centroidLon": -95.8435
+  },
+  {
+    "countyFips": "48315",
+    "countyName": "Marion County",
+    "centroidLat": 32.8061,
+    "centroidLon": -94.2057
+  },
+  {
+    "countyFips": "48317",
+    "countyName": "Martin County",
+    "centroidLat": 32.3366,
+    "centroidLon": -101.9994
+  },
+  {
+    "countyFips": "48319",
+    "countyName": "Mason County",
+    "centroidLat": 30.7356,
+    "centroidLon": -99.1799
+  },
+  {
+    "countyFips": "48321",
+    "countyName": "Matagorda County",
+    "centroidLat": 28.6287,
+    "centroidLon": -96.1411
+  },
+  {
+    "countyFips": "48323",
+    "countyName": "Maverick County",
+    "centroidLat": 28.6753,
+    "centroidLon": -100.4377
+  },
+  {
+    "countyFips": "48325",
+    "countyName": "Medina County",
+    "centroidLat": 29.3784,
+    "centroidLon": -98.9947
+  },
+  {
+    "countyFips": "48327",
+    "countyName": "Menard County",
+    "centroidLat": 30.938,
+    "centroidLon": -99.7889
+  },
+  {
+    "countyFips": "48329",
+    "countyName": "Midland County",
+    "centroidLat": 31.8691,
+    "centroidLon": -102.0189
+  },
+  {
+    "countyFips": "48331",
+    "countyName": "Milam County",
+    "centroidLat": 30.832,
+    "centroidLon": -96.9514
+  },
+  {
+    "countyFips": "48333",
+    "countyName": "Mills County",
+    "centroidLat": 31.4921,
+    "centroidLon": -98.6552
+  },
+  {
+    "countyFips": "48335",
+    "countyName": "Mitchell County",
+    "centroidLat": 32.3427,
+    "centroidLon": -100.8754
+  },
+  {
+    "countyFips": "48337",
+    "countyName": "Montague County",
+    "centroidLat": 33.8459,
+    "centroidLon": -97.675
+  },
+  {
+    "countyFips": "48339",
+    "countyName": "Montgomery County",
+    "centroidLat": 30.2757,
+    "centroidLon": -95.4889
+  },
+  {
+    "countyFips": "48341",
+    "countyName": "Moore County",
+    "centroidLat": 35.7314,
+    "centroidLon": -101.8929
+  },
+  {
+    "countyFips": "48343",
+    "countyName": "Morris County",
+    "centroidLat": 33.0729,
+    "centroidLon": -94.728
+  },
+  {
+    "countyFips": "48345",
+    "countyName": "Motley County",
+    "centroidLat": 34.1334,
+    "centroidLon": -100.88
+  },
+  {
+    "countyFips": "48347",
+    "countyName": "Nacogdoches County",
+    "centroidLat": 31.5251,
+    "centroidLon": -94.5716
+  },
+  {
+    "countyFips": "48349",
+    "countyName": "Navarro County",
+    "centroidLat": 32.0373,
+    "centroidLon": -96.5088
+  },
+  {
+    "countyFips": "48351",
+    "countyName": "Newton County",
+    "centroidLat": 30.759,
+    "centroidLon": -93.6601
+  },
+  {
+    "countyFips": "48353",
+    "countyName": "Nolan County",
+    "centroidLat": 32.286,
+    "centroidLon": -100.4458
+  },
+  {
+    "countyFips": "48355",
+    "countyName": "Nueces County",
+    "centroidLat": 27.7388,
+    "centroidLon": -97.4524
+  },
+  {
+    "countyFips": "48357",
+    "countyName": "Ochiltree County",
+    "centroidLat": 36.4763,
+    "centroidLon": -100.7771
+  },
+  {
+    "countyFips": "48359",
+    "countyName": "Oldham County",
+    "centroidLat": 35.4071,
+    "centroidLon": -102.6031
+  },
+  {
+    "countyFips": "48361",
+    "countyName": "Orange County",
+    "centroidLat": 30.101,
+    "centroidLon": -93.826
+  },
+  {
+    "countyFips": "48363",
+    "countyName": "Palo Pinto County",
+    "centroidLat": 32.6873,
+    "centroidLon": -98.3925
+  },
+  {
+    "countyFips": "48365",
+    "countyName": "Panola County",
+    "centroidLat": 32.1769,
+    "centroidLon": -94.1741
+  },
+  {
+    "countyFips": "48367",
+    "countyName": "Parker County",
+    "centroidLat": 32.8042,
+    "centroidLon": -97.7107
+  },
+  {
+    "countyFips": "48369",
+    "countyName": "Parmer County",
+    "centroidLat": 34.4516,
+    "centroidLon": -102.9643
+  },
+  {
+    "countyFips": "48371",
+    "countyName": "Pecos County",
+    "centroidLat": 30.7694,
+    "centroidLon": -102.3198
+  },
+  {
+    "countyFips": "48373",
+    "countyName": "Polk County",
+    "centroidLat": 30.749,
+    "centroidLon": -94.8793
+  },
+  {
+    "countyFips": "48375",
+    "countyName": "Potter County",
+    "centroidLat": 35.329,
+    "centroidLon": -101.8036
+  },
+  {
+    "countyFips": "48377",
+    "countyName": "Presidio County",
+    "centroidLat": 29.9186,
+    "centroidLon": -104.4396
+  },
+  {
+    "countyFips": "48379",
+    "countyName": "Rains County",
+    "centroidLat": 32.8852,
+    "centroidLon": -95.8156
+  },
+  {
+    "countyFips": "48381",
+    "countyName": "Randall County",
+    "centroidLat": 34.8724,
+    "centroidLon": -101.9122
+  },
+  {
+    "countyFips": "48383",
+    "countyName": "Reagan County",
+    "centroidLat": 31.4433,
+    "centroidLon": -101.4139
+  },
+  {
+    "countyFips": "48385",
+    "countyName": "Real County",
+    "centroidLat": 29.9119,
+    "centroidLon": -99.7716
+  },
+  {
+    "countyFips": "48387",
+    "countyName": "Red River County",
+    "centroidLat": 33.7696,
+    "centroidLon": -95.1073
+  },
+  {
+    "countyFips": "48389",
+    "countyName": "Reeves County",
+    "centroidLat": 31.6309,
+    "centroidLon": -103.7141
+  },
+  {
+    "countyFips": "48391",
+    "countyName": "Refugio County",
+    "centroidLat": 28.3328,
+    "centroidLon": -96.9627
+  },
+  {
+    "countyFips": "48393",
+    "countyName": "Roberts County",
+    "centroidLat": 35.8386,
+    "centroidLon": -100.8138
+  },
+  {
+    "countyFips": "48395",
+    "countyName": "Robertson County",
+    "centroidLat": 30.9221,
+    "centroidLon": -96.5071
+  },
+  {
+    "countyFips": "48397",
+    "countyName": "Rockwall County",
+    "centroidLat": 32.8766,
+    "centroidLon": -96.4447
+  },
+  {
+    "countyFips": "48399",
+    "countyName": "Runnels County",
+    "centroidLat": 31.7972,
+    "centroidLon": -100.08
+  },
+  {
+    "countyFips": "48401",
+    "countyName": "Rusk County",
+    "centroidLat": 32.1198,
+    "centroidLon": -94.6769
+  },
+  {
+    "countyFips": "48403",
+    "countyName": "Sabine County",
+    "centroidLat": 31.3309,
+    "centroidLon": -93.7617
+  },
+  {
+    "countyFips": "48405",
+    "countyName": "San Augustine County",
+    "centroidLat": 31.406,
+    "centroidLon": -94.1975
+  },
+  {
+    "countyFips": "48407",
+    "countyName": "San Jacinto County",
+    "centroidLat": 30.5947,
+    "centroidLon": -95.1033
+  },
+  {
+    "countyFips": "48409",
+    "countyName": "San Patricio County",
+    "centroidLat": 27.8939,
+    "centroidLon": -97.3127
+  },
+  {
+    "countyFips": "48411",
+    "countyName": "San Saba County",
+    "centroidLat": 31.2172,
+    "centroidLon": -98.7711
+  },
+  {
+    "countyFips": "48413",
+    "countyName": "Schleicher County",
+    "centroidLat": 30.87,
+    "centroidLon": -100.5441
+  },
+  {
+    "countyFips": "48415",
+    "countyName": "Scurry County",
+    "centroidLat": 32.8201,
+    "centroidLon": -100.957
+  },
+  {
+    "countyFips": "48417",
+    "countyName": "Shackelford County",
+    "centroidLat": 32.7043,
+    "centroidLon": -99.2997
+  },
+  {
+    "countyFips": "48419",
+    "countyName": "Shelby County",
+    "centroidLat": 31.7776,
+    "centroidLon": -94.0292
+  },
+  {
+    "countyFips": "48421",
+    "countyName": "Sherman County",
+    "centroidLat": 36.4503,
+    "centroidLon": -101.8449
+  },
+  {
+    "countyFips": "48423",
+    "countyName": "Smith County",
+    "centroidLat": 32.4122,
+    "centroidLon": -95.2601
+  },
+  {
+    "countyFips": "48425",
+    "countyName": "Somervell County",
+    "centroidLat": 32.2098,
+    "centroidLon": -97.8041
+  },
+  {
+    "countyFips": "48427",
+    "countyName": "Starr County",
+    "centroidLat": 26.4812,
+    "centroidLon": -98.7389
+  },
+  {
+    "countyFips": "48429",
+    "countyName": "Stephens County",
+    "centroidLat": 32.8088,
+    "centroidLon": -98.8117
+  },
+  {
+    "countyFips": "48431",
+    "countyName": "Sterling County",
+    "centroidLat": 31.8354,
+    "centroidLon": -101.0198
+  },
+  {
+    "countyFips": "48433",
+    "countyName": "Stonewall County",
+    "centroidLat": 33.1064,
+    "centroidLon": -100.1916
+  },
+  {
+    "countyFips": "48435",
+    "countyName": "Sutton County",
+    "centroidLat": 30.498,
+    "centroidLon": -100.6307
+  },
+  {
+    "countyFips": "48437",
+    "countyName": "Swisher County",
+    "centroidLat": 34.4991,
+    "centroidLon": -101.6579
+  },
+  {
+    "countyFips": "48439",
+    "countyName": "Tarrant County",
+    "centroidLat": 32.8124,
+    "centroidLon": -97.2994
+  },
+  {
+    "countyFips": "48441",
+    "countyName": "Taylor County",
+    "centroidLat": 32.2693,
+    "centroidLon": -99.7906
+  },
+  {
+    "countyFips": "48443",
+    "countyName": "Terrell County",
+    "centroidLat": 30.2901,
+    "centroidLon": -102.0053
+  },
+  {
+    "countyFips": "48445",
+    "countyName": "Terry County",
+    "centroidLat": 33.1024,
+    "centroidLon": -102.2932
+  },
+  {
+    "countyFips": "48447",
+    "countyName": "Throckmorton County",
+    "centroidLat": 33.1778,
+    "centroidLon": -99.2362
+  },
+  {
+    "countyFips": "48449",
+    "countyName": "Titus County",
+    "centroidLat": 33.2049,
+    "centroidLon": -94.9887
+  },
+  {
+    "countyFips": "48451",
+    "countyName": "Tom Green County",
+    "centroidLat": 31.4824,
+    "centroidLon": -100.7359
+  },
+  {
+    "countyFips": "48453",
+    "countyName": "Travis County",
+    "centroidLat": 30.3423,
+    "centroidLon": -97.7265
+  },
+  {
+    "countyFips": "48455",
+    "countyName": "Trinity County",
+    "centroidLat": 31.0528,
+    "centroidLon": -95.1365
+  },
+  {
+    "countyFips": "48457",
+    "countyName": "Tyler County",
+    "centroidLat": 30.8138,
+    "centroidLon": -94.3153
+  },
+  {
+    "countyFips": "48459",
+    "countyName": "Upshur County",
+    "centroidLat": 32.7602,
+    "centroidLon": -94.8701
+  },
+  {
+    "countyFips": "48461",
+    "countyName": "Upton County",
+    "centroidLat": 31.4889,
+    "centroidLon": -102.1522
+  },
+  {
+    "countyFips": "48463",
+    "countyName": "Uvalde County",
+    "centroidLat": 29.4718,
+    "centroidLon": -99.8255
+  },
+  {
+    "countyFips": "48465",
+    "countyName": "Val Verde County",
+    "centroidLat": 29.6319,
+    "centroidLon": -101.1732
+  },
+  {
+    "countyFips": "48467",
+    "countyName": "Van Zandt County",
+    "centroidLat": 32.6497,
+    "centroidLon": -95.7591
+  },
+  {
+    "countyFips": "48469",
+    "countyName": "Victoria County",
+    "centroidLat": 28.7936,
+    "centroidLon": -96.9288
+  },
+  {
+    "countyFips": "48471",
+    "countyName": "Walker County",
+    "centroidLat": 30.8386,
+    "centroidLon": -95.5335
+  },
+  {
+    "countyFips": "48473",
+    "countyName": "Waller County",
+    "centroidLat": 30.0824,
+    "centroidLon": -95.981
+  },
+  {
+    "countyFips": "48475",
+    "countyName": "Ward County",
+    "centroidLat": 31.5528,
+    "centroidLon": -103.0803
+  },
+  {
+    "countyFips": "48477",
+    "countyName": "Washington County",
+    "centroidLat": 30.2522,
+    "centroidLon": -96.3726
+  },
+  {
+    "countyFips": "48479",
+    "countyName": "Webb County",
+    "centroidLat": 27.6902,
+    "centroidLon": -99.6265
+  },
+  {
+    "countyFips": "48481",
+    "countyName": "Wharton County",
+    "centroidLat": 29.3661,
+    "centroidLon": -96.0681
+  },
+  {
+    "countyFips": "48483",
+    "countyName": "Wheeler County",
+    "centroidLat": 35.3682,
+    "centroidLon": -100.1801
+  },
+  {
+    "countyFips": "48485",
+    "countyName": "Wichita County",
+    "centroidLat": 34.0766,
+    "centroidLon": -98.6552
+  },
+  {
+    "countyFips": "48487",
+    "countyName": "Wilbarger County",
+    "centroidLat": 34.2641,
+    "centroidLon": -99.2559
+  },
+  {
+    "countyFips": "48489",
+    "countyName": "Willacy County",
+    "centroidLat": 26.4415,
+    "centroidLon": -97.5475
+  },
+  {
+    "countyFips": "48491",
+    "countyName": "Williamson County",
+    "centroidLat": 30.6103,
+    "centroidLon": -97.5839
+  },
+  {
+    "countyFips": "48493",
+    "countyName": "Wilson County",
+    "centroidLat": 29.2725,
+    "centroidLon": -98.0956
+  },
+  {
+    "countyFips": "48495",
+    "countyName": "Winkler County",
+    "centroidLat": 31.9478,
+    "centroidLon": -103.0971
+  },
+  {
+    "countyFips": "48497",
+    "countyName": "Wise County",
+    "centroidLat": 33.2338,
+    "centroidLon": -97.5439
+  },
+  {
+    "countyFips": "48499",
+    "countyName": "Wood County",
+    "centroidLat": 32.7419,
+    "centroidLon": -95.4121
+  },
+  {
+    "countyFips": "48501",
+    "countyName": "Yoakum County",
+    "centroidLat": 33.121,
+    "centroidLon": -102.9541
+  },
+  {
+    "countyFips": "48503",
+    "countyName": "Young County",
+    "centroidLat": 33.0889,
+    "centroidLon": -98.6722
+  },
+  {
+    "countyFips": "48505",
+    "countyName": "Zapata County",
+    "centroidLat": 27.0054,
+    "centroidLon": -99.2939
+  },
+  {
+    "countyFips": "48507",
+    "countyName": "Zavala County",
+    "centroidLat": 28.9115,
+    "centroidLon": -99.6925
+  }
+]

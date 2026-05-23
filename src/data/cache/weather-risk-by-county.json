@@ -1,0 +1,2288 @@
+[
+  {
+    "countyFips": "48001",
+    "highTempF": 87.4,
+    "lowTempF": 68.2,
+    "maxWindMph": 8.1,
+    "precipInches": 0.02,
+    "fetchedAt": "2026-05-23T04:42:55.247Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48003",
+    "highTempF": 91.8,
+    "lowTempF": 59.2,
+    "maxWindMph": 15.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.255Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48005",
+    "highTempF": 87.1,
+    "lowTempF": 68.4,
+    "maxWindMph": 9.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.271Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48007",
+    "highTempF": 83.7,
+    "lowTempF": 72.1,
+    "maxWindMph": 13,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.243Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48009",
+    "highTempF": 81.7,
+    "lowTempF": 65.7,
+    "maxWindMph": 14,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.239Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48011",
+    "highTempF": 81.3,
+    "lowTempF": 60.4,
+    "maxWindMph": 23.7,
+    "precipInches": 0.19,
+    "fetchedAt": "2026-05-23T04:42:55.251Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48013",
+    "highTempF": 86.4,
+    "lowTempF": 65.8,
+    "maxWindMph": 11.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.270Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48015",
+    "highTempF": 86.7,
+    "lowTempF": 68.9,
+    "maxWindMph": 11.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.259Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48017",
+    "highTempF": 84.2,
+    "lowTempF": 55.8,
+    "maxWindMph": 21.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.252Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48019",
+    "highTempF": 83.3,
+    "lowTempF": 61.9,
+    "maxWindMph": 12.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.272Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48021",
+    "highTempF": 85.5,
+    "lowTempF": 64.8,
+    "maxWindMph": 11.6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.722Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48023",
+    "highTempF": 85.6,
+    "lowTempF": 63.3,
+    "maxWindMph": 14.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.730Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48025",
+    "highTempF": 84.9,
+    "lowTempF": 70.2,
+    "maxWindMph": 11.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.736Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48027",
+    "highTempF": 83.7,
+    "lowTempF": 65.8,
+    "maxWindMph": 8.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.731Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48029",
+    "highTempF": 85.1,
+    "lowTempF": 65.1,
+    "maxWindMph": 10.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.731Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48031",
+    "highTempF": 87.3,
+    "lowTempF": 62.2,
+    "maxWindMph": 15,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.732Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48033",
+    "highTempF": 90.9,
+    "lowTempF": 61.2,
+    "maxWindMph": 15.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.736Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48035",
+    "highTempF": 83.5,
+    "lowTempF": 66.2,
+    "maxWindMph": 10.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.736Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48037",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.726Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48039",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:55.728Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48041",
+    "highTempF": 87.1,
+    "lowTempF": 66.7,
+    "maxWindMph": 9.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.198Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48043",
+    "highTempF": 88,
+    "lowTempF": 62.1,
+    "maxWindMph": 22.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.199Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48045",
+    "highTempF": 79.9,
+    "lowTempF": 57.7,
+    "maxWindMph": 31.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.203Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48047",
+    "highTempF": 91,
+    "lowTempF": 70.9,
+    "maxWindMph": 14.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.206Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48049",
+    "highTempF": 83.5,
+    "lowTempF": 62.4,
+    "maxWindMph": 13,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.198Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48051",
+    "highTempF": 86.9,
+    "lowTempF": 66.4,
+    "maxWindMph": 9.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.204Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48053",
+    "highTempF": 83.1,
+    "lowTempF": 63,
+    "maxWindMph": 11.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.204Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48055",
+    "highTempF": 88.7,
+    "lowTempF": 64.9,
+    "maxWindMph": 12.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.204Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48057",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.194Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48059",
+    "highTempF": 84,
+    "lowTempF": 62.2,
+    "maxWindMph": 13.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.204Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48061",
+    "highTempF": 91,
+    "lowTempF": 73.9,
+    "maxWindMph": 16.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.656Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48063",
+    "highTempF": 82.6,
+    "lowTempF": 67.5,
+    "maxWindMph": 7.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.660Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48065",
+    "highTempF": 79.9,
+    "lowTempF": 59,
+    "maxWindMph": 20.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.656Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48067",
+    "highTempF": 84.6,
+    "lowTempF": 68.4,
+    "maxWindMph": 9.9,
+    "precipInches": 0.03,
+    "fetchedAt": "2026-05-23T04:42:56.659Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48069",
+    "highTempF": 81.1,
+    "lowTempF": 57.7,
+    "maxWindMph": 25.9,
+    "precipInches": 0.48,
+    "fetchedAt": "2026-05-23T04:42:56.655Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48071",
+    "highTempF": 86.9,
+    "lowTempF": 70.3,
+    "maxWindMph": 11.6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.660Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48073",
+    "highTempF": 86.9,
+    "lowTempF": 68.5,
+    "maxWindMph": 9.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.663Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48075",
+    "highTempF": 82.9,
+    "lowTempF": 62.2,
+    "maxWindMph": 17.3,
+    "precipInches": 0.43,
+    "fetchedAt": "2026-05-23T04:42:56.663Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48077",
+    "highTempF": 83.3,
+    "lowTempF": 64.6,
+    "maxWindMph": 10.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.664Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48079",
+    "highTempF": 87.3,
+    "lowTempF": 56.8,
+    "maxWindMph": 25.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:56.664Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48081",
+    "highTempF": 87.6,
+    "lowTempF": 60.1,
+    "maxWindMph": 20.7,
+    "precipInches": 0.27,
+    "fetchedAt": "2026-05-23T04:42:57.117Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48083",
+    "highTempF": 86.5,
+    "lowTempF": 61.3,
+    "maxWindMph": 13.7,
+    "precipInches": 1.42,
+    "fetchedAt": "2026-05-23T04:42:57.123Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48085",
+    "highTempF": 88.2,
+    "lowTempF": 68.4,
+    "maxWindMph": 9.6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.118Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48087",
+    "highTempF": 81.5,
+    "lowTempF": 61.7,
+    "maxWindMph": 14.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.117Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48089",
+    "highTempF": 89.4,
+    "lowTempF": 68.7,
+    "maxWindMph": 13,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.117Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48091",
+    "highTempF": 84,
+    "lowTempF": 62.6,
+    "maxWindMph": 12.5,
+    "precipInches": 0.02,
+    "fetchedAt": "2026-05-23T04:42:57.118Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48093",
+    "highTempF": 84.6,
+    "lowTempF": 64.8,
+    "maxWindMph": 9.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.124Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48095",
+    "highTempF": 87.6,
+    "lowTempF": 60.6,
+    "maxWindMph": 14.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.124Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48097",
+    "highTempF": 83.1,
+    "lowTempF": 67.1,
+    "maxWindMph": 9.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.124Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48099",
+    "highTempF": 82.8,
+    "lowTempF": 67.5,
+    "maxWindMph": 10.4,
+    "precipInches": 0.02,
+    "fetchedAt": "2026-05-23T04:42:57.125Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48101",
+    "highTempF": 86,
+    "lowTempF": 62.8,
+    "maxWindMph": 21.5,
+    "precipInches": 0.37,
+    "fetchedAt": "2026-05-23T04:42:57.589Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48103",
+    "highTempF": 94.3,
+    "lowTempF": 63,
+    "maxWindMph": 19.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.590Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48105",
+    "highTempF": 90.9,
+    "lowTempF": 61.2,
+    "maxWindMph": 23.7,
+    "precipInches": 0.09,
+    "fetchedAt": "2026-05-23T04:42:57.590Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48107",
+    "highTempF": 83.1,
+    "lowTempF": 59.9,
+    "maxWindMph": 21.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.589Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48109",
+    "highTempF": 83.5,
+    "lowTempF": 62.4,
+    "maxWindMph": 20.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.586Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48111",
+    "highTempF": 72.5,
+    "lowTempF": 56.7,
+    "maxWindMph": 21.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.586Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48113",
+    "highTempF": 87.4,
+    "lowTempF": 69.1,
+    "maxWindMph": 7.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.591Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48115",
+    "highTempF": 91.4,
+    "lowTempF": 58.8,
+    "maxWindMph": 18.6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.591Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48117",
+    "highTempF": 79.3,
+    "lowTempF": 56.1,
+    "maxWindMph": 30,
+    "precipInches": 0.06,
+    "fetchedAt": "2026-05-23T04:42:57.590Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48119",
+    "highTempF": 85.5,
+    "lowTempF": 68,
+    "maxWindMph": 8.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:57.591Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48121",
+    "highTempF": 88,
+    "lowTempF": 68.4,
+    "maxWindMph": 7.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.040Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48123",
+    "highTempF": 88.9,
+    "lowTempF": 68.4,
+    "maxWindMph": 13.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.042Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48125",
+    "highTempF": 85.6,
+    "lowTempF": 59.2,
+    "maxWindMph": 20.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.047Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48127",
+    "highTempF": 91.4,
+    "lowTempF": 69.4,
+    "maxWindMph": 14,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.052Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48129",
+    "highTempF": 79.7,
+    "lowTempF": 60.8,
+    "maxWindMph": 15.3,
+    "precipInches": 0.07,
+    "fetchedAt": "2026-05-23T04:42:58.046Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48131",
+    "highTempF": 88.7,
+    "lowTempF": 70.3,
+    "maxWindMph": 17.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.052Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48133",
+    "highTempF": 89.2,
+    "lowTempF": 64,
+    "maxWindMph": 14.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.053Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48135",
+    "highTempF": 92.1,
+    "lowTempF": 58.8,
+    "maxWindMph": 17,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.053Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48137",
+    "highTempF": 83.7,
+    "lowTempF": 61.5,
+    "maxWindMph": 26,
+    "precipInches": 0.19,
+    "fetchedAt": "2026-05-23T04:42:58.053Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48139",
+    "highTempF": 84.2,
+    "lowTempF": 68.5,
+    "maxWindMph": 8.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.054Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48141",
+    "highTempF": 88.3,
+    "lowTempF": 64.6,
+    "maxWindMph": 13.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.515Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48143",
+    "highTempF": 85.3,
+    "lowTempF": 63.9,
+    "maxWindMph": 11.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.521Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48145",
+    "highTempF": 85.8,
+    "lowTempF": 67.8,
+    "maxWindMph": 9.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.522Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48147",
+    "highTempF": 82.2,
+    "lowTempF": 66.6,
+    "maxWindMph": 7.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.517Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48149",
+    "highTempF": 88.2,
+    "lowTempF": 67.8,
+    "maxWindMph": 12.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.515Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48151",
+    "highTempF": 88.9,
+    "lowTempF": 61.3,
+    "maxWindMph": 19.9,
+    "precipInches": 0.09,
+    "fetchedAt": "2026-05-23T04:42:58.517Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48153",
+    "highTempF": 79.7,
+    "lowTempF": 59.4,
+    "maxWindMph": 17.1,
+    "precipInches": 0.07,
+    "fetchedAt": "2026-05-23T04:42:58.522Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48155",
+    "highTempF": 85.8,
+    "lowTempF": 62.6,
+    "maxWindMph": 14.1,
+    "precipInches": 0.51,
+    "fetchedAt": "2026-05-23T04:42:58.523Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48157",
+    "highTempF": 89.8,
+    "lowTempF": 70.2,
+    "maxWindMph": 11.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.522Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48159",
+    "highTempF": 83.8,
+    "lowTempF": 68.2,
+    "maxWindMph": 8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.523Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48161",
+    "highTempF": 87.6,
+    "lowTempF": 66.9,
+    "maxWindMph": 8.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.971Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48163",
+    "highTempF": 89.4,
+    "lowTempF": 64.6,
+    "maxWindMph": 12.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.974Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48165",
+    "highTempF": 90.1,
+    "lowTempF": 58.8,
+    "maxWindMph": 22.6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.974Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48167",
+    "highTempF": 82,
+    "lowTempF": 77.9,
+    "maxWindMph": 17.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.970Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48169",
+    "highTempF": 84.4,
+    "lowTempF": 60.3,
+    "maxWindMph": 13.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.971Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48171",
+    "highTempF": 82.8,
+    "lowTempF": 58.8,
+    "maxWindMph": 15.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.974Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48173",
+    "highTempF": 91.6,
+    "lowTempF": 57.2,
+    "maxWindMph": 21.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.975Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48175",
+    "highTempF": 86.9,
+    "lowTempF": 70.5,
+    "maxWindMph": 12.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.975Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48177",
+    "highTempF": 89.6,
+    "lowTempF": 68.4,
+    "maxWindMph": 14.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.974Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48179",
+    "highTempF": 79,
+    "lowTempF": 59.7,
+    "maxWindMph": 15.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:58.975Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48181",
+    "highTempF": 81.7,
+    "lowTempF": 67.1,
+    "maxWindMph": 6.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.452Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48183",
+    "highTempF": 86,
+    "lowTempF": 67.5,
+    "maxWindMph": 7.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.452Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48185",
+    "highTempF": 90,
+    "lowTempF": 66.9,
+    "maxWindMph": 12.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.453Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48187",
+    "highTempF": 87.4,
+    "lowTempF": 64.6,
+    "maxWindMph": 12.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.453Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48189",
+    "highTempF": 85.5,
+    "lowTempF": 59,
+    "maxWindMph": 21.9,
+    "precipInches": 0.1,
+    "fetchedAt": "2026-05-23T04:42:59.451Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48191",
+    "highTempF": 82.9,
+    "lowTempF": 62.2,
+    "maxWindMph": 26,
+    "precipInches": 0.33,
+    "fetchedAt": "2026-05-23T04:42:59.451Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48193",
+    "highTempF": 83.1,
+    "lowTempF": 64.2,
+    "maxWindMph": 10.6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.453Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48195",
+    "highTempF": 74.8,
+    "lowTempF": 57.7,
+    "maxWindMph": 19.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.453Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48197",
+    "highTempF": 84.4,
+    "lowTempF": 63.3,
+    "maxWindMph": 14.4,
+    "precipInches": 0.43,
+    "fetchedAt": "2026-05-23T04:42:59.454Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48199",
+    "highTempF": 89.6,
+    "lowTempF": 65.8,
+    "maxWindMph": 11.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.453Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48201",
+    "highTempF": 91.4,
+    "lowTempF": 70,
+    "maxWindMph": 13,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.914Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48203",
+    "highTempF": 84.6,
+    "lowTempF": 67.8,
+    "maxWindMph": 9.3,
+    "precipInches": 0.15,
+    "fetchedAt": "2026-05-23T04:42:59.919Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48205",
+    "highTempF": 74.1,
+    "lowTempF": 57.6,
+    "maxWindMph": 23.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.916Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48207",
+    "highTempF": 88.7,
+    "lowTempF": 63,
+    "maxWindMph": 20.3,
+    "precipInches": 0.3,
+    "fetchedAt": "2026-05-23T04:42:59.914Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48209",
+    "highTempF": 86,
+    "lowTempF": 62.6,
+    "maxWindMph": 10.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.919Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48211",
+    "highTempF": 79.2,
+    "lowTempF": 60.6,
+    "maxWindMph": 14.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.915Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48213",
+    "highTempF": 84.7,
+    "lowTempF": 67.8,
+    "maxWindMph": 9.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.921Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48215",
+    "highTempF": 95.7,
+    "lowTempF": 73.4,
+    "maxWindMph": 12.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.921Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48217",
+    "highTempF": 83.8,
+    "lowTempF": 67.1,
+    "maxWindMph": 10.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.921Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48219",
+    "highTempF": 86.9,
+    "lowTempF": 58.8,
+    "maxWindMph": 28.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:42:59.921Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48221",
+    "highTempF": 88.9,
+    "lowTempF": 64.2,
+    "maxWindMph": 14.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.396Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48223",
+    "highTempF": 84.4,
+    "lowTempF": 67.8,
+    "maxWindMph": 8.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.397Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48225",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.386Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48227",
+    "highTempF": 92.7,
+    "lowTempF": 59,
+    "maxWindMph": 21.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.395Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48229",
+    "highTempF": 83.8,
+    "lowTempF": 58.5,
+    "maxWindMph": 16.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.387Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48231",
+    "highTempF": 87.1,
+    "lowTempF": 66.9,
+    "maxWindMph": 7.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.387Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48233",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.385Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48235",
+    "highTempF": 90.7,
+    "lowTempF": 57.2,
+    "maxWindMph": 15,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.398Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48237",
+    "highTempF": 84.2,
+    "lowTempF": 65.3,
+    "maxWindMph": 12.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.397Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48239",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.386Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48241",
+    "highTempF": 88,
+    "lowTempF": 65.8,
+    "maxWindMph": 8.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.858Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48243",
+    "highTempF": 81.1,
+    "lowTempF": 56.8,
+    "maxWindMph": 17.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.868Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48245",
+    "highTempF": 87.3,
+    "lowTempF": 67.8,
+    "maxWindMph": 9.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.866Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48247",
+    "highTempF": 91.2,
+    "lowTempF": 70.7,
+    "maxWindMph": 14.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.883Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48249",
+    "highTempF": 89.2,
+    "lowTempF": 72.3,
+    "maxWindMph": 16.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.867Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48251",
+    "highTempF": 87.3,
+    "lowTempF": 66.4,
+    "maxWindMph": 13.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.870Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48253",
+    "highTempF": 87.8,
+    "lowTempF": 63,
+    "maxWindMph": 26.6,
+    "precipInches": 0.03,
+    "fetchedAt": "2026-05-23T04:43:00.882Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48255",
+    "highTempF": 89.1,
+    "lowTempF": 67.6,
+    "maxWindMph": 13.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.886Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48257",
+    "highTempF": 89.1,
+    "lowTempF": 68.5,
+    "maxWindMph": 9.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.882Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48259",
+    "highTempF": 82.2,
+    "lowTempF": 61.3,
+    "maxWindMph": 12.6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:00.870Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48261",
+    "highTempF": 89.8,
+    "lowTempF": 73.9,
+    "maxWindMph": 26,
+    "precipInches": 0.35,
+    "fetchedAt": "2026-05-23T04:43:01.392Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48263",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.331Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48265",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.332Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48267",
+    "highTempF": 88.2,
+    "lowTempF": 60.4,
+    "maxWindMph": 30.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.356Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48269",
+    "highTempF": 89.4,
+    "lowTempF": 61.2,
+    "maxWindMph": 15,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.368Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48271",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.330Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48273",
+    "highTempF": 83.1,
+    "lowTempF": 73.8,
+    "maxWindMph": 13.5,
+    "precipInches": 0.13,
+    "fetchedAt": "2026-05-23T04:43:01.402Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48275",
+    "highTempF": 88.7,
+    "lowTempF": 64.2,
+    "maxWindMph": 27.4,
+    "precipInches": 0.11,
+    "fetchedAt": "2026-05-23T04:43:01.388Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48277",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.334Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48279",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.335Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48281",
+    "highTempF": 84,
+    "lowTempF": 62.6,
+    "maxWindMph": 9.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.857Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48283",
+    "highTempF": 92.7,
+    "lowTempF": 69.3,
+    "maxWindMph": 14.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.861Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48285",
+    "highTempF": 86.4,
+    "lowTempF": 70.2,
+    "maxWindMph": 11.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.864Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48287",
+    "highTempF": 86.7,
+    "lowTempF": 65.1,
+    "maxWindMph": 10.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.857Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48289",
+    "highTempF": 85.6,
+    "lowTempF": 66.4,
+    "maxWindMph": 8,
+    "precipInches": 0.11,
+    "fetchedAt": "2026-05-23T04:43:01.857Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48291",
+    "highTempF": 89.4,
+    "lowTempF": 68.7,
+    "maxWindMph": 9.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.860Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48293",
+    "highTempF": 84.7,
+    "lowTempF": 64.6,
+    "maxWindMph": 8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.865Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48295",
+    "highTempF": 75.4,
+    "lowTempF": 57.7,
+    "maxWindMph": 21.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.864Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48297",
+    "highTempF": 86.2,
+    "lowTempF": 70.2,
+    "maxWindMph": 13.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.865Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48299",
+    "highTempF": 85.1,
+    "lowTempF": 61.7,
+    "maxWindMph": 12.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:01.865Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48301",
+    "highTempF": 94.5,
+    "lowTempF": 59.4,
+    "maxWindMph": 18.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.320Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48303",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.316Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48305",
+    "highTempF": 88.7,
+    "lowTempF": 59,
+    "maxWindMph": 18.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.321Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48307",
+    "highTempF": 85.5,
+    "lowTempF": 62.4,
+    "maxWindMph": 13.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.320Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48309",
+    "highTempF": 83.1,
+    "lowTempF": 66.7,
+    "maxWindMph": 9.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.320Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48311",
+    "highTempF": 89.1,
+    "lowTempF": 68.9,
+    "maxWindMph": 12.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.320Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48313",
+    "highTempF": 86.5,
+    "lowTempF": 66.4,
+    "maxWindMph": 10.4,
+    "precipInches": 0.02,
+    "fetchedAt": "2026-05-23T04:43:02.322Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48315",
+    "highTempF": 84.7,
+    "lowTempF": 68,
+    "maxWindMph": 8,
+    "precipInches": 0.04,
+    "fetchedAt": "2026-05-23T04:43:02.322Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48317",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.314Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48319",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.318Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48321",
+    "highTempF": 82.6,
+    "lowTempF": 71.4,
+    "maxWindMph": 11.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.780Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48323",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.773Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48325",
+    "highTempF": 87.8,
+    "lowTempF": 64.6,
+    "maxWindMph": 11,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.781Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48327",
+    "highTempF": 84.7,
+    "lowTempF": 59,
+    "maxWindMph": 10.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.776Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48329",
+    "highTempF": 94.1,
+    "lowTempF": 59.4,
+    "maxWindMph": 19,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.776Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48331",
+    "highTempF": 88.2,
+    "lowTempF": 67.8,
+    "maxWindMph": 9.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.780Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48333",
+    "highTempF": 85.5,
+    "lowTempF": 63.3,
+    "maxWindMph": 11.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.781Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48335",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.775Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48337",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.773Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48339",
+    "highTempF": 89.8,
+    "lowTempF": 69.6,
+    "maxWindMph": 8.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:02.781Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48341",
+    "highTempF": 77.2,
+    "lowTempF": 58.5,
+    "maxWindMph": 18.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.239Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48343",
+    "highTempF": 85.8,
+    "lowTempF": 67.1,
+    "maxWindMph": 8.6,
+    "precipInches": 0.02,
+    "fetchedAt": "2026-05-23T04:43:03.234Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48345",
+    "highTempF": 83.5,
+    "lowTempF": 59.4,
+    "maxWindMph": 27.4,
+    "precipInches": 0.19,
+    "fetchedAt": "2026-05-23T04:43:03.234Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48347",
+    "highTempF": 86,
+    "lowTempF": 67.3,
+    "maxWindMph": 9.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.233Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48349",
+    "highTempF": 84.2,
+    "lowTempF": 68,
+    "maxWindMph": 8.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.236Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48351",
+    "highTempF": 86.9,
+    "lowTempF": 67.3,
+    "maxWindMph": 7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.234Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48353",
+    "highTempF": 84.9,
+    "lowTempF": 60.4,
+    "maxWindMph": 14.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.240Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48355",
+    "highTempF": 84.7,
+    "lowTempF": 73.2,
+    "maxWindMph": 10.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.240Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48357",
+    "highTempF": 74.5,
+    "lowTempF": 56.3,
+    "maxWindMph": 20.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.240Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48359",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.236Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48361",
+    "highTempF": 87.1,
+    "lowTempF": 67.5,
+    "maxWindMph": 11.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.687Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48363",
+    "highTempF": 86.9,
+    "lowTempF": 64.9,
+    "maxWindMph": 14.6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.693Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48365",
+    "highTempF": 84.2,
+    "lowTempF": 67.5,
+    "maxWindMph": 9.9,
+    "precipInches": 0.09,
+    "fetchedAt": "2026-05-23T04:43:03.687Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48367",
+    "highTempF": 86,
+    "lowTempF": 65.3,
+    "maxWindMph": 13.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.687Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48369",
+    "highTempF": 81.5,
+    "lowTempF": 53.8,
+    "maxWindMph": 20,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.687Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48371",
+    "highTempF": 90.3,
+    "lowTempF": 60.3,
+    "maxWindMph": 20.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.693Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48373",
+    "highTempF": 86,
+    "lowTempF": 66.6,
+    "maxWindMph": 8.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.696Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48375",
+    "highTempF": 80.6,
+    "lowTempF": 58.3,
+    "maxWindMph": 19.9,
+    "precipInches": 0.06,
+    "fetchedAt": "2026-05-23T04:43:03.696Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48377",
+    "highTempF": 79.3,
+    "lowTempF": 56.7,
+    "maxWindMph": 15.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.697Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48379",
+    "highTempF": 84.7,
+    "lowTempF": 67.5,
+    "maxWindMph": 8.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:03.697Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48381",
+    "highTempF": 79.9,
+    "lowTempF": 57.6,
+    "maxWindMph": 22.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.149Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48383",
+    "highTempF": 93.4,
+    "lowTempF": 57.6,
+    "maxWindMph": 17.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.152Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48385",
+    "highTempF": 82.8,
+    "lowTempF": 61.5,
+    "maxWindMph": 19.3,
+    "precipInches": 0.16,
+    "fetchedAt": "2026-05-23T04:43:04.153Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48387",
+    "highTempF": 83.3,
+    "lowTempF": 68.2,
+    "maxWindMph": 7.1,
+    "precipInches": 0.03,
+    "fetchedAt": "2026-05-23T04:43:04.148Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48389",
+    "highTempF": 96.1,
+    "lowTempF": 59.7,
+    "maxWindMph": 19.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.149Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48391",
+    "highTempF": 84.6,
+    "lowTempF": 73.4,
+    "maxWindMph": 11,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.152Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48393",
+    "highTempF": 82.2,
+    "lowTempF": 59.4,
+    "maxWindMph": 16.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.153Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48395",
+    "highTempF": 85.5,
+    "lowTempF": 66.9,
+    "maxWindMph": 7.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.153Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48397",
+    "highTempF": 87.3,
+    "lowTempF": 68.5,
+    "maxWindMph": 7.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.153Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48399",
+    "highTempF": 83.3,
+    "lowTempF": 59.5,
+    "maxWindMph": 16.9,
+    "precipInches": 0.06,
+    "fetchedAt": "2026-05-23T04:43:04.154Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48401",
+    "highTempF": 84.4,
+    "lowTempF": 67.3,
+    "maxWindMph": 8.9,
+    "precipInches": 0.02,
+    "fetchedAt": "2026-05-23T04:43:04.607Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48403",
+    "highTempF": 84.9,
+    "lowTempF": 66.4,
+    "maxWindMph": 7.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.610Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48405",
+    "highTempF": 85.6,
+    "lowTempF": 65.7,
+    "maxWindMph": 8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.615Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48407",
+    "highTempF": 85.1,
+    "lowTempF": 68,
+    "maxWindMph": 8.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.610Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48409",
+    "highTempF": 83.8,
+    "lowTempF": 73.6,
+    "maxWindMph": 13.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.616Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48411",
+    "highTempF": 84.9,
+    "lowTempF": 61.2,
+    "maxWindMph": 10.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.610Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48413",
+    "highTempF": 86.2,
+    "lowTempF": 58.6,
+    "maxWindMph": 25.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.616Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48415",
+    "highTempF": 86.5,
+    "lowTempF": 60.1,
+    "maxWindMph": 26.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.616Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48417",
+    "highTempF": 88.9,
+    "lowTempF": 64,
+    "maxWindMph": 21.2,
+    "precipInches": 0.14,
+    "fetchedAt": "2026-05-23T04:43:04.615Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48419",
+    "highTempF": 86.5,
+    "lowTempF": 66,
+    "maxWindMph": 7.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:04.616Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48421",
+    "highTempF": 71.8,
+    "lowTempF": 56.7,
+    "maxWindMph": 24.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.066Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48423",
+    "highTempF": 85.3,
+    "lowTempF": 67.8,
+    "maxWindMph": 7.6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.070Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48425",
+    "highTempF": 89.8,
+    "lowTempF": 65.8,
+    "maxWindMph": 13.6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.066Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48427",
+    "highTempF": 90.9,
+    "lowTempF": 71.8,
+    "maxWindMph": 13.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.069Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48429",
+    "highTempF": 87.6,
+    "lowTempF": 66.6,
+    "maxWindMph": 21.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.065Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48431",
+    "highTempF": 86.4,
+    "lowTempF": 58.1,
+    "maxWindMph": 28.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.060Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48433",
+    "highTempF": 87.1,
+    "lowTempF": 62.1,
+    "maxWindMph": 26,
+    "precipInches": 0.5,
+    "fetchedAt": "2026-05-23T04:43:05.069Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48435",
+    "highTempF": 83.5,
+    "lowTempF": 60.3,
+    "maxWindMph": 18.1,
+    "precipInches": 0.03,
+    "fetchedAt": "2026-05-23T04:43:05.069Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48437",
+    "highTempF": 79.9,
+    "lowTempF": 58.8,
+    "maxWindMph": 19.5,
+    "precipInches": 0.11,
+    "fetchedAt": "2026-05-23T04:43:05.069Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48439",
+    "highTempF": 86.7,
+    "lowTempF": 68.5,
+    "maxWindMph": 8.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.070Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48441",
+    "highTempF": 85.5,
+    "lowTempF": 61.7,
+    "maxWindMph": 13.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.520Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48443",
+    "highTempF": 97.7,
+    "lowTempF": 62.2,
+    "maxWindMph": 19.1,
+    "precipInches": 0.02,
+    "fetchedAt": "2026-05-23T04:43:05.520Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48445",
+    "highTempF": 89.4,
+    "lowTempF": 58.5,
+    "maxWindMph": 24.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.522Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48447",
+    "highTempF": 85.3,
+    "lowTempF": 64,
+    "maxWindMph": 23.5,
+    "precipInches": 0.28,
+    "fetchedAt": "2026-05-23T04:43:05.519Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48449",
+    "highTempF": 83.5,
+    "lowTempF": 67.8,
+    "maxWindMph": 7.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.520Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48451",
+    "highTempF": 88.3,
+    "lowTempF": 57.4,
+    "maxWindMph": 26.3,
+    "precipInches": 2.82,
+    "fetchedAt": "2026-05-23T04:43:05.520Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48453",
+    "highTempF": 83.5,
+    "lowTempF": 63.1,
+    "maxWindMph": 9.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.523Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48455",
+    "highTempF": 87.8,
+    "lowTempF": 68,
+    "maxWindMph": 9.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.524Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48457",
+    "highTempF": 86,
+    "lowTempF": 63.9,
+    "maxWindMph": 7.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.524Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48459",
+    "highTempF": 83.8,
+    "lowTempF": 66.7,
+    "maxWindMph": 8.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.524Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48461",
+    "highTempF": 91.9,
+    "lowTempF": 59.9,
+    "maxWindMph": 18.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.978Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48463",
+    "highTempF": 90,
+    "lowTempF": 70,
+    "maxWindMph": 12,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.973Z",
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48465",
+    "highTempF": 93.2,
+    "lowTempF": 66,
+    "maxWindMph": 18.8,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.980Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48467",
+    "highTempF": 85.8,
+    "lowTempF": 67.6,
+    "maxWindMph": 9.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.977Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48469",
+    "highTempF": 85.8,
+    "lowTempF": 72.1,
+    "maxWindMph": 14.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.980Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48471",
+    "highTempF": 90.1,
+    "lowTempF": 68.2,
+    "maxWindMph": 8.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.978Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48473",
+    "highTempF": 88.2,
+    "lowTempF": 67.8,
+    "maxWindMph": 11.5,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.980Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48475",
+    "highTempF": 96.3,
+    "lowTempF": 60.6,
+    "maxWindMph": 17.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.981Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48477",
+    "highTempF": 86.4,
+    "lowTempF": 65.5,
+    "maxWindMph": 9.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.980Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48479",
+    "highTempF": 92.5,
+    "lowTempF": 70.3,
+    "maxWindMph": 11.7,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:05.981Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48481",
+    "highTempF": 87.8,
+    "lowTempF": 70.7,
+    "maxWindMph": 12.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.437Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48483",
+    "highTempF": 77.2,
+    "lowTempF": 60.6,
+    "maxWindMph": 13.2,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.438Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48485",
+    "highTempF": 82.9,
+    "lowTempF": 64.4,
+    "maxWindMph": 11.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.444Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48487",
+    "highTempF": 84.7,
+    "lowTempF": 64.4,
+    "maxWindMph": 21.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.438Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48489",
+    "highTempF": 91.6,
+    "lowTempF": 72.9,
+    "maxWindMph": 16.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.445Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48491",
+    "highTempF": 83.3,
+    "lowTempF": 63.3,
+    "maxWindMph": 12.1,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.439Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48493",
+    "highTempF": 86.2,
+    "lowTempF": 64.6,
+    "maxWindMph": 10.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.446Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48495",
+    "highTempF": 93.6,
+    "lowTempF": 58.5,
+    "maxWindMph": 22,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.447Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48497",
+    "highTempF": 82.8,
+    "lowTempF": 66.7,
+    "maxWindMph": 7.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.446Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48499",
+    "highTempF": 84.4,
+    "lowTempF": 68.2,
+    "maxWindMph": 6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.447Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48501",
+    "highTempF": 89.6,
+    "lowTempF": 58.3,
+    "maxWindMph": 23.3,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.911Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48503",
+    "highTempF": 85.5,
+    "lowTempF": 65.5,
+    "maxWindMph": 11.9,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.915Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48505",
+    "highTempF": 92.8,
+    "lowTempF": 71.4,
+    "maxWindMph": 12.6,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.917Z",
+    "quality": "cached"
+  },
+  {
+    "countyFips": "48507",
+    "highTempF": 89.2,
+    "lowTempF": 67.1,
+    "maxWindMph": 11.4,
+    "precipInches": 0,
+    "fetchedAt": "2026-05-23T04:43:06.910Z",
+    "quality": "cached"
+  }
+]

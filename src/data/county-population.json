@@ -1,0 +1,1780 @@
+[
+  {
+    "countyFips": "48001",
+    "countyName": "Anderson County",
+    "population": 58458,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48003",
+    "countyName": "Andrews County",
+    "population": 14786,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48005",
+    "countyName": "Angelina County",
+    "population": 86771,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48007",
+    "countyName": "Aransas County",
+    "population": 23158,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48009",
+    "countyName": "Archer County",
+    "population": 9054,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48011",
+    "countyName": "Armstrong County",
+    "population": 1901,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48013",
+    "countyName": "Atascosa County",
+    "population": 44911,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48015",
+    "countyName": "Austin County",
+    "population": 28417,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48017",
+    "countyName": "Bailey County",
+    "population": 7165,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48019",
+    "countyName": "Bandera County",
+    "population": 20485,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48021",
+    "countyName": "Bastrop County",
+    "population": 74171,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48023",
+    "countyName": "Baylor County",
+    "population": 3726,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48025",
+    "countyName": "Bee County",
+    "population": 31861,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48027",
+    "countyName": "Bell County",
+    "population": 310235,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48029",
+    "countyName": "Bexar County",
+    "population": 1714773,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48031",
+    "countyName": "Blanco County",
+    "population": 10497,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48033",
+    "countyName": "Borden County",
+    "population": 641,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48035",
+    "countyName": "Bosque County",
+    "population": 18212,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48037",
+    "countyName": "Bowie County",
+    "population": 92565,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48039",
+    "countyName": "Brazoria County",
+    "population": 313166,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48041",
+    "countyName": "Brazos County",
+    "population": 194851,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48043",
+    "countyName": "Brewster County",
+    "population": 9232,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48045",
+    "countyName": "Briscoe County",
+    "population": 1637,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48047",
+    "countyName": "Brooks County",
+    "population": 7223,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48049",
+    "countyName": "Brown County",
+    "population": 38106,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48051",
+    "countyName": "Burleson County",
+    "population": 17187,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48053",
+    "countyName": "Burnet County",
+    "population": 42750,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48055",
+    "countyName": "Caldwell County",
+    "population": 38066,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48057",
+    "countyName": "Calhoun County",
+    "population": 21381,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48059",
+    "countyName": "Callahan County",
+    "population": 13544,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48061",
+    "countyName": "Cameron County",
+    "population": 406220,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48063",
+    "countyName": "Camp County",
+    "population": 12401,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48065",
+    "countyName": "Carson County",
+    "population": 6182,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48067",
+    "countyName": "Cass County",
+    "population": 30464,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48069",
+    "countyName": "Castro County",
+    "population": 8062,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48071",
+    "countyName": "Chambers County",
+    "population": 35096,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48073",
+    "countyName": "Cherokee County",
+    "population": 50845,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48075",
+    "countyName": "Childress County",
+    "population": 7041,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48077",
+    "countyName": "Clay County",
+    "population": 10752,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48079",
+    "countyName": "Cochran County",
+    "population": 3127,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48081",
+    "countyName": "Coke County",
+    "population": 3320,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48083",
+    "countyName": "Coleman County",
+    "population": 8895,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48085",
+    "countyName": "Collin County",
+    "population": 782341,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48087",
+    "countyName": "Collingsworth County",
+    "population": 3057,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48089",
+    "countyName": "Colorado County",
+    "population": 20874,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48091",
+    "countyName": "Comal County",
+    "population": 108472,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48093",
+    "countyName": "Comanche County",
+    "population": 13974,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48095",
+    "countyName": "Concho County",
+    "population": 4087,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48097",
+    "countyName": "Cooke County",
+    "population": 38437,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48099",
+    "countyName": "Coryell County",
+    "population": 75388,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48101",
+    "countyName": "Cottle County",
+    "population": 1505,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48103",
+    "countyName": "Crane County",
+    "population": 4375,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48105",
+    "countyName": "Crockett County",
+    "population": 3719,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48107",
+    "countyName": "Crosby County",
+    "population": 6059,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48109",
+    "countyName": "Culberson County",
+    "population": 2398,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48111",
+    "countyName": "Dallam County",
+    "population": 6703,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48113",
+    "countyName": "Dallas County",
+    "population": 2368139,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48115",
+    "countyName": "Dawson County",
+    "population": 13833,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48117",
+    "countyName": "Deaf Smith County",
+    "population": 19372,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48119",
+    "countyName": "Delta County",
+    "population": 5231,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48121",
+    "countyName": "Denton County",
+    "population": 662614,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48123",
+    "countyName": "DeWitt County",
+    "population": 20097,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48125",
+    "countyName": "Dickens County",
+    "population": 2444,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48127",
+    "countyName": "Dimmit County",
+    "population": 9996,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48129",
+    "countyName": "Donley County",
+    "population": 3677,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48131",
+    "countyName": "Duval County",
+    "population": 11782,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48133",
+    "countyName": "Eastland County",
+    "population": 18583,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48135",
+    "countyName": "Ector County",
+    "population": 137130,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48137",
+    "countyName": "Edwards County",
+    "population": 2002,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48139",
+    "countyName": "Ellis County",
+    "population": 149610,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48141",
+    "countyName": "El Paso County",
+    "population": 800647,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48143",
+    "countyName": "Erath County",
+    "population": 37890,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48145",
+    "countyName": "Falls County",
+    "population": 17866,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48147",
+    "countyName": "Fannin County",
+    "population": 33915,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48149",
+    "countyName": "Fayette County",
+    "population": 24554,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48151",
+    "countyName": "Fisher County",
+    "population": 3974,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48153",
+    "countyName": "Floyd County",
+    "population": 6446,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48155",
+    "countyName": "Foard County",
+    "population": 1336,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48157",
+    "countyName": "Fort Bend County",
+    "population": 585375,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48159",
+    "countyName": "Franklin County",
+    "population": 10605,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48161",
+    "countyName": "Freestone County",
+    "population": 19816,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48163",
+    "countyName": "Frio County",
+    "population": 17217,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48165",
+    "countyName": "Gaines County",
+    "population": 17526,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48167",
+    "countyName": "Galveston County",
+    "population": 291309,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48169",
+    "countyName": "Garza County",
+    "population": 6461,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48171",
+    "countyName": "Gillespie County",
+    "population": 24837,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48173",
+    "countyName": "Glasscock County",
+    "population": 1226,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48175",
+    "countyName": "Goliad County",
+    "population": 7210,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48177",
+    "countyName": "Gonzales County",
+    "population": 19807,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48179",
+    "countyName": "Gray County",
+    "population": 22535,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48181",
+    "countyName": "Grayson County",
+    "population": 120877,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48183",
+    "countyName": "Gregg County",
+    "population": 121730,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48185",
+    "countyName": "Grimes County",
+    "population": 26604,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48187",
+    "countyName": "Guadalupe County",
+    "population": 131533,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48189",
+    "countyName": "Hale County",
+    "population": 36273,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48191",
+    "countyName": "Hall County",
+    "population": 3353,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48193",
+    "countyName": "Hamilton County",
+    "population": 8517,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48195",
+    "countyName": "Hansford County",
+    "population": 5613,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48197",
+    "countyName": "Hardeman County",
+    "population": 4139,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48199",
+    "countyName": "Hardin County",
+    "population": 54635,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48201",
+    "countyName": "Harris County",
+    "population": 4092459,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48203",
+    "countyName": "Harrison County",
+    "population": 65631,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48205",
+    "countyName": "Hartley County",
+    "population": 6062,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48207",
+    "countyName": "Haskell County",
+    "population": 5899,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48209",
+    "countyName": "Hays County",
+    "population": 157107,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48211",
+    "countyName": "Hemphill County",
+    "population": 3807,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48213",
+    "countyName": "Henderson County",
+    "population": 78532,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48215",
+    "countyName": "Hidalgo County",
+    "population": 774769,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48217",
+    "countyName": "Hill County",
+    "population": 35089,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48219",
+    "countyName": "Hockley County",
+    "population": 22935,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48221",
+    "countyName": "Hood County",
+    "population": 51182,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48223",
+    "countyName": "Hopkins County",
+    "population": 35161,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48225",
+    "countyName": "Houston County",
+    "population": 23732,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48227",
+    "countyName": "Howard County",
+    "population": 35012,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48229",
+    "countyName": "Hudspeth County",
+    "population": 3476,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48231",
+    "countyName": "Hunt County",
+    "population": 86129,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48233",
+    "countyName": "Hutchinson County",
+    "population": 22150,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48235",
+    "countyName": "Irion County",
+    "population": 1599,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48237",
+    "countyName": "Jack County",
+    "population": 9044,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48239",
+    "countyName": "Jackson County",
+    "population": 14075,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48241",
+    "countyName": "Jasper County",
+    "population": 35710,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48243",
+    "countyName": "Jeff Davis County",
+    "population": 2342,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48245",
+    "countyName": "Jefferson County",
+    "population": 252273,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48247",
+    "countyName": "Jim Hogg County",
+    "population": 5300,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48249",
+    "countyName": "Jim Wells County",
+    "population": 40838,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48251",
+    "countyName": "Johnson County",
+    "population": 150934,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48253",
+    "countyName": "Jones County",
+    "population": 20202,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48255",
+    "countyName": "Karnes County",
+    "population": 14824,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48257",
+    "countyName": "Kaufman County",
+    "population": 103350,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48259",
+    "countyName": "Kendall County",
+    "population": 33410,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48261",
+    "countyName": "Kenedy County",
+    "population": 416,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48263",
+    "countyName": "Kent County",
+    "population": 808,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48265",
+    "countyName": "Kerr County",
+    "population": 49625,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48267",
+    "countyName": "Kimble County",
+    "population": 4607,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48269",
+    "countyName": "King County",
+    "population": 286,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48271",
+    "countyName": "Kinney County",
+    "population": 3598,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48273",
+    "countyName": "Kleberg County",
+    "population": 32061,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48275",
+    "countyName": "Knox County",
+    "population": 3719,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48277",
+    "countyName": "Lamar County",
+    "population": 49793,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48279",
+    "countyName": "Lamb County",
+    "population": 13977,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48281",
+    "countyName": "Lampasas County",
+    "population": 19677,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48283",
+    "countyName": "La Salle County",
+    "population": 6886,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48285",
+    "countyName": "Lavaca County",
+    "population": 19263,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48287",
+    "countyName": "Lee County",
+    "population": 16612,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48289",
+    "countyName": "Leon County",
+    "population": 16801,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48291",
+    "countyName": "Liberty County",
+    "population": 75643,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48293",
+    "countyName": "Limestone County",
+    "population": 23384,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48295",
+    "countyName": "Lipscomb County",
+    "population": 3302,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48297",
+    "countyName": "Live Oak County",
+    "population": 11531,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48299",
+    "countyName": "Llano County",
+    "population": 19301,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48301",
+    "countyName": "Loving County",
+    "population": 82,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48303",
+    "countyName": "Lubbock County",
+    "population": 278831,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48305",
+    "countyName": "Lynn County",
+    "population": 5915,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48307",
+    "countyName": "McCulloch County",
+    "population": 8283,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48309",
+    "countyName": "McLennan County",
+    "population": 234906,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48311",
+    "countyName": "McMullen County",
+    "population": 707,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48313",
+    "countyName": "Madison County",
+    "population": 13664,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48315",
+    "countyName": "Marion County",
+    "population": 10546,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48317",
+    "countyName": "Martin County",
+    "population": 4799,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48319",
+    "countyName": "Mason County",
+    "population": 4012,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48321",
+    "countyName": "Matagorda County",
+    "population": 36702,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48323",
+    "countyName": "Maverick County",
+    "population": 54258,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48325",
+    "countyName": "Medina County",
+    "population": 46006,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48327",
+    "countyName": "Menard County",
+    "population": 2242,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48329",
+    "countyName": "Midland County",
+    "population": 136872,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48331",
+    "countyName": "Milam County",
+    "population": 24757,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48333",
+    "countyName": "Mills County",
+    "population": 4936,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48335",
+    "countyName": "Mitchell County",
+    "population": 9403,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48337",
+    "countyName": "Montague County",
+    "population": 19719,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48339",
+    "countyName": "Montgomery County",
+    "population": 455746,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48341",
+    "countyName": "Moore County",
+    "population": 21904,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48343",
+    "countyName": "Morris County",
+    "population": 12934,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48345",
+    "countyName": "Motley County",
+    "population": 1210,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48347",
+    "countyName": "Nacogdoches County",
+    "population": 64524,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48349",
+    "countyName": "Navarro County",
+    "population": 47735,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48351",
+    "countyName": "Newton County",
+    "population": 14445,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48353",
+    "countyName": "Nolan County",
+    "population": 15216,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48355",
+    "countyName": "Nueces County",
+    "population": 340223,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48357",
+    "countyName": "Ochiltree County",
+    "population": 10223,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48359",
+    "countyName": "Oldham County",
+    "population": 2052,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48361",
+    "countyName": "Orange County",
+    "population": 81837,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48363",
+    "countyName": "Palo Pinto County",
+    "population": 28111,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48365",
+    "countyName": "Panola County",
+    "population": 23796,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48367",
+    "countyName": "Parker County",
+    "population": 116927,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48369",
+    "countyName": "Parmer County",
+    "population": 10269,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48371",
+    "countyName": "Pecos County",
+    "population": 15507,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48373",
+    "countyName": "Polk County",
+    "population": 45413,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48375",
+    "countyName": "Potter County",
+    "population": 121073,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48377",
+    "countyName": "Presidio County",
+    "population": 7818,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48379",
+    "countyName": "Rains County",
+    "population": 10914,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48381",
+    "countyName": "Randall County",
+    "population": 120725,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48383",
+    "countyName": "Reagan County",
+    "population": 3367,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48385",
+    "countyName": "Real County",
+    "population": 3309,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48387",
+    "countyName": "Red River County",
+    "population": 12860,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48389",
+    "countyName": "Reeves County",
+    "population": 13783,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48391",
+    "countyName": "Refugio County",
+    "population": 7383,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48393",
+    "countyName": "Roberts County",
+    "population": 929,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48395",
+    "countyName": "Robertson County",
+    "population": 16622,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48397",
+    "countyName": "Rockwall County",
+    "population": 78337,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48399",
+    "countyName": "Runnels County",
+    "population": 10501,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48401",
+    "countyName": "Rusk County",
+    "population": 53330,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48403",
+    "countyName": "Sabine County",
+    "population": 10834,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48405",
+    "countyName": "San Augustine County",
+    "population": 8865,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48407",
+    "countyName": "San Jacinto County",
+    "population": 26384,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48409",
+    "countyName": "San Patricio County",
+    "population": 64804,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48411",
+    "countyName": "San Saba County",
+    "population": 6131,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48413",
+    "countyName": "Schleicher County",
+    "population": 3461,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48415",
+    "countyName": "Scurry County",
+    "population": 16921,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48417",
+    "countyName": "Shackelford County",
+    "population": 3378,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48419",
+    "countyName": "Shelby County",
+    "population": 25448,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48421",
+    "countyName": "Sherman County",
+    "population": 3034,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48423",
+    "countyName": "Smith County",
+    "population": 209714,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48425",
+    "countyName": "Somervell County",
+    "population": 8490,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48427",
+    "countyName": "Starr County",
+    "population": 60968,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48429",
+    "countyName": "Stephens County",
+    "population": 9630,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48431",
+    "countyName": "Sterling County",
+    "population": 1143,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48433",
+    "countyName": "Stonewall County",
+    "population": 1490,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48435",
+    "countyName": "Sutton County",
+    "population": 4128,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48437",
+    "countyName": "Swisher County",
+    "population": 7854,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48439",
+    "countyName": "Tarrant County",
+    "population": 1809034,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48441",
+    "countyName": "Taylor County",
+    "population": 131506,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48443",
+    "countyName": "Terrell County",
+    "population": 984,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48445",
+    "countyName": "Terry County",
+    "population": 12651,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48447",
+    "countyName": "Throckmorton County",
+    "population": 1641,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48449",
+    "countyName": "Titus County",
+    "population": 32334,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48451",
+    "countyName": "Tom Green County",
+    "population": 110224,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48453",
+    "countyName": "Travis County",
+    "population": 1024266,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48455",
+    "countyName": "Trinity County",
+    "population": 14585,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48457",
+    "countyName": "Tyler County",
+    "population": 21766,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48459",
+    "countyName": "Upshur County",
+    "population": 39309,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48461",
+    "countyName": "Upton County",
+    "population": 3355,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48463",
+    "countyName": "Uvalde County",
+    "population": 26405,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48465",
+    "countyName": "Val Verde County",
+    "population": 48879,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48467",
+    "countyName": "Van Zandt County",
+    "population": 52579,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48469",
+    "countyName": "Victoria County",
+    "population": 86793,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48471",
+    "countyName": "Walker County",
+    "population": 67861,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48473",
+    "countyName": "Waller County",
+    "population": 43205,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48475",
+    "countyName": "Ward County",
+    "population": 10658,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48477",
+    "countyName": "Washington County",
+    "population": 33718,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48479",
+    "countyName": "Webb County",
+    "population": 250304,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48481",
+    "countyName": "Wharton County",
+    "population": 41280,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48483",
+    "countyName": "Wheeler County",
+    "population": 5410,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48485",
+    "countyName": "Wichita County",
+    "population": 131500,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48487",
+    "countyName": "Wilbarger County",
+    "population": 13535,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48489",
+    "countyName": "Willacy County",
+    "population": 22134,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48491",
+    "countyName": "Williamson County",
+    "population": 422679,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48493",
+    "countyName": "Wilson County",
+    "population": 42918,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48495",
+    "countyName": "Winkler County",
+    "population": 7110,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48497",
+    "countyName": "Wise County",
+    "population": 59127,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48499",
+    "countyName": "Wood County",
+    "population": 41964,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48501",
+    "countyName": "Yoakum County",
+    "population": 7879,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48503",
+    "countyName": "Young County",
+    "population": 18550,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48505",
+    "countyName": "Zapata County",
+    "population": 14018,
+    "year": 2019,
+    "source": "Static Census cache"
+  },
+  {
+    "countyFips": "48507",
+    "countyName": "Zavala County",
+    "population": 11677,
+    "year": 2019,
+    "source": "Static Census cache"
+  }
+]
