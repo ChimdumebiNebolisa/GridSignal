@@ -1,18 +1,21 @@
 /**
  * GridSignal Texas — NREL PVWatts API client
- * Uses current NLR developer domain per NREL docs.
+ * Uses the NREL developer API.
  * Requires NREL_API_KEY. Server-side only.
  */
 
+import "server-only";
 import type { SolarApiResult } from "@/types/api";
 import { getNrelApiKey } from "@/lib/utils/env";
 import { fetchJson, FetchError } from "@/lib/utils/fetchJson";
 import { getSolarCacheByFips } from "@/lib/data/counties";
 
-const PVWATTS_ENDPOINTS = [
-  "https://developer.nlr.gov/api/pvwatts/v8.json",
-  "https://developer.nrel.gov/api/pvwatts/v8.json",
-];
+const PVWATTS_ENDPOINT = "https://developer.nrel.gov/api/pvwatts/v8.json";
+const SOURCE_NAME = "NREL PVWatts";
+const LIVE_LIMITATION =
+  "PVWatts uses a standard 4 kW system at the county centroid; it is not a site-specific solar design.";
+const CACHE_LIMITATION =
+  "Live PVWatts was not available; using bundled county solar cache or deterministic estimated proxy.";
 
 /** Standard system assumptions per data contract §6 */
 const SYSTEM_DEFAULTS = {
@@ -34,13 +37,17 @@ type PVWattsResponse = {
 
 function solarFromCache(countyFips: string): SolarApiResult {
   const cached = getSolarCacheByFips(countyFips);
+  const fetchedAt = cached?.fetchedAt ?? new Date().toISOString();
   return {
     countyFips,
     annualAcKwh: cached?.annualAcKwh ?? null,
     monthlyAcKwh: null,
     systemCapacityKw: SYSTEM_DEFAULTS.system_capacity,
-    fetchedAt: cached?.fetchedAt ?? new Date().toISOString(),
+    fetchedAt,
     quality: cached?.quality ?? "estimated",
+    sourceName: SOURCE_NAME,
+    lastUpdated: fetchedAt,
+    limitation: CACHE_LIMITATION,
   };
 }
 
@@ -69,31 +76,35 @@ export async function fetchSolarPotential(
     losses: SYSTEM_DEFAULTS.losses.toString(),
   });
 
-  for (const base of PVWATTS_ENDPOINTS) {
-    try {
-      const data = await fetchJson<PVWattsResponse>(`${base}?${params.toString()}`);
+  try {
+    const data = await fetchJson<PVWattsResponse>(
+      `${PVWATTS_ENDPOINT}?${params.toString()}`
+    );
 
-      if (data.errors && data.errors.length > 0) {
-        console.error(`[PVWatts] API errors for ${countyFips}:`, data.errors);
-        continue;
-      }
-
-      if (data.outputs?.ac_annual != null) {
-        return {
-          countyFips,
-          annualAcKwh: data.outputs.ac_annual,
-          monthlyAcKwh: data.outputs.ac_monthly ?? null,
-          systemCapacityKw: SYSTEM_DEFAULTS.system_capacity,
-          fetchedAt: new Date().toISOString(),
-          quality: "live",
-        };
-      }
-    } catch (error) {
-      console.error(
-        `[PVWatts] ${base} failed for ${countyFips}:`,
-        error instanceof FetchError ? error.message : error
-      );
+    if (data.errors && data.errors.length > 0) {
+      console.error(`[PVWatts] API errors for ${countyFips}:`, data.errors);
+      return solarFromCache(countyFips);
     }
+
+    if (data.outputs?.ac_annual != null) {
+      const fetchedAt = new Date().toISOString();
+      return {
+        countyFips,
+        annualAcKwh: data.outputs.ac_annual,
+        monthlyAcKwh: data.outputs.ac_monthly ?? null,
+        systemCapacityKw: SYSTEM_DEFAULTS.system_capacity,
+        fetchedAt,
+        quality: "live",
+        sourceName: SOURCE_NAME,
+        lastUpdated: fetchedAt,
+        limitation: LIVE_LIMITATION,
+      };
+    }
+  } catch (error) {
+    console.error(
+      `[PVWatts] request failed for ${countyFips}:`,
+      error instanceof FetchError ? error.message : error
+    );
   }
 
   return solarFromCache(countyFips);

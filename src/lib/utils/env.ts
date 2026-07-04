@@ -3,6 +3,7 @@
  * These must ONLY be used in server components or route handlers.
  * Never import this in client components.
  */
+import "server-only";
 
 export function getNrelApiKey(): string | null {
   return process.env.NREL_API_KEY || null;
@@ -18,6 +19,18 @@ export function getCensusApiKey(): string | null {
 
 export function getErcotApiKey(): string | null {
   return process.env.ERCOT_API_KEY || null;
+}
+
+export function getErcotUsername(): string | null {
+  return process.env.ERCOT_USERNAME || null;
+}
+
+export function getErcotPassword(): string | null {
+  return process.env.ERCOT_PASSWORD || null;
+}
+
+export function getErcotSubscriptionKey(): string | null {
+  return process.env.ERCOT_SUBSCRIPTION_KEY || null;
 }
 
 /**

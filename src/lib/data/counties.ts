@@ -3,6 +3,7 @@
  * Server-side only — reads bundled JSON/GeoJSON files.
  */
 
+import "server-only";
 import { readFileSync } from "fs";
 import path from "path";
 import type { FeatureCollection } from "geojson";
@@ -25,6 +26,12 @@ import cityToCounty from "@/data/city-to-county.json";
 import zipToCounty from "@/data/zip-to-county.json";
 
 export const TEXAS_COUNTY_COUNT = 254;
+const STATIC_WEATHER_SOURCE_NAME = "Bundled Open-Meteo weather cache";
+const STATIC_WEATHER_LIMITATION =
+  "Bundled weather cache uses county centroids and may be stale until cache data is regenerated.";
+const STATIC_GRID_SOURCE_NAME = "Bundled grid strain fallback";
+const STATIC_GRID_LIMITATION =
+  "Neutral statewide fallback used when live EIA ERCO data is unavailable; not county-level grid reliability.";
 
 let texasGeoJsonCache: FeatureCollection | null = null;
 
@@ -64,11 +71,22 @@ export function getSolarCache(): SolarCacheEntry[] {
 }
 
 export function getWeatherCache(): WeatherApiResult[] {
-  return weatherRiskCache as WeatherApiResult[];
+  return (weatherRiskCache as WeatherApiResult[]).map((entry) => ({
+    ...entry,
+    sourceName: entry.sourceName ?? STATIC_WEATHER_SOURCE_NAME,
+    lastUpdated: entry.lastUpdated ?? entry.fetchedAt ?? null,
+    limitation: entry.limitation ?? STATIC_WEATHER_LIMITATION,
+  }));
 }
 
 export function getSampleGridStrain(): GridStrainResult {
-  return sampleGridStrain as GridStrainResult;
+  const sample = sampleGridStrain as unknown as GridStrainResult;
+  return {
+    ...sample,
+    sourceName: sample.sourceName ?? STATIC_GRID_SOURCE_NAME,
+    lastUpdated: sample.lastUpdated ?? sample.fetchedAt ?? null,
+    limitation: sample.limitation ?? STATIC_GRID_LIMITATION,
+  };
 }
 
 export function getCityToCountyMap(): Record<

@@ -413,7 +413,7 @@ Loading county profile...
 API fallback state:
 
 ```text
-Some live data is unavailable. Showing cached or estimated values where available.
+Some live data is unavailable. Showing cached, estimated, or fallback values where available.
 ```
 
 Unavailable data state:

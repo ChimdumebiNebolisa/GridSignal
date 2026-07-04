@@ -173,7 +173,7 @@ Use these safer replacements:
 - "Not outage prediction"
 - "Not engineering, legal, financial, or investment advice"
 - "Service territory context is informational"
-- "Data quality: live, cached, estimated, or unavailable"
+- "Data quality: live, cached, estimated, fallback, or unavailable"
 
 Required disclaimers:
 - "GridSignal Texas is a planning tool based on public and estimated data. It does not predict outages."
@@ -240,7 +240,7 @@ Required checks before claiming done:
 - `.env.local` is ignored.
 - `.env.example` exists with placeholders only.
 - External API failure states render honestly.
-- At least one county can show live, cached, estimated, or unavailable data labels.
+- At least one county can show live, cached, estimated, fallback, or unavailable data labels.
 - README explains setup, data sources, scoring, limitations, and how to run.
 
 Recommended commands:

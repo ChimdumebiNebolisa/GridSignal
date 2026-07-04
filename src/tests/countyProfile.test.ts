@@ -12,6 +12,24 @@ import {
   TEXAS_COUNTY_COUNT,
 } from "@/lib/data/counties";
 import type { CountyBaseRecord } from "@/types/county";
+import type { WeatherApiResult } from "@/types/api";
+
+function weatherFixture(countyFips: string): WeatherApiResult {
+  const fetchedAt = new Date().toISOString();
+  return {
+    countyFips,
+    highTempF: 92,
+    lowTempF: 72,
+    maxWindMph: 12,
+    precipInches: 0.1,
+    cloudCoverPercent: null,
+    fetchedAt,
+    quality: "cached",
+    sourceName: "Test weather source",
+    lastUpdated: fetchedAt,
+    limitation: "Test weather limitation.",
+  };
+}
 
 describe("static data validation", () => {
   it("has exactly 254 Texas counties", () => {
@@ -35,16 +53,8 @@ describe("mergeCountyProfile", () => {
   const bases = getCountyStaticProfiles();
   const base: CountyBaseRecord = bases[0];
   const weather =
-    getWeatherCache().find((w) => w.countyFips === base.countyFips) ?? {
-      countyFips: base.countyFips,
-      highTempF: 92,
-      lowTempF: 72,
-      maxWindMph: 12,
-      precipInches: 0.1,
-      cloudCoverPercent: null,
-      fetchedAt: new Date().toISOString(),
-      quality: "cached" as const,
-    };
+    getWeatherCache().find((w) => w.countyFips === base.countyFips) ??
+    weatherFixture(base.countyFips);
   const solarCache = getSolarCache();
   const gridStrain = getSampleGridStrain();
 
@@ -54,6 +64,9 @@ describe("mergeCountyProfile", () => {
     expect(profile.backupPriorityScore).toBeLessThanOrEqual(100);
     expect(profile.countyFips).toBe(base.countyFips);
     expect(profile.recommendation.length).toBeGreaterThan(0);
+    expect(profile.sourceStatus.every((s) => s.sourceName && s.limitation)).toBe(
+      true
+    );
   });
 
   it("does not change score when utility territories are added", () => {

@@ -42,6 +42,7 @@ export function GridSignalApp({
       initialCounties.some(
         (c) =>
           c.dataQuality.overall === "estimated" ||
+          c.dataQuality.overall === "fallback" ||
           c.dataQuality.overall === "cached"
       )
   );

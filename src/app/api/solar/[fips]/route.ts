@@ -23,7 +23,22 @@ export async function GET(_request: Request, { params }: RouteParams) {
       centroid.centroidLat,
       centroid.centroidLon
     );
-    const normalized = normalizeSolarPotential(fips, getSolarCache());
+    const solarCache = getSolarCache();
+    const liveAnnualAcKwh = solar.annualAcKwh;
+    const scoringSolarCache =
+      liveAnnualAcKwh !== null
+        ? solarCache.map((entry) =>
+            entry.countyFips === fips
+              ? {
+                  ...entry,
+                  annualAcKwh: liveAnnualAcKwh,
+                  quality: solar.quality,
+                  fetchedAt: solar.fetchedAt,
+                }
+              : entry
+          )
+        : solarCache;
+    const normalized = normalizeSolarPotential(fips, scoringSolarCache);
 
     return NextResponse.json({
       ...solar,

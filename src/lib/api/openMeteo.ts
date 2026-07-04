@@ -4,10 +4,16 @@
  * Server-side only.
  */
 
+import "server-only";
 import type { WeatherApiResult } from "@/types/api";
 import { fetchJson, FetchError } from "@/lib/utils/fetchJson";
 
 const OPEN_METEO_BASE = "https://api.open-meteo.com/v1/forecast";
+const SOURCE_NAME = "Open-Meteo Forecast API";
+const LIVE_LIMITATION =
+  "County weather uses the county centroid forecast, not parcel-level conditions.";
+const FALLBACK_LIMITATION =
+  "Open-Meteo data was unavailable for this request; weather falls back to cached or neutral planning values.";
 
 type OpenMeteoResponse = {
   daily?: {
@@ -87,6 +93,9 @@ export async function fetchWeather(
       cloudCoverPercent: null, // Not fetched in daily mode
       fetchedAt: new Date().toISOString(),
       quality: "live",
+      sourceName: SOURCE_NAME,
+      lastUpdated: new Date().toISOString(),
+      limitation: LIVE_LIMITATION,
     };
   } catch (error) {
     console.error(
@@ -107,5 +116,10 @@ function createUnavailableResult(countyFips: string): WeatherApiResult {
     cloudCoverPercent: null,
     fetchedAt: new Date().toISOString(),
     quality: "unavailable",
+    sourceName: SOURCE_NAME,
+    lastUpdated: null,
+    limitation: FALLBACK_LIMITATION,
   };
 }
+
+export { SOURCE_NAME as OPEN_METEO_SOURCE_NAME, LIVE_LIMITATION as OPEN_METEO_LIMITATION };

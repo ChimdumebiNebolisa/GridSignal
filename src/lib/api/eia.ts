@@ -5,6 +5,7 @@
  * Requires EIA_API_KEY. Server-side only.
  */
 
+import "server-only";
 import type { GridStrainResult } from "@/types/api";
 import { getEiaApiKey } from "@/lib/utils/env";
 import { fetchJson, FetchError } from "@/lib/utils/fetchJson";
@@ -12,6 +13,9 @@ import { clamp } from "@/lib/utils/clamp";
 import { getSampleGridStrain } from "@/lib/data/counties";
 
 const EIA_BASE = "https://api.eia.gov/v2/electricity/rto/region-data/data/";
+const SOURCE_NAME = "EIA Hourly Electric Grid Monitor";
+const LIVE_LIMITATION =
+  "EIA ERCO demand is a balancing-authority-level signal and is not county-level grid reliability.";
 
 /** Hours of recent ERCO demand used for rolling min/max normalization */
 const ROLLING_HOURS = 720; // ~30 days
@@ -77,7 +81,7 @@ export async function fetchGridStrain(): Promise<GridStrainResult> {
 
   const apiKey = getEiaApiKey();
   if (!apiKey) {
-    console.warn("[EIA] EIA_API_KEY not set. Using estimated fallback.");
+    console.warn("[EIA] EIA_API_KEY not set. Using fallback grid strain.");
     return getSampleGridStrain();
   }
 
@@ -94,13 +98,17 @@ export async function fetchGridStrain(): Promise<GridStrainResult> {
     const highMw = Math.max(...values);
     const gridStrainScore = normalizeDemandScore(currentDemandMw, lowMw, highMw);
 
+    const fetchedAt = new Date().toISOString();
     const result: GridStrainResult = {
       region: "EIA_BalancingAuthority",
       currentDemandMw,
       forecastPeakDemandMw: highMw,
       gridStrainScore,
-      fetchedAt: new Date().toISOString(),
+      fetchedAt,
       quality: "live",
+      sourceName: SOURCE_NAME,
+      lastUpdated: fetchedAt,
+      limitation: LIVE_LIMITATION,
     };
 
     cachedGridStrain = result;

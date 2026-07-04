@@ -5,6 +5,12 @@
 
 import type { DataQuality } from "./county";
 
+export type ApiSourceMetadata = {
+  sourceName: string;
+  lastUpdated: string | null;
+  limitation: string;
+};
+
 export type WeatherApiResult = {
   countyFips: string;
   highTempF: number | null;
@@ -14,6 +20,9 @@ export type WeatherApiResult = {
   cloudCoverPercent: number | null;
   fetchedAt: string;
   quality: DataQuality;
+  sourceName: string;
+  lastUpdated: string | null;
+  limitation: string;
 };
 
 export type SolarApiResult = {
@@ -23,6 +32,9 @@ export type SolarApiResult = {
   systemCapacityKw: number;
   fetchedAt: string;
   quality: DataQuality;
+  sourceName: string;
+  lastUpdated: string | null;
+  limitation: string;
 };
 
 export type GridStrainResult = {
@@ -32,4 +44,7 @@ export type GridStrainResult = {
   gridStrainScore: number;
   fetchedAt: string;
   quality: DataQuality;
+  sourceName: string;
+  lastUpdated: string | null;
+  limitation: string;
 };

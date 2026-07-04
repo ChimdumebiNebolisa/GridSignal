@@ -56,55 +56,76 @@ function buildScoreExplanation(
 }
 
 function buildSourceStatus(
-  weatherQ: DataQuality,
-  solarQ: DataQuality,
-  demandQ: DataQuality,
-  gridQ: DataQuality,
+  weather: ReturnType<typeof normalizeWeatherRisk>,
+  solar: ReturnType<typeof normalizeSolarPotential>,
+  demand: ReturnType<typeof normalizeDemandExposure>,
+  grid: ReturnType<typeof normalizeGridStrain>,
+  inputs: Pick<MergeInputs, "weather" | "gridStrain">,
   utilityQ: DataQuality,
   lastUpdated: string
 ): SourceStatus {
   return [
     {
       source: "county_geojson",
+      sourceName: "Bundled Texas county GeoJSON",
       quality: "cached",
+      fetchedAt: null,
       lastUpdated,
+      limitation: "County boundaries are static bundled geography.",
       message: "Texas county boundaries from bundled GeoJSON.",
     },
     {
       source: "open_meteo",
-      quality: weatherQ,
-      lastUpdated,
+      sourceName: inputs.weather.sourceName,
+      quality: weather.quality,
+      fetchedAt: inputs.weather.fetchedAt,
+      lastUpdated: inputs.weather.lastUpdated ?? inputs.weather.fetchedAt,
+      limitation: inputs.weather.limitation,
       message:
-        weatherQ === "live"
+        weather.quality === "live"
           ? "Weather fetched from Open-Meteo."
-          : "Weather from precomputed cache or estimated fallback.",
+          : weather.explanation,
     },
     {
       source: "nrel_pvwatts",
-      quality: solarQ,
+      sourceName: "NREL PVWatts / bundled solar cache",
+      quality: solar.quality,
+      fetchedAt: null,
       lastUpdated,
+      limitation:
+        "Solar score is normalized against bundled Texas county solar cache using standard 4 kW assumptions.",
       message:
-        solarQ === "live"
+        solar.quality === "live"
           ? "Solar from NREL PVWatts."
-          : "Solar from static cache or estimated proxy.",
+          : solar.explanation,
     },
     {
       source: "census_population",
-      quality: demandQ,
+      sourceName: "U.S. Census population cache",
+      quality: demand.quality,
+      fetchedAt: null,
       lastUpdated,
-      message: "Population from static Census cache.",
+      limitation:
+        "Demand exposure is population-based and does not represent real-time electricity load.",
+      message: demand.explanation,
     },
     {
       source: "eia_grid_monitor",
-      quality: gridQ,
-      lastUpdated,
-      message:
-        "Statewide grid strain from EIA ERCO balancing-authority data or fallback.",
+      sourceName: inputs.gridStrain.sourceName,
+      quality: grid.quality,
+      fetchedAt: inputs.gridStrain.fetchedAt,
+      lastUpdated: inputs.gridStrain.lastUpdated ?? inputs.gridStrain.fetchedAt,
+      limitation: inputs.gridStrain.limitation,
+      message: grid.explanation,
     },
     {
       source: "puct_utility_context",
+      sourceName: "Static utility context lookup",
       quality: utilityQ,
+      fetchedAt: null,
       lastUpdated,
+      limitation:
+        "Utility context is informational only, may be unavailable, and does not affect the score.",
       message: "Utility context is informational only and does not affect score.",
     },
   ];
@@ -161,10 +182,11 @@ export function mergeCountyProfile(inputs: MergeInputs): CountyEnergyProfile {
     recommendation: "",
     dataQuality,
     sourceStatus: buildSourceStatus(
-      weatherScore.quality,
-      solarScore.quality,
-      demandScore.quality,
-      gridScore.quality,
+      weatherScore,
+      solarScore,
+      demandScore,
+      gridScore,
+      { weather, gridStrain },
       utilityQuality as DataQuality,
       lastUpdated
     ),
@@ -191,6 +213,10 @@ export function mergeAllCountyProfiles(
       cloudCoverPercent: null,
       fetchedAt: new Date().toISOString(),
       quality: "estimated" as const,
+      sourceName: "Estimated weather fallback",
+      lastUpdated: new Date().toISOString(),
+      limitation:
+        "Weather data unavailable for this county profile; using neutral planning estimate.",
     };
     return mergeCountyProfile({ base, weather, solarCache, gridStrain });
   });

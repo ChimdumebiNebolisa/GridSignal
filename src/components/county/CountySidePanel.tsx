@@ -86,6 +86,29 @@ export function CountySidePanel({ profile, loading, error }: CountySidePanelProp
         <DataQualityBadge quality={profile.dataQuality.utility} label="Utility context" />
       </div>
 
+      <div className="space-y-2">
+        <h3 className="text-sm font-semibold text-slate-800">Source Notes</h3>
+        <ul className="space-y-2">
+          {profile.sourceStatus.map((status) => (
+            <li
+              key={status.source}
+              className="rounded border border-slate-100 bg-white px-3 py-2 text-xs text-slate-600"
+            >
+              <div className="flex items-center justify-between gap-2">
+                <span className="font-medium text-slate-800">
+                  {status.sourceName}
+                </span>
+                <span className="capitalize text-slate-500">
+                  {status.quality}
+                </span>
+              </div>
+              <p className="mt-1">{status.message}</p>
+              <p className="mt-1 text-slate-500">{status.limitation}</p>
+            </li>
+          ))}
+        </ul>
+      </div>
+
       <p className="text-xs text-slate-500">
         Last updated: {new Date(profile.lastUpdated).toLocaleString("en-US", {
           timeZone: "UTC",

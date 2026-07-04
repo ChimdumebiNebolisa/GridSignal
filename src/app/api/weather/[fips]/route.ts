@@ -19,9 +19,13 @@ export async function GET(_request: Request, { params }: RouteParams) {
 
   try {
     const cached = getWeatherCacheByFips(fips);
+    const liveWeather = await fetchWeather(
+      fips,
+      centroid.centroidLat,
+      centroid.centroidLon
+    );
     const weather =
-      cached ??
-      (await fetchWeather(fips, centroid.centroidLat, centroid.centroidLon));
+      liveWeather.quality === "unavailable" && cached ? cached : liveWeather;
 
     const normalized = normalizeWeatherRisk(weather);
 
@@ -33,9 +37,26 @@ export async function GET(_request: Request, { params }: RouteParams) {
     });
   } catch (error) {
     console.error(`[API /weather/${fips}]`, error);
-    return NextResponse.json(
-      { error: "Failed to load weather data." },
-      { status: 500 }
-    );
+    const fallback = getWeatherCacheByFips(fips) ?? {
+      countyFips: fips,
+      highTempF: null,
+      lowTempF: null,
+      maxWindMph: null,
+      precipInches: null,
+      cloudCoverPercent: null,
+      fetchedAt: new Date().toISOString(),
+      quality: "estimated" as const,
+      sourceName: "Estimated weather fallback",
+      lastUpdated: new Date().toISOString(),
+      limitation:
+        "Weather request failed and no cache was available; using neutral planning estimate.",
+    };
+    const normalized = normalizeWeatherRisk(fallback);
+    return NextResponse.json({
+      ...fallback,
+      weatherRiskScore: normalized.value,
+      scoreQuality: normalized.quality,
+      explanation: normalized.explanation,
+    });
   }
 }

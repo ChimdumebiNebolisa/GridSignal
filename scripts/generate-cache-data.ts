@@ -309,7 +309,7 @@ function generateSampleGridStrain() {
     forecastPeakDemandMw: null,
     gridStrainScore: 50,
     fetchedAt: new Date().toISOString(),
-    quality: "estimated",
+    quality: "fallback",
     explanation:
       "Neutral statewide grid strain fallback used when EIA data is unavailable. This is a balancing-authority-level signal, not county-level grid reliability.",
   };

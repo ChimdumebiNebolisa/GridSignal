@@ -192,13 +192,15 @@ Required fields:
 
 - value
 - label
-- source: estimated fallback
+- source: documented fallback
 - last updated
 - explanation
 
 ## 4. Environment variables
 
 API keys must stay server-side. They must never be exposed in client components.
+The app must remain usable without keys by returning labeled cached, estimated,
+fallback, or unavailable results.
 
 `.env.example` should contain placeholders only:
 
@@ -217,8 +219,11 @@ Rules:
 - `.env.local` must be listed in `.gitignore`.
 - Real API keys must never be committed.
 - Client components must not access private environment variables.
-- API clients must validate required environment variables before making external calls.
-- If an optional key is missing, the app must use the defined fallback and label the output as estimated or unavailable.
+- `NREL_API_KEY` enables live PVWatts calls; without it, use bundled cached or estimated solar data.
+- `EIA_API_KEY` enables live EIA ERCO grid strain; without it, use neutral statewide fallback grid strain.
+- `CENSUS_API_KEY` is only needed for population cache refresh scripts; runtime uses bundled Census population.
+- ERCOT credentials are documented only if an ERCOT client is actually implemented. In the current app, ERCOT is deferred and EIA ERCO is the default grid strain source.
+- If a key is missing or a request fails, the app must use the defined fallback and label the output as cached, estimated, fallback, or unavailable.
 
 ## 5. API route design
 
@@ -253,6 +258,13 @@ Includes:
 - utility context
 - data quality labels
 - source summaries
+
+Each scoring signal and source summary must expose:
+
+- `sourceName`
+- `quality`: `live`, `cached`, `estimated`, `fallback`, or `unavailable`
+- `fetchedAt` or `lastUpdated`
+- `limitation` or plain-English explanation
 
 ```text
 GET /api/weather/[fips]
@@ -291,7 +303,7 @@ Fetches EIA or ERCOT grid strain data.
 Returns:
 
 - statewide or balancing-authority grid strain score
-- source type: EIA, ERCOT, cached, estimated fallback
+- source type: EIA, ERCOT, cached, estimated, fallback, or unavailable
 - timestamp
 - explanation that the value is not county-specific
 
@@ -474,7 +486,7 @@ Displays deterministic recommendation text.
 DataQualityBadge.tsx
 ```
 
-Displays live, cached, estimated, unavailable, or mixed status.
+Displays live, cached, estimated, fallback, unavailable, or mixed status.
 
 ```text
 ReportActions.tsx
@@ -509,7 +521,7 @@ API failure behavior:
 
 - Open-Meteo failure: use unavailable or cached weather score and label it clearly.
 - PVWatts failure: use cached solar value if available, otherwise mark solar as unavailable.
-- EIA/ERCOT failure: use cached value if available, otherwise use estimated fallback and label it as estimated.
+- EIA/ERCOT failure: use cached value if available, otherwise use neutral statewide fallback and label it as fallback.
 - Census failure: use bundled population cache.
 - Utility lookup missing: show unknown utility context.
 
@@ -579,7 +591,9 @@ Setup must explain:
 
 - installing dependencies
 - creating `.env.local`
-- adding NREL, EIA, Census, and optional ERCOT keys
+- running locally with no keys
+- adding optional NREL, EIA, and Census keys for live refreshes
+- noting that ERCOT credentials are reserved until an ERCOT client is implemented
 - running the dev server
 - running typecheck, lint, tests, and build
 

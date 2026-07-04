@@ -74,7 +74,7 @@ Required environment variable: none
 ### NREL PVWatts
 
 Purpose: solar potential calculation  
-Key required: yes  
+Key required: optional for live calls; bundled cache is used without it  
 Input: county centroid latitude and longitude  
 Output used: estimated annual or monthly solar production  
 
@@ -87,7 +87,7 @@ NREL_API_KEY=
 ### Census API
 
 Purpose: population and demand exposure input  
-Key required: yes, unless using static cached Census data  
+Key required: optional for cache refresh scripts; runtime uses static cached Census data  
 Input: county FIPS or Census query parameters  
 Output used: county population  
 
@@ -100,7 +100,7 @@ CENSUS_API_KEY=
 ### EIA Hourly Electric Grid Monitor
 
 Purpose: statewide or balancing-authority grid strain  
-Key required: yes  
+Key required: optional for live calls; neutral statewide fallback is used without it  
 Input: EIA route for balancing-authority or regional electricity operating data  
 Output used: demand, forecast demand, or load-related strain indicators  
 
@@ -112,14 +112,16 @@ EIA_API_KEY=
 
 ### ERCOT public data
 
-Purpose: optional replacement or supplement for grid strain  
-Key required: possibly yes, depending on access method  
+Purpose: optional future replacement or supplement for grid strain  
+Current status: not active in this app; EIA ERCO is the default grid strain source  
+Key required: only if an ERCOT client is implemented later  
 Input: ERCOT public data endpoint or report  
 Output used: grid strain, load, forecast load, or reserve-related signal  
 
 Required environment variables, only if used:
 
 ```env
+ERCOT_API_KEY=
 ERCOT_USERNAME=
 ERCOT_PASSWORD=
 ERCOT_SUBSCRIPTION_KEY=
@@ -530,7 +532,7 @@ Fallback order:
 Required UI label:
 
 ```txt
-Weather data unavailable. Using cached or estimated weather risk.
+Weather data unavailable. Using cached, estimated, or fallback weather risk.
 ```
 
 ### PVWatts failure
@@ -545,7 +547,7 @@ Fallback order:
 Required UI label:
 
 ```txt
-Solar estimate unavailable. Using cached or estimated solar potential.
+Solar estimate unavailable. Using cached, estimated, or fallback solar potential.
 ```
 
 ### Census failure
@@ -559,7 +561,7 @@ Fallback order:
 Required UI label:
 
 ```txt
-Population data unavailable. Using cached or estimated demand exposure.
+Population data unavailable. Using cached, estimated, or fallback demand exposure.
 ```
 
 ### EIA or ERCOT failure
@@ -610,7 +612,12 @@ export type BackupPriorityLabel = "Low" | "Medium" | "High" | "Critical";
 
 export type GridRegion = "ERCOT" | "Non-ERCOT" | "Unknown";
 
-export type DataQuality = "live" | "cached" | "estimated" | "unavailable";
+export type DataQuality =
+  | "live"
+  | "cached"
+  | "estimated"
+  | "fallback"
+  | "unavailable";
 
 export type UtilityContextQuality =
   | "official_boundary"
@@ -630,8 +637,11 @@ export type SourceName =
 
 export type SourceStatusEntry = {
   source: SourceName;
+  sourceName: string;
   quality: DataQuality;
+  fetchedAt?: string | null;
   lastUpdated: string | null;
+  limitation: string;
   message: string;
 };
 
@@ -696,6 +706,9 @@ export type WeatherApiResult = {
   cloudCoverPercent: number | null;
   fetchedAt: string;
   quality: DataQuality;
+  sourceName: string;
+  lastUpdated: string | null;
+  limitation: string;
 };
 
 export type SolarApiResult = {
@@ -705,6 +718,9 @@ export type SolarApiResult = {
   systemCapacityKw: number;
   fetchedAt: string;
   quality: DataQuality;
+  sourceName: string;
+  lastUpdated: string | null;
+  limitation: string;
 };
 
 export type GridStrainResult = {
@@ -714,6 +730,9 @@ export type GridStrainResult = {
   gridStrainScore: number;
   fetchedAt: string;
   quality: DataQuality;
+  sourceName: string;
+  lastUpdated: string | null;
+  limitation: string;
 };
 
 export type ScoreBreakdown = {
@@ -759,6 +778,17 @@ Display:
 Estimated
 ```
 
+### Fallback
+
+Meaning: the preferred live or cached source is unavailable and a documented
+neutral or bundled fallback is being used to preserve the demo experience.
+
+Display:
+
+```txt
+Fallback
+```
+
 ### Unavailable
 
 Meaning: no reliable value exists for this field.
@@ -774,6 +804,7 @@ Overall data quality should be calculated conservatively:
 ```ts
 function getOverallDataQuality(parts: DataQuality[]): DataQuality {
   if (parts.includes("unavailable")) return "unavailable";
+  if (parts.includes("fallback")) return "fallback";
   if (parts.includes("estimated")) return "estimated";
   if (parts.includes("cached")) return "cached";
   return "live";

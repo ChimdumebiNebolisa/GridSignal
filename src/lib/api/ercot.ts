@@ -8,6 +8,7 @@
  * TODO: Implement if user provides ERCOT_API_KEY / ERCOT_USERNAME / ERCOT_PASSWORD
  */
 
+import "server-only";
 import type { GridStrainResult } from "@/types/api";
 
 /**

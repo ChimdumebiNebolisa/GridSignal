@@ -4,8 +4,8 @@ export function DataSourceFooter() {
       <p>
         Data sources: Open-Meteo (weather), NREL PVWatts (solar), U.S. Census
         (population), EIA Hourly Electric Grid Monitor (ERCO grid strain), PUCT
-        / static lookup (utility context). Values may be live, cached, or
-        estimated.
+        / static lookup (utility context). Values may be live, cached,
+        estimated, fallback, or unavailable.
       </p>
       <p className="mt-1 text-slate-500">
         GridSignal Texas estimates backup energy planning priority using public

@@ -9,7 +9,12 @@ export type BackupPriorityLabel = "Low" | "Medium" | "High" | "Critical";
 
 export type GridRegion = "ERCOT" | "Non-ERCOT" | "Unknown";
 
-export type DataQuality = "live" | "cached" | "estimated" | "unavailable";
+export type DataQuality =
+  | "live"
+  | "cached"
+  | "estimated"
+  | "fallback"
+  | "unavailable";
 
 export type UtilityContextQuality =
   | "official_boundary"
@@ -38,8 +43,11 @@ export type LayerName =
 
 export type SourceStatusEntry = {
   source: SourceName;
+  sourceName: string;
   quality: DataQuality;
+  fetchedAt?: string | null;
   lastUpdated: string | null;
+  limitation: string;
   message: string;
 };
 

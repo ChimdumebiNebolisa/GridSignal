@@ -36,7 +36,7 @@ Open [http://localhost:3000](http://localhost:3000).
 - County detail side panel with score breakdown, recommendation, utility context, and data quality
 - Search by county name, city (~1,462 cities), or ZIP (~1,928 ZIPs); approximate matches are labeled
 - Copy or download plain-text county report
-- Deterministic scoring from public data with live, cached, estimated, and unavailable labels
+- Deterministic scoring from public data with live, cached, estimated, fallback, and unavailable labels
 - API routes: `/api/counties`, `/api/county/[fips]`, `/api/weather/[fips]`, `/api/solar/[fips]`, `/api/grid-strain`, `/api/search`
 
 ## Tech Stack
@@ -129,10 +129,13 @@ cp .env.example .env.local
 
 | Variable | Purpose |
 |----------|---------|
-| `NREL_API_KEY` | Live PVWatts solar fetches ([signup](https://developer.nrel.gov/signup/)) |
-| `EIA_API_KEY` | Live ERCO grid strain ([register](https://www.eia.gov/opendata/register.php)) |
-| `CENSUS_API_KEY` | Live Census population (static cache bundled by default) |
-| `NEXT_PUBLIC_APP_NAME` | App title (default: GridSignal Texas) |
+| `NREL_API_KEY` | Optional live PVWatts solar fetches ([signup](https://developer.nrel.gov/signup/)); static solar cache is used without it |
+| `EIA_API_KEY` | Optional live EIA ERCO balancing-authority grid strain ([register](https://www.eia.gov/opendata/register.php)); neutral statewide fallback is used without it |
+| `CENSUS_API_KEY` | Optional population cache refresh scripts; runtime uses bundled static Census population by default |
+| `ERCOT_API_KEY`, `ERCOT_USERNAME`, `ERCOT_PASSWORD`, `ERCOT_SUBSCRIPTION_KEY` | Reserved for future ERCOT integration; not used by the current app |
+| `NEXT_PUBLIC_APP_NAME` | Public app title only (default: GridSignal Texas); do not put secrets in `NEXT_PUBLIC_*` variables |
+
+The app runs without API keys. In that mode, Open-Meteo weather still works without a key, solar uses bundled cached/estimated values, population uses the bundled Census cache, and grid strain uses a neutral statewide fallback.
 
 5. Verify the project:
 
@@ -160,8 +163,10 @@ npm run dev
 ## Key Technical Decisions
 
 - **Precomputed weather cache** for all 254 counties keeps map and panel scores consistent; live weather is available via `/api/weather/[fips]`.
-- **PVWatts** uses `developer.nlr.gov` with NREL fallback; static solar cache when keys or requests fail.
-- **EIA ERCO** demand is normalized against a rolling min/max from the same hourly series; neutral `50` when unavailable.
+- **PVWatts** uses the NREL developer API when `NREL_API_KEY` is present; static cached or estimated solar values are labeled when keys or requests fail.
+- **EIA ERCO** demand is normalized against a rolling min/max from the same hourly series; neutral statewide `50` when unavailable.
+- **Census population** is bundled as a static cache for runtime demand exposure; `CENSUS_API_KEY` is only needed to refresh that cache.
+- **Open-Meteo weather** requires no key and uses county centroid forecasts; cached or estimated weather is labeled if live fetches fail.
 - **No OSM tile dependency** — counties render from bundled GeoJSON on a plain background.
 - **Utility context** is informational only and does not affect the score; uncertain counties use an empty utility list.
 - **City/ZIP lookup** uses centroid spatial joins from public datasets; results labeled as approximate when applicable.
@@ -173,7 +178,7 @@ npm run dev
 - **Likely utility/service territory** is context only—not a legal service-area determination.
 - **City and ZIP** matches may be approximate; multi-county ZIPs are not fully resolved.
 - Most counties have **unknown utility context** (no fabricated utility names).
-- Missing API keys use cached or neutral estimated values, clearly labeled in the UI.
+- Missing API keys use cached, estimated, or fallback values, clearly labeled in the UI.
 - Scores depend on available public data and documented normalization rules.
 
 ## License

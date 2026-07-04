@@ -30,7 +30,7 @@ export function percentileRank(value: number, allValues: number[]): number {
  * Weights: heat 40%, cold 25%, wind 20%, precip 15%.
  */
 export function normalizeWeatherRisk(weather: WeatherApiResult): ScoreInput {
-  // If all weather data is null, return estimated fallback
+  // If all weather data is null, return a neutral estimated score.
   if (
     weather.highTempF === null &&
     weather.lowTempF === null &&
@@ -177,7 +177,11 @@ export function normalizeDemandExposure(
  */
 export function normalizeGridStrain(gridData: GridStrainResult): ScoreInput {
   // If no real data, use the pre-computed score from the result
-  if (gridData.quality === "estimated" || gridData.quality === "unavailable") {
+  if (
+    gridData.quality === "estimated" ||
+    gridData.quality === "fallback" ||
+    gridData.quality === "unavailable"
+  ) {
     return {
       value: clamp(gridData.gridStrainScore, 0, 100),
       quality: gridData.quality,

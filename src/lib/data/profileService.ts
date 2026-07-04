@@ -2,6 +2,7 @@
  * Shared profile builder for API routes
  */
 
+import "server-only";
 import {
   getCountyStaticProfiles,
   getSolarCache,
@@ -14,6 +15,24 @@ import type { GridStrainResult } from "@/types/api";
 
 let profilesCache: CountyEnergyProfile[] | null = null;
 let gridStrainCache: GridStrainResult | null = null;
+
+function estimatedWeather(countyFips: string) {
+  const fetchedAt = new Date().toISOString();
+  return {
+    countyFips,
+    highTempF: null,
+    lowTempF: null,
+    maxWindMph: null,
+    precipInches: null,
+    cloudCoverPercent: null,
+    fetchedAt,
+    quality: "estimated" as const,
+    sourceName: "Estimated weather fallback",
+    lastUpdated: fetchedAt,
+    limitation:
+      "Weather data unavailable for this county profile; using neutral planning estimate.",
+  };
+}
 
 export async function getSharedGridStrain(): Promise<GridStrainResult> {
   if (!gridStrainCache) {
@@ -43,16 +62,7 @@ export async function buildCountyProfileByFips(
   if (!base) return null;
 
   const weather =
-    getWeatherCache().find((w) => w.countyFips === fips) ?? {
-      countyFips: fips,
-      highTempF: null,
-      lowTempF: null,
-      maxWindMph: null,
-      precipInches: null,
-      cloudCoverPercent: null,
-      fetchedAt: new Date().toISOString(),
-      quality: "estimated" as const,
-    };
+    getWeatherCache().find((w) => w.countyFips === fips) ?? estimatedWeather(fips);
 
   const gridStrain = await getSharedGridStrain();
 

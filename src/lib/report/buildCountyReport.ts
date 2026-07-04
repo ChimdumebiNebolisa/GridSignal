@@ -31,6 +31,12 @@ export function buildCountyReport(profile: CountyEnergyProfile): string {
     likelyUtilityTerritories.length > 0
       ? likelyUtilityTerritories.join(", ")
       : "Unknown";
+  const sourceNotes = profile.sourceStatus
+    .map(
+      (status) =>
+        `- ${status.sourceName}: ${status.quality}. ${status.message} ${status.limitation}`
+    )
+    .join("\n");
 
   return `GridSignal Texas Report
 ${countyName}, Texas
@@ -61,6 +67,9 @@ Solar: ${dataQuality.solar}
 Population: ${dataQuality.demand}
 Grid strain: ${dataQuality.grid}
 Utility context: ${dataQuality.utility}
+
+Source Notes:
+${sourceNotes}
 
 Last updated: ${lastUpdated}`;
 }

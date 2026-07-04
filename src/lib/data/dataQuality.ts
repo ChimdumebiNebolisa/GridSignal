@@ -6,6 +6,7 @@ import type { DataQuality, DataQualitySummary } from "@/types/county";
 
 export function getOverallDataQuality(parts: DataQuality[]): DataQuality {
   if (parts.includes("unavailable")) return "unavailable";
+  if (parts.includes("fallback")) return "fallback";
   if (parts.includes("estimated")) return "estimated";
   if (parts.includes("cached")) return "cached";
   return "live";
@@ -36,6 +37,8 @@ export function dataQualityLabel(quality: DataQuality): string {
       return "Cached";
     case "estimated":
       return "Estimated";
+    case "fallback":
+      return "Fallback";
     case "unavailable":
       return "Unavailable";
   }

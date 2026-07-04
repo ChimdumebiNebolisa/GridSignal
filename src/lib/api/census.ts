@@ -5,6 +5,7 @@
  * Server-side only.
  */
 
+import "server-only";
 import type { CountyPopulationRecord } from "@/types/county";
 import { getCensusApiKey } from "@/lib/utils/env";
 import { fetchJson, FetchError } from "@/lib/utils/fetchJson";
