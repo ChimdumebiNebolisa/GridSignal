@@ -9,7 +9,10 @@
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "data:build": "tsx scripts/build-indicators.ts",
+    "data:validate": "tsx scripts/validate-data-manifest.ts",
+    "data:validate-scoring": "tsx scripts/validate-scoring.ts"
   },
   "dependencies": {
     "leaflet": "^1.9.4",

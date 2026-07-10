@@ -1,15 +1,7 @@
 "use client";
 
 import type { LayerName } from "@/types/county";
-import { LAYER_DESCRIPTIONS, LAYER_LABELS } from "@/lib/map/colors";
-
-const LAYERS: LayerName[] = [
-  "backupPriority",
-  "weatherRisk",
-  "solarPotential",
-  "demandExposure",
-  "statewideGridStrain",
-];
+import { ACTIVE_LAYERS, LAYER_DESCRIPTIONS, LAYER_LABELS } from "@/lib/map/colors";
 
 type LayerTogglePanelProps = {
   selected: LayerName;
@@ -25,7 +17,7 @@ export function LayerTogglePanel({ selected, onChange }: LayerTogglePanelProps) 
         role="radiogroup"
         aria-label="Map layer selection"
       >
-        {LAYERS.map((layer) => (
+        {ACTIVE_LAYERS.map((layer) => (
           <label
             key={layer}
             className={`cursor-pointer rounded px-2 py-1.5 text-xs ${

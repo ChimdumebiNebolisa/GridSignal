@@ -1,5 +1,5 @@
 /**
- * GridSignal Texas — Data quality helpers
+ * GridSignal Texas — Data quality helpers (v2)
  */
 
 import type { DataQuality, DataQualitySummary } from "@/types/county";
@@ -12,7 +12,24 @@ export function getOverallDataQuality(parts: DataQuality[]): DataQuality {
   return "live";
 }
 
+/** Score-bearing indicators only — utility context excluded */
 export function buildDataQualitySummary(
+  structuralNeed: DataQuality,
+  feasibility: DataQuality,
+  operational: DataQuality,
+  utilityContext: DataQuality
+): DataQualitySummary {
+  return {
+    overall: getOverallDataQuality([structuralNeed, feasibility, operational]),
+    structuralNeed,
+    feasibility,
+    operational,
+    contextQuality: utilityContext,
+  };
+}
+
+/** @deprecated Legacy rollup for migration tests */
+export function buildLegacyDataQualitySummary(
   weather: DataQuality,
   solar: DataQuality,
   demand: DataQuality,
@@ -20,7 +37,11 @@ export function buildDataQualitySummary(
   utility: DataQuality
 ): DataQualitySummary {
   return {
-    overall: getOverallDataQuality([weather, solar, demand, grid, utility]),
+    overall: getOverallDataQuality([weather, solar, demand, grid]),
+    structuralNeed: weather,
+    feasibility: solar,
+    operational: grid,
+    contextQuality: utility,
     weather,
     solar,
     demand,

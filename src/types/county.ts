@@ -1,11 +1,13 @@
 /**
- * GridSignal Texas — Core county types
- * Derived from gridsignal_texas_data_contract.md §2 and §10
+ * GridSignal Texas — Core county types (v2)
  */
 
 // --- Enums and label types ---
 
+/** @deprecated Use PlanningLabel for v2 UI */
 export type BackupPriorityLabel = "Low" | "Medium" | "High" | "Critical";
+
+export type PlanningLabel = "Lower" | "Moderate" | "Elevated" | "Highest";
 
 export type GridRegion = "ERCOT" | "Non-ERCOT" | "Unknown";
 
@@ -30,14 +32,104 @@ export type SourceName =
   | "nrel_pvwatts"
   | "eia_grid_monitor"
   | "ercot_public_data"
-  | "puct_utility_context";
+  | "puct_utility_context"
+  | "fema_nri"
+  | "cdc_svi"
+  | "eagle_i";
 
 export type LayerName =
+  | "structuralNeed"
+  | "feasibility"
+  | "needFeasibilityQuadrant"
+  | "weatherStress"
+  /** @deprecated */
   | "backupPriority"
+  /** @deprecated */
   | "weatherRisk"
+  /** @deprecated */
   | "solarPotential"
+  /** @deprecated */
   | "demandExposure"
+  /** @deprecated */
   | "statewideGridStrain";
+
+export type MissingPolicy =
+  | "exclude_and_reweight"
+  | "withhold_component"
+  | "withhold_composite";
+
+// --- Manifest and provenance ---
+
+export type ProvenanceRecord = {
+  id: string;
+  vintage: string;
+  fetchedAt: string;
+  coverage: string;
+  quality: DataQuality;
+};
+
+export type DataManifest = {
+  schemaVersion: string;
+  scoreConfigVersion: string;
+  generatedAt: string;
+  sources: ProvenanceRecord[];
+};
+
+// --- Indicator types ---
+
+export type IndicatorComponent = {
+  value: number | null;
+  quality: DataQuality;
+  source: string;
+  vintage: string;
+  explanation: string;
+  imputed?: boolean;
+};
+
+export type StructuralNeedProfile = {
+  score: number | null;
+  label: PlanningLabel;
+  components: {
+    hazardExposure: IndicatorComponent;
+    socialVulnerability: IndicatorComponent;
+    outageBurden: IndicatorComponent;
+  };
+  missingComponents: string[];
+  quality: DataQuality;
+};
+
+export type FeasibilityProfile = {
+  score: number;
+  label: PlanningLabel;
+  components: {
+    solarResource: IndicatorComponent;
+  };
+  quality: DataQuality;
+};
+
+export type OperationalContext = {
+  weatherStressScore: number;
+  weatherStressExplanation: string;
+  statewideGridStrainScore: number;
+  statewideGridStrainExplanation: string;
+  asOf: string;
+  limitation: string;
+};
+
+export type CountyStructuralNeedRecord = {
+  countyFips: string;
+  structuralNeedScore: number | null;
+  components: StructuralNeedProfile["components"];
+  missingComponents: string[];
+  quality: DataQuality;
+};
+
+export type CountyFeasibilityRecord = {
+  countyFips: string;
+  feasibilityScore: number;
+  components: FeasibilityProfile["components"];
+  quality: DataQuality;
+};
 
 // --- Source and quality types ---
 
@@ -57,6 +149,7 @@ export type ScoreInput = {
   value: number;
   quality: DataQuality;
   explanation: string;
+  imputed?: boolean;
 };
 
 export type ScoreExplanation = {
@@ -69,11 +162,20 @@ export type ScoreExplanation = {
 
 export type DataQualitySummary = {
   overall: DataQuality;
-  weather: DataQuality;
-  solar: DataQuality;
-  demand: DataQuality;
-  grid: DataQuality;
-  utility: DataQuality;
+  structuralNeed: DataQuality;
+  feasibility: DataQuality;
+  operational: DataQuality;
+  contextQuality: DataQuality;
+  /** @deprecated */
+  weather?: DataQuality;
+  /** @deprecated */
+  solar?: DataQuality;
+  /** @deprecated */
+  demand?: DataQuality;
+  /** @deprecated */
+  grid?: DataQuality;
+  /** @deprecated */
+  utility?: DataQuality;
 };
 
 // --- County record types ---
@@ -92,6 +194,14 @@ export type CountyBaseRecord = {
 };
 
 export type CountyEnergyProfile = CountyBaseRecord & {
+  structuralNeed: StructuralNeedProfile;
+  feasibility: FeasibilityProfile;
+  operationalContext: OperationalContext;
+  dataManifestVersion: string;
+  profileAssembledAt: string;
+  lastUpdated: string;
+
+  /** @deprecated Legacy composite — withheld from primary UI */
   weatherRiskScore: number;
   solarPotentialScore: number;
   demandExposureScore: number;
@@ -102,7 +212,6 @@ export type CountyEnergyProfile = CountyBaseRecord & {
   recommendation: string;
   dataQuality: DataQualitySummary;
   sourceStatus: SourceStatus;
-  lastUpdated: string;
 };
 
 // --- Static data file shapes ---
@@ -147,4 +256,23 @@ export type SearchResult = {
   displayName: string;
   matchType: SearchMatchType;
   confidence: "exact" | "approximate";
+};
+
+export type MapCountySummary = {
+  countyFips: string;
+  countyName: string;
+  structuralNeedScore: number | null;
+  structuralNeedLabel: PlanningLabel;
+  feasibilityScore: number;
+  feasibilityLabel: PlanningLabel;
+  weatherStressScore: number;
+  /** @deprecated */
+  backupPriorityScore: number;
+  /** @deprecated */
+  backupPriorityLabel: string;
+  weatherRiskScore: number;
+  solarPotentialScore: number;
+  demandExposureScore: number;
+  statewideGridStrainScore: number;
+  dataQuality: DataQualitySummary;
 };

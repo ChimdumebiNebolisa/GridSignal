@@ -1,5 +1,5 @@
 /**
- * GridSignal Texas — Merge county base record with score inputs into full profile
+ * GridSignal Texas — Merge county base record with score inputs into full profile (v2)
  */
 
 import type {
@@ -14,13 +14,22 @@ import type { SolarCacheEntry } from "@/types/county";
 import {
   normalizeWeatherRisk,
   normalizeSolarPotential,
-  normalizeDemandExposure,
+  normalizePopulationContext,
   normalizeGridStrain,
 } from "@/lib/scoring/normalize";
 import { calculateBackupPriorityScore } from "@/lib/scoring/scoreCounty";
 import { buildRecommendation } from "@/lib/scoring/recommendations";
 import { buildDataQualitySummary } from "@/lib/data/dataQuality";
 import { getAllPopulations } from "@/lib/data/counties";
+import {
+  getDataManifest,
+  getFeasibilityByFips,
+  getStructuralNeedByFips,
+} from "@/lib/data/indicators";
+import { calculateStructuralNeed } from "@/lib/scoring/structuralNeed";
+import { calculateFeasibility } from "@/lib/scoring/feasibility";
+import { buildOperationalContext } from "@/lib/scoring/operationalContext";
+import { deriveProfileTimestamps } from "@/lib/data/timestamps";
 
 export type MergeInputs = {
   base: CountyBaseRecord;
@@ -29,27 +38,66 @@ export type MergeInputs = {
   gridStrain: GridStrainResult;
 };
 
+function defaultStructuralNeedRecord(countyFips: string) {
+  const unavailable = {
+    value: null as number | null,
+    quality: "unavailable" as const,
+    source: "unavailable",
+    vintage: "n/a",
+    explanation: "Indicator data unavailable for this county.",
+  };
+  return {
+    countyFips,
+    structuralNeedScore: null,
+    components: {
+      hazardExposure: { ...unavailable, source: "fema_nri" },
+      socialVulnerability: { ...unavailable, source: "cdc_svi" },
+      outageBurden: { ...unavailable, source: "eagle_i" },
+    },
+    missingComponents: ["hazardExposure", "socialVulnerability", "outageBurden"],
+    quality: "unavailable" as const,
+  };
+}
+
+function defaultFeasibilityRecord(countyFips: string) {
+  return {
+    countyFips,
+    feasibilityScore: 0,
+    components: {
+      solarResource: {
+        value: null,
+        quality: "unavailable" as const,
+        source: "nrel_pvwatts",
+        vintage: "n/a",
+        explanation: "Solar feasibility data unavailable.",
+        imputed: true,
+      },
+    },
+    quality: "unavailable" as const,
+  };
+}
+
 function buildScoreExplanation(
   weather: ReturnType<typeof normalizeWeatherRisk>,
   solar: ReturnType<typeof normalizeSolarPotential>,
-  demand: ReturnType<typeof normalizeDemandExposure>,
+  population: ReturnType<typeof normalizePopulationContext>,
   grid: ReturnType<typeof normalizeGridStrain>
 ): ScoreExplanation {
   const drivers: string[] = [];
   if (weather.value >= 60) drivers.push("weather exposure");
   if (solar.value >= 60) drivers.push("solar potential");
-  if (demand.value >= 60) drivers.push("demand exposure");
+  if (population.value >= 60) drivers.push("population context");
   if (grid.value >= 60) drivers.push("statewide grid strain");
 
   const summary =
     drivers.length > 0
-      ? `Backup priority reflects ${drivers.join(", ")} from public data signals.`
-      : "Backup priority reflects moderate public data signals across all inputs.";
+      ? `Legacy composite reflects ${drivers.join(", ")} from public data signals. Primary view uses structural need and feasibility axes.`
+      : "Legacy composite reflects moderate public data signals. Primary view uses structural need and feasibility axes.";
 
   return {
     weatherRisk: weather,
     solarPotential: solar,
-    demandExposure: demand,
+    demandExposure: population,
     statewideGridStrain: grid,
     finalSummary: summary,
   };
@@ -58,11 +106,11 @@ function buildScoreExplanation(
 function buildSourceStatus(
   weather: ReturnType<typeof normalizeWeatherRisk>,
   solar: ReturnType<typeof normalizeSolarPotential>,
-  demand: ReturnType<typeof normalizeDemandExposure>,
+  population: ReturnType<typeof normalizePopulationContext>,
   grid: ReturnType<typeof normalizeGridStrain>,
   inputs: Pick<MergeInputs, "weather" | "gridStrain">,
   utilityQ: DataQuality,
-  lastUpdated: string
+  profileAssembledAt: string
 ): SourceStatus {
   return [
     {
@@ -70,9 +118,36 @@ function buildSourceStatus(
       sourceName: "Bundled Texas county GeoJSON",
       quality: "cached",
       fetchedAt: null,
-      lastUpdated,
+      lastUpdated: profileAssembledAt,
       limitation: "County boundaries are static bundled geography.",
       message: "Texas county boundaries from bundled GeoJSON.",
+    },
+    {
+      source: "fema_nri",
+      sourceName: "FEMA National Risk Index",
+      quality: "estimated",
+      fetchedAt: null,
+      lastUpdated: profileAssembledAt,
+      limitation: "Hazard exposure from bundled annual snapshot.",
+      message: "Structural need — hazard exposure component.",
+    },
+    {
+      source: "cdc_svi",
+      sourceName: "CDC/ATSDR Social Vulnerability Index",
+      quality: "estimated",
+      fetchedAt: null,
+      lastUpdated: profileAssembledAt,
+      limitation: "Social vulnerability from bundled annual snapshot.",
+      message: "Structural need — social vulnerability component.",
+    },
+    {
+      source: "eagle_i",
+      sourceName: "DOE EAGLE-I outage burden",
+      quality: "estimated",
+      fetchedAt: null,
+      lastUpdated: profileAssembledAt,
+      limitation: "Historical outage burden proxy from bundled snapshot.",
+      message: "Structural need — outage burden component.",
     },
     {
       source: "open_meteo",
@@ -83,7 +158,7 @@ function buildSourceStatus(
       limitation: inputs.weather.limitation,
       message:
         weather.quality === "live"
-          ? "Weather fetched from Open-Meteo."
+          ? "Operational weather stress from Open-Meteo."
           : weather.explanation,
     },
     {
@@ -91,23 +166,20 @@ function buildSourceStatus(
       sourceName: "NREL PVWatts / bundled solar cache",
       quality: solar.quality,
       fetchedAt: null,
-      lastUpdated,
+      lastUpdated: profileAssembledAt,
       limitation:
-        "Solar score is normalized against bundled Texas county solar cache using standard 4 kW assumptions.",
-      message:
-        solar.quality === "live"
-          ? "Solar from NREL PVWatts."
-          : solar.explanation,
+        "Solar feasibility from bundled Texas county solar cache (4 kW assumptions).",
+      message: solar.explanation,
     },
     {
       source: "census_population",
       sourceName: "U.S. Census population cache",
-      quality: demand.quality,
+      quality: population.quality,
       fetchedAt: null,
-      lastUpdated,
+      lastUpdated: profileAssembledAt,
       limitation:
-        "Demand exposure is population-based and does not represent real-time electricity load.",
-      message: demand.explanation,
+        "Population context only — does not represent electricity demand.",
+      message: population.explanation,
     },
     {
       source: "eia_grid_monitor",
@@ -123,10 +195,10 @@ function buildSourceStatus(
       sourceName: "Static utility context lookup",
       quality: utilityQ,
       fetchedAt: null,
-      lastUpdated,
+      lastUpdated: profileAssembledAt,
       limitation:
-        "Utility context is informational only, may be unavailable, and does not affect the score.",
-      message: "Utility context is informational only and does not affect score.",
+        "Utility context is informational only and does not affect scores.",
+      message: "Utility context is informational only.",
     },
   ];
 }
@@ -134,20 +206,33 @@ function buildSourceStatus(
 export function mergeCountyProfile(inputs: MergeInputs): CountyEnergyProfile {
   const { base, weather, solarCache, gridStrain } = inputs;
   const allPops = getAllPopulations();
+  const manifest = getDataManifest();
 
   const weatherScore = normalizeWeatherRisk(weather);
   const solarScore = normalizeSolarPotential(base.countyFips, solarCache);
-  const demandScore = normalizeDemandExposure(base.population, allPops);
+  const populationScore = normalizePopulationContext(base.population, allPops);
   const gridScore = normalizeGridStrain(gridStrain);
+
+  const structuralNeed = calculateStructuralNeed(
+    getStructuralNeedByFips(base.countyFips) ?? defaultStructuralNeedRecord(base.countyFips)
+  );
+  const feasibility = calculateFeasibility(
+    getFeasibilityByFips(base.countyFips) ?? defaultFeasibilityRecord(base.countyFips)
+  );
+  const operationalContext = buildOperationalContext(weather, gridStrain);
 
   const result = calculateBackupPriorityScore({
     weatherRisk: weatherScore,
     solarPotential: solarScore,
-    demandExposure: demandScore,
+    demandExposure: populationScore,
     gridStrain: gridScore,
   });
 
-  const lastUpdated = new Date().toISOString();
+  const { lastUpdated, profileAssembledAt } = deriveProfileTimestamps([
+    weather.fetchedAt,
+    gridStrain.fetchedAt,
+    manifest.generatedAt,
+  ]);
 
   const utilityQuality: DataQuality =
     base.utilityContextQuality === "unknown" ||
@@ -156,25 +241,32 @@ export function mergeCountyProfile(inputs: MergeInputs): CountyEnergyProfile {
       : "estimated";
 
   const dataQuality = buildDataQualitySummary(
-    weatherScore.quality,
-    solarScore.quality,
-    demandScore.quality,
-    gridScore.quality,
-    utilityQuality as DataQuality
+    structuralNeed.quality,
+    feasibility.quality,
+    weatherScore.imputed || weatherScore.quality === "estimated"
+      ? "estimated"
+      : weatherScore.quality,
+    utilityQuality
   );
 
   const scoreExplanation = buildScoreExplanation(
     weatherScore,
     solarScore,
-    demandScore,
+    populationScore,
     gridScore
   );
 
   const profile: CountyEnergyProfile = {
     ...base,
+    structuralNeed,
+    feasibility,
+    operationalContext,
+    dataManifestVersion: manifest.schemaVersion,
+    profileAssembledAt,
+    lastUpdated,
     weatherRiskScore: weatherScore.value,
     solarPotentialScore: solarScore.value,
-    demandExposureScore: demandScore.value,
+    demandExposureScore: populationScore.value,
     statewideGridStrainScore: gridScore.value,
     backupPriorityScore: result.score,
     backupPriorityLabel: result.label,
@@ -184,13 +276,12 @@ export function mergeCountyProfile(inputs: MergeInputs): CountyEnergyProfile {
     sourceStatus: buildSourceStatus(
       weatherScore,
       solarScore,
-      demandScore,
+      populationScore,
       gridScore,
       { weather, gridStrain },
-      utilityQuality as DataQuality,
-      lastUpdated
+      utilityQuality,
+      profileAssembledAt
     ),
-    lastUpdated,
   };
 
   profile.recommendation = buildRecommendation(profile);

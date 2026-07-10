@@ -40,3 +40,18 @@ export const LABEL_THRESHOLDS = {
   medium: 40,
   low: 0,
 } as const;
+
+/** v2 planning labels — "Highest" not "Critical" until calibration */
+export const PLANNING_LABEL_THRESHOLDS = {
+  highest: 80,
+  elevated: 60,
+  moderate: 40,
+  lower: 0,
+} as const;
+
+/** Equal weight among available structural need components */
+export const STRUCTURAL_NEED_WEIGHTS = {
+  hazardExposure: 1 / 3,
+  socialVulnerability: 1 / 3,
+  outageBurden: 1 / 3,
+} as const;

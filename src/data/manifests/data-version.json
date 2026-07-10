@@ -1,0 +1,35 @@
+{
+  "schemaVersion": "2.0.0",
+  "scoreConfigVersion": "none",
+  "generatedAt": "2026-07-10T17:29:51.752Z",
+  "sources": [
+    {
+      "id": "fema_nri",
+      "vintage": "2025-12-v1.20",
+      "fetchedAt": "2026-07-10T17:29:51.752Z",
+      "coverage": "254/254",
+      "quality": "estimated"
+    },
+    {
+      "id": "cdc_svi",
+      "vintage": "2022",
+      "fetchedAt": "2026-07-10T17:29:51.752Z",
+      "coverage": "254/254",
+      "quality": "estimated"
+    },
+    {
+      "id": "eagle_i",
+      "vintage": "2014-2022",
+      "fetchedAt": "2026-07-10T17:29:51.752Z",
+      "coverage": "254/254",
+      "quality": "estimated"
+    },
+    {
+      "id": "nrel_pvwatts",
+      "vintage": "2026-05-23",
+      "fetchedAt": "2026-05-23T04:42:53.223Z",
+      "coverage": "254/254",
+      "quality": "cached"
+    }
+  ]
+}
