@@ -58,15 +58,32 @@ describe("mergeCountyProfile", () => {
   const solarCache = getSolarCache();
   const gridStrain = getSampleGridStrain();
 
-  it("produces a complete profile", () => {
+  it("produces a complete v2 profile", () => {
     const profile = mergeCountyProfile({ base, weather, solarCache, gridStrain });
-    expect(profile.backupPriorityScore).toBeGreaterThanOrEqual(0);
-    expect(profile.backupPriorityScore).toBeLessThanOrEqual(100);
+    expect(profile.structuralNeed).toBeDefined();
+    expect(profile.feasibility).toBeDefined();
+    expect(profile.operationalContext).toBeDefined();
     expect(profile.countyFips).toBe(base.countyFips);
     expect(profile.recommendation.length).toBeGreaterThan(0);
     expect(profile.sourceStatus.every((s) => s.sourceName && s.limitation)).toBe(
       true
     );
+  });
+
+  it("utility unavailable does not degrade overall data quality", () => {
+    const baseUnknownUtility: CountyBaseRecord = {
+      ...base,
+      likelyUtilityTerritories: [],
+      utilityContextQuality: "unknown",
+    };
+    const profile = mergeCountyProfile({
+      base: baseUnknownUtility,
+      weather,
+      solarCache,
+      gridStrain,
+    });
+    expect(profile.dataQuality.contextQuality).toBe("unavailable");
+    expect(profile.dataQuality.overall).not.toBe("unavailable");
   });
 
   it("does not change score when utility territories are added", () => {

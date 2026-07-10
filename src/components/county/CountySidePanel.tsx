@@ -1,7 +1,7 @@
 "use client";
 
 import type { CountyEnergyProfile } from "@/types/county";
-import { ScoreSummary } from "./ScoreSummary";
+import { IndicatorSummary } from "./ScoreSummary";
 import { ScoreBreakdown } from "./ScoreBreakdown";
 import { RecommendationCard } from "./RecommendationCard";
 import { DataQualityBadge } from "./DataQualityBadge";
@@ -13,9 +13,15 @@ type CountySidePanelProps = {
   profile: CountyEnergyProfile | null;
   loading: boolean;
   error: string | null;
+  dataManifestVersion?: string;
 };
 
-export function CountySidePanel({ profile, loading, error }: CountySidePanelProps) {
+export function CountySidePanel({
+  profile,
+  loading,
+  error,
+  dataManifestVersion,
+}: CountySidePanelProps) {
   if (loading) {
     return (
       <div className="flex-1 overflow-y-auto p-4">
@@ -35,7 +41,7 @@ export function CountySidePanel({ profile, loading, error }: CountySidePanelProp
   if (!profile) {
     return (
       <div className="flex-1 overflow-y-auto p-4">
-        <EmptyState message="Click a Texas county on the map to view backup-planning priority, score breakdown, and data quality." />
+        <EmptyState message="Click a Texas county to view structural resilience need, backup feasibility, current conditions, and data provenance." />
       </div>
     );
   }
@@ -45,19 +51,29 @@ export function CountySidePanel({ profile, loading, error }: CountySidePanelProp
       ? profile.likelyUtilityTerritories.join(", ")
       : "Unknown";
 
+  const manifestVersion = dataManifestVersion ?? profile.dataManifestVersion;
+
   return (
     <div className="flex-1 overflow-y-auto p-4 space-y-4">
       <div>
         <h2 className="text-xl font-semibold text-slate-900">{profile.countyName}</h2>
-        <p className="text-xs text-slate-500">FIPS {profile.countyFips} · Texas</p>
+        <p className="text-xs text-slate-500">
+          FIPS {profile.countyFips} · Texas · Data schema {manifestVersion}
+        </p>
       </div>
 
-      <ScoreSummary
-        score={profile.backupPriorityScore}
-        label={profile.backupPriorityLabel}
-      />
-
-      <p className="text-sm text-slate-700">{profile.scoreExplanation.finalSummary}</p>
+      <div className="grid gap-3 sm:grid-cols-2">
+        <IndicatorSummary
+          title="Structural Resilience Need"
+          score={profile.structuralNeed.score}
+          label={profile.structuralNeed.label}
+        />
+        <IndicatorSummary
+          title="Backup Feasibility"
+          score={profile.feasibility.score}
+          label={profile.feasibility.label}
+        />
+      </div>
 
       <ScoreBreakdown profile={profile} />
 
@@ -70,7 +86,7 @@ export function CountySidePanel({ profile, loading, error }: CountySidePanelProp
         </p>
         <p className="text-xs text-slate-500">
           Informational context only — not a legal service-territory determination.
-          Does not affect the Backup Priority Score.
+          Does not affect scores.
         </p>
         {profile.gridRegion !== "Unknown" && (
           <p className="text-xs text-slate-500">Grid region: {profile.gridRegion}</p>
@@ -79,11 +95,11 @@ export function CountySidePanel({ profile, loading, error }: CountySidePanelProp
 
       <div className="space-y-2">
         <h3 className="text-sm font-semibold text-slate-800">Data Quality</h3>
-        <DataQualityBadge quality={profile.dataQuality.weather} label="Weather" />
-        <DataQualityBadge quality={profile.dataQuality.solar} label="Solar" />
-        <DataQualityBadge quality={profile.dataQuality.demand} label="Population" />
-        <DataQualityBadge quality={profile.dataQuality.grid} label="Grid strain" />
-        <DataQualityBadge quality={profile.dataQuality.utility} label="Utility context" />
+        <DataQualityBadge quality={profile.dataQuality.overall} label="Overall (scores)" />
+        <DataQualityBadge quality={profile.dataQuality.structuralNeed} label="Structural need" />
+        <DataQualityBadge quality={profile.dataQuality.feasibility} label="Feasibility" />
+        <DataQualityBadge quality={profile.dataQuality.operational} label="Operational" />
+        <DataQualityBadge quality={profile.dataQuality.contextQuality} label="Utility context" />
       </div>
 
       <div className="space-y-2">
@@ -95,12 +111,8 @@ export function CountySidePanel({ profile, loading, error }: CountySidePanelProp
               className="rounded border border-slate-100 bg-white px-3 py-2 text-xs text-slate-600"
             >
               <div className="flex items-center justify-between gap-2">
-                <span className="font-medium text-slate-800">
-                  {status.sourceName}
-                </span>
-                <span className="capitalize text-slate-500">
-                  {status.quality}
-                </span>
+                <span className="font-medium text-slate-800">{status.sourceName}</span>
+                <span className="capitalize text-slate-500">{status.quality}</span>
               </div>
               <p className="mt-1">{status.message}</p>
               <p className="mt-1 text-slate-500">{status.limitation}</p>
@@ -110,7 +122,14 @@ export function CountySidePanel({ profile, loading, error }: CountySidePanelProp
       </div>
 
       <p className="text-xs text-slate-500">
-        Last updated: {new Date(profile.lastUpdated).toLocaleString("en-US", {
+        Data oldest source:{" "}
+        {new Date(profile.lastUpdated).toLocaleString("en-US", {
+          timeZone: "UTC",
+          dateStyle: "medium",
+          timeStyle: "short",
+        })}{" "}
+        UTC · Assembled{" "}
+        {new Date(profile.profileAssembledAt).toLocaleString("en-US", {
           timeZone: "UTC",
           dateStyle: "medium",
           timeStyle: "short",
@@ -121,9 +140,9 @@ export function CountySidePanel({ profile, loading, error }: CountySidePanelProp
       <ReportActions profile={profile} />
 
       <p className="text-xs leading-relaxed text-slate-500 border-t border-slate-100 pt-3">
-        GridSignal Texas estimates backup energy planning priority using public data.
-        It does not predict outages, determine exact utility reliability, or provide
-        legal, engineering, investment, or energy advice.
+        GridSignal Texas presents structural resilience need and backup feasibility
+        using public data. It does not predict outages, determine exact utility
+        reliability, or provide legal, engineering, investment, or energy advice.
       </p>
     </div>
   );

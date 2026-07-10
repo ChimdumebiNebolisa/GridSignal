@@ -1,68 +1,49 @@
 /**
- * GridSignal Texas — Recommendation builder
- * Generates deterministic, cautious planning-language recommendations.
- * Must never say "outage prediction," "buy solar," or "this utility is unreliable."
+ * GridSignal Texas — Recommendation builder (v2)
  */
 
-import type { CountyEnergyProfile, BackupPriorityLabel } from "@/types/county";
+import type { CountyEnergyProfile } from "@/types/county";
 
-/**
- * Build a recommendation string based on the county profile.
- * Uses approved wording from PRD §5 and guardrails §5.
- */
 export function buildRecommendation(profile: CountyEnergyProfile): string {
-  const { backupPriorityLabel, weatherRiskScore, solarPotentialScore, demandExposureScore } = profile;
-
-  // Identify top score drivers
+  const need = profile.structuralNeed;
+  const feas = profile.feasibility;
   const drivers = getTopDrivers(profile);
-  const driverText = drivers.length > 0
-    ? ` Key factors: ${drivers.join(", ")}.`
-    : "";
 
-  switch (backupPriorityLabel) {
-    case "Critical":
-      return `This county shows the highest backup-planning priority based on public data signals.${driverText} Solar plus battery backup may be worth evaluating for homes, small businesses, and essential facilities. This is a planning signal, not an outage prediction.`;
+  const driverText =
+    drivers.length > 0 ? ` Key factors: ${drivers.join(", ")}.` : "";
 
-    case "High":
-      return `Backup energy planning may be useful here.${driverText} Consider evaluating solar plus battery backup options for homes and essential facilities. This is a planning signal based on public data, not a prediction.`;
-
-    case "Medium":
-      return `This county shows moderate backup-planning priority.${driverText} Backup planning may be worth considering depending on individual circumstances. Scores reflect public data signals, not guaranteed outcomes.`;
-
-    case "Low":
-      return `This county currently shows lower backup-planning priority based on available public data signals.${driverText} Individual circumstances may still warrant backup planning. This score is a general planning signal.`;
+  if (need.score === null) {
+    return `Structural resilience need cannot be summarized as a single score due to missing indicator data.${driverText} Review component breakdown and data gaps. Backup feasibility is ${feas.label.toLowerCase()}. This is a planning signal, not an outage prediction.`;
   }
+
+  if (need.label === "Highest" || need.label === "Elevated") {
+    return `This county shows ${need.label.toLowerCase()} structural resilience need based on hazard, vulnerability, and outage burden indicators.${driverText} Backup feasibility is ${feas.label.toLowerCase()} — solar resource may ${feas.score >= 60 ? "support" : "limit"} distributed backup options. Planning signal only; not an outage prediction.`;
+  }
+
+  if (feas.score >= 70 && (need.score ?? 0) < 50) {
+    return `Backup implementation may be relatively feasible here (solar resource), though structural need is ${need.label.toLowerCase()}.${driverText} Evaluate backup options in local planning context.`;
+  }
+
+  return `This county shows ${need.label.toLowerCase()} structural resilience need and ${feas.label.toLowerCase()} backup feasibility.${driverText} Scores reflect public data signals, not guaranteed outcomes.`;
 }
 
-/**
- * Identify the top contributing factors to communicate in the recommendation.
- */
 function getTopDrivers(profile: CountyEnergyProfile): string[] {
   const drivers: string[] = [];
+  const { hazardExposure, socialVulnerability, outageBurden } =
+    profile.structuralNeed.components;
 
-  if (profile.weatherRiskScore >= 70) {
-    drivers.push("elevated weather exposure");
-  } else if (profile.weatherRiskScore >= 50) {
-    drivers.push("moderate weather exposure");
+  if ((hazardExposure.value ?? 0) >= 70) drivers.push("elevated hazard exposure");
+  if ((socialVulnerability.value ?? 0) >= 70) drivers.push("elevated social vulnerability");
+  if ((outageBurden.value ?? 0) >= 70) drivers.push("elevated historical outage burden");
+
+  if (profile.operationalContext.weatherStressScore >= 70) {
+    drivers.push("near-term weather stress");
+  }
+  if (profile.operationalContext.statewideGridStrainScore >= 70) {
+    drivers.push("elevated statewide grid load context");
   }
 
-  if (profile.solarPotentialScore >= 70) {
-    drivers.push("strong solar potential");
-  } else if (profile.solarPotentialScore >= 50) {
-    drivers.push("moderate solar potential");
-  }
-
-  if (profile.demandExposureScore >= 70) {
-    drivers.push("high population demand");
-  } else if (profile.demandExposureScore >= 50) {
-    drivers.push("moderate population demand");
-  }
-
-  if (profile.statewideGridStrainScore >= 70) {
-    drivers.push("elevated statewide grid strain");
-  } else if (profile.statewideGridStrainScore >= 50) {
-    drivers.push("moderate statewide grid strain");
-  }
+  if (profile.feasibility.score >= 70) drivers.push("strong solar feasibility");
 
   return drivers;
 }

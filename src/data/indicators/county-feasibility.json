@@ -1,0 +1,3812 @@
+[
+  {
+    "countyFips": "48001",
+    "feasibilityScore": 69,
+    "components": {
+      "solarResource": {
+        "value": 69,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,322 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48003",
+    "feasibilityScore": 22,
+    "components": {
+      "solarResource": {
+        "value": 22,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,179 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48005",
+    "feasibilityScore": 82,
+    "components": {
+      "solarResource": {
+        "value": 82,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,357 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48007",
+    "feasibilityScore": 75,
+    "components": {
+      "solarResource": {
+        "value": 75,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,339 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48009",
+    "feasibilityScore": 25,
+    "components": {
+      "solarResource": {
+        "value": 25,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,185 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48011",
+    "feasibilityScore": 7,
+    "components": {
+      "solarResource": {
+        "value": 7,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,081 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48013",
+    "feasibilityScore": 77,
+    "components": {
+      "solarResource": {
+        "value": 77,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,344 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48015",
+    "feasibilityScore": 95,
+    "components": {
+      "solarResource": {
+        "value": 95,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,399 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48017",
+    "feasibilityScore": 8,
+    "components": {
+      "solarResource": {
+        "value": 8,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,089 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48019",
+    "feasibilityScore": 80,
+    "components": {
+      "solarResource": {
+        "value": 80,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,353 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48021",
+    "feasibilityScore": 84,
+    "components": {
+      "solarResource": {
+        "value": 84,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,365 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48023",
+    "feasibilityScore": 21,
+    "components": {
+      "solarResource": {
+        "value": 21,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,173 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48025",
+    "feasibilityScore": 76,
+    "components": {
+      "solarResource": {
+        "value": 76,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,342 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48027",
+    "feasibilityScore": 70,
+    "components": {
+      "solarResource": {
+        "value": 70,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,324 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48029",
+    "feasibilityScore": 89,
+    "components": {
+      "solarResource": {
+        "value": 89,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,375 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48031",
+    "feasibilityScore": 76,
+    "components": {
+      "solarResource": {
+        "value": 76,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,340 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48033",
+    "feasibilityScore": 21,
+    "components": {
+      "solarResource": {
+        "value": 21,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,176 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48035",
+    "feasibilityScore": 56,
+    "components": {
+      "solarResource": {
+        "value": 56,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,283 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48037",
+    "feasibilityScore": 51,
+    "components": {
+      "solarResource": {
+        "value": 51,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,272 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48039",
+    "feasibilityScore": 97,
+    "components": {
+      "solarResource": {
+        "value": 97,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,420 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48041",
+    "feasibilityScore": 85,
+    "components": {
+      "solarResource": {
+        "value": 85,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,366 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48043",
+    "feasibilityScore": 59,
+    "components": {
+      "solarResource": {
+        "value": 59,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,292 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48045",
+    "feasibilityScore": 10,
+    "components": {
+      "solarResource": {
+        "value": 10,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,105 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48047",
+    "feasibilityScore": 50,
+    "components": {
+      "solarResource": {
+        "value": 50,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,270 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48049",
+    "feasibilityScore": 46,
+    "components": {
+      "solarResource": {
+        "value": 46,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,261 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48051",
+    "feasibilityScore": 86,
+    "components": {
+      "solarResource": {
+        "value": 86,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,367 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48053",
+    "feasibilityScore": 69,
+    "components": {
+      "solarResource": {
+        "value": 69,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,323 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48055",
+    "feasibilityScore": 89,
+    "components": {
+      "solarResource": {
+        "value": 89,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,375 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48057",
+    "feasibilityScore": 83,
+    "components": {
+      "solarResource": {
+        "value": 83,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,361 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48059",
+    "feasibilityScore": 38,
+    "components": {
+      "solarResource": {
+        "value": 38,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,238 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48061",
+    "feasibilityScore": 40,
+    "components": {
+      "solarResource": {
+        "value": 40,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,245 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48063",
+    "feasibilityScore": 54,
+    "components": {
+      "solarResource": {
+        "value": 54,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,280 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48065",
+    "feasibilityScore": 5,
+    "components": {
+      "solarResource": {
+        "value": 5,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,056 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48067",
+    "feasibilityScore": 58,
+    "components": {
+      "solarResource": {
+        "value": 58,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,290 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48069",
+    "feasibilityScore": 7,
+    "components": {
+      "solarResource": {
+        "value": 7,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,080 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48071",
+    "feasibilityScore": 100,
+    "components": {
+      "solarResource": {
+        "value": 100,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,439 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48073",
+    "feasibilityScore": 74,
+    "components": {
+      "solarResource": {
+        "value": 74,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,333 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48075",
+    "feasibilityScore": 12,
+    "components": {
+      "solarResource": {
+        "value": 12,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,121 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48077",
+    "feasibilityScore": 23,
+    "components": {
+      "solarResource": {
+        "value": 23,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,180 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48079",
+    "feasibilityScore": 11,
+    "components": {
+      "solarResource": {
+        "value": 11,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,108 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48081",
+    "feasibilityScore": 35,
+    "components": {
+      "solarResource": {
+        "value": 35,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,231 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48083",
+    "feasibilityScore": 45,
+    "components": {
+      "solarResource": {
+        "value": 45,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,260 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48085",
+    "feasibilityScore": 41,
+    "components": {
+      "solarResource": {
+        "value": 41,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,246 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48087",
+    "feasibilityScore": 10,
+    "components": {
+      "solarResource": {
+        "value": 10,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,101 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48089",
+    "feasibilityScore": 96,
+    "components": {
+      "solarResource": {
+        "value": 96,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,409 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48091",
+    "feasibilityScore": 85,
+    "components": {
+      "solarResource": {
+        "value": 85,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,366 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48093",
+    "feasibilityScore": 49,
+    "components": {
+      "solarResource": {
+        "value": 49,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,267 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48095",
+    "feasibilityScore": 48,
+    "components": {
+      "solarResource": {
+        "value": 48,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,265 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48097",
+    "feasibilityScore": 29,
+    "components": {
+      "solarResource": {
+        "value": 29,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,205 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48099",
+    "feasibilityScore": 60,
+    "components": {
+      "solarResource": {
+        "value": 60,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,298 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48101",
+    "feasibilityScore": 14,
+    "components": {
+      "solarResource": {
+        "value": 14,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,132 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48103",
+    "feasibilityScore": 32,
+    "components": {
+      "solarResource": {
+        "value": 32,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,216 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48105",
+    "feasibilityScore": 47,
+    "components": {
+      "solarResource": {
+        "value": 47,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,262 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48107",
+    "feasibilityScore": 15,
+    "components": {
+      "solarResource": {
+        "value": 15,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,137 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48109",
+    "feasibilityScore": 20,
+    "components": {
+      "solarResource": {
+        "value": 20,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,168 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48111",
+    "feasibilityScore": 0,
+    "components": {
+      "solarResource": {
+        "value": 0,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (5,992 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48113",
+    "feasibilityScore": 44,
+    "components": {
+      "solarResource": {
+        "value": 44,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,255 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48115",
+    "feasibilityScore": 19,
+    "components": {
+      "solarResource": {
+        "value": 19,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,163 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48117",
+    "feasibilityScore": 4,
+    "components": {
+      "solarResource": {
+        "value": 4,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,047 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48119",
+    "feasibilityScore": 43,
+    "components": {
+      "solarResource": {
+        "value": 43,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,253 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48121",
+    "feasibilityScore": 37,
+    "components": {
+      "solarResource": {
+        "value": 37,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,237 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48123",
+    "feasibilityScore": 88,
+    "components": {
+      "solarResource": {
+        "value": 88,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,372 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48125",
+    "feasibilityScore": 16,
+    "components": {
+      "solarResource": {
+        "value": 16,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,146 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48127",
+    "feasibilityScore": 64,
+    "components": {
+      "solarResource": {
+        "value": 64,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,307 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48129",
+    "feasibilityScore": 8,
+    "components": {
+      "solarResource": {
+        "value": 8,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,090 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48131",
+    "feasibilityScore": 57,
+    "components": {
+      "solarResource": {
+        "value": 57,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,289 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48133",
+    "feasibilityScore": 39,
+    "components": {
+      "solarResource": {
+        "value": 39,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,243 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48135",
+    "feasibilityScore": 27,
+    "components": {
+      "solarResource": {
+        "value": 27,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,198 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48137",
+    "feasibilityScore": 68,
+    "components": {
+      "solarResource": {
+        "value": 68,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,321 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48139",
+    "feasibilityScore": 52,
+    "components": {
+      "solarResource": {
+        "value": 52,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,274 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48141",
+    "feasibilityScore": 14,
+    "components": {
+      "solarResource": {
+        "value": 14,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,130 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48143",
+    "feasibilityScore": 45,
+    "components": {
+      "solarResource": {
+        "value": 45,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,260 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48145",
+    "feasibilityScore": 71,
+    "components": {
+      "solarResource": {
+        "value": 71,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,327 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48147",
+    "feasibilityScore": 35,
+    "components": {
+      "solarResource": {
+        "value": 35,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,228 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48149",
+    "feasibilityScore": 92,
+    "components": {
+      "solarResource": {
+        "value": 92,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,386 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48151",
+    "feasibilityScore": 27,
+    "components": {
+      "solarResource": {
+        "value": 27,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,197 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48153",
+    "feasibilityScore": 12,
+    "components": {
+      "solarResource": {
+        "value": 12,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,114 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48155",
+    "feasibilityScore": 17,
+    "components": {
+      "solarResource": {
+        "value": 17,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,151 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48157",
+    "feasibilityScore": 98,
+    "components": {
+      "solarResource": {
+        "value": 98,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,424 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48159",
+    "feasibilityScore": 50,
+    "components": {
+      "solarResource": {
+        "value": 50,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,270 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48161",
+    "feasibilityScore": 66,
+    "components": {
+      "solarResource": {
+        "value": 66,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,315 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48163",
+    "feasibilityScore": 75,
+    "components": {
+      "solarResource": {
+        "value": 75,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,336 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48165",
+    "feasibilityScore": 17,
+    "components": {
+      "solarResource": {
+        "value": 17,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,149 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48167",
+    "feasibilityScore": 99,
+    "components": {
+      "solarResource": {
+        "value": 99,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,438 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48169",
+    "feasibilityScore": 19,
+    "components": {
+      "solarResource": {
+        "value": 19,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,163 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48171",
+    "feasibilityScore": 73,
+    "components": {
+      "solarResource": {
+        "value": 73,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,331 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48173",
+    "feasibilityScore": 31,
+    "components": {
+      "solarResource": {
+        "value": 31,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,214 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48175",
+    "feasibilityScore": 81,
+    "components": {
+      "solarResource": {
+        "value": 81,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,356 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48177",
+    "feasibilityScore": 93,
+    "components": {
+      "solarResource": {
+        "value": 93,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,393 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48179",
+    "feasibilityScore": 6,
+    "components": {
+      "solarResource": {
+        "value": 6,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,065 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48181",
+    "feasibilityScore": 31,
+    "components": {
+      "solarResource": {
+        "value": 31,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,213 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48183",
+    "feasibilityScore": 65,
+    "components": {
+      "solarResource": {
+        "value": 65,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,309 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48185",
+    "feasibilityScore": 91,
+    "components": {
+      "solarResource": {
+        "value": 91,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,380 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48187",
+    "feasibilityScore": 91,
+    "components": {
+      "solarResource": {
+        "value": 91,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,380 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48189",
+    "feasibilityScore": 10,
+    "components": {
+      "solarResource": {
+        "value": 10,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,105 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48191",
+    "feasibilityScore": 11,
+    "components": {
+      "solarResource": {
+        "value": 11,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,112 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48193",
+    "feasibilityScore": 56,
+    "components": {
+      "solarResource": {
+        "value": 56,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,283 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48195",
+    "feasibilityScore": 2,
+    "components": {
+      "solarResource": {
+        "value": 2,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,020 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48197",
+    "feasibilityScore": 14,
+    "components": {
+      "solarResource": {
+        "value": 14,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,132 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48199",
+    "feasibilityScore": 97,
+    "components": {
+      "solarResource": {
+        "value": 97,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,413 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48201",
+    "feasibilityScore": 98,
+    "components": {
+      "solarResource": {
+        "value": 98,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,426 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48203",
+    "feasibilityScore": 67,
+    "components": {
+      "solarResource": {
+        "value": 67,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,316 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48205",
+    "feasibilityScore": 1,
+    "components": {
+      "solarResource": {
+        "value": 1,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,015 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48207",
+    "feasibilityScore": 25,
+    "components": {
+      "solarResource": {
+        "value": 25,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,188 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48209",
+    "feasibilityScore": 83,
+    "components": {
+      "solarResource": {
+        "value": 83,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,359 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48211",
+    "feasibilityScore": 5,
+    "components": {
+      "solarResource": {
+        "value": 5,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,056 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48213",
+    "feasibilityScore": 61,
+    "components": {
+      "solarResource": {
+        "value": 61,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,302 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48215",
+    "feasibilityScore": 37,
+    "components": {
+      "solarResource": {
+        "value": 37,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,237 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48217",
+    "feasibilityScore": 58,
+    "components": {
+      "solarResource": {
+        "value": 58,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,291 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48219",
+    "feasibilityScore": 13,
+    "components": {
+      "solarResource": {
+        "value": 13,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,124 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48221",
+    "feasibilityScore": 44,
+    "components": {
+      "solarResource": {
+        "value": 44,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,256 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48223",
+    "feasibilityScore": 47,
+    "components": {
+      "solarResource": {
+        "value": 47,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,262 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48225",
+    "feasibilityScore": 79,
+    "components": {
+      "solarResource": {
+        "value": 79,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,351 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48227",
+    "feasibilityScore": 26,
+    "components": {
+      "solarResource": {
+        "value": 26,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,196 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48229",
+    "feasibilityScore": 20,
+    "components": {
+      "solarResource": {
+        "value": 20,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,167 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48231",
+    "feasibilityScore": 46,
+    "components": {
+      "solarResource": {
+        "value": 46,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,261 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48233",
+    "feasibilityScore": 3,
+    "components": {
+      "solarResource": {
+        "value": 3,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,041 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48235",
+    "feasibilityScore": 42,
+    "components": {
+      "solarResource": {
+        "value": 42,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,249 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48237",
+    "feasibilityScore": 30,
+    "components": {
+      "solarResource": {
+        "value": 30,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,211 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48239",
+    "feasibilityScore": 91,
+    "components": {
+      "solarResource": {
+        "value": 91,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,380 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48241",
+    "feasibilityScore": 95,
+    "components": {
+      "solarResource": {
+        "value": 95,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,396 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48243",
+    "feasibilityScore": 32,
+    "components": {
+      "solarResource": {
+        "value": 32,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,219 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48245",
+    "feasibilityScore": 100,
+    "components": {
+      "solarResource": {
+        "value": 100,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,439 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48247",
+    "feasibilityScore": 47,
+    "components": {
+      "solarResource": {
+        "value": 47,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,264 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48249",
+    "feasibilityScore": 61,
+    "components": {
+      "solarResource": {
+        "value": 61,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,301 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48251",
+    "feasibilityScore": 49,
+    "components": {
+      "solarResource": {
+        "value": 49,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,267 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48253",
+    "feasibilityScore": 29,
+    "components": {
+      "solarResource": {
+        "value": 29,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,205 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48255",
+    "feasibilityScore": 82,
+    "components": {
+      "solarResource": {
+        "value": 82,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,358 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48257",
+    "feasibilityScore": 51,
+    "components": {
+      "solarResource": {
+        "value": 51,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,272 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48259",
+    "feasibilityScore": 81,
+    "components": {
+      "solarResource": {
+        "value": 81,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,355 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48261",
+    "feasibilityScore": 53,
+    "components": {
+      "solarResource": {
+        "value": 53,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,276 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48263",
+    "feasibilityScore": 21,
+    "components": {
+      "solarResource": {
+        "value": 21,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,172 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48265",
+    "feasibilityScore": 74,
+    "components": {
+      "solarResource": {
+        "value": 74,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,333 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48267",
+    "feasibilityScore": 65,
+    "components": {
+      "solarResource": {
+        "value": 65,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,311 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48269",
+    "feasibilityScore": 18,
+    "components": {
+      "solarResource": {
+        "value": 18,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,155 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48271",
+    "feasibilityScore": 71,
+    "components": {
+      "solarResource": {
+        "value": 71,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,327 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48273",
+    "feasibilityScore": 63,
+    "components": {
+      "solarResource": {
+        "value": 63,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,306 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48275",
+    "feasibilityScore": 19,
+    "components": {
+      "solarResource": {
+        "value": 19,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,166 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48277",
+    "feasibilityScore": 36,
+    "components": {
+      "solarResource": {
+        "value": 36,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,235 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48279",
+    "feasibilityScore": 9,
+    "components": {
+      "solarResource": {
+        "value": 9,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,095 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48281",
+    "feasibilityScore": 62,
+    "components": {
+      "solarResource": {
+        "value": 62,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,303 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48283",
+    "feasibilityScore": 66,
+    "components": {
+      "solarResource": {
+        "value": 66,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,312 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48285",
+    "feasibilityScore": 94,
+    "components": {
+      "solarResource": {
+        "value": 94,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,394 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48287",
+    "feasibilityScore": 87,
+    "components": {
+      "solarResource": {
+        "value": 87,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,369 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48289",
+    "feasibilityScore": 75,
+    "components": {
+      "solarResource": {
+        "value": 75,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,337 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48291",
+    "feasibilityScore": 96,
+    "components": {
+      "solarResource": {
+        "value": 96,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,408 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48293",
+    "feasibilityScore": 67,
+    "components": {
+      "solarResource": {
+        "value": 67,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,319 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48295",
+    "feasibilityScore": 2,
+    "components": {
+      "solarResource": {
+        "value": 2,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,029 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48297",
+    "feasibilityScore": 72,
+    "components": {
+      "solarResource": {
+        "value": 72,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,330 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48299",
+    "feasibilityScore": 68,
+    "components": {
+      "solarResource": {
+        "value": 68,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,321 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48301",
+    "feasibilityScore": 22,
+    "components": {
+      "solarResource": {
+        "value": 22,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,177 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48303",
+    "feasibilityScore": 13,
+    "components": {
+      "solarResource": {
+        "value": 13,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,129 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48305",
+    "feasibilityScore": 18,
+    "components": {
+      "solarResource": {
+        "value": 18,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,154 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48307",
+    "feasibilityScore": 54,
+    "components": {
+      "solarResource": {
+        "value": 54,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,278 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48309",
+    "feasibilityScore": 63,
+    "components": {
+      "solarResource": {
+        "value": 63,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,306 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48311",
+    "feasibilityScore": 69,
+    "components": {
+      "solarResource": {
+        "value": 69,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,323 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48313",
+    "feasibilityScore": 81,
+    "components": {
+      "solarResource": {
+        "value": 81,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,356 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48315",
+    "feasibilityScore": 63,
+    "components": {
+      "solarResource": {
+        "value": 63,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,304 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48317",
+    "feasibilityScore": 24,
+    "components": {
+      "solarResource": {
+        "value": 24,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,184 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48319",
+    "feasibilityScore": 64,
+    "components": {
+      "solarResource": {
+        "value": 64,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,307 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48321",
+    "feasibilityScore": 89,
+    "components": {
+      "solarResource": {
+        "value": 89,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,378 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48323",
+    "feasibilityScore": 62,
+    "components": {
+      "solarResource": {
+        "value": 62,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,303 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48325",
+    "feasibilityScore": 83,
+    "components": {
+      "solarResource": {
+        "value": 83,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,361 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48327",
+    "feasibilityScore": 57,
+    "components": {
+      "solarResource": {
+        "value": 57,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,287 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48329",
+    "feasibilityScore": 29,
+    "components": {
+      "solarResource": {
+        "value": 29,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,205 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48331",
+    "feasibilityScore": 77,
+    "components": {
+      "solarResource": {
+        "value": 77,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,343 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48333",
+    "feasibilityScore": 56,
+    "components": {
+      "solarResource": {
+        "value": 56,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,283 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48335",
+    "feasibilityScore": 28,
+    "components": {
+      "solarResource": {
+        "value": 28,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,204 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48337",
+    "feasibilityScore": 26,
+    "components": {
+      "solarResource": {
+        "value": 26,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,194 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48339",
+    "feasibilityScore": 94,
+    "components": {
+      "solarResource": {
+        "value": 94,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,394 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48341",
+    "feasibilityScore": 3,
+    "components": {
+      "solarResource": {
+        "value": 3,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,034 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48343",
+    "feasibilityScore": 55,
+    "components": {
+      "solarResource": {
+        "value": 55,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,282 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48345",
+    "feasibilityScore": 13,
+    "components": {
+      "solarResource": {
+        "value": 13,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,124 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48347",
+    "feasibilityScore": 81,
+    "components": {
+      "solarResource": {
+        "value": 81,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,355 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48349",
+    "feasibilityScore": 60,
+    "components": {
+      "solarResource": {
+        "value": 60,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,297 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48351",
+    "feasibilityScore": 95,
+    "components": {
+      "solarResource": {
+        "value": 95,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,405 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48353",
+    "feasibilityScore": 31,
+    "components": {
+      "solarResource": {
+        "value": 31,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,215 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48355",
+    "feasibilityScore": 66,
+    "components": {
+      "solarResource": {
+        "value": 66,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,315 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48357",
+    "feasibilityScore": 2,
+    "components": {
+      "solarResource": {
+        "value": 2,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,020 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48359",
+    "feasibilityScore": 3,
+    "components": {
+      "solarResource": {
+        "value": 3,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,035 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48361",
+    "feasibilityScore": 99,
+    "components": {
+      "solarResource": {
+        "value": 99,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,432 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48363",
+    "feasibilityScore": 36,
+    "components": {
+      "solarResource": {
+        "value": 36,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,234 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48365",
+    "feasibilityScore": 73,
+    "components": {
+      "solarResource": {
+        "value": 73,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,332 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48367",
+    "feasibilityScore": 38,
+    "components": {
+      "solarResource": {
+        "value": 38,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,241 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48369",
+    "feasibilityScore": 6,
+    "components": {
+      "solarResource": {
+        "value": 6,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,072 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48371",
+    "feasibilityScore": 42,
+    "components": {
+      "solarResource": {
+        "value": 42,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,249 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48373",
+    "feasibilityScore": 92,
+    "components": {
+      "solarResource": {
+        "value": 92,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,384 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48375",
+    "feasibilityScore": 5,
+    "components": {
+      "solarResource": {
+        "value": 5,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,053 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48377",
+    "feasibilityScore": 42,
+    "components": {
+      "solarResource": {
+        "value": 42,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,249 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48379",
+    "feasibilityScore": 50,
+    "components": {
+      "solarResource": {
+        "value": 50,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,271 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48381",
+    "feasibilityScore": 6,
+    "components": {
+      "solarResource": {
+        "value": 6,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,072 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48383",
+    "feasibilityScore": 36,
+    "components": {
+      "solarResource": {
+        "value": 36,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,235 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48385",
+    "feasibilityScore": 74,
+    "components": {
+      "solarResource": {
+        "value": 74,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,334 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48387",
+    "feasibilityScore": 40,
+    "components": {
+      "solarResource": {
+        "value": 40,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,244 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48389",
+    "feasibilityScore": 25,
+    "components": {
+      "solarResource": {
+        "value": 25,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,185 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48391",
+    "feasibilityScore": 78,
+    "components": {
+      "solarResource": {
+        "value": 78,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,350 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48393",
+    "feasibilityScore": 4,
+    "components": {
+      "solarResource": {
+        "value": 4,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,048 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48395",
+    "feasibilityScore": 78,
+    "components": {
+      "solarResource": {
+        "value": 78,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,347 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48397",
+    "feasibilityScore": 45,
+    "components": {
+      "solarResource": {
+        "value": 45,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,260 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48399",
+    "feasibilityScore": 39,
+    "components": {
+      "solarResource": {
+        "value": 39,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,243 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48401",
+    "feasibilityScore": 71,
+    "components": {
+      "solarResource": {
+        "value": 71,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,326 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48403",
+    "feasibilityScore": 89,
+    "components": {
+      "solarResource": {
+        "value": 89,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,378 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48405",
+    "feasibilityScore": 86,
+    "components": {
+      "solarResource": {
+        "value": 86,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,367 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48407",
+    "feasibilityScore": 92,
+    "components": {
+      "solarResource": {
+        "value": 92,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,387 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48409",
+    "feasibilityScore": 70,
+    "components": {
+      "solarResource": {
+        "value": 70,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,324 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48411",
+    "feasibilityScore": 59,
+    "components": {
+      "solarResource": {
+        "value": 59,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,293 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48413",
+    "feasibilityScore": 53,
+    "components": {
+      "solarResource": {
+        "value": 53,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,277 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48415",
+    "feasibilityScore": 23,
+    "components": {
+      "solarResource": {
+        "value": 23,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,181 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48417",
+    "feasibilityScore": 32,
+    "components": {
+      "solarResource": {
+        "value": 32,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,216 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48419",
+    "feasibilityScore": 80,
+    "components": {
+      "solarResource": {
+        "value": 80,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,353 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48421",
+    "feasibilityScore": 1,
+    "components": {
+      "solarResource": {
+        "value": 1,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,002 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48423",
+    "feasibilityScore": 61,
+    "components": {
+      "solarResource": {
+        "value": 61,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,302 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48425",
+    "feasibilityScore": 48,
+    "components": {
+      "solarResource": {
+        "value": 48,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,266 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48427",
+    "feasibilityScore": 36,
+    "components": {
+      "solarResource": {
+        "value": 36,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,235 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48429",
+    "feasibilityScore": 33,
+    "components": {
+      "solarResource": {
+        "value": 33,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,220 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48431",
+    "feasibilityScore": 34,
+    "components": {
+      "solarResource": {
+        "value": 34,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,225 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48433",
+    "feasibilityScore": 24,
+    "components": {
+      "solarResource": {
+        "value": 24,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,182 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48435",
+    "feasibilityScore": 59,
+    "components": {
+      "solarResource": {
+        "value": 59,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,292 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48437",
+    "feasibilityScore": 9,
+    "components": {
+      "solarResource": {
+        "value": 9,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,093 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48439",
+    "feasibilityScore": 41,
+    "components": {
+      "solarResource": {
+        "value": 41,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,248 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48441",
+    "feasibilityScore": 34,
+    "components": {
+      "solarResource": {
+        "value": 34,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,227 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48443",
+    "feasibilityScore": 53,
+    "components": {
+      "solarResource": {
+        "value": 53,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,276 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48445",
+    "feasibilityScore": 16,
+    "components": {
+      "solarResource": {
+        "value": 16,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,145 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48447",
+    "feasibilityScore": 26,
+    "components": {
+      "solarResource": {
+        "value": 26,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,196 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48449",
+    "feasibilityScore": 50,
+    "components": {
+      "solarResource": {
+        "value": 50,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,271 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48451",
+    "feasibilityScore": 41,
+    "components": {
+      "solarResource": {
+        "value": 41,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,246 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48453",
+    "feasibilityScore": 79,
+    "components": {
+      "solarResource": {
+        "value": 79,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,351 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48455",
+    "feasibilityScore": 85,
+    "components": {
+      "solarResource": {
+        "value": 85,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,366 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48457",
+    "feasibilityScore": 93,
+    "components": {
+      "solarResource": {
+        "value": 93,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,391 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48459",
+    "feasibilityScore": 60,
+    "components": {
+      "solarResource": {
+        "value": 60,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,294 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48461",
+    "feasibilityScore": 33,
+    "components": {
+      "solarResource": {
+        "value": 33,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,220 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48463",
+    "feasibilityScore": 78,
+    "components": {
+      "solarResource": {
+        "value": 78,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,350 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48465",
+    "feasibilityScore": 68,
+    "components": {
+      "solarResource": {
+        "value": 68,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,321 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48467",
+    "feasibilityScore": 56,
+    "components": {
+      "solarResource": {
+        "value": 56,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,283 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48469",
+    "feasibilityScore": 87,
+    "components": {
+      "solarResource": {
+        "value": 87,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,371 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48471",
+    "feasibilityScore": 86,
+    "components": {
+      "solarResource": {
+        "value": 86,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,368 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48473",
+    "feasibilityScore": 94,
+    "components": {
+      "solarResource": {
+        "value": 94,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,394 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48475",
+    "feasibilityScore": 28,
+    "components": {
+      "solarResource": {
+        "value": 28,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,200 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48477",
+    "feasibilityScore": 90,
+    "components": {
+      "solarResource": {
+        "value": 90,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,379 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48479",
+    "feasibilityScore": 52,
+    "components": {
+      "solarResource": {
+        "value": 52,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,273 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48481",
+    "feasibilityScore": 97,
+    "components": {
+      "solarResource": {
+        "value": 97,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,413 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48483",
+    "feasibilityScore": 7,
+    "components": {
+      "solarResource": {
+        "value": 7,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,081 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48485",
+    "feasibilityScore": 19,
+    "components": {
+      "solarResource": {
+        "value": 19,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,166 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48487",
+    "feasibilityScore": 16,
+    "components": {
+      "solarResource": {
+        "value": 16,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,147 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48489",
+    "feasibilityScore": 44,
+    "components": {
+      "solarResource": {
+        "value": 44,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,255 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48491",
+    "feasibilityScore": 76,
+    "components": {
+      "solarResource": {
+        "value": 76,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,342 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48493",
+    "feasibilityScore": 88,
+    "components": {
+      "solarResource": {
+        "value": 88,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,372 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48495",
+    "feasibilityScore": 24,
+    "components": {
+      "solarResource": {
+        "value": 24,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,182 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48497",
+    "feasibilityScore": 34,
+    "components": {
+      "solarResource": {
+        "value": 34,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,224 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48499",
+    "feasibilityScore": 56,
+    "components": {
+      "solarResource": {
+        "value": 56,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,285 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48501",
+    "feasibilityScore": 14,
+    "components": {
+      "solarResource": {
+        "value": 14,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,132 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48503",
+    "feasibilityScore": 30,
+    "components": {
+      "solarResource": {
+        "value": 30,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,210 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48505",
+    "feasibilityScore": 41,
+    "components": {
+      "solarResource": {
+        "value": 41,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,248 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48507",
+    "feasibilityScore": 71,
+    "components": {
+      "solarResource": {
+        "value": 71,
+        "quality": "estimated",
+        "source": "nrel_pvwatts",
+        "vintage": "2026-05-23",
+        "explanation": "Solar resource percentile for 4 kW system (6,327 kWh/yr).",
+        "imputed": true
+      }
+    },
+    "quality": "estimated"
+  }
+]

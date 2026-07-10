@@ -40,7 +40,8 @@ export function normalizeWeatherRisk(weather: WeatherApiResult): ScoreInput {
     return {
       value: 50,
       quality: "estimated",
-      explanation: "Weather data unavailable. Using neutral estimate.",
+      imputed: true,
+      explanation: "Weather data unavailable. Using neutral estimate (imputed).",
     };
   }
 
@@ -48,6 +49,11 @@ export function normalizeWeatherRisk(weather: WeatherApiResult): ScoreInput {
   const lowTempF = weather.lowTempF ?? 50;   // neutral default
   const maxWindMph = weather.maxWindMph ?? 10;
   const precipInches = weather.precipInches ?? 0;
+  const fieldImputed =
+    weather.highTempF === null ||
+    weather.lowTempF === null ||
+    weather.maxWindMph === null ||
+    weather.precipInches === null;
 
   // Heat risk step function
   const heatRisk =
@@ -106,6 +112,7 @@ export function normalizeWeatherRisk(weather: WeatherApiResult): ScoreInput {
   return {
     value: score,
     quality,
+    imputed: fieldImputed || quality === "estimated",
     explanation: `Weather risk driven by ${drivers.join(", ")}.`,
   };
 }
@@ -125,7 +132,8 @@ export function normalizeSolarPotential(
     return {
       value: 50,
       quality: "estimated",
-      explanation: "Solar potential data unavailable. Using neutral estimate.",
+      imputed: true,
+      explanation: "Solar potential data unavailable. Using neutral estimate (imputed).",
     };
   }
 
@@ -145,9 +153,9 @@ export function normalizeSolarPotential(
 // ---------- Demand Exposure ----------
 
 /**
- * Percentile-rank normalization of county population.
+ * Percentile-rank normalization of county population (context only — not electricity demand).
  */
-export function normalizeDemandExposure(
+export function normalizePopulationContext(
   population: number | null,
   allPopulations: number[]
 ): ScoreInput {
@@ -155,7 +163,8 @@ export function normalizeDemandExposure(
     return {
       value: 50,
       quality: "estimated",
-      explanation: "Population data unavailable. Using neutral demand estimate.",
+      imputed: true,
+      explanation: "Population data unavailable. Using neutral estimate (imputed).",
     };
   }
 
@@ -164,9 +173,17 @@ export function normalizeDemandExposure(
 
   return {
     value: score,
-    quality: "cached", // population comes from static cache
-    explanation: `Demand exposure based on county population of ${population.toLocaleString()} (${score >= 75 ? "high" : score >= 50 ? "moderate" : "lower"} relative to other Texas counties).`,
+    quality: "cached",
+    explanation: `Population context of ${population.toLocaleString()} (${score >= 75 ? "higher" : score >= 50 ? "moderate" : "lower"} among Texas counties). Not electricity demand.`,
   };
+}
+
+/** @deprecated Use normalizePopulationContext */
+export function normalizeDemandExposure(
+  population: number | null,
+  allPopulations: number[]
+): ScoreInput {
+  return normalizePopulationContext(population, allPopulations);
 }
 
 // ---------- Statewide Grid Strain ----------

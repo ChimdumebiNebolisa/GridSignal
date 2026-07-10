@@ -1,31 +1,59 @@
-import type { BackupPriorityLabel } from "@/types/county";
-import { getLabelDisplayText } from "@/lib/scoring/labels";
-import { PRIORITY_COLORS } from "@/lib/map/colors";
+"use client";
 
-type ScoreSummaryProps = {
-  score: number;
-  label: BackupPriorityLabel;
+import type { PlanningLabel } from "@/types/county";
+import { getPlanningLabelDisplayText } from "@/lib/scoring/labels";
+
+type IndicatorSummaryProps = {
+  title: string;
+  score: number | null;
+  label: PlanningLabel;
+  subtitle?: string;
 };
 
-export function ScoreSummary({ score, label }: ScoreSummaryProps) {
+export function IndicatorSummary({
+  title,
+  score,
+  label,
+  subtitle,
+}: IndicatorSummaryProps) {
   return (
-    <div className="rounded-lg border border-slate-200 bg-slate-50 p-4">
+    <div className="rounded-lg border border-slate-200 bg-white p-4">
       <p className="text-xs font-medium uppercase tracking-wide text-slate-500">
-        Backup Priority
+        {title}
       </p>
       <div className="mt-1 flex items-baseline gap-2">
-        <span className="text-4xl font-bold text-slate-900">{score}</span>
-        <span className="text-lg text-slate-500">/100</span>
+        <span className="text-3xl font-bold text-slate-900">
+          {score !== null ? score : "—"}
+        </span>
+        {score !== null && (
+          <span className="text-sm text-slate-500">/100</span>
+        )}
       </div>
-      <div className="mt-2 flex items-center gap-2">
-        <span
-          className="inline-block h-3 w-3 rounded-full border border-slate-300"
-          style={{ backgroundColor: PRIORITY_COLORS[label] }}
-          aria-hidden
-        />
-        <span className="text-base font-semibold text-slate-800">{label}</span>
-      </div>
-      <p className="mt-1 text-sm text-slate-600">{getLabelDisplayText(label)}</p>
+      <p className="mt-1 text-sm font-medium text-slate-700">{label}</p>
+      <p className="mt-1 text-xs text-slate-500">
+        {score !== null
+          ? getPlanningLabelDisplayText(label)
+          : "Score withheld due to missing indicator data"}
+      </p>
+      {subtitle && <p className="mt-2 text-xs text-slate-500">{subtitle}</p>}
     </div>
+  );
+}
+
+/** @deprecated */
+export function ScoreSummary({
+  score,
+  label,
+}: {
+  score: number;
+  label: string;
+}) {
+  return (
+    <IndicatorSummary
+      title="Legacy Composite (deprecated)"
+      score={score}
+      label={label as PlanningLabel}
+      subtitle="Primary metrics are structural need and feasibility."
+    />
   );
 }

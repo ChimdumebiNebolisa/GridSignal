@@ -1,36 +1,29 @@
 /**
- * GridSignal Texas — County report builder
- * Generates a plain-text report for copy/export.
- * Matches the format defined in design spec §8.
+ * GridSignal Texas — County report builder (v2)
  */
 
 import type { CountyEnergyProfile } from "@/types/county";
-import { getLabelDisplayText } from "@/lib/scoring/labels";
+import { getPlanningLabelDisplayText } from "@/lib/scoring/labels";
 
-/**
- * Build a shareable plain-text county report.
- * Includes all required fields: score, breakdown, recommendation,
- * utility context, data quality, limitation statement, last updated.
- */
 export function buildCountyReport(profile: CountyEnergyProfile): string {
   const {
     countyName,
-    backupPriorityScore,
-    backupPriorityLabel,
-    weatherRiskScore,
-    solarPotentialScore,
-    demandExposureScore,
-    statewideGridStrainScore,
+    structuralNeed,
+    feasibility,
+    operationalContext,
     recommendation,
     likelyUtilityTerritories,
     dataQuality,
     lastUpdated,
+    profileAssembledAt,
+    dataManifestVersion,
   } = profile;
 
   const utilityText =
     likelyUtilityTerritories.length > 0
       ? likelyUtilityTerritories.join(", ")
       : "Unknown";
+
   const sourceNotes = profile.sourceStatus
     .map(
       (status) =>
@@ -38,38 +31,52 @@ export function buildCountyReport(profile: CountyEnergyProfile): string {
     )
     .join("\n");
 
+  const needScoreText =
+    structuralNeed.score !== null
+      ? `${structuralNeed.score}/100 (${structuralNeed.label})`
+      : "Withheld — missing indicator data";
+
   return `GridSignal Texas Report
 ${countyName}, Texas
+Data schema: ${dataManifestVersion}
 
-Backup Priority: ${backupPriorityLabel}
-Score: ${backupPriorityScore}/100
-${getLabelDisplayText(backupPriorityLabel)}
+STRUCTURAL RESILIENCE NEED
+Score: ${needScoreText}
+${structuralNeed.score !== null ? getPlanningLabelDisplayText(structuralNeed.label) : ""}
+- Hazard exposure: ${structuralNeed.components.hazardExposure.value ?? "unavailable"}/100
+- Social vulnerability: ${structuralNeed.components.socialVulnerability.value ?? "unavailable"}/100
+- Outage burden: ${structuralNeed.components.outageBurden.value ?? "unavailable"}/100
+${structuralNeed.missingComponents.length > 0 ? `Missing: ${structuralNeed.missingComponents.join(", ")}` : ""}
 
-Score Breakdown:
-- Weather Risk: ${weatherRiskScore}/100 (weight: 30%)
-- Solar Potential: ${solarPotentialScore}/100 (weight: 25%)
-- Demand Exposure: ${demandExposureScore}/100 (weight: 25%)
-- Statewide Grid Strain: ${statewideGridStrainScore}/100 (weight: 20%)
+BACKUP FEASIBILITY
+Score: ${feasibility.score}/100 (${feasibility.label})
+- Solar resource: ${feasibility.components.solarResource.value ?? "unavailable"}/100
+
+CURRENT CONDITIONS (statewide context — not county rank)
+- Weather stress: ${operationalContext.weatherStressScore}/100
+- ERCO load context: ${operationalContext.statewideGridStrainScore}/100
+${operationalContext.limitation}
 
 Recommendation:
 ${recommendation}
 
 Utility Context:
 Likely utility/service territory: ${utilityText}
-Utility context is informational only and does not directly affect the score.
+Utility context is informational only and does not affect scores.
 
 Limitations:
-GridSignal Texas estimates backup energy planning priority using public data. It does not predict outages, determine exact utility reliability, or provide legal, engineering, investment, or energy advice.
+GridSignal Texas presents structural resilience need and backup feasibility using public data. It does not predict outages, determine exact utility reliability, or provide legal, engineering, investment, or energy advice.
 
 Data Quality:
-Weather: ${dataQuality.weather}
-Solar: ${dataQuality.solar}
-Population: ${dataQuality.demand}
-Grid strain: ${dataQuality.grid}
-Utility context: ${dataQuality.utility}
+Overall: ${dataQuality.overall}
+Structural need: ${dataQuality.structuralNeed}
+Feasibility: ${dataQuality.feasibility}
+Operational: ${dataQuality.operational}
+Utility context: ${dataQuality.contextQuality}
 
 Source Notes:
 ${sourceNotes}
 
-Last updated: ${lastUpdated}`;
+Oldest source data: ${lastUpdated}
+Profile assembled: ${profileAssembledAt}`;
 }

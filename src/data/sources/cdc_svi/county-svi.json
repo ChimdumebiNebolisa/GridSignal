@@ -1,0 +1,1272 @@
+[
+  {
+    "countyFips": "48001",
+    "value": 78,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48003",
+    "value": 45,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48005",
+    "value": 84,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48007",
+    "value": 58,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48009",
+    "value": 32,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48011",
+    "value": 7,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48013",
+    "value": 73,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48015",
+    "value": 63,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48017",
+    "value": 27,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48019",
+    "value": 55,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48021",
+    "value": 81,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48023",
+    "value": 16,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48025",
+    "value": 64,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48027",
+    "value": 94,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48029",
+    "value": 99,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48031",
+    "value": 35,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48033",
+    "value": 1,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48035",
+    "value": 50,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48037",
+    "value": 84,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48039",
+    "value": 94,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48041",
+    "value": 91,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48043",
+    "value": 32,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48045",
+    "value": 6,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48047",
+    "value": 27,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48049",
+    "value": 69,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48051",
+    "value": 48,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48053",
+    "value": 72,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48055",
+    "value": 69,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48057",
+    "value": 55,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48059",
+    "value": 41,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48061",
+    "value": 95,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48063",
+    "value": 39,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48065",
+    "value": 24,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48067",
+    "value": 63,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48069",
+    "value": 29,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48071",
+    "value": 67,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48073",
+    "value": 76,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48075",
+    "value": 26,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48077",
+    "value": 37,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48079",
+    "value": 10,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48081",
+    "value": 12,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48083",
+    "value": 31,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48085",
+    "value": 97,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48087",
+    "value": 10,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48089",
+    "value": 55,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48091",
+    "value": 85,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48093",
+    "value": 43,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48095",
+    "value": 18,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48097",
+    "value": 70,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48099",
+    "value": 81,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48101",
+    "value": 5,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48103",
+    "value": 19,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48105",
+    "value": 15,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48107",
+    "value": 23,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48109",
+    "value": 9,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48111",
+    "value": 25,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48113",
+    "value": 99,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48115",
+    "value": 42,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48117",
+    "value": 52,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48119",
+    "value": 20,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48121",
+    "value": 97,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48123",
+    "value": 54,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48125",
+    "value": 9,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48127",
+    "value": 34,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48129",
+    "value": 15,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48131",
+    "value": 39,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48133",
+    "value": 51,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48135",
+    "value": 90,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48137",
+    "value": 7,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48139",
+    "value": 90,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48141",
+    "value": 98,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48143",
+    "value": 69,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48145",
+    "value": 49,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48147",
+    "value": 66,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48149",
+    "value": 60,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48151",
+    "value": 17,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48153",
+    "value": 24,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48155",
+    "value": 5,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48157",
+    "value": 96,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48159",
+    "value": 36,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48161",
+    "value": 53,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48163",
+    "value": 49,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48165",
+    "value": 49,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48167",
+    "value": 94,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48169",
+    "value": 25,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48171",
+    "value": 60,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48173",
+    "value": 4,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48175",
+    "value": 27,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48177",
+    "value": 53,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48179",
+    "value": 57,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48181",
+    "value": 87,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48183",
+    "value": 88,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48185",
+    "value": 62,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48187",
+    "value": 89,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48189",
+    "value": 68,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48191",
+    "value": 12,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48193",
+    "value": 31,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48195",
+    "value": 21,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48197",
+    "value": 18,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48199",
+    "value": 78,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48201",
+    "value": 100,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48203",
+    "value": 80,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48205",
+    "value": 23,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48207",
+    "value": 22,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48209",
+    "value": 91,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48211",
+    "value": 16,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48213",
+    "value": 82,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48215",
+    "value": 97,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48217",
+    "value": 66,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48219",
+    "value": 58,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48221",
+    "value": 76,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48223",
+    "value": 67,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48225",
+    "value": 59,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48227",
+    "value": 66,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48229",
+    "value": 14,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48231",
+    "value": 83,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48233",
+    "value": 57,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48235",
+    "value": 6,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48237",
+    "value": 32,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48239",
+    "value": 44,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48241",
+    "value": 68,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48243",
+    "value": 8,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48245",
+    "value": 93,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48247",
+    "value": 21,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48249",
+    "value": 71,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48251",
+    "value": 90,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48253",
+    "value": 54,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48255",
+    "value": 45,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48257",
+    "value": 85,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48259",
+    "value": 65,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48261",
+    "value": 1,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48263",
+    "value": 2,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48265",
+    "value": 75,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48267",
+    "value": 19,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48269",
+    "value": 1,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48271",
+    "value": 14,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48273",
+    "value": 64,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48275",
+    "value": 15,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48277",
+    "value": 75,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48279",
+    "value": 43,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48281",
+    "value": 52,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48283",
+    "value": 25,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48285",
+    "value": 51,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48287",
+    "value": 47,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48289",
+    "value": 47,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48291",
+    "value": 82,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48293",
+    "value": 58,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48295",
+    "value": 11,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48297",
+    "value": 38,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48299",
+    "value": 51,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48301",
+    "value": 0,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48303",
+    "value": 93,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48305",
+    "value": 22,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48307",
+    "value": 30,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48309",
+    "value": 92,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48311",
+    "value": 2,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48313",
+    "value": 42,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48315",
+    "value": 36,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48317",
+    "value": 19,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48319",
+    "value": 17,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48321",
+    "value": 68,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48323",
+    "value": 77,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48325",
+    "value": 74,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48327",
+    "value": 8,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48329",
+    "value": 89,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48331",
+    "value": 60,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48333",
+    "value": 20,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48335",
+    "value": 33,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48337",
+    "value": 53,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48339",
+    "value": 96,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48341",
+    "value": 56,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48343",
+    "value": 40,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48345",
+    "value": 4,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48347",
+    "value": 79,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48349",
+    "value": 74,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48351",
+    "value": 44,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48353",
+    "value": 46,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48355",
+    "value": 95,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48357",
+    "value": 34,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48359",
+    "value": 8,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48361",
+    "value": 83,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48363",
+    "value": 62,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48365",
+    "value": 59,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48367",
+    "value": 86,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48369",
+    "value": 34,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48371",
+    "value": 46,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48373",
+    "value": 73,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48375",
+    "value": 87,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48377",
+    "value": 28,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48379",
+    "value": 38,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48381",
+    "value": 86,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48383",
+    "value": 13,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48385",
+    "value": 11,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48387",
+    "value": 40,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48389",
+    "value": 42,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48391",
+    "value": 28,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48393",
+    "value": 3,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48395",
+    "value": 47,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48397",
+    "value": 82,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48399",
+    "value": 35,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48401",
+    "value": 77,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48403",
+    "value": 37,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48405",
+    "value": 31,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48407",
+    "value": 61,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48409",
+    "value": 80,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48411",
+    "value": 23,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48413",
+    "value": 14,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48415",
+    "value": 48,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48417",
+    "value": 13,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48419",
+    "value": 61,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48421",
+    "value": 10,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48423",
+    "value": 92,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48425",
+    "value": 30,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48427",
+    "value": 79,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48429",
+    "value": 33,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48431",
+    "value": 3,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48433",
+    "value": 5,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48435",
+    "value": 18,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48437",
+    "value": 29,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48439",
+    "value": 99,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48441",
+    "value": 88,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48443",
+    "value": 3,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48445",
+    "value": 40,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48447",
+    "value": 6,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48449",
+    "value": 64,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48451",
+    "value": 86,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48453",
+    "value": 98,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48455",
+    "value": 45,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48457",
+    "value": 56,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48459",
+    "value": 70,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48461",
+    "value": 12,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48463",
+    "value": 62,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48465",
+    "value": 75,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48467",
+    "value": 77,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48469",
+    "value": 84,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48471",
+    "value": 81,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48473",
+    "value": 73,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48475",
+    "value": 36,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48477",
+    "value": 65,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48479",
+    "value": 92,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48481",
+    "value": 71,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48483",
+    "value": 21,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48485",
+    "value": 88,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48487",
+    "value": 41,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48489",
+    "value": 56,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48491",
+    "value": 95,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48493",
+    "value": 72,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48495",
+    "value": 26,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48497",
+    "value": 79,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48499",
+    "value": 71,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48501",
+    "value": 29,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48503",
+    "value": 50,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48505",
+    "value": 44,
+    "quality": "estimated"
+  },
+  {
+    "countyFips": "48507",
+    "value": 38,
+    "quality": "estimated"
+  }
+]

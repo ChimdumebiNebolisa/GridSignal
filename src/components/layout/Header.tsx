@@ -8,7 +8,7 @@ export function Header() {
           {appName}
         </h1>
         <p className="text-xs text-slate-500">
-          Texas county backup energy planning priority map
+          Texas county structural resilience &amp; backup feasibility map
         </p>
       </div>
     </header>

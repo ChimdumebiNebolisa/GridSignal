@@ -96,48 +96,53 @@ Optional command before implementation:
 npx skills add https://github.com/raroque/vibe-security-skill --skill vibe-security
 ```
 
-## 4. Scoring rules
+## 4. Scoring rules (v2 — two-axis model)
 
-The scoring formula is fixed.
+See ADR 001 (`docs/adr/001-two-axis-model.md`).
 
-Backup Priority Score:
+### Structural Resilience Need (annual, county-ranked)
 
-```text
-0.30(weather risk)
-+ 0.25(solar potential)
-+ 0.25(demand exposure)
-+ 0.20(statewide grid strain)
-```
+Components: hazard exposure (FEMA NRI), social vulnerability (CDC SVI), outage burden (EAGLE-I where available). Equal weight among available components; reweight when components missing. **No silent neutral 50.**
+
+### Backup Feasibility (annual, county-ranked)
+
+Components: solar resource (NREL PVWatts). Solar increases feasibility, **never** structural need.
+
+### Current Conditions (context only)
+
+Near-term weather stress and statewide ERCO/EIA load. **Must not affect county rank layers.**
+
+### Legacy Backup Priority Score
+
+Deprecated. Do not show as hero metric. Cross-horizon composite withheld until validation gates pass.
 
 Rules:
-- Each component score must normalize to 0 to 100.
-- The final score must normalize to 0 to 100.
-- Use deterministic functions only.
-- Do not use AI to assign or explain numeric scores.
-- Do not change weights unless the user explicitly changes the data contract.
-- Do not add utility/service territory into the score unless reliable utility-level reliability data exists and the user explicitly approves changing the scoring model.
-- Do not let statewide grid strain dominate county differences.
-- If statewide grid strain is unavailable, use the defined fallback and mark the value as estimated or unavailable.
-- If a component is unavailable, follow the data contract fallback rule. Do not silently substitute unrelated values.
-- Keep scoring logic isolated in a testable module.
+- Separate time horizons — never mix annual structural indicators with live operational data in one county rank score.
+- Do not call population "electricity demand."
+- Do not imply county grid reliability from statewide ERCOT/EIA demand.
+- Do not use silent neutral `50`; mark imputed values with `imputed: true` and `quality: "estimated"`.
+- Use deterministic functions only; no AI-assigned scores.
+- Utility context never affects scores.
+- Keep scoring logic isolated in testable modules.
 
-Score labels:
-- 0 to 39: Low
-- 40 to 59: Medium
-- 60 to 79: High
-- 80 to 100: Critical
+Score labels (v2):
+- 0 to 39: Lower
+- 40 to 59: Moderate
+- 60 to 79: Elevated
+- 80 to 100: Highest (not "Critical" until calibration)
 
 The app may say:
-- "Backup planning priority."
-- "Higher priority based on public data signals."
-- "Score reflects weather, solar, demand, and statewide grid strain inputs."
+- "Structural resilience need."
+- "Backup feasibility."
+- "Current conditions (statewide context)."
+- "Estimated from public data."
 
 The app must not say:
 - "Outage risk score."
 - "This county will lose power."
 - "This predicts blackouts."
 - "This utility is unreliable."
-- "This area has weak grid reliability."
+- "Electricity demand" for population.
 
 ## 5. UI wording rules
 

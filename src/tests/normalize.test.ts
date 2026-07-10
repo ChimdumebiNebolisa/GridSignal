@@ -55,13 +55,14 @@ describe("percentileRank", () => {
 });
 
 describe("normalizeWeatherRisk", () => {
-  it("returns estimated neutral when all inputs null", () => {
+  it("returns estimated neutral with imputed flag when all inputs null", () => {
     const weather = weatherFixture({
       quality: "unavailable",
     });
     const result = normalizeWeatherRisk(weather);
     expect(result.value).toBe(50);
     expect(result.quality).toBe("estimated");
+    expect(result.imputed).toBe(true);
   });
 
   it("scores high heat higher", () => {

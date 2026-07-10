@@ -1,5 +1,5 @@
 /**
- * Shared profile builder for API routes
+ * Shared profile builder for API routes (v2)
  */
 
 import "server-only";
@@ -10,11 +10,12 @@ import {
 } from "@/lib/data/counties";
 import { mergeCountyProfile, mergeAllCountyProfiles } from "@/lib/data/mergeCountyProfile";
 import { fetchGridStrain } from "@/lib/api/eia";
-import type { CountyEnergyProfile } from "@/types/county";
-import type { GridStrainResult } from "@/types/api";
+import { buildOperationalContext } from "@/lib/scoring/operationalContext";
+import type { CountyEnergyProfile, MapCountySummary, OperationalContext } from "@/types/county";
 
 let profilesCache: CountyEnergyProfile[] | null = null;
-let gridStrainCache: GridStrainResult | null = null;
+const PROFILES_CACHE_TTL_MS = 15 * 60 * 1000;
+let profilesCacheTimestamp = 0;
 
 function estimatedWeather(countyFips: string) {
   const fetchedAt = new Date().toISOString();
@@ -34,15 +35,16 @@ function estimatedWeather(countyFips: string) {
   };
 }
 
-export async function getSharedGridStrain(): Promise<GridStrainResult> {
-  if (!gridStrainCache) {
-    gridStrainCache = await fetchGridStrain();
-  }
-  return gridStrainCache;
+/** Delegates to eia.ts 15-minute TTL cache — no indefinite pinning */
+export async function getSharedGridStrain() {
+  return fetchGridStrain();
 }
 
 export async function buildAllCountyProfiles(): Promise<CountyEnergyProfile[]> {
-  if (profilesCache) return profilesCache;
+  const now = Date.now();
+  if (profilesCache && now - profilesCacheTimestamp < PROFILES_CACHE_TTL_MS) {
+    return profilesCache;
+  }
 
   const bases = getCountyStaticProfiles();
   const solarCache = getSolarCache();
@@ -52,6 +54,7 @@ export async function buildAllCountyProfiles(): Promise<CountyEnergyProfile[]> {
   const weatherByFips = new Map(weatherCache.map((w) => [w.countyFips, w]));
 
   profilesCache = mergeAllCountyProfiles(bases, weatherByFips, solarCache, gridStrain);
+  profilesCacheTimestamp = now;
   return profilesCache;
 }
 
@@ -74,23 +77,18 @@ export async function buildCountyProfileByFips(
   });
 }
 
-export type MapCountySummary = {
-  countyFips: string;
-  countyName: string;
-  backupPriorityScore: number;
-  backupPriorityLabel: string;
-  weatherRiskScore: number;
-  solarPotentialScore: number;
-  demandExposureScore: number;
-  statewideGridStrainScore: number;
-  dataQuality: CountyEnergyProfile["dataQuality"];
-};
+export type { MapCountySummary };
 
 export async function buildMapSummaries(): Promise<MapCountySummary[]> {
   const profiles = await buildAllCountyProfiles();
   return profiles.map((p) => ({
     countyFips: p.countyFips,
     countyName: p.countyName,
+    structuralNeedScore: p.structuralNeed.score,
+    structuralNeedLabel: p.structuralNeed.label,
+    feasibilityScore: p.feasibility.score,
+    feasibilityLabel: p.feasibility.label,
+    weatherStressScore: p.operationalContext.weatherStressScore,
     backupPriorityScore: p.backupPriorityScore,
     backupPriorityLabel: p.backupPriorityLabel,
     weatherRiskScore: p.weatherRiskScore,
@@ -99,4 +97,11 @@ export async function buildMapSummaries(): Promise<MapCountySummary[]> {
     statewideGridStrainScore: p.statewideGridStrainScore,
     dataQuality: p.dataQuality,
   }));
+}
+
+export async function buildOperationalContextSummary(): Promise<OperationalContext> {
+  const weatherCache = getWeatherCache();
+  const sampleWeather = weatherCache[0] ?? estimatedWeather("48001");
+  const gridStrain = await getSharedGridStrain();
+  return buildOperationalContext(sampleWeather, gridStrain);
 }
