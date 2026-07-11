@@ -69,7 +69,8 @@ Producer-to-consumer blast radius observed: bundled indicator/cache data → `in
 ## Publication and deployment
 
 - Current branch: `main`.
-- Commit/push/PR/merge/deploy: not performed yet. This documentation-only unit must pass targeted verification and self-review first; production behavior was not changed.
+- Commit/push: inventory committed on `main` as `4729282` and pushed successfully to `origin/main`; a follow-up progress-record commit records publication state.
+- PR/merge/deploy: no PR or separate merge was used because the authorized work completed directly on `main`. No deployment was performed because this documentation-only unit changed no production behavior.
 
 ## Deferred / blockers
 
