@@ -65,11 +65,12 @@ Producer-to-consumer blast radius observed: bundled indicator/cache data → `in
 - Repository/document/source searches using `rg --files` and `rg -n` — exit 0; located seven scoring implementation modules plus `src/types/scoring.ts` as the mixed configuration/type module and traced their importers.
 - JSON summary script over manifest and indicator files — exit 0; 254 structural records (254 null scores), 254 feasibility records (0 null scores), manifest score version `none`.
 - `npm run data:validate-scoring` — exit 0; rho 0.603 pass, rank stability 55.1% fail against methodological gate, population correlation 0.887 warning, composite WITHHOLD. Its timestamp-only generated-file change was reverted.
+- `git diff --check` after recording Option B — exit 0; no whitespace errors, with Git's existing LF-to-CRLF working-copy warning for this Markdown file.
 
 ## Publication and deployment
 
 - Current branch: `main`.
-- Commit/push: inventory committed on `main` as `4729282` and pushed successfully to `origin/main`; a follow-up progress-record commit records publication state.
+- Commit/push: inventory committed on `main` as `4729282` and pushed successfully to `origin/main`; a follow-up progress-record commit records publication state. User confirmation of Option B was committed as `03fd724` and pushed to `origin/main`.
 - PR/merge/deploy: no PR or separate merge was used because the authorized work completed directly on `main`. No deployment was performed because this documentation-only unit changed no production behavior.
 
 ## Deferred / blockers
