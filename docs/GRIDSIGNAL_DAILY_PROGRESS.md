@@ -8,10 +8,10 @@ Last updated: 2026-07-11 (America/Chicago)
 - Completed work unit: inventory every scoring module.
 - In progress: none.
 - Next incomplete work unit: inventory every scoring configuration.
-- Canonical scoring decision: unresolved for this daily roadmap. ADR 001 records a prior two-axis decision, but the current user instruction requires an explicit user confirmation before public score semantics change.
+- Canonical scoring decision: resolved by user confirmation on 2026-07-11. GridSignal should use Option B as the canonical public model: separate structural-need and feasibility scores, with operational conditions kept as context.
 - Recommended model: Option B, the two-axis structural-need and feasibility model, with operational conditions kept as context. It has the active UI/data/recommendation implementation and is more explainable than the cross-horizon composite. Publication still requires resolving null structural scores, versioning, source quality, stability, and documentation drift.
-- User decision: not yet recorded in this automation.
-- Blocking question: confirm Option A (single Backup Priority Score) or Option B (two-axis structural need and feasibility) as the canonical public model.
+- User decision: Option B.
+- Blocking question: resolved.
 - Public score semantics changed by this work unit: no.
 
 ## Ordered checklist
@@ -74,5 +74,5 @@ Producer-to-consumer blast radius observed: bundled indicator/cache data → `in
 
 ## Deferred / blockers
 
-- Blocking: explicit canonical public-model confirmation is required before changing public score semantics.
+- Blocking: none for the canonical public-model decision. Public semantic changes still require normal implementation, verification, and documentation consistency work.
 - Deferred: all roadmap work after the first module inventory, including remediation of mixed-model runtime paths.
