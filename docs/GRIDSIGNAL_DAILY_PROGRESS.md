@@ -5,9 +5,9 @@ Last updated: 2026-07-12 (America/Chicago)
 ## Current state
 
 - Phase: 1 — baseline and scoring-model decision evidence.
-- Completed work unit: inventory every scoring configuration.
+- Completed work unit: inventory score fields in committed data.
 - In progress: none.
-- Next incomplete work unit: inventory score fields in committed data.
+- Next incomplete work unit: inventory score fields returned by APIs.
 - Canonical scoring decision: resolved by user confirmation on 2026-07-11. GridSignal should use Option B as the canonical public model: separate structural-need and feasibility scores, with operational conditions kept as context.
 - Recommended model: Option B, the two-axis structural-need and feasibility model, with operational conditions kept as context. It has the active UI/data/recommendation implementation and is more explainable than the cross-horizon composite. Publication still requires resolving null structural scores, versioning, source quality, stability, and documentation drift.
 - User decision: Option B.
@@ -18,7 +18,7 @@ Last updated: 2026-07-12 (America/Chicago)
 
 - [x] 1. Inventory every scoring module.
 - [x] 2. Inventory every scoring configuration.
-- [ ] 3. Inventory score fields in committed data.
+- [x] 3. Inventory score fields in committed data.
 - [ ] 4. Inventory score fields returned by APIs.
 - [ ] 5. Inventory score labels in the UI.
 - [ ] 6. Inventory score/recommendation fields in exports.
@@ -60,6 +60,20 @@ Producer-to-consumer blast radius observed: bundled indicator/cache data → `in
 
 Configuration producer-to-consumer blast radius observed: constants and hard-coded scoring gates in `src/types/scoring.ts`, `structuralNeed.ts`, `feasibility.ts`, `scoreCounty.ts`, and `colors.ts` feed `mergeCountyProfile.ts` and `mapSummary.ts`, which feed API route handlers, page data, map layers, county panels, recommendations, and text reports. Validation and manifest generation duplicate or omit parts of the active scoring configuration, so later canonical contract work should centralize versioned Option B config before changing public score semantics.
 
+## Committed data score-field inventory
+
+| Data surface | Coverage | Score-bearing fields | Observed values / quality | Risk |
+|---|---:|---|---|---|
+| `src/data/indicators/county-structural-need.json` | 254/254 | `structuralNeedScore`, component `value` fields | `structuralNeedScore`: null for 254/254; hazard, social-vulnerability, and outage-burden values non-null for 254/254; all component and record quality values are `estimated`; all components have `imputed: true`; `missingComponents` is empty for 254/254 | Score field contradicts populated components and cannot explain the null state; production score behavior remains unresolved. |
+| `src/data/indicators/county-feasibility.json` | 254/254 | `feasibilityScore`, `components.solarResource.value` | Score and component values non-null for 254/254; all record/component quality values are `estimated`; all solar components have `imputed: true` | Feasibility is populated from estimated/imputed data and has no explicit null example in committed data. |
+| `src/data/cache/solar-potential-by-county.json` | 254/254 | `annualAcKwh` (input), no normalized score | All values present; quality is `estimated` for 254/254; `fetchedAt` is 2026-05-23 for 254/254 | Cache input is older than the current run date and lacks an explicit stale status. |
+| `src/data/cache/weather-risk-by-county.json` | 254/254 | No persisted normalized score; weather inputs only | Quality is `cached` for 235 and `estimated` for 19; all `fetchedAt` values are 2026-05-23 | Score is derived downstream; stale/fallback status is not quantified in the data contract. |
+| `src/data/sample-grid-strain.json` | 1 statewide | `gridStrainScore` | Value 50; quality `fallback`; timestamp 2026-05-23; explicitly statewide/balancing-authority context | Must remain operational context and must not feed county rank. |
+| `src/data/sources/{fema_nri,cdc_svi,eagle_i}` | 254/source | Source `value` fields | All 254/source values non-null and `estimated` | Source records lack per-row vintage, fetched timestamp, URL, license, hash, and limitation metadata. |
+| `src/data/manifests/data-version.json` | 4 sources | `scoreConfigVersion` | `"none"`; manifest generated 2026-07-10; sources declare only id, vintage, fetchedAt, coverage, quality | No committed version identifies the active scoring configuration. |
+
+Committed-data blast radius: indicator/source JSON and caches → `src/lib/data/indicators.ts` / normalization → `mergeCountyProfile.ts` → map summaries, county profiles, APIs, UI panels, recommendations, and reports. The key data inconsistency is the 254 null structural scores despite 254 complete component triplets; this is recorded for the later canonical-contract and missingness work units, not changed in this inventory unit.
+
 ## Evidence and findings
 
 - Branch/history: `main` at `ef8f568`, merged PR #1 (`feat/two-axis-resilience-redesign`); `origin/main` matched at audit time.
@@ -69,6 +83,7 @@ Configuration producer-to-consumer blast radius observed: constants and hard-cod
 - Scoring configuration is split across exported constants, hard-coded module-local gates, map-layer config, manifest metadata, and validation-script duplicate logic. No single versioned canonical config exists yet.
 - County coverage: 254 structural-need records and 254 feasibility records.
 - Missingness: `structuralNeedScore` is null for 254/254 counties; `feasibilityScore` is null for 0/254.
+- Committed-data inventory: structural components are non-null for 254/254 while structural scores are null for 254/254 and `missingComponents` is empty for 254/254; feasibility and solar-resource scores are non-null for 254/254; weather cache quality is cached for 235/254 and estimated for 19/254; statewide grid strain is a fallback value of 50.
 - Quality/provenance: manifest labels FEMA NRI, CDC SVI, and EAGLE-I as estimated; NREL PVWatts as cached. Full source-lineage fields remain incomplete.
 - Sensitivity/bias: scoring validation reported Spearman rho 0.603 against outage burden, 55.1% rank stability under ±20% hazard-weight perturbation (fails 80% gate), and population correlation 0.887; cross-horizon composite result is WITHHOLD.
 - Public claims verified: no new public product claim was introduced. Inventory claims were verified from imports, implementations, committed JSON, ADR, README, manifest, and validation output.
@@ -87,7 +102,19 @@ Configuration producer-to-consumer blast radius observed: constants and hard-cod
 - `npm run data:validate-scoring` — exit 0; rho 0.603 pass, rank stability 55.1% fail against methodological gate, population correlation 0.887 warning, composite WITHHOLD. Its timestamp-only generated-file change was reverted.
 - `git diff --check` after recording Option B — exit 0; no whitespace errors, with Git's existing LF-to-CRLF working-copy warning for this Markdown file.
 
+## Current work-unit verification
+
+
+- `git status --short` — exit 0; worktree was clean at start.
+- Read-only Node inventory over committed indicator, cache, source, and manifest JSON — exit 0; recorded field coverage, null counts, quality counts, imputation counts, timestamps, and manifest score version.
+- `npm run typecheck` — exit 0; `tsc --noEmit` passed.
+- `npm run data:validate` — exit 0; data validation passed.
+- `npm run data:validate-scoring` — exit 0; Spearman rho 0.603 passed, rank stability 55.1% failed the 80% gate, population correlation 0.887 was flagged, and the composite remained WITHHOLD. The generated timestamp-only output change was restored.
+- `git diff --check` — exit 0; no whitespace errors.
+
 ## Publication and deployment
+
+- This work unit changes only the persistent progress record; no production behavior or public score semantics changed.
 
 - Current branch: `main`.
 - Commit/push: inventory committed on `main` as `4729282` and pushed successfully to `origin/main`; a follow-up progress-record commit records publication state. User confirmation of Option B was committed as `03fd724` and pushed to `origin/main`. Scoring configuration inventory committed on `main` as `55deb6d`; publication-state updates through `7abd7fa` were pushed successfully to `origin/main`.
@@ -95,5 +122,8 @@ Configuration producer-to-consumer blast radius observed: constants and hard-cod
 
 ## Deferred / blockers
 
+- Next work unit: inventory score fields returned by APIs.
+- Deferred: later remediation of the mixed-model runtime paths and the 254 null structural scores.
+
 - Blocking: none for the canonical public-model decision. Public semantic changes still require normal implementation, verification, and documentation consistency work.
-- Deferred: all roadmap work after scoring configuration inventory, including committed data score-field inventory and remediation of mixed-model runtime paths.
+- Deferred: all roadmap work after committed-data score-field inventory, including API inventory and remediation of mixed-model runtime paths.
