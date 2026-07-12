@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { searchAll } from "@/lib/search/search";
+import { apiError } from "@/lib/api/response";
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
@@ -14,9 +15,6 @@ export async function GET(request: Request) {
     return NextResponse.json({ results, query: q });
   } catch (error) {
     console.error("[API /search]", error);
-    return NextResponse.json(
-      { error: "Search failed.", results: [], query: q },
-      { status: 500 }
-    );
+    return apiError("SEARCH_FAILED", "Search failed.", 500);
   }
 }

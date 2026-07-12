@@ -26,11 +26,10 @@ export function calculateFeasibility(
         ? "estimated"
         : solar.quality;
 
-  const finalScore = score ?? 0;
-
   return {
-    score: finalScore,
+    score,
     label: getPlanningLabel(score),
+    noScoreReason: score === null ? "unavailable" : null,
     components: record.components,
     quality,
   };

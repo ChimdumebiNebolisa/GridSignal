@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GridSignal Texas",
   description:
-    "Texas county-level backup energy planning priority map using public weather, solar, demand, and grid strain data.",
+    "Texas county structural resilience need and backup feasibility explorer using public data.",
 };
 
 export default function RootLayout({

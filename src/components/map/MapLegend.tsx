@@ -38,9 +38,9 @@ export function MapLegend({ layer }: MapLegendProps) {
           </li>
         ))}
       </ul>
-      {layer === "structuralNeed" && (
+      {(layer === "structuralNeed" || layer === "feasibility") && (
         <p className="mt-2 text-[10px] text-slate-500">
-          Withheld (gray) when too many components missing
+          Unavailable or withheld values are shown in gray
         </p>
       )}
     </div>

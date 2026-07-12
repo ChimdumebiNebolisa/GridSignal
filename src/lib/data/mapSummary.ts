@@ -10,15 +10,11 @@ export function summaryFromProfile(p: CountyEnergyProfile): MapCountySummary {
     countyName: p.countyName,
     structuralNeedScore: p.structuralNeed.score,
     structuralNeedLabel: p.structuralNeed.label,
+    structuralNeedNoScoreReason: p.structuralNeed.noScoreReason,
     feasibilityScore: p.feasibility.score,
     feasibilityLabel: p.feasibility.label,
+    feasibilityNoScoreReason: p.feasibility.noScoreReason,
     weatherStressScore: p.operationalContext.weatherStressScore,
-    backupPriorityScore: p.backupPriorityScore,
-    backupPriorityLabel: p.backupPriorityLabel,
-    weatherRiskScore: p.weatherRiskScore,
-    solarPotentialScore: p.solarPotentialScore,
-    demandExposureScore: p.demandExposureScore,
-    statewideGridStrainScore: p.statewideGridStrainScore,
     dataQuality: p.dataQuality,
   };
 }

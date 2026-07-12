@@ -1,117 +1,68 @@
-# GridSignal Texas Data Contract v2
+# GridSignal Texas Data Contract v2.1
 
-Supersedes scoring sections of v1. Geography and API adapter sections remain valid unless noted.
+## Canonical axes
 
-## 1. Indicator axes and time horizons
+| Field | Horizon | County rank? | Missing behavior |
+|---|---|---:|---|
+| `structuralNeed` | Multi-year, annual refresh | Yes | `score: null` with `noScoreReason` when unavailable or more than one component is missing |
+| `feasibility` | Annual refresh | Yes | `score: null` with `noScoreReason: unavailable` when solar is missing |
+| `operationalContext` | Current/near-term | No | Labeled cached, estimated, stale, fallback, or unavailable |
+| `utilityContext` | Static/as sourced | No | Separate context quality; never degrades score quality |
 
-| Axis | Horizon | Refresh | County rank? |
-|------|---------|---------|--------------|
-| `structuralNeed` | Multi-year | Annual | Yes |
-| `feasibility` | Annual | Annual | Yes |
-| `operationalContext` | 0–72h + current hour | Hourly/daily | No |
-| `utilityContext` | Static | As sourced | No |
-
-## 2. County profile shape (v2 additions)
+## Public county profile
 
 ```ts
-profileAssembledAt: string;       // ISO — when profile was built
-lastUpdated: string;              // ISO — oldest score-bearing source fetchedAt
-dataManifestVersion: string;
+type PlanningLabel = "Lower" | "Moderate" | "Elevated" | "Highest";
+type NoScoreReason = "missing_components" | "unavailable";
 
-structuralNeed: StructuralNeedProfile;
-feasibility: FeasibilityProfile;
-operationalContext: OperationalContext;
-
-// Deprecated — retained for migration/tests only
-backupPriorityScore?: number;
-backupPriorityLabel?: BackupPriorityLabel;
-```
-
-## 3. StructuralNeedProfile
-
-```ts
-score: number | null;             // null if withheld (missing components)
-label: PlanningLabel;
-components: {
-  hazardExposure: IndicatorComponent;
-  socialVulnerability: IndicatorComponent;
-  outageBurden: IndicatorComponent;
+type CountyEnergyProfile = {
+  countyFips: string;
+  countyName: string;
+  structuralNeed: {
+    score: number | null;
+    label: PlanningLabel | null;
+    noScoreReason: NoScoreReason | null;
+    components: IndicatorComponentSet;
+    missingComponents: string[];
+    quality: DataQuality;
+  };
+  feasibility: {
+    score: number | null;
+    label: PlanningLabel | null;
+    noScoreReason: NoScoreReason | null;
+    components: { solarResource: IndicatorComponent };
+    quality: DataQuality;
+  };
+  operationalContext: OperationalContext;
+  dataQuality: DataQualitySummary;
+  sourceStatus: SourceStatus;
+  recommendation: string;
+  dataManifestVersion: string;
+  lastUpdated: string;
+  profileAssembledAt: string;
 };
-missingComponents: string[];
-quality: DataQuality;
 ```
 
-## 4. FeasibilityProfile
+Legacy `backupPriorityScore`, `backupPriorityLabel`, demand-exposure, and weather-risk composite fields are not part of active public profile/map/API/export contracts.
 
-```ts
-score: number;
-label: PlanningLabel;
-components: {
-  solarResource: IndicatorComponent;
-};
-quality: DataQuality;
-```
+## Scoring rules
 
-## 5. OperationalContext
+- Structural need uses equal weights: hazard exposure, social vulnerability, and outage burden.
+- If more than one structural component is missing, structural score and label are withheld.
+- Available structural components are weighted by the canonical configuration and renormalized across available components only when the missing-count gate permits scoring.
+- Feasibility is the normalized solar-resource score; solar is never treated as structural need.
+- Scores are clamped to 0–100 and rounded to whole numbers.
+- Operational weather and statewide grid strain never affect county rank.
+- Utility context never affects scores.
 
-```ts
-weatherStressScore: number;
-weatherStressExplanation: string;
-statewideGridStrainScore: number;
-statewideGridStrainExplanation: string;
-asOf: string;
-limitation: string;
-```
+## Data quality
 
-## 6. IndicatorComponent
+`DataQuality` is one of `live`, `cached`, `estimated`, `stale`, `fallback`, or `unavailable`.
 
-```ts
-value: number | null;
-quality: DataQuality;
-source: string;
-vintage: string;
-explanation: string;
-imputed?: boolean;
-```
+Every score-bearing component exposes value, quality, source, vintage, explanation, and optional imputation status. Null scores expose a no-score reason. The UI and exports must not convert null to a neutral label or number.
 
-## 7. Missing-data policy
+## Manifest
 
-- **Ban silent neutral 50.** Use `imputed: true` when estimating.
-- If more than one structural need component missing → `structuralNeed.score = null`, list gaps.
-- Statewide grid missing → operational banner only; exclude from any composite.
+`src/data/manifests/data-version.json` publishes `schemaVersion`, `scoreConfigVersion`, `generatedAt`, and source records with id, vintage, fetched timestamp, coverage, quality, and available provenance/limitation metadata.
 
-## 8. Data manifest
-
-`src/data/manifests/data-version.json`:
-
-```ts
-{
-  schemaVersion: "2.0.0";
-  scoreConfigVersion: "none" | string;
-  generatedAt: string;
-  sources: ProvenanceRecord[];
-}
-```
-
-## 9. Map layers (v2)
-
-- `structuralNeed`
-- `feasibility`
-- `needFeasibilityQuadrant`
-- `weatherStress`
-- Legacy layers deprecated: `backupPriority`, `demandExposure`, `statewideGridStrain` as rank inputs
-
-## 10. Static files
-
-```
-src/data/manifests/data-version.json
-src/data/indicators/county-structural-need.json
-src/data/indicators/county-feasibility.json
-src/data/sources/{source_id}/{vintage}/
-```
-
-Actual runtime filenames (unchanged): `county-centroids.json`, `county-population.json`, `texas-counties.geojson`, cache files under `src/data/cache/`.
-
-## 11. Quality rollup
-
-`dataQuality.overall` computed from **score-bearing indicators only** (structural need components, feasibility, operational weather). Utility context uses separate `contextQuality` and does not degrade overall score quality.
+Current score configuration version: `two-axis-v1`.

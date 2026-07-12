@@ -36,11 +36,11 @@ type CountyProps = { GEOID: string; NAME: string };
 function tooltipForLayer(layer: LayerName, county: MapCountySummary): string {
   switch (layer) {
     case "structuralNeed":
-      return `Structural need: ${county.structuralNeedScore ?? "withheld"}/100 (${county.structuralNeedLabel})`;
+      return `Structural need: ${county.structuralNeedScore !== null ? `${county.structuralNeedScore}/100 (${county.structuralNeedLabel})` : "withheld"}`;
     case "feasibility":
-      return `Feasibility: ${county.feasibilityScore}/100 (${county.feasibilityLabel})`;
+      return `Feasibility: ${county.feasibilityScore !== null ? `${county.feasibilityScore}/100 (${county.feasibilityLabel})` : "unavailable"}`;
     case "needFeasibilityQuadrant":
-      return `Need ${county.structuralNeedScore ?? "—"} / Feasibility ${county.feasibilityScore}`;
+      return `Need ${county.structuralNeedScore ?? "withheld"} / Feasibility ${county.feasibilityScore ?? "unavailable"}`;
     case "weatherStress":
       return `Weather stress: ${county.weatherStressScore}/100`;
     default:

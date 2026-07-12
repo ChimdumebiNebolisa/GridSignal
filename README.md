@@ -1,16 +1,19 @@
 # GridSignal Texas
 
-Texas county-level interactive map for backup energy planning priority using public weather, solar, demand, and grid strain data.
+Texas county-level public-data explorer for structural resilience need, backup feasibility, and current operating context.
 
-## Problem It Solves
+## Product model
 
-Texas energy signals are spread across weather, solar, population, grid, and utility sources. GridSignal Texas combines them into one explainable county-level **Backup Priority Score** so users can see where backup planning may be worth evaluating—without outage prediction or professional advice claims.
+GridSignal publishes two separate annual planning axes:
 
-## Demo
+- **Structural resilience need**: hazard exposure, social vulnerability, and historical outage-burden indicators.
+- **Backup feasibility**: solar-resource feasibility using a standard county-centroid PVWatts assumption.
 
-**Repository:** [https://github.com/ChimdumebiNebolisa/GridSignal](https://github.com/ChimdumebiNebolisa/GridSignal)
+Current weather stress and statewide ERCO grid conditions are shown as operational context only. They do not affect county rankings. GridSignal is a planning signal, not an outage prediction, reliability determination, or professional advice.
 
-**Local run:**
+Structural scores are withheld when more than one required component is missing. Missing, estimated, cached, stale, fallback, and unavailable data are labeled in profiles and reports.
+
+## Local run
 
 ```bash
 npm install
@@ -18,169 +21,51 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
-
-**What you will see:**
-
-- Texas county map with 254 counties colored by Backup Priority Score
-- Layer toggles for weather, solar, demand, and statewide grid strain
-- County side panel with score breakdown, recommendation, utility context, and data quality labels
-- Search by county, city, or ZIP
-- Copy or download a plain-text county report
+Open `http://localhost:3000`.
 
 ## Features
 
-- Interactive Texas county map (254 counties) with no required external base map tiles
-- Counties colored by Backup Priority Score or component layers
-- Layer toggles: Backup Priority, Weather Risk, Solar Potential, Demand Exposure, Statewide Grid Strain
-- County detail side panel with score breakdown, recommendation, utility context, and data quality
-- Search by county name, city (~1,462 cities), or ZIP (~1,928 ZIPs); approximate matches are labeled
-- Copy or download plain-text county report
-- Deterministic scoring from public data with live, cached, estimated, fallback, and unavailable labels
-- API routes: `/api/counties`, `/api/county/[fips]`, `/api/weather/[fips]`, `/api/solar/[fips]`, `/api/grid-strain`, `/api/search`
+- Interactive Texas county map with 254 counties.
+- Structural need, backup feasibility, need-vs-feasibility quadrant, and current-weather layers.
+- Keyboard-accessible county list as an alternative to map interaction.
+- County profile with component values, no-score reasons, recommendations, utility context, quality labels, provenance, and plain-text export.
+- Search by county, city, or ZIP with approximate-match labels.
+- APIs for counties, county profiles, weather context, solar feasibility, statewide grid context, and search.
 
-## Tech Stack
-
-- Next.js 16 (App Router) + TypeScript
-- Tailwind CSS
-- React Leaflet / Leaflet
-- Static GeoJSON and JSON data files
-- Vitest for scoring and data validation tests
-- No database, authentication, or payments
-
-## Architecture
-
-```mermaid
-flowchart TB
-  subgraph client [Browser]
-    Map[TexasCountyMap]
-    Panel[CountySidePanel]
-    Search[SearchBox]
-  end
-
-  subgraph next [Next.js Server]
-    Page[page.tsx]
-    API[API Route Handlers]
-    Scoring[lib/scoring]
-    Data[lib/data]
-  end
-
-  subgraph static [Bundled Data]
-    GeoJSON[texas-counties.geojson]
-    Cache[weather / solar / population caches]
-    Lookup[city-to-county / zip-to-county]
-  end
-
-  subgraph external [Optional External APIs]
-    OpenMeteo[Open-Meteo]
-    PVWatts[NREL PVWatts]
-    EIA[EIA ERCO Grid Monitor]
-  end
-
-  Page --> Data
-  Page --> Map
-  Map --> API
-  Search --> API
-  Panel --> API
-  API --> Scoring
-  API --> Data
-  Data --> GeoJSON
-  Data --> Cache
-  Data --> Lookup
-  API --> OpenMeteo
-  API --> PVWatts
-  API --> EIA
-  Scoring --> Panel
-```
-
-**Backup Priority Score formula:**
-
-```text
-0.30 × weather risk
-+ 0.25 × solar potential
-+ 0.25 × demand exposure
-+ 0.20 × statewide grid strain
-```
-
-Scores are computed server-side. API keys stay in route handlers only and are never exposed to client components.
-
-## Setup
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/ChimdumebiNebolisa/GridSignal.git
-cd GridSignal
-```
-
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Create local environment file:
-
-```bash
-cp .env.example .env.local
-```
-
-4. Add optional API keys to `.env.local`:
-
-| Variable | Purpose |
-|----------|---------|
-| `NREL_API_KEY` | Optional live PVWatts solar fetches ([signup](https://developer.nrel.gov/signup/)); static solar cache is used without it |
-| `EIA_API_KEY` | Optional live EIA ERCO balancing-authority grid strain ([register](https://www.eia.gov/opendata/register.php)); neutral statewide fallback is used without it |
-| `CENSUS_API_KEY` | Optional population cache refresh scripts; runtime uses bundled static Census population by default |
-| `ERCOT_API_KEY`, `ERCOT_USERNAME`, `ERCOT_PASSWORD`, `ERCOT_SUBSCRIPTION_KEY` | Reserved for future ERCOT integration; not used by the current app |
-| `NEXT_PUBLIC_APP_NAME` | Public app title only (default: GridSignal Texas); do not put secrets in `NEXT_PUBLIC_*` variables |
-
-The app runs without API keys. In that mode, Open-Meteo weather still works without a key, solar uses bundled cached/estimated values, population uses the bundled Census cache, and grid strain uses a neutral statewide fallback.
-
-5. Verify the project:
+## Verification
 
 ```bash
 npm run typecheck
 npm run lint
 npm run test
+npm run data:validate
+npm run data:validate-scoring
 npm run build
 ```
 
-6. Start the dev server:
+## Data and limitations
 
-```bash
-npm run dev
-```
+- Structural and feasibility indicators are bundled snapshots and must be refreshed through the data-build/ingest workflow.
+- FEMA NRI, CDC/ATSDR SVI, and DOE EAGLE-I values are labeled estimated in the current bundle.
+- Solar values are cached or estimated; PVWatts uses a standard 4 kW system at the county centroid and is not site-specific design advice.
+- Weather uses county-centroid forecasts and may be cached or unavailable.
+- ERCO/EIA grid load is statewide or balancing-authority context, not county-specific reliability.
+- Utility/service-territory context is approximate and does not affect scores.
+- The current structural validation reports 0.603 Spearman correlation with the outage-burden proxy, 55.1% rank stability under the documented perturbation, and 0.887 population correlation; the cross-horizon composite remains withheld.
 
-## How to Use
+## Environment variables
 
-1. Open the app and view the Texas county map (default layer: **Backup Priority**).
-2. Use **Map layer** controls to recolor counties by weather, solar, demand, or statewide grid strain.
-3. Click a county to open the side panel with the Backup Priority Score, breakdown, recommendation, and utility context.
-4. Search for a county, city, or ZIP in the search box; select a result to focus that county.
-5. Use **Copy report** or **Download .txt** to export a plain-text county summary.
+| Variable | Purpose |
+|---|---|
+| `NREL_API_KEY` | Optional live PVWatts requests; bundled solar data remains available without it. |
+| `EIA_API_KEY` | Optional live EIA ERCO requests; statewide fallback remains available without it. |
+| `CENSUS_API_KEY` | Optional population-cache refresh. |
+| `NEXT_PUBLIC_APP_NAME` | Public app title only. |
 
-## Key Technical Decisions
+Private keys stay server-side. Never place secrets in `NEXT_PUBLIC_*` variables.
 
-- **Precomputed weather cache** for all 254 counties keeps map and panel scores consistent; live weather is available via `/api/weather/[fips]`.
-- **PVWatts** uses the NREL developer API when `NREL_API_KEY` is present; static cached or estimated solar values are labeled when keys or requests fail.
-- **EIA ERCO** demand is normalized against a rolling min/max from the same hourly series; neutral statewide `50` when unavailable.
-- **Census population** is bundled as a static cache for runtime demand exposure; `CENSUS_API_KEY` is only needed to refresh that cache.
-- **Open-Meteo weather** requires no key and uses county centroid forecasts; cached or estimated weather is labeled if live fetches fail.
-- **No OSM tile dependency** — counties render from bundled GeoJSON on a plain background.
-- **Utility context** is informational only and does not affect the score; uncertain counties use an empty utility list.
-- **City/ZIP lookup** uses centroid spatial joins from public datasets; results labeled as approximate when applicable.
+## Repository
 
-## Limitations
+[ChimdumebiNebolisa/GridSignal](https://github.com/ChimdumebiNebolisa/GridSignal)
 
-- Estimates **backup-planning priority**, not outage probability or household-level reliability.
-- **Statewide grid strain** is balancing-authority level (ERCO), not county-specific grid reliability.
-- **Likely utility/service territory** is context only—not a legal service-area determination.
-- **City and ZIP** matches may be approximate; multi-county ZIPs are not fully resolved.
-- Most counties have **unknown utility context** (no fabricated utility names).
-- Missing API keys use cached, estimated, or fallback values, clearly labeled in the UI.
-- Scores depend on available public data and documented normalization rules.
-
-## License
-
-MIT License
+License: MIT

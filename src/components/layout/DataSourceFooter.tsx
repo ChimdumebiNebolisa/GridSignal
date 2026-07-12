@@ -6,7 +6,7 @@ export function DataSourceFooter() {
         (vulnerability), DOE EAGLE-I (outage burden), NREL PVWatts (solar
         feasibility), Open-Meteo (weather stress), EIA ERCO (statewide load
         context), U.S. Census (population context), PUCT / static lookup (utility
-        context). Values may be live, cached, estimated, fallback, or
+        context). Values may be live, cached, estimated, stale, fallback, or
         unavailable.
       </p>
       <p className="mt-1 text-slate-500">

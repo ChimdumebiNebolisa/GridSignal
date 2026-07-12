@@ -1,7 +1,7 @@
 [
   {
     "countyFips": "48001",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 72,
     "components": {
       "hazardExposure": {
         "value": 60,
@@ -33,7 +33,7 @@
   },
   {
     "countyFips": "48003",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 42,
     "components": {
       "hazardExposure": {
         "value": 28,
@@ -65,7 +65,7 @@
   },
   {
     "countyFips": "48005",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 79,
     "components": {
       "hazardExposure": {
         "value": 61,
@@ -97,7 +97,7 @@
   },
   {
     "countyFips": "48007",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 36,
     "components": {
       "hazardExposure": {
         "value": 32,
@@ -129,7 +129,7 @@
   },
   {
     "countyFips": "48009",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 42,
     "components": {
       "hazardExposure": {
         "value": 70,
@@ -161,7 +161,7 @@
   },
   {
     "countyFips": "48011",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 31,
     "components": {
       "hazardExposure": {
         "value": 78,
@@ -193,7 +193,7 @@
   },
   {
     "countyFips": "48013",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 42,
     "components": {
       "hazardExposure": {
         "value": 16,
@@ -225,7 +225,7 @@
   },
   {
     "countyFips": "48015",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 46,
     "components": {
       "hazardExposure": {
         "value": 19,
@@ -257,7 +257,7 @@
   },
   {
     "countyFips": "48017",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 33,
     "components": {
       "hazardExposure": {
         "value": 57,
@@ -289,7 +289,7 @@
   },
   {
     "countyFips": "48019",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 37,
     "components": {
       "hazardExposure": {
         "value": 4,
@@ -321,7 +321,7 @@
   },
   {
     "countyFips": "48021",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 63,
     "components": {
       "hazardExposure": {
         "value": 27,
@@ -353,7 +353,7 @@
   },
   {
     "countyFips": "48023",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 67,
@@ -385,7 +385,7 @@
   },
   {
     "countyFips": "48025",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 38,
     "components": {
       "hazardExposure": {
         "value": 23,
@@ -417,7 +417,7 @@
   },
   {
     "countyFips": "48027",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 90,
     "components": {
       "hazardExposure": {
         "value": 82,
@@ -449,7 +449,7 @@
   },
   {
     "countyFips": "48029",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 99,
     "components": {
       "hazardExposure": {
         "value": 99,
@@ -481,7 +481,7 @@
   },
   {
     "countyFips": "48031",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 37,
     "components": {
       "hazardExposure": {
         "value": 12,
@@ -513,7 +513,7 @@
   },
   {
     "countyFips": "48033",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 26,
     "components": {
       "hazardExposure": {
         "value": 41,
@@ -545,7 +545,7 @@
   },
   {
     "countyFips": "48035",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 52,
     "components": {
       "hazardExposure": {
         "value": 47,
@@ -577,7 +577,7 @@
   },
   {
     "countyFips": "48037",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 73,
     "components": {
       "hazardExposure": {
         "value": 92,
@@ -609,7 +609,7 @@
   },
   {
     "countyFips": "48039",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 86,
     "components": {
       "hazardExposure": {
         "value": 69,
@@ -641,7 +641,7 @@
   },
   {
     "countyFips": "48041",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 81,
     "components": {
       "hazardExposure": {
         "value": 59,
@@ -673,7 +673,7 @@
   },
   {
     "countyFips": "48043",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 25,
     "components": {
       "hazardExposure": {
         "value": 0,
@@ -705,7 +705,7 @@
   },
   {
     "countyFips": "48045",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 30,
     "components": {
       "hazardExposure": {
         "value": 72,
@@ -737,7 +737,7 @@
   },
   {
     "countyFips": "48047",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 25,
     "components": {
       "hazardExposure": {
         "value": 39,
@@ -769,7 +769,7 @@
   },
   {
     "countyFips": "48049",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 60,
     "components": {
       "hazardExposure": {
         "value": 42,
@@ -801,7 +801,7 @@
   },
   {
     "countyFips": "48051",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 49,
     "components": {
       "hazardExposure": {
         "value": 25,
@@ -833,7 +833,7 @@
   },
   {
     "countyFips": "48053",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 63,
     "components": {
       "hazardExposure": {
         "value": 27,
@@ -865,7 +865,7 @@
   },
   {
     "countyFips": "48055",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 47,
     "components": {
       "hazardExposure": {
         "value": 13,
@@ -897,7 +897,7 @@
   },
   {
     "countyFips": "48057",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 36,
     "components": {
       "hazardExposure": {
         "value": 27,
@@ -929,7 +929,7 @@
   },
   {
     "countyFips": "48059",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 46,
     "components": {
       "hazardExposure": {
         "value": 45,
@@ -961,7 +961,7 @@
   },
   {
     "countyFips": "48061",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 83,
     "components": {
       "hazardExposure": {
         "value": 96,
@@ -993,7 +993,7 @@
   },
   {
     "countyFips": "48063",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 49,
     "components": {
       "hazardExposure": {
         "value": 73,
@@ -1025,7 +1025,7 @@
   },
   {
     "countyFips": "48065",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 38,
     "components": {
       "hazardExposure": {
         "value": 86,
@@ -1057,7 +1057,7 @@
   },
   {
     "countyFips": "48067",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 61,
     "components": {
       "hazardExposure": {
         "value": 85,
@@ -1089,7 +1089,7 @@
   },
   {
     "countyFips": "48069",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 37,
     "components": {
       "hazardExposure": {
         "value": 71,
@@ -1121,7 +1121,7 @@
   },
   {
     "countyFips": "48071",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 47,
     "components": {
       "hazardExposure": {
         "value": 21,
@@ -1153,7 +1153,7 @@
   },
   {
     "countyFips": "48073",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 71,
     "components": {
       "hazardExposure": {
         "value": 61,
@@ -1185,7 +1185,7 @@
   },
   {
     "countyFips": "48075",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 38,
     "components": {
       "hazardExposure": {
         "value": 79,
@@ -1217,7 +1217,7 @@
   },
   {
     "countyFips": "48077",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 44,
     "components": {
       "hazardExposure": {
         "value": 77,
@@ -1249,7 +1249,7 @@
   },
   {
     "countyFips": "48079",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 28,
     "components": {
       "hazardExposure": {
         "value": 52,
@@ -1281,7 +1281,7 @@
   },
   {
     "countyFips": "48081",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 33,
     "components": {
       "hazardExposure": {
         "value": 29,
@@ -1313,7 +1313,7 @@
   },
   {
     "countyFips": "48083",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 42,
     "components": {
       "hazardExposure": {
         "value": 31,
@@ -1345,7 +1345,7 @@
   },
   {
     "countyFips": "48085",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 97,
     "components": {
       "hazardExposure": {
         "value": 98,
@@ -1377,7 +1377,7 @@
   },
   {
     "countyFips": "48087",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 34,
     "components": {
       "hazardExposure": {
         "value": 84,
@@ -1409,7 +1409,7 @@
   },
   {
     "countyFips": "48089",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 36,
     "components": {
       "hazardExposure": {
         "value": 8,
@@ -1441,7 +1441,7 @@
   },
   {
     "countyFips": "48091",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 62,
     "components": {
       "hazardExposure": {
         "value": 21,
@@ -1473,7 +1473,7 @@
   },
   {
     "countyFips": "48093",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 48,
     "components": {
       "hazardExposure": {
         "value": 40,
@@ -1505,7 +1505,7 @@
   },
   {
     "countyFips": "48095",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 37,
     "components": {
       "hazardExposure": {
         "value": 23,
@@ -1537,7 +1537,7 @@
   },
   {
     "countyFips": "48097",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 59,
     "components": {
       "hazardExposure": {
         "value": 84,
@@ -1569,7 +1569,7 @@
   },
   {
     "countyFips": "48099",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 73,
     "components": {
       "hazardExposure": {
         "value": 49,
@@ -1601,7 +1601,7 @@
   },
   {
     "countyFips": "48101",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 30,
     "components": {
       "hazardExposure": {
         "value": 71,
@@ -1633,7 +1633,7 @@
   },
   {
     "countyFips": "48103",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 34,
     "components": {
       "hazardExposure": {
         "value": 12,
@@ -1665,7 +1665,7 @@
   },
   {
     "countyFips": "48105",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 32,
     "components": {
       "hazardExposure": {
         "value": 6,
@@ -1697,7 +1697,7 @@
   },
   {
     "countyFips": "48107",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 34,
     "components": {
       "hazardExposure": {
         "value": 57,
@@ -1729,7 +1729,7 @@
   },
   {
     "countyFips": "48109",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 26,
     "components": {
       "hazardExposure": {
         "value": 7,
@@ -1761,7 +1761,7 @@
   },
   {
     "countyFips": "48111",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 39,
     "components": {
       "hazardExposure": {
         "value": 92,
@@ -1793,7 +1793,7 @@
   },
   {
     "countyFips": "48113",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 99,
     "components": {
       "hazardExposure": {
         "value": 99,
@@ -1825,7 +1825,7 @@
   },
   {
     "countyFips": "48115",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 41,
     "components": {
       "hazardExposure": {
         "value": 41,
@@ -1857,7 +1857,7 @@
   },
   {
     "countyFips": "48117",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 46,
     "components": {
       "hazardExposure": {
         "value": 76,
@@ -1889,7 +1889,7 @@
   },
   {
     "countyFips": "48119",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 41,
     "components": {
       "hazardExposure": {
         "value": 77,
@@ -1921,7 +1921,7 @@
   },
   {
     "countyFips": "48121",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 97,
     "components": {
       "hazardExposure": {
         "value": 97,
@@ -1953,7 +1953,7 @@
   },
   {
     "countyFips": "48123",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 14,
@@ -1985,7 +1985,7 @@
   },
   {
     "countyFips": "48125",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 30,
     "components": {
       "hazardExposure": {
         "value": 60,
@@ -2017,7 +2017,7 @@
   },
   {
     "countyFips": "48127",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 23,
     "components": {
       "hazardExposure": {
         "value": 10,
@@ -2049,7 +2049,7 @@
   },
   {
     "countyFips": "48129",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 83,
@@ -2081,7 +2081,7 @@
   },
   {
     "countyFips": "48131",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 28,
     "components": {
       "hazardExposure": {
         "value": 32,
@@ -2113,7 +2113,7 @@
   },
   {
     "countyFips": "48133",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 50,
     "components": {
       "hazardExposure": {
         "value": 50,
@@ -2145,7 +2145,7 @@
   },
   {
     "countyFips": "48135",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 76,
     "components": {
       "hazardExposure": {
         "value": 45,
@@ -2177,7 +2177,7 @@
   },
   {
     "countyFips": "48137",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 21,
     "components": {
       "hazardExposure": {
         "value": 3,
@@ -2209,7 +2209,7 @@
   },
   {
     "countyFips": "48139",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 86,
     "components": {
       "hazardExposure": {
         "value": 82,
@@ -2241,7 +2241,7 @@
   },
   {
     "countyFips": "48141",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 98,
     "components": {
       "hazardExposure": {
         "value": 97,
@@ -2273,7 +2273,7 @@
   },
   {
     "countyFips": "48143",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 61,
     "components": {
       "hazardExposure": {
         "value": 55,
@@ -2305,7 +2305,7 @@
   },
   {
     "countyFips": "48145",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 56,
     "components": {
       "hazardExposure": {
         "value": 34,
@@ -2337,7 +2337,7 @@
   },
   {
     "countyFips": "48147",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 59,
     "components": {
       "hazardExposure": {
         "value": 86,
@@ -2369,7 +2369,7 @@
   },
   {
     "countyFips": "48149",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 43,
     "components": {
       "hazardExposure": {
         "value": 14,
@@ -2401,7 +2401,7 @@
   },
   {
     "countyFips": "48151",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 47,
@@ -2433,7 +2433,7 @@
   },
   {
     "countyFips": "48153",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 66,
@@ -2465,7 +2465,7 @@
   },
   {
     "countyFips": "48155",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 30,
     "components": {
       "hazardExposure": {
         "value": 70,
@@ -2497,7 +2497,7 @@
   },
   {
     "countyFips": "48157",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 96,
     "components": {
       "hazardExposure": {
         "value": 96,
@@ -2529,7 +2529,7 @@
   },
   {
     "countyFips": "48159",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 47,
     "components": {
       "hazardExposure": {
         "value": 75,
@@ -2561,7 +2561,7 @@
   },
   {
     "countyFips": "48161",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 57,
     "components": {
       "hazardExposure": {
         "value": 54,
@@ -2593,7 +2593,7 @@
   },
   {
     "countyFips": "48163",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 30,
     "components": {
       "hazardExposure": {
         "value": 8,
@@ -2625,7 +2625,7 @@
   },
   {
     "countyFips": "48165",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 42,
     "components": {
       "hazardExposure": {
         "value": 35,
@@ -2657,7 +2657,7 @@
   },
   {
     "countyFips": "48167",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 84,
     "components": {
       "hazardExposure": {
         "value": 64,
@@ -2689,7 +2689,7 @@
   },
   {
     "countyFips": "48169",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 51,
@@ -2721,7 +2721,7 @@
   },
   {
     "countyFips": "48171",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 46,
     "components": {
       "hazardExposure": {
         "value": 11,
@@ -2753,7 +2753,7 @@
   },
   {
     "countyFips": "48173",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 28,
     "components": {
       "hazardExposure": {
         "value": 24,
@@ -2785,7 +2785,7 @@
   },
   {
     "countyFips": "48175",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 24,
     "components": {
       "hazardExposure": {
         "value": 18,
@@ -2817,7 +2817,7 @@
   },
   {
     "countyFips": "48177",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 6,
@@ -2849,7 +2849,7 @@
   },
   {
     "countyFips": "48179",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 51,
     "components": {
       "hazardExposure": {
         "value": 89,
@@ -2881,7 +2881,7 @@
   },
   {
     "countyFips": "48181",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 74,
     "components": {
       "hazardExposure": {
         "value": 93,
@@ -2913,7 +2913,7 @@
   },
   {
     "countyFips": "48183",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 83,
     "components": {
       "hazardExposure": {
         "value": 85,
@@ -2945,7 +2945,7 @@
   },
   {
     "countyFips": "48185",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 54,
     "components": {
       "hazardExposure": {
         "value": 28,
@@ -2977,7 +2977,7 @@
   },
   {
     "countyFips": "48187",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 64,
     "components": {
       "hazardExposure": {
         "value": 22,
@@ -3009,7 +3009,7 @@
   },
   {
     "countyFips": "48189",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 51,
     "components": {
       "hazardExposure": {
         "value": 69,
@@ -3041,7 +3041,7 @@
   },
   {
     "countyFips": "48191",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 32,
     "components": {
       "hazardExposure": {
         "value": 74,
@@ -3073,7 +3073,7 @@
   },
   {
     "countyFips": "48193",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 43,
     "components": {
       "hazardExposure": {
         "value": 36,
@@ -3105,7 +3105,7 @@
   },
   {
     "countyFips": "48195",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 39,
     "components": {
       "hazardExposure": {
         "value": 94,
@@ -3137,7 +3137,7 @@
   },
   {
     "countyFips": "48197",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 76,
@@ -3169,7 +3169,7 @@
   },
   {
     "countyFips": "48199",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 65,
     "components": {
       "hazardExposure": {
         "value": 37,
@@ -3201,7 +3201,7 @@
   },
   {
     "countyFips": "48201",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 100,
     "components": {
       "hazardExposure": {
         "value": 100,
@@ -3233,7 +3233,7 @@
   },
   {
     "countyFips": "48203",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 72,
     "components": {
       "hazardExposure": {
         "value": 81,
@@ -3265,7 +3265,7 @@
   },
   {
     "countyFips": "48205",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 38,
     "components": {
       "hazardExposure": {
         "value": 87,
@@ -3297,7 +3297,7 @@
   },
   {
     "countyFips": "48207",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 56,
@@ -3329,7 +3329,7 @@
   },
   {
     "countyFips": "48209",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 72,
     "components": {
       "hazardExposure": {
         "value": 34,
@@ -3361,7 +3361,7 @@
   },
   {
     "countyFips": "48211",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 37,
     "components": {
       "hazardExposure": {
         "value": 92,
@@ -3393,7 +3393,7 @@
   },
   {
     "countyFips": "48213",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 74,
     "components": {
       "hazardExposure": {
         "value": 68,
@@ -3425,7 +3425,7 @@
   },
   {
     "countyFips": "48215",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 96,
     "components": {
       "hazardExposure": {
         "value": 97,
@@ -3457,7 +3457,7 @@
   },
   {
     "countyFips": "48217",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 61,
     "components": {
       "hazardExposure": {
         "value": 53,
@@ -3489,7 +3489,7 @@
   },
   {
     "countyFips": "48219",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 46,
     "components": {
       "hazardExposure": {
         "value": 56,
@@ -3521,7 +3521,7 @@
   },
   {
     "countyFips": "48221",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 63,
     "components": {
       "hazardExposure": {
         "value": 59,
@@ -3553,7 +3553,7 @@
   },
   {
     "countyFips": "48223",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 61,
     "components": {
       "hazardExposure": {
         "value": 80,
@@ -3585,7 +3585,7 @@
   },
   {
     "countyFips": "48225",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 63,
     "components": {
       "hazardExposure": {
         "value": 50,
@@ -3617,7 +3617,7 @@
   },
   {
     "countyFips": "48227",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 52,
     "components": {
       "hazardExposure": {
         "value": 38,
@@ -3649,7 +3649,7 @@
   },
   {
     "countyFips": "48229",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 30,
     "components": {
       "hazardExposure": {
         "value": 4,
@@ -3681,7 +3681,7 @@
   },
   {
     "countyFips": "48231",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 72,
     "components": {
       "hazardExposure": {
         "value": 84,
@@ -3713,7 +3713,7 @@
   },
   {
     "countyFips": "48233",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 50,
     "components": {
       "hazardExposure": {
         "value": 90,
@@ -3745,7 +3745,7 @@
   },
   {
     "countyFips": "48235",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 33,
     "components": {
       "hazardExposure": {
         "value": 18,
@@ -3777,7 +3777,7 @@
   },
   {
     "countyFips": "48237",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 42,
     "components": {
       "hazardExposure": {
         "value": 66,
@@ -3809,7 +3809,7 @@
   },
   {
     "countyFips": "48239",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 31,
     "components": {
       "hazardExposure": {
         "value": 19,
@@ -3841,7 +3841,7 @@
   },
   {
     "countyFips": "48241",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 67,
     "components": {
       "hazardExposure": {
         "value": 45,
@@ -3873,7 +3873,7 @@
   },
   {
     "countyFips": "48243",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 27,
     "components": {
       "hazardExposure": {
         "value": 1,
@@ -3905,7 +3905,7 @@
   },
   {
     "countyFips": "48245",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 84,
     "components": {
       "hazardExposure": {
         "value": 65,
@@ -3937,7 +3937,7 @@
   },
   {
     "countyFips": "48247",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 22,
     "components": {
       "hazardExposure": {
         "value": 37,
@@ -3969,7 +3969,7 @@
   },
   {
     "countyFips": "48249",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 41,
     "components": {
       "hazardExposure": {
         "value": 36,
@@ -4001,7 +4001,7 @@
   },
   {
     "countyFips": "48251",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 85,
     "components": {
       "hazardExposure": {
         "value": 75,
@@ -4033,7 +4033,7 @@
   },
   {
     "countyFips": "48253",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 50,
     "components": {
       "hazardExposure": {
         "value": 53,
@@ -4065,7 +4065,7 @@
   },
   {
     "countyFips": "48255",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 30,
     "components": {
       "hazardExposure": {
         "value": 12,
@@ -4097,7 +4097,7 @@
   },
   {
     "countyFips": "48257",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 76,
     "components": {
       "hazardExposure": {
         "value": 81,
@@ -4129,7 +4129,7 @@
   },
   {
     "countyFips": "48259",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 43,
     "components": {
       "hazardExposure": {
         "value": 7,
@@ -4161,7 +4161,7 @@
   },
   {
     "countyFips": "48261",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 19,
     "components": {
       "hazardExposure": {
         "value": 49,
@@ -4193,7 +4193,7 @@
   },
   {
     "countyFips": "48263",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 28,
     "components": {
       "hazardExposure": {
         "value": 52,
@@ -4225,7 +4225,7 @@
   },
   {
     "countyFips": "48265",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 51,
     "components": {
       "hazardExposure": {
         "value": 10,
@@ -4257,7 +4257,7 @@
   },
   {
     "countyFips": "48267",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 31,
     "components": {
       "hazardExposure": {
         "value": 8,
@@ -4289,7 +4289,7 @@
   },
   {
     "countyFips": "48269",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 27,
     "components": {
       "hazardExposure": {
         "value": 63,
@@ -4321,7 +4321,7 @@
   },
   {
     "countyFips": "48271",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 18,
     "components": {
       "hazardExposure": {
         "value": 1,
@@ -4353,7 +4353,7 @@
   },
   {
     "countyFips": "48273",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 40,
     "components": {
       "hazardExposure": {
         "value": 43,
@@ -4385,7 +4385,7 @@
   },
   {
     "countyFips": "48275",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 33,
     "components": {
       "hazardExposure": {
         "value": 64,
@@ -4417,7 +4417,7 @@
   },
   {
     "countyFips": "48277",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 63,
     "components": {
       "hazardExposure": {
         "value": 88,
@@ -4449,7 +4449,7 @@
   },
   {
     "countyFips": "48279",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 41,
     "components": {
       "hazardExposure": {
         "value": 64,
@@ -4481,7 +4481,7 @@
   },
   {
     "countyFips": "48281",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 55,
     "components": {
       "hazardExposure": {
         "value": 29,
@@ -4513,7 +4513,7 @@
   },
   {
     "countyFips": "48283",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 20,
     "components": {
       "hazardExposure": {
         "value": 15,
@@ -4545,7 +4545,7 @@
   },
   {
     "countyFips": "48285",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 34,
     "components": {
       "hazardExposure": {
         "value": 9,
@@ -4577,7 +4577,7 @@
   },
   {
     "countyFips": "48287",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 44,
     "components": {
       "hazardExposure": {
         "value": 20,
@@ -4609,7 +4609,7 @@
   },
   {
     "countyFips": "48289",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 56,
     "components": {
       "hazardExposure": {
         "value": 44,
@@ -4641,7 +4641,7 @@
   },
   {
     "countyFips": "48291",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 67,
     "components": {
       "hazardExposure": {
         "value": 36,
@@ -4673,7 +4673,7 @@
   },
   {
     "countyFips": "48293",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 59,
     "components": {
       "hazardExposure": {
         "value": 46,
@@ -4705,7 +4705,7 @@
   },
   {
     "countyFips": "48295",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 36,
     "components": {
       "hazardExposure": {
         "value": 95,
@@ -4737,7 +4737,7 @@
   },
   {
     "countyFips": "48297",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 28,
     "components": {
       "hazardExposure": {
         "value": 22,
@@ -4769,7 +4769,7 @@
   },
   {
     "countyFips": "48299",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 50,
     "components": {
       "hazardExposure": {
         "value": 20,
@@ -4801,7 +4801,7 @@
   },
   {
     "countyFips": "48301",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 24,
     "components": {
       "hazardExposure": {
         "value": 15,
@@ -4833,7 +4833,7 @@
   },
   {
     "countyFips": "48303",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 92,
     "components": {
       "hazardExposure": {
         "value": 94,
@@ -4865,7 +4865,7 @@
   },
   {
     "countyFips": "48305",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 33,
     "components": {
       "hazardExposure": {
         "value": 48,
@@ -4897,7 +4897,7 @@
   },
   {
     "countyFips": "48307",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 44,
     "components": {
       "hazardExposure": {
         "value": 25,
@@ -4929,7 +4929,7 @@
   },
   {
     "countyFips": "48309",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 89,
     "components": {
       "hazardExposure": {
         "value": 80,
@@ -4961,7 +4961,7 @@
   },
   {
     "countyFips": "48311",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 13,
     "components": {
       "hazardExposure": {
         "value": 18,
@@ -4993,7 +4993,7 @@
   },
   {
     "countyFips": "48313",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 54,
     "components": {
       "hazardExposure": {
         "value": 34,
@@ -5025,7 +5025,7 @@
   },
   {
     "countyFips": "48315",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 49,
     "components": {
       "hazardExposure": {
         "value": 73,
@@ -5057,7 +5057,7 @@
   },
   {
     "countyFips": "48317",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 32,
     "components": {
       "hazardExposure": {
         "value": 32,
@@ -5089,7 +5089,7 @@
   },
   {
     "countyFips": "48319",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 36,
     "components": {
       "hazardExposure": {
         "value": 16,
@@ -5121,7 +5121,7 @@
   },
   {
     "countyFips": "48321",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 43,
     "components": {
       "hazardExposure": {
         "value": 29,
@@ -5153,7 +5153,7 @@
   },
   {
     "countyFips": "48323",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 41,
     "components": {
       "hazardExposure": {
         "value": 10,
@@ -5185,7 +5185,7 @@
   },
   {
     "countyFips": "48325",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 42,
     "components": {
       "hazardExposure": {
         "value": 5,
@@ -5217,7 +5217,7 @@
   },
   {
     "countyFips": "48327",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 36,
     "components": {
       "hazardExposure": {
         "value": 17,
@@ -5249,7 +5249,7 @@
   },
   {
     "countyFips": "48329",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 76,
     "components": {
       "hazardExposure": {
         "value": 48,
@@ -5281,7 +5281,7 @@
   },
   {
     "countyFips": "48331",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 58,
     "components": {
       "hazardExposure": {
         "value": 30,
@@ -5313,7 +5313,7 @@
   },
   {
     "countyFips": "48333",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 40,
     "components": {
       "hazardExposure": {
         "value": 31,
@@ -5345,7 +5345,7 @@
   },
   {
     "countyFips": "48335",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 38,
     "components": {
       "hazardExposure": {
         "value": 35,
@@ -5377,7 +5377,7 @@
   },
   {
     "countyFips": "48337",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 51,
     "components": {
       "hazardExposure": {
         "value": 81,
@@ -5409,7 +5409,7 @@
   },
   {
     "countyFips": "48339",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 95,
     "components": {
       "hazardExposure": {
         "value": 93,
@@ -5441,7 +5441,7 @@
   },
   {
     "countyFips": "48341",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 50,
     "components": {
       "hazardExposure": {
         "value": 89,
@@ -5473,7 +5473,7 @@
   },
   {
     "countyFips": "48343",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 50,
     "components": {
       "hazardExposure": {
         "value": 77,
@@ -5505,7 +5505,7 @@
   },
   {
     "countyFips": "48345",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 29,
     "components": {
       "hazardExposure": {
         "value": 68,
@@ -5537,7 +5537,7 @@
   },
   {
     "countyFips": "48347",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 76,
     "components": {
       "hazardExposure": {
         "value": 62,
@@ -5569,7 +5569,7 @@
   },
   {
     "countyFips": "48349",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 66,
     "components": {
       "hazardExposure": {
         "value": 58,
@@ -5601,7 +5601,7 @@
   },
   {
     "countyFips": "48351",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 56,
     "components": {
       "hazardExposure": {
         "value": 44,
@@ -5633,7 +5633,7 @@
   },
   {
     "countyFips": "48353",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 44,
     "components": {
       "hazardExposure": {
         "value": 38,
@@ -5665,7 +5665,7 @@
   },
   {
     "countyFips": "48355",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 90,
     "components": {
       "hazardExposure": {
         "value": 87,
@@ -5697,7 +5697,7 @@
   },
   {
     "countyFips": "48357",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 43,
     "components": {
       "hazardExposure": {
         "value": 95,
@@ -5729,7 +5729,7 @@
   },
   {
     "countyFips": "48359",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 32,
     "components": {
       "hazardExposure": {
         "value": 82,
@@ -5761,7 +5761,7 @@
   },
   {
     "countyFips": "48361",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 69,
     "components": {
       "hazardExposure": {
         "value": 43,
@@ -5793,7 +5793,7 @@
   },
   {
     "countyFips": "48363",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 54,
     "components": {
       "hazardExposure": {
         "value": 56,
@@ -5825,7 +5825,7 @@
   },
   {
     "countyFips": "48365",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 60,
     "components": {
       "hazardExposure": {
         "value": 66,
@@ -5857,7 +5857,7 @@
   },
   {
     "countyFips": "48367",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 75,
     "components": {
       "hazardExposure": {
         "value": 78,
@@ -5889,7 +5889,7 @@
   },
   {
     "countyFips": "48369",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 37,
     "components": {
       "hazardExposure": {
         "value": 65,
@@ -5921,7 +5921,7 @@
   },
   {
     "countyFips": "48371",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 44,
     "components": {
       "hazardExposure": {
         "value": 5,
@@ -5953,7 +5953,7 @@
   },
   {
     "countyFips": "48373",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 69,
     "components": {
       "hazardExposure": {
         "value": 44,
@@ -5985,7 +5985,7 @@
   },
   {
     "countyFips": "48375",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 65,
     "components": {
       "hazardExposure": {
         "value": 95,
@@ -6017,7 +6017,7 @@
   },
   {
     "countyFips": "48377",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 27,
     "components": {
       "hazardExposure": {
         "value": 1,
@@ -6049,7 +6049,7 @@
   },
   {
     "countyFips": "48379",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 48,
     "components": {
       "hazardExposure": {
         "value": 69,
@@ -6081,7 +6081,7 @@
   },
   {
     "countyFips": "48381",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 65,
     "components": {
       "hazardExposure": {
         "value": 90,
@@ -6113,7 +6113,7 @@
   },
   {
     "countyFips": "48383",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 34,
     "components": {
       "hazardExposure": {
         "value": 19,
@@ -6145,7 +6145,7 @@
   },
   {
     "countyFips": "48385",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 22,
     "components": {
       "hazardExposure": {
         "value": 3,
@@ -6177,7 +6177,7 @@
   },
   {
     "countyFips": "48387",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 48,
     "components": {
       "hazardExposure": {
         "value": 86,
@@ -6209,7 +6209,7 @@
   },
   {
     "countyFips": "48389",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 41,
     "components": {
       "hazardExposure": {
         "value": 13,
@@ -6241,7 +6241,7 @@
   },
   {
     "countyFips": "48391",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 25,
     "components": {
       "hazardExposure": {
         "value": 24,
@@ -6273,7 +6273,7 @@
   },
   {
     "countyFips": "48393",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 32,
     "components": {
       "hazardExposure": {
         "value": 90,
@@ -6305,7 +6305,7 @@
   },
   {
     "countyFips": "48395",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 55,
     "components": {
       "hazardExposure": {
         "value": 33,
@@ -6337,7 +6337,7 @@
   },
   {
     "countyFips": "48397",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 70,
     "components": {
       "hazardExposure": {
         "value": 79,
@@ -6369,7 +6369,7 @@
   },
   {
     "countyFips": "48399",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 42,
     "components": {
       "hazardExposure": {
         "value": 31,
@@ -6401,7 +6401,7 @@
   },
   {
     "countyFips": "48401",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 70,
     "components": {
       "hazardExposure": {
         "value": 68,
@@ -6433,7 +6433,7 @@
   },
   {
     "countyFips": "48403",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 56,
     "components": {
       "hazardExposure": {
         "value": 54,
@@ -6465,7 +6465,7 @@
   },
   {
     "countyFips": "48405",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 53,
     "components": {
       "hazardExposure": {
         "value": 53,
@@ -6497,7 +6497,7 @@
   },
   {
     "countyFips": "48407",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 58,
     "components": {
       "hazardExposure": {
         "value": 33,
@@ -6529,7 +6529,7 @@
   },
   {
     "countyFips": "48409",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 48,
     "components": {
       "hazardExposure": {
         "value": 40,
@@ -6561,7 +6561,7 @@
   },
   {
     "countyFips": "48411",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 42,
     "components": {
       "hazardExposure": {
         "value": 26,
@@ -6593,7 +6593,7 @@
   },
   {
     "countyFips": "48413",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 11,
@@ -6625,7 +6625,7 @@
   },
   {
     "countyFips": "48415",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 46,
     "components": {
       "hazardExposure": {
         "value": 49,
@@ -6657,7 +6657,7 @@
   },
   {
     "countyFips": "48417",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 51,
@@ -6689,7 +6689,7 @@
   },
   {
     "countyFips": "48419",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 63,
     "components": {
       "hazardExposure": {
         "value": 62,
@@ -6721,7 +6721,7 @@
   },
   {
     "countyFips": "48421",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 35,
     "components": {
       "hazardExposure": {
         "value": 94,
@@ -6753,7 +6753,7 @@
   },
   {
     "countyFips": "48423",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 92,
     "components": {
       "hazardExposure": {
         "value": 91,
@@ -6785,7 +6785,7 @@
   },
   {
     "countyFips": "48425",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 43,
     "components": {
       "hazardExposure": {
         "value": 51,
@@ -6817,7 +6817,7 @@
   },
   {
     "countyFips": "48427",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 48,
     "components": {
       "hazardExposure": {
         "value": 60,
@@ -6849,7 +6849,7 @@
   },
   {
     "countyFips": "48429",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 42,
     "components": {
       "hazardExposure": {
         "value": 55,
@@ -6881,7 +6881,7 @@
   },
   {
     "countyFips": "48431",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 29,
     "components": {
       "hazardExposure": {
         "value": 26,
@@ -6913,7 +6913,7 @@
   },
   {
     "countyFips": "48433",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 30,
     "components": {
       "hazardExposure": {
         "value": 55,
@@ -6945,7 +6945,7 @@
   },
   {
     "countyFips": "48435",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 31,
     "components": {
       "hazardExposure": {
         "value": 6,
@@ -6977,7 +6977,7 @@
   },
   {
     "countyFips": "48437",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 37,
     "components": {
       "hazardExposure": {
         "value": 71,
@@ -7009,7 +7009,7 @@
   },
   {
     "countyFips": "48439",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 99,
     "components": {
       "hazardExposure": {
         "value": 99,
@@ -7041,7 +7041,7 @@
   },
   {
     "countyFips": "48441",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 79,
     "components": {
       "hazardExposure": {
         "value": 63,
@@ -7073,7 +7073,7 @@
   },
   {
     "countyFips": "48443",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 22,
     "components": {
       "hazardExposure": {
         "value": 2,
@@ -7105,7 +7105,7 @@
   },
   {
     "countyFips": "48445",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 40,
     "components": {
       "hazardExposure": {
         "value": 47,
@@ -7137,7 +7137,7 @@
   },
   {
     "countyFips": "48447",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 31,
     "components": {
       "hazardExposure": {
         "value": 58,
@@ -7169,7 +7169,7 @@
   },
   {
     "countyFips": "48449",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 60,
     "components": {
       "hazardExposure": {
         "value": 83,
@@ -7201,7 +7201,7 @@
   },
   {
     "countyFips": "48451",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 72,
     "components": {
       "hazardExposure": {
         "value": 39,
@@ -7233,7 +7233,7 @@
   },
   {
     "countyFips": "48453",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 98,
     "components": {
       "hazardExposure": {
         "value": 98,
@@ -7265,7 +7265,7 @@
   },
   {
     "countyFips": "48455",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 57,
     "components": {
       "hazardExposure": {
         "value": 40,
@@ -7297,7 +7297,7 @@
   },
   {
     "countyFips": "48457",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 61,
     "components": {
       "hazardExposure": {
         "value": 42,
@@ -7329,7 +7329,7 @@
   },
   {
     "countyFips": "48459",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 63,
     "components": {
       "hazardExposure": {
         "value": 74,
@@ -7361,7 +7361,7 @@
   },
   {
     "countyFips": "48461",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 32,
     "components": {
       "hazardExposure": {
         "value": 16,
@@ -7393,7 +7393,7 @@
   },
   {
     "countyFips": "48463",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 37,
     "components": {
       "hazardExposure": {
         "value": 3,
@@ -7425,7 +7425,7 @@
   },
   {
     "countyFips": "48465",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 44,
     "components": {
       "hazardExposure": {
         "value": 2,
@@ -7457,7 +7457,7 @@
   },
   {
     "countyFips": "48467",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 66,
     "components": {
       "hazardExposure": {
         "value": 72,
@@ -7489,7 +7489,7 @@
   },
   {
     "countyFips": "48469",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 53,
     "components": {
       "hazardExposure": {
         "value": 30,
@@ -7521,7 +7521,7 @@
   },
   {
     "countyFips": "48471",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 73,
     "components": {
       "hazardExposure": {
         "value": 46,
@@ -7553,7 +7553,7 @@
   },
   {
     "countyFips": "48473",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 55,
     "components": {
       "hazardExposure": {
         "value": 25,
@@ -7585,7 +7585,7 @@
   },
   {
     "countyFips": "48475",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 40,
     "components": {
       "hazardExposure": {
         "value": 14,
@@ -7617,7 +7617,7 @@
   },
   {
     "countyFips": "48477",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 53,
     "components": {
       "hazardExposure": {
         "value": 23,
@@ -7649,7 +7649,7 @@
   },
   {
     "countyFips": "48479",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 72,
     "components": {
       "hazardExposure": {
         "value": 67,
@@ -7681,7 +7681,7 @@
   },
   {
     "countyFips": "48481",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 45,
     "components": {
       "hazardExposure": {
         "value": 17,
@@ -7713,7 +7713,7 @@
   },
   {
     "countyFips": "48483",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 38,
     "components": {
       "hazardExposure": {
         "value": 88,
@@ -7745,7 +7745,7 @@
   },
   {
     "countyFips": "48485",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 72,
     "components": {
       "hazardExposure": {
         "value": 91,
@@ -7777,7 +7777,7 @@
   },
   {
     "countyFips": "48487",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 45,
     "components": {
       "hazardExposure": {
         "value": 79,
@@ -7809,7 +7809,7 @@
   },
   {
     "countyFips": "48489",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 40,
     "components": {
       "hazardExposure": {
         "value": 58,
@@ -7841,7 +7841,7 @@
   },
   {
     "countyFips": "48491",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 93,
     "components": {
       "hazardExposure": {
         "value": 88,
@@ -7873,7 +7873,7 @@
   },
   {
     "countyFips": "48493",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 42,
     "components": {
       "hazardExposure": {
         "value": 9,
@@ -7905,7 +7905,7 @@
   },
   {
     "countyFips": "48495",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 34,
     "components": {
       "hazardExposure": {
         "value": 21,
@@ -7937,7 +7937,7 @@
   },
   {
     "countyFips": "48497",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 65,
     "components": {
       "hazardExposure": {
         "value": 75,
@@ -7969,7 +7969,7 @@
   },
   {
     "countyFips": "48499",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 63,
     "components": {
       "hazardExposure": {
         "value": 73,
@@ -8001,7 +8001,7 @@
   },
   {
     "countyFips": "48501",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 34,
     "components": {
       "hazardExposure": {
         "value": 42,
@@ -8033,7 +8033,7 @@
   },
   {
     "countyFips": "48503",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 49,
     "components": {
       "hazardExposure": {
         "value": 62,
@@ -8065,7 +8065,7 @@
   },
   {
     "countyFips": "48505",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 30,
     "components": {
       "hazardExposure": {
         "value": 38,
@@ -8097,7 +8097,7 @@
   },
   {
     "countyFips": "48507",
-    "structuralNeedScore": null,
+    "structuralNeedScore": 25,
     "components": {
       "hazardExposure": {
         "value": 5,

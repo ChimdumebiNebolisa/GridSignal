@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { fetchGridStrain } from "@/lib/api/eia";
 import { normalizeGridStrain } from "@/lib/scoring/normalize";
+import { apiError } from "@/lib/api/response";
 
 export async function GET() {
   try {
@@ -17,9 +18,6 @@ export async function GET() {
     });
   } catch (error) {
     console.error("[API /grid-strain]", error);
-    return NextResponse.json(
-      { error: "Failed to load grid strain data." },
-      { status: 500 }
-    );
+    return apiError("GRID_STRAIN_UNAVAILABLE", "Failed to load grid strain data.", 500);
   }
 }

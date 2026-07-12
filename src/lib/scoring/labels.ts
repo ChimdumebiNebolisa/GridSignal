@@ -3,10 +3,10 @@
  */
 
 import type { BackupPriorityLabel, PlanningLabel } from "@/types/county";
-import { LABEL_THRESHOLDS, PLANNING_LABEL_THRESHOLDS } from "@/types/scoring";
+import { PLANNING_LABEL_THRESHOLDS } from "@/types/scoring";
 
-export function getPlanningLabel(score: number | null): PlanningLabel {
-  if (score === null) return "Moderate";
+export function getPlanningLabel(score: number | null): PlanningLabel | null {
+  if (score === null) return null;
   if (score >= PLANNING_LABEL_THRESHOLDS.highest) return "Highest";
   if (score >= PLANNING_LABEL_THRESHOLDS.elevated) return "Elevated";
   if (score >= PLANNING_LABEL_THRESHOLDS.moderate) return "Moderate";
@@ -25,25 +25,10 @@ export function getPlanningLabelDisplayText(label: PlanningLabel): string {
       return "Highest structural planning priority";
   }
 }
-
-/** @deprecated Legacy label — retained for deprecated composite */
+/** Historical-only label helper; not used by active product consumers. */
 export function getBackupPriorityLabel(score: number): BackupPriorityLabel {
-  if (score >= LABEL_THRESHOLDS.critical) return "Critical";
-  if (score >= LABEL_THRESHOLDS.high) return "High";
-  if (score >= LABEL_THRESHOLDS.medium) return "Medium";
+  if (score >= 80) return "Critical";
+  if (score >= 60) return "High";
+  if (score >= 40) return "Medium";
   return "Low";
-}
-
-/** @deprecated */
-export function getLabelDisplayText(label: BackupPriorityLabel): string {
-  switch (label) {
-    case "Low":
-      return "Lower backup-planning priority";
-    case "Medium":
-      return "Moderate backup-planning priority";
-    case "High":
-      return "Elevated backup-planning priority";
-    case "Critical":
-      return "Highest backup-planning priority";
-  }
 }

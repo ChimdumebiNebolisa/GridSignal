@@ -7,6 +7,7 @@ import type { DataQuality, DataQualitySummary } from "@/types/county";
 export function getOverallDataQuality(parts: DataQuality[]): DataQuality {
   if (parts.includes("unavailable")) return "unavailable";
   if (parts.includes("fallback")) return "fallback";
+  if (parts.includes("stale")) return "stale";
   if (parts.includes("estimated")) return "estimated";
   if (parts.includes("cached")) return "cached";
   return "live";
@@ -28,7 +29,7 @@ export function buildDataQualitySummary(
   };
 }
 
-/** @deprecated Legacy rollup for migration tests */
+/** Historical rollup retained for migration tests. */
 export function buildLegacyDataQualitySummary(
   weather: DataQuality,
   solar: DataQuality,
@@ -42,11 +43,6 @@ export function buildLegacyDataQualitySummary(
     feasibility: solar,
     operational: grid,
     contextQuality: utility,
-    weather,
-    solar,
-    demand,
-    grid,
-    utility,
   };
 }
 
@@ -60,6 +56,8 @@ export function dataQualityLabel(quality: DataQuality): string {
       return "Estimated";
     case "fallback":
       return "Fallback";
+    case "stale":
+      return "Stale";
     case "unavailable":
       return "Unavailable";
   }

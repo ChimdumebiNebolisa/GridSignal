@@ -5,6 +5,13 @@
 
 import type { DataQuality } from "./county";
 
+export type ApiErrorResponse = {
+  error: {
+    code: string;
+    message: string;
+  };
+};
+
 export type ApiSourceMetadata = {
   sourceName: string;
   lastUpdated: string | null;

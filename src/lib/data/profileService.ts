@@ -11,6 +11,7 @@ import {
 import { mergeCountyProfile, mergeAllCountyProfiles } from "@/lib/data/mergeCountyProfile";
 import { fetchGridStrain } from "@/lib/api/eia";
 import { buildOperationalContext } from "@/lib/scoring/operationalContext";
+import { markStale } from "@/lib/data/freshness";
 import type { CountyEnergyProfile, MapCountySummary, OperationalContext } from "@/types/county";
 
 let profilesCache: CountyEnergyProfile[] | null = null;
@@ -51,7 +52,12 @@ export async function buildAllCountyProfiles(): Promise<CountyEnergyProfile[]> {
   const weatherCache = getWeatherCache();
   const gridStrain = await getSharedGridStrain();
 
-  const weatherByFips = new Map(weatherCache.map((w) => [w.countyFips, w]));
+  const weatherByFips = new Map(
+    weatherCache.map((w) => [
+      w.countyFips,
+      { ...w, quality: markStale(w.quality, w.fetchedAt, 72) },
+    ])
+  );
 
   profilesCache = mergeAllCountyProfiles(bases, weatherByFips, solarCache, gridStrain);
   profilesCacheTimestamp = now;
@@ -64,8 +70,10 @@ export async function buildCountyProfileByFips(
   const base = getCountyStaticProfiles().find((c) => c.countyFips === fips);
   if (!base) return null;
 
-  const weather =
-    getWeatherCache().find((w) => w.countyFips === fips) ?? estimatedWeather(fips);
+  const cachedWeather = getWeatherCache().find((w) => w.countyFips === fips);
+  const weather = cachedWeather
+    ? { ...cachedWeather, quality: markStale(cachedWeather.quality, cachedWeather.fetchedAt, 72) }
+    : estimatedWeather(fips);
 
   const gridStrain = await getSharedGridStrain();
 
@@ -86,15 +94,11 @@ export async function buildMapSummaries(): Promise<MapCountySummary[]> {
     countyName: p.countyName,
     structuralNeedScore: p.structuralNeed.score,
     structuralNeedLabel: p.structuralNeed.label,
+    structuralNeedNoScoreReason: p.structuralNeed.noScoreReason,
     feasibilityScore: p.feasibility.score,
     feasibilityLabel: p.feasibility.label,
+    feasibilityNoScoreReason: p.feasibility.noScoreReason,
     weatherStressScore: p.operationalContext.weatherStressScore,
-    backupPriorityScore: p.backupPriorityScore,
-    backupPriorityLabel: p.backupPriorityLabel,
-    weatherRiskScore: p.weatherRiskScore,
-    solarPotentialScore: p.solarPotentialScore,
-    demandExposureScore: p.demandExposureScore,
-    statewideGridStrainScore: p.statewideGridStrainScore,
     dataQuality: p.dataQuality,
   }));
 }

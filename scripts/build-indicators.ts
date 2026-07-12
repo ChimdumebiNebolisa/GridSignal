@@ -5,6 +5,8 @@
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from "fs";
 import { resolve } from "path";
+import { calculateStructuralNeed } from "@/lib/scoring/structuralNeed";
+import { SCORE_CONFIG_VERSION } from "@/types/scoring";
 
 const ROOT = resolve(__dirname, "..");
 const DATA = resolve(ROOT, "src/data");
@@ -116,7 +118,7 @@ function main() {
   mkdirSync(INDICATORS, { recursive: true });
   mkdirSync(MANIFESTS, { recursive: true });
 
-  const structuralNeed = centroids.map((c) => {
+  const structuralNeedInputs = centroids.map((c) => {
     const h = hazardMap.get(c.countyFips);
     const s = sviMap.get(c.countyFips);
     const o = outageMap.get(c.countyFips);
@@ -158,6 +160,10 @@ function main() {
       quality: "estimated" as const,
     };
   });
+  const structuralNeed = structuralNeedInputs.map((record) => ({
+    ...record,
+    structuralNeedScore: calculateStructuralNeed(record).score,
+  }));
 
   const feasibility = centroids.map((c) => {
     const solar = solarCache.find((s) => s.countyFips === c.countyFips);
@@ -165,7 +171,7 @@ function main() {
     const score = kwh > 0 ? percentileRank(kwh, allSolarKwh) : null;
     return {
       countyFips: c.countyFips,
-      feasibilityScore: score ?? 0,
+      feasibilityScore: score,
       components: {
         solarResource: {
           value: score,
@@ -182,8 +188,8 @@ function main() {
 
   const generatedAt = new Date().toISOString();
   const manifest = {
-    schemaVersion: "2.0.0",
-    scoreConfigVersion: "none",
+    schemaVersion: "2.1.0",
+    scoreConfigVersion: SCORE_CONFIG_VERSION,
     generatedAt,
     sources: [
       {
@@ -192,6 +198,9 @@ function main() {
         fetchedAt: generatedAt,
         coverage: `${centroids.length}/${centroids.length}`,
         quality: "estimated",
+        owner: "FEMA",
+        url: "https://www.fema.gov/flood-maps/products-tools/national-risk-index",
+        limitation: "Bundled county hazard percentile snapshot; not an outage forecast.",
       },
       {
         id: "cdc_svi",
@@ -199,6 +208,8 @@ function main() {
         fetchedAt: generatedAt,
         coverage: `${centroids.length}/${centroids.length}`,
         quality: "estimated",
+        owner: "CDC/ATSDR",
+        limitation: "Bundled social vulnerability percentile snapshot.",
       },
       {
         id: "eagle_i",
@@ -206,6 +217,8 @@ function main() {
         fetchedAt: generatedAt,
         coverage: `${centroids.length}/${centroids.length}`,
         quality: "estimated",
+        owner: "DOE EAGLE-I",
+        limitation: "Historical outage-burden proxy; not a reliability prediction.",
       },
       {
         id: "nrel_pvwatts",
@@ -213,6 +226,9 @@ function main() {
         fetchedAt: solarFetchedAt,
         coverage: `${solarCache.length}/${centroids.length}`,
         quality: "cached",
+        owner: "NREL",
+        url: "https://developer.nrel.gov/api/pvwatts/v8.json",
+        limitation: "Standard 4 kW county-centroid PVWatts assumptions.",
       },
     ],
   };

@@ -1,6 +1,5 @@
 import { describe, expect, it } from "vitest";
 import { mergeCountyProfile } from "@/lib/data/mergeCountyProfile";
-import { calculateBackupPriorityScore } from "@/lib/scoring/scoreCounty";
 import { runStaticDataValidation } from "@/lib/data/validateStaticData";
 import {
   getCountyCentroids,
@@ -86,7 +85,7 @@ describe("mergeCountyProfile", () => {
     expect(profile.dataQuality.overall).not.toBe("unavailable");
   });
 
-  it("does not change score when utility territories are added", () => {
+  it("does not change canonical scores when utility territories are added", () => {
     const baseWithUtility: CountyBaseRecord = {
       ...base,
       likelyUtilityTerritories: ["Example Electric Co-op"],
@@ -99,17 +98,15 @@ describe("mergeCountyProfile", () => {
       solarCache,
       gridStrain,
     });
-    expect(withUtility.backupPriorityScore).toBe(without.backupPriorityScore);
+    expect(withUtility.structuralNeed.score).toBe(without.structuralNeed.score);
+    expect(withUtility.feasibility.score).toBe(without.feasibility.score);
   });
 
-  it("final score matches weighted formula", () => {
+  it("exposes operational conditions separately from canonical scores", () => {
     const profile = mergeCountyProfile({ base, weather, solarCache, gridStrain });
-    const computed = calculateBackupPriorityScore({
-      weatherRisk: profile.scoreExplanation.weatherRisk,
-      solarPotential: profile.scoreExplanation.solarPotential,
-      demandExposure: profile.scoreExplanation.demandExposure,
-      gridStrain: profile.scoreExplanation.statewideGridStrain,
-    });
-    expect(profile.backupPriorityScore).toBe(computed.score);
+    expect(profile.structuralNeed).toHaveProperty("score");
+    expect(profile.feasibility).toHaveProperty("score");
+    expect(profile.operationalContext).toHaveProperty("statewideGridStrainScore");
+    expect(profile).not.toHaveProperty("backupPriorityScore");
   });
 });

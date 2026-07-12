@@ -10,6 +10,7 @@ import { OperationalContextBar } from "@/components/layout/OperationalContextBar
 import { SearchBox } from "@/components/search/SearchBox";
 import { LayerTogglePanel } from "@/components/map/LayerTogglePanel";
 import { MapLegend } from "@/components/map/MapLegend";
+import { CountyList } from "@/components/map/CountyList";
 import { CountySidePanel } from "@/components/county/CountySidePanel";
 import { LoadingState } from "@/components/states/LoadingState";
 import { FallbackNotice } from "@/components/states/FallbackNotice";
@@ -49,7 +50,8 @@ export function GridSignalApp({
         (c) =>
           c.dataQuality.overall === "estimated" ||
           c.dataQuality.overall === "fallback" ||
-          c.dataQuality.overall === "cached"
+          c.dataQuality.overall === "cached" ||
+          c.dataQuality.overall === "stale"
       )
   );
 
@@ -94,6 +96,11 @@ export function GridSignalApp({
         <div className="pointer-events-none absolute inset-0 z-[500]">
           <div className="pointer-events-auto flex flex-col gap-2 p-3">
             <SearchBox onSelectCounty={handleSelectCounty} />
+            <CountyList
+              counties={counties}
+              selectedFips={selectedFips}
+              onSelectCounty={handleSelectCounty}
+            />
             {showFallback && <FallbackNotice />}
           </div>
           <div className="pointer-events-auto absolute right-3 top-3">

@@ -2,48 +2,38 @@
 
 ## Status
 
-Accepted (2026-07-10)
-
-## Context
-
-GridSignal Texas originally published a single "Backup Priority Score" combining weather (1-day), solar (annual), population percentile, and statewide ERCOT/EIA demand. This mixed incompatible time horizons, weighted solar feasibility as need, and used uncalibrated "Critical" labels without outcome validation.
+Accepted — canonical public model confirmed 2026-07-11.
 
 ## Decision
 
-Adopt **Option C (two-axis model)** with **Option D guardrails**:
+GridSignal uses two separate annual planning axes:
 
-1. **Structural Resilience Need** — county-ranked, annual refresh (hazard exposure, social vulnerability, outage burden where available).
-2. **Backup Feasibility** — county-ranked, annual refresh (solar resource and future DER proxies).
-3. **Current Conditions** — statewide/county contextual banner only (near-term weather stress, ERCO load); does not affect county rank.
+1. **Structural resilience need** — hazard exposure, social vulnerability, and historical outage burden.
+2. **Backup feasibility** — solar-resource feasibility using a documented standard-system assumption.
 
-Deprecate the composite Backup Priority Score as the primary hero metric. Do not publish a cross-horizon composite until Phase 5 validation passes.
+Current weather stress and statewide ERCO/EIA grid conditions are operational context only. They never affect county rank.
 
-## Primary user
+The legacy cross-horizon Backup Priority composite is not a public product metric. It remains only in historical migration/validation code where needed and must not be returned by active profile, map, API, or export paths.
 
-County planner / emergency manager / community resilience staff.
+## Scoring and missingness rules
 
-## Validation gates (composite publish criteria)
+- Structural need uses equal weights across available components.
+- Structural need is withheld when more than one component is missing.
+- Feasibility is withheld when solar data is unavailable.
+- Scores are clamped to 0–100 and rounded to whole numbers.
+- No silent neutral `50` imputation is used for planning scores.
+- Null scores expose an explicit reason and remain visible in UI, APIs, and exports.
+- Utility context does not affect either score.
 
-Publish a within-horizon structural need composite only if ALL are true:
+## Validation gates
 
-- Required component coverage ≥ 90% of 254 Texas counties.
-- Spearman ρ ≥ 0.4 vs EAGLE-I outage burden proxy (2014–2022).
-- Rank stability ≥ 80% under ±20% weight perturbation.
-- Source vintage ≤ 24 months.
-- Expert review of label calibration complete.
+Do not publish a composite until all historical validation gates pass. Current validation keeps it withheld because rank stability is below the 80% gate and expert label calibration is incomplete.
 
-Otherwise: show separate transparent indicators only.
+Structural indicators are planning heuristics, not outage-probability predictions or reliability determinations.
 
 ## Consequences
 
-- PRD, data contract, UI, and scoring modules must separate axes and time horizons.
-- Statewide grid strain is context-only.
-- Population is not labeled as electricity demand.
-- Silent neutral `50` imputation is banned; missing data must be explicit.
-- "Critical" label removed until calibration study.
-
-## Rejected alternatives
-
-- **Single dynamic operational score (A):** insufficient for planning; no validated county outage signal.
-- **Long-term index only (B):** loses useful situational weather/grid context.
-- **Retain current composite:** methodologically indefensible; ranks unchanged by statewide grid.
+- Public contracts, documentation, tests, exports, and UI must use structural need, feasibility, and operational context fields.
+- Legacy Backup Priority labels, including Critical, are not active product labels.
+- Source quality, vintage, missingness, and limitations must be visible.
+- Data and scoring configuration versions must be published in the manifest.

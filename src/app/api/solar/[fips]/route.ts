@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getCentroidByFips, getSolarCache } from "@/lib/data/counties";
 import { fetchSolarPotential } from "@/lib/api/pvWatts";
 import { normalizeSolarPotential } from "@/lib/scoring/normalize";
+import { apiError } from "@/lib/api/response";
 
 type RouteParams = { params: Promise<{ fips: string }> };
 
@@ -9,12 +10,12 @@ export async function GET(_request: Request, { params }: RouteParams) {
   const { fips } = await params;
 
   if (!/^48\d{3}$/.test(fips)) {
-    return NextResponse.json({ error: "Invalid Texas county FIPS code." }, { status: 400 });
+    return apiError("INVALID_FIPS", "Invalid Texas county FIPS code.", 400);
   }
 
   const centroid = getCentroidByFips(fips);
   if (!centroid) {
-    return NextResponse.json({ error: "County not found." }, { status: 404 });
+    return apiError("COUNTY_NOT_FOUND", "County not found.", 404);
   }
 
   try {
@@ -42,15 +43,12 @@ export async function GET(_request: Request, { params }: RouteParams) {
 
     return NextResponse.json({
       ...solar,
-      solarPotentialScore: normalized.value,
-      scoreQuality: normalized.quality,
+      feasibilityScore: solar.annualAcKwh === null ? null : normalized.value,
+      scoreQuality: solar.annualAcKwh === null ? "unavailable" : normalized.quality,
       explanation: normalized.explanation,
     });
   } catch (error) {
     console.error(`[API /solar/${fips}]`, error);
-    return NextResponse.json(
-      { error: "Failed to load solar data." },
-      { status: 500 }
-    );
+    return apiError("SOLAR_UNAVAILABLE", "Failed to load solar data.", 500);
   }
 }

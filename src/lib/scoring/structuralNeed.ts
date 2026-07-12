@@ -11,8 +11,9 @@ import type {
 import { getOverallDataQuality } from "@/lib/data/dataQuality";
 import { getPlanningLabel } from "@/lib/scoring/labels";
 import { clamp } from "@/lib/utils/clamp";
+import { STRUCTURAL_NEED_WEIGHTS } from "@/types/scoring";
 
-const MAX_MISSING_FOR_COMPOSITE = 1;
+export const MAX_MISSING_FOR_STRUCTURAL_NEED = 1;
 
 function componentQuality(c: IndicatorComponent): DataQuality {
   if (c.value === null) return "unavailable";
@@ -31,19 +32,29 @@ export function calculateStructuralNeed(
   const qualities = Object.values(components).map(componentQuality);
   const quality = getOverallDataQuality(qualities);
 
-  if (available.length === 0 || missingComponents.length > MAX_MISSING_FOR_COMPOSITE) {
+  if (available.length === 0 || missingComponents.length > MAX_MISSING_FOR_STRUCTURAL_NEED) {
     return {
       score: null,
-      label: getPlanningLabel(null),
+      label: null,
+      noScoreReason:
+        available.length === 0 ? "unavailable" : "missing_components",
       components,
       missingComponents,
       quality,
     };
   }
 
+  const totalWeight = available.reduce(
+    (sum, [key]) => sum + STRUCTURAL_NEED_WEIGHTS[key],
+    0
+  );
   const score = clamp(
     Math.round(
-      available.reduce((sum, [, c]) => sum + (c.value ?? 0), 0) / available.length
+      available.reduce(
+        (sum, [key, c]) =>
+          sum + (c.value ?? 0) * STRUCTURAL_NEED_WEIGHTS[key],
+        0
+      ) / totalWeight
     ),
     0,
     100
@@ -52,6 +63,7 @@ export function calculateStructuralNeed(
   return {
     score,
     label: getPlanningLabel(score),
+    noScoreReason: null,
     components,
     missingComponents,
     quality,

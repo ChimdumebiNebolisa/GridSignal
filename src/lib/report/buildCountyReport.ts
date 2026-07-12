@@ -42,15 +42,15 @@ Data schema: ${dataManifestVersion}
 
 STRUCTURAL RESILIENCE NEED
 Score: ${needScoreText}
-${structuralNeed.score !== null ? getPlanningLabelDisplayText(structuralNeed.label) : ""}
+${structuralNeed.score !== null && structuralNeed.label ? getPlanningLabelDisplayText(structuralNeed.label) : ""}
 - Hazard exposure: ${structuralNeed.components.hazardExposure.value ?? "unavailable"}/100
 - Social vulnerability: ${structuralNeed.components.socialVulnerability.value ?? "unavailable"}/100
 - Outage burden: ${structuralNeed.components.outageBurden.value ?? "unavailable"}/100
 ${structuralNeed.missingComponents.length > 0 ? `Missing: ${structuralNeed.missingComponents.join(", ")}` : ""}
 
 BACKUP FEASIBILITY
-Score: ${feasibility.score}/100 (${feasibility.label})
-- Solar resource: ${feasibility.components.solarResource.value ?? "unavailable"}/100
+Score: ${feasibility.score !== null ? `${feasibility.score}/100 (${feasibility.label})` : `Withheld — ${feasibility.noScoreReason ?? "unavailable"}`}
+- Solar resource: ${feasibility.components.solarResource.value !== null ? `${feasibility.components.solarResource.value}/100` : "unavailable"}
 
 CURRENT CONDITIONS (statewide context — not county rank)
 - Weather stress: ${operationalContext.weatherStressScore}/100

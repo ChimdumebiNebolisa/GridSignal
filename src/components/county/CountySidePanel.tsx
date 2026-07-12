@@ -67,11 +67,13 @@ export function CountySidePanel({
           title="Structural Resilience Need"
           score={profile.structuralNeed.score}
           label={profile.structuralNeed.label}
+          noScoreReason={profile.structuralNeed.noScoreReason}
         />
         <IndicatorSummary
           title="Backup Feasibility"
           score={profile.feasibility.score}
           label={profile.feasibility.label}
+          noScoreReason={profile.feasibility.noScoreReason}
         />
       </div>
 

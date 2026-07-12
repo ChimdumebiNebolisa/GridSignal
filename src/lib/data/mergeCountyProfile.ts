@@ -1,34 +1,21 @@
 /**
- * GridSignal Texas — Merge county base record with score inputs into full profile (v2)
+ * GridSignal Texas — Merge canonical county indicators with operational context.
  */
 
 import type {
   CountyBaseRecord,
   CountyEnergyProfile,
   DataQuality,
-  ScoreExplanation,
   SourceStatus,
 } from "@/types/county";
 import type { GridStrainResult, WeatherApiResult } from "@/types/api";
 import type { SolarCacheEntry } from "@/types/county";
-import {
-  normalizeWeatherRisk,
-  normalizeSolarPotential,
-  normalizePopulationContext,
-  normalizeGridStrain,
-} from "@/lib/scoring/normalize";
-import { calculateBackupPriorityScore } from "@/lib/scoring/scoreCounty";
-import { buildRecommendation } from "@/lib/scoring/recommendations";
 import { buildDataQualitySummary } from "@/lib/data/dataQuality";
-import { getAllPopulations } from "@/lib/data/counties";
-import {
-  getDataManifest,
-  getFeasibilityByFips,
-  getStructuralNeedByFips,
-} from "@/lib/data/indicators";
-import { calculateStructuralNeed } from "@/lib/scoring/structuralNeed";
+import { getDataManifest, getFeasibilityByFips, getStructuralNeedByFips } from "@/lib/data/indicators";
 import { calculateFeasibility } from "@/lib/scoring/feasibility";
 import { buildOperationalContext } from "@/lib/scoring/operationalContext";
+import { calculateStructuralNeed } from "@/lib/scoring/structuralNeed";
+import { buildRecommendation } from "@/lib/scoring/recommendations";
 import { deriveProfileTimestamps } from "@/lib/data/timestamps";
 
 export type MergeInputs = {
@@ -62,7 +49,7 @@ function defaultStructuralNeedRecord(countyFips: string) {
 function defaultFeasibilityRecord(countyFips: string) {
   return {
     countyFips,
-    feasibilityScore: 0,
+    feasibilityScore: null,
     components: {
       solarResource: {
         value: null,
@@ -70,48 +57,27 @@ function defaultFeasibilityRecord(countyFips: string) {
         source: "nrel_pvwatts",
         vintage: "n/a",
         explanation: "Solar feasibility data unavailable.",
-        imputed: true,
       },
     },
     quality: "unavailable" as const,
   };
 }
 
-function buildScoreExplanation(
-  weather: ReturnType<typeof normalizeWeatherRisk>,
-  solar: ReturnType<typeof normalizeSolarPotential>,
-  population: ReturnType<typeof normalizePopulationContext>,
-  grid: ReturnType<typeof normalizeGridStrain>
-): ScoreExplanation {
-  const drivers: string[] = [];
-  if (weather.value >= 60) drivers.push("weather exposure");
-  if (solar.value >= 60) drivers.push("solar potential");
-  if (population.value >= 60) drivers.push("population context");
-  if (grid.value >= 60) drivers.push("statewide grid strain");
-
-  const summary =
-    drivers.length > 0
-      ? `Legacy composite reflects ${drivers.join(", ")} from public data signals. Primary view uses structural need and feasibility axes.`
-      : "Legacy composite reflects moderate public data signals. Primary view uses structural need and feasibility axes.";
-
-  return {
-    weatherRisk: weather,
-    solarPotential: solar,
-    demandExposure: population,
-    statewideGridStrain: grid,
-    finalSummary: summary,
-  };
-}
-
 function buildSourceStatus(
-  weather: ReturnType<typeof normalizeWeatherRisk>,
-  solar: ReturnType<typeof normalizeSolarPotential>,
-  population: ReturnType<typeof normalizePopulationContext>,
-  grid: ReturnType<typeof normalizeGridStrain>,
-  inputs: Pick<MergeInputs, "weather" | "gridStrain">,
-  utilityQ: DataQuality,
+  countyFips: string,
+  profile: {
+    structuralNeed: ReturnType<typeof calculateStructuralNeed>;
+    feasibility: ReturnType<typeof calculateFeasibility>;
+  },
+  weather: WeatherApiResult,
+  gridStrain: GridStrainResult,
+  solarCache: SolarCacheEntry[],
+  utilityQuality: DataQuality,
   profileAssembledAt: string
 ): SourceStatus {
+  const solar = solarCache.find((entry) => entry.countyFips === countyFips);
+  const solarUpdated = solar?.fetchedAt ?? profileAssembledAt;
+
   return [
     {
       source: "county_geojson",
@@ -125,79 +91,64 @@ function buildSourceStatus(
     {
       source: "fema_nri",
       sourceName: "FEMA National Risk Index",
-      quality: "estimated",
+      quality: profile.structuralNeed.components.hazardExposure.quality,
       fetchedAt: null,
       lastUpdated: profileAssembledAt,
-      limitation: "Hazard exposure from bundled annual snapshot.",
+      limitation: "Hazard exposure is a bundled annual percentile snapshot.",
       message: "Structural need — hazard exposure component.",
     },
     {
       source: "cdc_svi",
       sourceName: "CDC/ATSDR Social Vulnerability Index",
-      quality: "estimated",
+      quality: profile.structuralNeed.components.socialVulnerability.quality,
       fetchedAt: null,
       lastUpdated: profileAssembledAt,
-      limitation: "Social vulnerability from bundled annual snapshot.",
+      limitation: "Social vulnerability is a bundled annual percentile snapshot.",
       message: "Structural need — social vulnerability component.",
     },
     {
       source: "eagle_i",
       sourceName: "DOE EAGLE-I outage burden",
-      quality: "estimated",
+      quality: profile.structuralNeed.components.outageBurden.quality,
       fetchedAt: null,
       lastUpdated: profileAssembledAt,
-      limitation: "Historical outage burden proxy from bundled snapshot.",
-      message: "Structural need — outage burden component.",
-    },
-    {
-      source: "open_meteo",
-      sourceName: inputs.weather.sourceName,
-      quality: weather.quality,
-      fetchedAt: inputs.weather.fetchedAt,
-      lastUpdated: inputs.weather.lastUpdated ?? inputs.weather.fetchedAt,
-      limitation: inputs.weather.limitation,
-      message:
-        weather.quality === "live"
-          ? "Operational weather stress from Open-Meteo."
-          : weather.explanation,
+      limitation: "Historical outage burden is a proxy, not an outage forecast.",
+      message: "Structural need — historical outage burden component.",
     },
     {
       source: "nrel_pvwatts",
       sourceName: "NREL PVWatts / bundled solar cache",
-      quality: solar.quality,
-      fetchedAt: null,
-      lastUpdated: profileAssembledAt,
-      limitation:
-        "Solar feasibility from bundled Texas county solar cache (4 kW assumptions).",
-      message: solar.explanation,
+      quality: profile.feasibility.quality,
+      fetchedAt: solar?.fetchedAt ?? null,
+      lastUpdated: solarUpdated,
+      limitation: "Solar feasibility uses a standard 4 kW county-centroid assumption.",
+      message: profile.feasibility.components.solarResource.explanation,
     },
     {
-      source: "census_population",
-      sourceName: "U.S. Census population cache",
-      quality: population.quality,
-      fetchedAt: null,
-      lastUpdated: profileAssembledAt,
-      limitation:
-        "Population context only — does not represent electricity demand.",
-      message: population.explanation,
+      source: "open_meteo",
+      sourceName: weather.sourceName,
+      quality: weather.quality,
+      fetchedAt: weather.fetchedAt,
+      lastUpdated: weather.lastUpdated ?? weather.fetchedAt,
+      limitation: weather.limitation,
+      message: "Operational weather stress; not a county planning rank.",
     },
     {
       source: "eia_grid_monitor",
-      sourceName: inputs.gridStrain.sourceName,
-      quality: grid.quality,
-      fetchedAt: inputs.gridStrain.fetchedAt,
-      lastUpdated: inputs.gridStrain.lastUpdated ?? inputs.gridStrain.fetchedAt,
-      limitation: inputs.gridStrain.limitation,
-      message: grid.explanation,
+      sourceName: gridStrain.sourceName,
+      quality: gridStrain.quality,
+      fetchedAt: gridStrain.fetchedAt,
+      lastUpdated: gridStrain.lastUpdated ?? gridStrain.fetchedAt,
+      limitation: gridStrain.limitation,
+      message: "Statewide or balancing-authority grid context; not county-specific.",
     },
     {
       source: "puct_utility_context",
       sourceName: "Static utility context lookup",
-      quality: utilityQ,
+      quality: utilityQuality,
       fetchedAt: null,
       lastUpdated: profileAssembledAt,
-      limitation:
-        "Utility context is informational only and does not affect scores.",
+      limitation: "Utility context is informational only and does not affect scores.",
       message: "Utility context is informational only.",
     },
   ];
@@ -205,14 +156,7 @@ function buildSourceStatus(
 
 export function mergeCountyProfile(inputs: MergeInputs): CountyEnergyProfile {
   const { base, weather, solarCache, gridStrain } = inputs;
-  const allPops = getAllPopulations();
   const manifest = getDataManifest();
-
-  const weatherScore = normalizeWeatherRisk(weather);
-  const solarScore = normalizeSolarPotential(base.countyFips, solarCache);
-  const populationScore = normalizePopulationContext(base.population, allPops);
-  const gridScore = normalizeGridStrain(gridStrain);
-
   const structuralNeed = calculateStructuralNeed(
     getStructuralNeedByFips(base.countyFips) ?? defaultStructuralNeedRecord(base.countyFips)
   );
@@ -220,43 +164,23 @@ export function mergeCountyProfile(inputs: MergeInputs): CountyEnergyProfile {
     getFeasibilityByFips(base.countyFips) ?? defaultFeasibilityRecord(base.countyFips)
   );
   const operationalContext = buildOperationalContext(weather, gridStrain);
-
-  const result = calculateBackupPriorityScore({
-    weatherRisk: weatherScore,
-    solarPotential: solarScore,
-    demandExposure: populationScore,
-    gridStrain: gridScore,
-  });
-
   const { lastUpdated, profileAssembledAt } = deriveProfileTimestamps([
-    weather.fetchedAt,
-    gridStrain.fetchedAt,
+    weather.lastUpdated ?? weather.fetchedAt,
+    gridStrain.lastUpdated ?? gridStrain.fetchedAt,
     manifest.generatedAt,
   ]);
-
   const utilityQuality: DataQuality =
     base.utilityContextQuality === "unknown" ||
     base.likelyUtilityTerritories.length === 0
       ? "unavailable"
       : "estimated";
-
   const dataQuality = buildDataQualitySummary(
     structuralNeed.quality,
     feasibility.quality,
-    weatherScore.imputed || weatherScore.quality === "estimated"
-      ? "estimated"
-      : weatherScore.quality,
+    weather.quality,
     utilityQuality
   );
-
-  const scoreExplanation = buildScoreExplanation(
-    weatherScore,
-    solarScore,
-    populationScore,
-    gridScore
-  );
-
-  const profile: CountyEnergyProfile = {
+  const profile = {
     ...base,
     structuralNeed,
     feasibility,
@@ -264,25 +188,18 @@ export function mergeCountyProfile(inputs: MergeInputs): CountyEnergyProfile {
     dataManifestVersion: manifest.schemaVersion,
     profileAssembledAt,
     lastUpdated,
-    weatherRiskScore: weatherScore.value,
-    solarPotentialScore: solarScore.value,
-    demandExposureScore: populationScore.value,
-    statewideGridStrainScore: gridScore.value,
-    backupPriorityScore: result.score,
-    backupPriorityLabel: result.label,
-    scoreExplanation,
     recommendation: "",
     dataQuality,
     sourceStatus: buildSourceStatus(
-      weatherScore,
-      solarScore,
-      populationScore,
-      gridScore,
-      { weather, gridStrain },
+      base.countyFips,
+      { structuralNeed, feasibility },
+      weather,
+      gridStrain,
+      solarCache,
       utilityQuality,
       profileAssembledAt
     ),
-  };
+  } satisfies CountyEnergyProfile;
 
   profile.recommendation = buildRecommendation(profile);
   return profile;
@@ -295,6 +212,7 @@ export function mergeAllCountyProfiles(
   gridStrain: GridStrainResult
 ): CountyEnergyProfile[] {
   return bases.map((base) => {
+    const fetchedAt = new Date().toISOString();
     const weather = weatherByFips.get(base.countyFips) ?? {
       countyFips: base.countyFips,
       highTempF: null,
@@ -302,12 +220,11 @@ export function mergeAllCountyProfiles(
       maxWindMph: null,
       precipInches: null,
       cloudCoverPercent: null,
-      fetchedAt: new Date().toISOString(),
-      quality: "estimated" as const,
-      sourceName: "Estimated weather fallback",
-      lastUpdated: new Date().toISOString(),
-      limitation:
-        "Weather data unavailable for this county profile; using neutral planning estimate.",
+      fetchedAt,
+      quality: "unavailable" as const,
+      sourceName: "Open-Meteo Forecast API",
+      lastUpdated: null,
+      limitation: "Weather data unavailable for this county profile.",
     };
     return mergeCountyProfile({ base, weather, solarCache, gridStrain });
   });

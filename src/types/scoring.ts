@@ -3,8 +3,9 @@
  * Derived from gridsignal_texas_data_contract.md §10
  */
 
-import type { BackupPriorityLabel, DataQuality, ScoreInput } from "./county";
+import type { BackupPriorityLabel, DataQuality } from "./county";
 
+/** Historical-only composite types retained for migration tests. */
 export type ScoreBreakdown = {
   weatherWeighted: number;
   solarWeighted: number;
@@ -25,7 +26,6 @@ export type NormalizedScore = {
   explanation: string;
 };
 
-/** Weights for the Backup Priority Score formula — immutable */
 export const SCORE_WEIGHTS = {
   weatherRisk: 0.30,
   solarPotential: 0.25,
@@ -33,7 +33,6 @@ export const SCORE_WEIGHTS = {
   statewideGridStrain: 0.20,
 } as const;
 
-/** Label thresholds — immutable */
 export const LABEL_THRESHOLDS = {
   critical: 80,
   high: 60,
@@ -41,7 +40,7 @@ export const LABEL_THRESHOLDS = {
   low: 0,
 } as const;
 
-/** v2 planning labels — "Highest" not "Critical" until calibration */
+/** Canonical planning label thresholds. */
 export const PLANNING_LABEL_THRESHOLDS = {
   highest: 80,
   elevated: 60,
@@ -55,3 +54,5 @@ export const STRUCTURAL_NEED_WEIGHTS = {
   socialVulnerability: 1 / 3,
   outageBurden: 1 / 3,
 } as const;
+
+export const SCORE_CONFIG_VERSION = "two-axis-v1";

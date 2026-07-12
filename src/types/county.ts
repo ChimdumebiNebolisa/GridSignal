@@ -4,10 +4,11 @@
 
 // --- Enums and label types ---
 
-/** @deprecated Use PlanningLabel for v2 UI */
+/** Historical-only type kept for migration validation; never used in public profiles. */
 export type BackupPriorityLabel = "Low" | "Medium" | "High" | "Critical";
 
 export type PlanningLabel = "Lower" | "Moderate" | "Elevated" | "Highest";
+export type NoScoreReason = "missing_components" | "unavailable";
 
 export type GridRegion = "ERCOT" | "Non-ERCOT" | "Unknown";
 
@@ -16,6 +17,7 @@ export type DataQuality =
   | "cached"
   | "estimated"
   | "fallback"
+  | "stale"
   | "unavailable";
 
 export type UtilityContextQuality =
@@ -41,17 +43,7 @@ export type LayerName =
   | "structuralNeed"
   | "feasibility"
   | "needFeasibilityQuadrant"
-  | "weatherStress"
-  /** @deprecated */
-  | "backupPriority"
-  /** @deprecated */
-  | "weatherRisk"
-  /** @deprecated */
-  | "solarPotential"
-  /** @deprecated */
-  | "demandExposure"
-  /** @deprecated */
-  | "statewideGridStrain";
+  | "weatherStress";
 
 export type MissingPolicy =
   | "exclude_and_reweight"
@@ -66,6 +58,12 @@ export type ProvenanceRecord = {
   fetchedAt: string;
   coverage: string;
   quality: DataQuality;
+  url?: string;
+  owner?: string;
+  license?: string;
+  sha256?: string;
+  limitation?: string;
+  staleAfterHours?: number;
 };
 
 export type DataManifest = {
@@ -88,7 +86,8 @@ export type IndicatorComponent = {
 
 export type StructuralNeedProfile = {
   score: number | null;
-  label: PlanningLabel;
+  label: PlanningLabel | null;
+  noScoreReason: NoScoreReason | null;
   components: {
     hazardExposure: IndicatorComponent;
     socialVulnerability: IndicatorComponent;
@@ -99,8 +98,9 @@ export type StructuralNeedProfile = {
 };
 
 export type FeasibilityProfile = {
-  score: number;
-  label: PlanningLabel;
+  score: number | null;
+  label: PlanningLabel | null;
+  noScoreReason: NoScoreReason | null;
   components: {
     solarResource: IndicatorComponent;
   };
@@ -126,7 +126,7 @@ export type CountyStructuralNeedRecord = {
 
 export type CountyFeasibilityRecord = {
   countyFips: string;
-  feasibilityScore: number;
+  feasibilityScore: number | null;
   components: FeasibilityProfile["components"];
   quality: DataQuality;
 };
@@ -152,30 +152,12 @@ export type ScoreInput = {
   imputed?: boolean;
 };
 
-export type ScoreExplanation = {
-  weatherRisk: ScoreInput;
-  solarPotential: ScoreInput;
-  demandExposure: ScoreInput;
-  statewideGridStrain: ScoreInput;
-  finalSummary: string;
-};
-
 export type DataQualitySummary = {
   overall: DataQuality;
   structuralNeed: DataQuality;
   feasibility: DataQuality;
   operational: DataQuality;
   contextQuality: DataQuality;
-  /** @deprecated */
-  weather?: DataQuality;
-  /** @deprecated */
-  solar?: DataQuality;
-  /** @deprecated */
-  demand?: DataQuality;
-  /** @deprecated */
-  grid?: DataQuality;
-  /** @deprecated */
-  utility?: DataQuality;
 };
 
 // --- County record types ---
@@ -200,15 +182,6 @@ export type CountyEnergyProfile = CountyBaseRecord & {
   dataManifestVersion: string;
   profileAssembledAt: string;
   lastUpdated: string;
-
-  /** @deprecated Legacy composite — withheld from primary UI */
-  weatherRiskScore: number;
-  solarPotentialScore: number;
-  demandExposureScore: number;
-  statewideGridStrainScore: number;
-  backupPriorityScore: number;
-  backupPriorityLabel: BackupPriorityLabel;
-  scoreExplanation: ScoreExplanation;
   recommendation: string;
   dataQuality: DataQualitySummary;
   sourceStatus: SourceStatus;
@@ -262,17 +235,11 @@ export type MapCountySummary = {
   countyFips: string;
   countyName: string;
   structuralNeedScore: number | null;
-  structuralNeedLabel: PlanningLabel;
-  feasibilityScore: number;
-  feasibilityLabel: PlanningLabel;
+  structuralNeedLabel: PlanningLabel | null;
+  structuralNeedNoScoreReason: NoScoreReason | null;
+  feasibilityScore: number | null;
+  feasibilityLabel: PlanningLabel | null;
+  feasibilityNoScoreReason: NoScoreReason | null;
   weatherStressScore: number;
-  /** @deprecated */
-  backupPriorityScore: number;
-  /** @deprecated */
-  backupPriorityLabel: string;
-  weatherRiskScore: number;
-  solarPotentialScore: number;
-  demandExposureScore: number;
-  statewideGridStrainScore: number;
   dataQuality: DataQualitySummary;
 };

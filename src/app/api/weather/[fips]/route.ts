@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getCentroidByFips, getWeatherCacheByFips } from "@/lib/data/counties";
 import { fetchWeather } from "@/lib/api/openMeteo";
 import { normalizeWeatherRisk } from "@/lib/scoring/normalize";
+import { apiError } from "@/lib/api/response";
 
 type RouteParams = { params: Promise<{ fips: string }> };
 
@@ -9,12 +10,12 @@ export async function GET(_request: Request, { params }: RouteParams) {
   const { fips } = await params;
 
   if (!/^48\d{3}$/.test(fips)) {
-    return NextResponse.json({ error: "Invalid Texas county FIPS code." }, { status: 400 });
+    return apiError("INVALID_FIPS", "Invalid Texas county FIPS code.", 400);
   }
 
   const centroid = getCentroidByFips(fips);
   if (!centroid) {
-    return NextResponse.json({ error: "County not found." }, { status: 404 });
+    return apiError("COUNTY_NOT_FOUND", "County not found.", 404);
   }
 
   try {
@@ -31,7 +32,7 @@ export async function GET(_request: Request, { params }: RouteParams) {
 
     return NextResponse.json({
       ...weather,
-      weatherRiskScore: normalized.value,
+      weatherStressScore: normalized.value,
       scoreQuality: normalized.quality,
       explanation: normalized.explanation,
     });
@@ -54,7 +55,7 @@ export async function GET(_request: Request, { params }: RouteParams) {
     const normalized = normalizeWeatherRisk(fallback);
     return NextResponse.json({
       ...fallback,
-      weatherRiskScore: normalized.value,
+      weatherStressScore: normalized.value,
       scoreQuality: normalized.quality,
       explanation: normalized.explanation,
     });

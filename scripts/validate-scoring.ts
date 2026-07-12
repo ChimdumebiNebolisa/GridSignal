@@ -5,17 +5,13 @@
 
 import { readFileSync, writeFileSync } from "fs";
 import { resolve } from "path";
+import { calculateStructuralNeed } from "@/lib/scoring/structuralNeed";
+import { SCORE_CONFIG_VERSION, STRUCTURAL_NEED_WEIGHTS } from "@/types/scoring";
+import type { CountyStructuralNeedRecord } from "@/types/county";
 
 const DATA = resolve(__dirname, "../src/data");
 
-type StructuralRecord = {
-  countyFips: string;
-  components: {
-    hazardExposure: { value: number | null };
-    socialVulnerability: { value: number | null };
-    outageBurden: { value: number | null };
-  };
-};
+type StructuralRecord = CountyStructuralNeedRecord;
 
 function readJson<T>(path: string): T {
   return JSON.parse(readFileSync(path, "utf-8")) as T;
@@ -52,13 +48,7 @@ function spearmanRho(x: number[], y: number[]): number {
 }
 
 function computeStructuralScore(r: StructuralRecord): number | null {
-  const vals = [
-    r.components.hazardExposure.value,
-    r.components.socialVulnerability.value,
-    r.components.outageBurden.value,
-  ].filter((v): v is number => v !== null);
-  if (vals.length < 2) return null;
-  return Math.round(vals.reduce((a, b) => a + b, 0) / vals.length);
+  return calculateStructuralNeed(r).score;
 }
 
 function rankStability(records: StructuralRecord[], perturbation: number): number {
@@ -73,8 +63,12 @@ function rankStability(records: StructuralRecord[], perturbation: number): numbe
       const h = r.components.hazardExposure.value ?? 0;
       const s = r.components.socialVulnerability.value ?? 0;
       const o = r.components.outageBurden.value ?? 0;
+      const hazardWeight = STRUCTURAL_NEED_WEIGHTS.hazardExposure * (1 + perturbation);
+      const socialWeight = STRUCTURAL_NEED_WEIGHTS.socialVulnerability;
+      const outageWeight = STRUCTURAL_NEED_WEIGHTS.outageBurden;
+      const totalWeight = hazardWeight + socialWeight + outageWeight;
       const score = Math.round(
-        (h * (1 + perturbation) + s + o) / 3
+        (h * hazardWeight + s * socialWeight + o * outageWeight) / totalWeight
       );
       return { fips: r.countyFips, score };
     })
@@ -124,6 +118,7 @@ function main() {
   const report = `# Scoring Validation Output
 
 Generated: ${new Date().toISOString()}
+Score configuration: ${SCORE_CONFIG_VERSION}
 
 ## Outcome proxy correlation
 
