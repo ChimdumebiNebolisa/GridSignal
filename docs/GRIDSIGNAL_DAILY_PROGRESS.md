@@ -117,6 +117,7 @@ Committed-data blast radius: indicator/source JSON and caches → `src/lib/data/
 - This work unit changes only the persistent progress record; no production behavior or public score semantics changed.
 
 - Current branch: `main`.
+- This work unit was committed as `18da09d` and pushed successfully to `origin/main`.
 - Commit/push: inventory committed on `main` as `4729282` and pushed successfully to `origin/main`; a follow-up progress-record commit records publication state. User confirmation of Option B was committed as `03fd724` and pushed to `origin/main`. Scoring configuration inventory committed on `main` as `55deb6d`; publication-state updates through `7abd7fa` were pushed successfully to `origin/main`.
 - PR/merge/deploy: no PR or separate merge was used because the authorized work completed directly on `main`. No deployment was performed because this documentation-only unit changed no production behavior.
 
