@@ -61,8 +61,8 @@ Indicator build and manifest → canonical scoring → profile assembly → map 
 ## Publication and deployment
 
 - Branch: `main`.
-+ GitHub publication: implementation batch committed as `15fc4a7`; publication metadata fix committed as `0f88c99`; both pushed successfully to `origin/main`.
-+ Deployment: Vercel production deployment `dpl_3nzFxUH5dHf4u76kaQ1rhY8PBTas` reached READY for commit `0f88c99`. Canonical URL: `https://gridsignal-texas.vercel.app`. Inspector: `https://vercel.com/chimdumebinebolisagmailcoms-projects/gridsignal-texas/3nzFxUH5dHf4u76kaQ1rhY8PBTas`.
+- GitHub publication: implementation batch committed as `15fc4a7`; publication metadata fix committed as `0f88c99`; both pushed successfully to `origin/main`.
+- Deployment: Vercel production deployment `dpl_3nzFxUH5dHf4u76kaQ1rhY8PBTas` reached READY for commit `0f88c99`. Canonical URL: `https://gridsignal-texas.vercel.app`. Inspector: `https://vercel.com/chimdumebinebolisagmailcoms-projects/gridsignal-texas/3nzFxUH5dHf4u76kaQ1rhY8PBTas`.
 
 ## Remaining uncertainty
 
