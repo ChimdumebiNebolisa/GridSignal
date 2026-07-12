@@ -61,7 +61,7 @@ Indicator build and manifest → canonical scoring → profile assembly → map 
 ## Publication and deployment
 
 - Branch: `main`.
-- GitHub publication: pending final commit/push of this implementation batch.
++ GitHub publication: implementation batch committed as `15fc4a7` and pushed successfully to `origin/main`.
 - Deployment: Vercel CLI had no credentials; the documented unauthenticated fallback was attempted but returned no deployment URL and exited non-zero. No production deployment was performed.
 
 ## Remaining uncertainty
