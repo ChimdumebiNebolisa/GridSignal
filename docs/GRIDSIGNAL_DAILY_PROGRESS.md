@@ -6,7 +6,7 @@ Last updated: 2026-07-12 (America/Chicago)
 
 - Phase: canonical two-axis migration, validation, resilience, accessibility, and release verification.
 - Completed work unit: full roadmap implementation through documentation and runtime verification.
-- In progress: Vercel deployment and production verification.
+- In progress: none.
 - Canonical scoring decision: Option B behavior confirmed by the user on 2026-07-11 — separate structural resilience need and backup feasibility scores; current weather and statewide grid conditions are context only.
 - Public score semantics: changed intentionally. The legacy composite is no longer part of active profile, map, API, UI, or export consumers.
 
@@ -61,8 +61,8 @@ Indicator build and manifest → canonical scoring → profile assembly → map 
 ## Publication and deployment
 
 - Branch: `main`.
-- GitHub publication: implementation batch committed as `15fc4a7` and pushed successfully to `origin/main`.
-- Deployment: Vercel CLI had no credentials; the documented unauthenticated fallback was attempted but returned no deployment URL and exited non-zero. No production deployment was performed.
++ GitHub publication: implementation batch committed as `15fc4a7`; publication metadata fix committed as `0f88c99`; both pushed successfully to `origin/main`.
++ Deployment: Vercel production deployment `dpl_3nzFxUH5dHf4u76kaQ1rhY8PBTas` reached READY for commit `0f88c99`. Canonical URL: `https://gridsignal-texas.vercel.app`. Inspector: `https://vercel.com/chimdumebinebolisagmailcoms-projects/gridsignal-texas/3nzFxUH5dHf4u76kaQ1rhY8PBTas`.
 
 ## Remaining uncertainty
 
