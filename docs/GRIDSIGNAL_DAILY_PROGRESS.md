@@ -90,7 +90,7 @@ Configuration producer-to-consumer blast radius observed: constants and hard-cod
 ## Publication and deployment
 
 - Current branch: `main`.
-- Commit/push: inventory committed on `main` as `4729282` and pushed successfully to `origin/main`; a follow-up progress-record commit records publication state. User confirmation of Option B was committed as `03fd724` and pushed to `origin/main`. Scoring configuration inventory pending commit/push for the 2026-07-12 run.
+- Commit/push: inventory committed on `main` as `4729282` and pushed successfully to `origin/main`; a follow-up progress-record commit records publication state. User confirmation of Option B was committed as `03fd724` and pushed to `origin/main`. Scoring configuration inventory committed on `main` as `55deb6d`; publication-state note pending push for the 2026-07-12 run.
 - PR/merge/deploy: no PR or separate merge was used because the authorized work completed directly on `main`. No deployment was performed because this documentation-only unit changed no production behavior.
 
 ## Deferred / blockers
