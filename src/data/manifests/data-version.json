@@ -1,45 +1,68 @@
 {
-  "schemaVersion": "2.1.0",
+  "schemaVersion": "2.2.0",
   "scoreConfigVersion": "two-axis-v1",
-  "generatedAt": "2026-07-12T19:02:59.704Z",
+  "generatedAt": "2026-08-22T05:08:40.088Z",
   "sources": [
     {
-      "id": "fema_nri",
-      "vintage": "2025-12-v1.20",
-      "fetchedAt": "2026-07-12T19:02:59.704Z",
+      "id": "synthetic_hazard",
+      "role": "structural_need_component",
+      "status": "synthetic_placeholder",
+      "vintage": "synthetic-v1",
+      "fetchedAt": "2026-08-22T05:08:40.088Z",
       "coverage": "254/254",
       "quality": "estimated",
-      "owner": "FEMA",
-      "url": "https://www.fema.gov/flood-maps/products-tools/national-risk-index",
-      "limitation": "Bundled county hazard percentile snapshot; not an outage forecast."
+      "owner": "GridSignal build pipeline",
+      "method": "Deterministic placeholder percentiles derived from county-centroid coordinates and population placeholders; awaiting FEMA NRI v1.20 county ingest.",
+      "limitation": "Not FEMA NRI data. Synthetic hazard-exposure proxy; not an outage forecast."
     },
     {
-      "id": "cdc_svi",
-      "vintage": "2022",
-      "fetchedAt": "2026-07-12T19:02:59.704Z",
+      "id": "synthetic_svi",
+      "role": "structural_need_component",
+      "status": "synthetic_placeholder",
+      "vintage": "synthetic-v1",
+      "fetchedAt": "2026-08-22T05:08:40.088Z",
       "coverage": "254/254",
       "quality": "estimated",
-      "owner": "CDC/ATSDR",
-      "limitation": "Bundled social vulnerability percentile snapshot."
+      "owner": "GridSignal build pipeline",
+      "method": "Placeholder percentiles of county population; awaiting CDC/ATSDR SVI county ingest.",
+      "limitation": "Not CDC/ATSDR SVI data. Population is a vulnerability proxy only."
     },
     {
-      "id": "eagle_i",
-      "vintage": "2014-2022",
-      "fetchedAt": "2026-07-12T19:02:59.704Z",
+      "id": "synthetic_outage",
+      "role": "structural_need_component",
+      "status": "synthetic_placeholder",
+      "vintage": "synthetic-v1",
+      "fetchedAt": "2026-08-22T05:08:40.088Z",
       "coverage": "254/254",
       "quality": "estimated",
-      "owner": "DOE EAGLE-I",
-      "limitation": "Historical outage-burden proxy; not a reliability prediction."
+      "owner": "GridSignal build pipeline",
+      "method": "Deterministic placeholder percentiles derived from county-centroid coordinates and population; awaiting DOE EAGLE-I historical aggregation.",
+      "limitation": "Not DOE EAGLE-I data. Synthetic outage-burden proxy; not a reliability prediction."
     },
     {
-      "id": "nrel_pvwatts",
-      "vintage": "2026-05-23",
+      "id": "synthetic_solar",
+      "role": "feasibility_component",
+      "status": "synthetic_placeholder",
+      "vintage": "synthetic-v1",
       "fetchedAt": "2026-05-23T04:42:53.223Z",
       "coverage": "254/254",
-      "quality": "cached",
-      "owner": "NREL",
-      "url": "https://developer.nrel.gov/api/pvwatts/v8.json",
-      "limitation": "Standard 4 kW county-centroid PVWatts assumptions."
+      "quality": "estimated",
+      "owner": "GridSignal build pipeline",
+      "method": "Deterministic longitude/latitude irradiance proxy for a standard 4 kW system at the county centroid; live NREL PVWatts remains available per-request with an API key but does not feed this bundle.",
+      "limitation": "Not NREL PVWatts output. Solar-resource proxy for relative comparison only."
     }
-  ]
+  ],
+  "fingerprints": {
+    "algorithm": "sha256",
+    "artifacts": {
+      "county-centroids.json": "8684fa452a91a32291ffba1cc481c6b8c06011cbb896d269d9d5b140de4c9d94",
+      "county-population.json": "8796c3828551afd2877c0f13995802fa921ac870b64c19e1d589d1211e1b3d11",
+      "cache/solar-potential-by-county.json": "d9a28fb50ba8249e04f9be02378470eee5767a99a77f185e551501a5d90c84ed",
+      "sources/fema_nri/county-hazard.json": "0bfa0f1b7e31a5746c83856f595770796d1b9a05415b15e67fc25ace865cf1d6",
+      "sources/cdc_svi/county-svi.json": "f385c6288676e6d85e44685e4f85be1840225823805e83cb2a888786d3c8200c",
+      "sources/eagle_i/county-outage-burden.json": "80ed8b7c531756581eacd36951d43b0d24278dbf1d7778200d7f1ac7bbc77762",
+      "indicators/county-structural-need.json": "647bb6dc08f32f9c410cee372ac342b6e13821485f9c4eb1a9863ba517072498",
+      "indicators/county-feasibility.json": "a5294fb8f70675fff77f522ea3d5dc29ee4cdc1e0bf94cd4fc711373ae93f10b"
+    }
+  }
 }

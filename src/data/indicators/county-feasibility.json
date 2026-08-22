@@ -6,9 +6,9 @@
       "solarResource": {
         "value": 69,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,322 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,322 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -21,9 +21,9 @@
       "solarResource": {
         "value": 22,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,179 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,179 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -36,9 +36,9 @@
       "solarResource": {
         "value": 82,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,357 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,357 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -51,9 +51,9 @@
       "solarResource": {
         "value": 75,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,339 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,339 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -66,9 +66,9 @@
       "solarResource": {
         "value": 25,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,185 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,185 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -81,9 +81,9 @@
       "solarResource": {
         "value": 7,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,081 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,081 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -96,9 +96,9 @@
       "solarResource": {
         "value": 77,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,344 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,344 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -111,9 +111,9 @@
       "solarResource": {
         "value": 95,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,399 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,399 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -126,9 +126,9 @@
       "solarResource": {
         "value": 8,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,089 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,089 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -141,9 +141,9 @@
       "solarResource": {
         "value": 80,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,353 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,353 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -156,9 +156,9 @@
       "solarResource": {
         "value": 84,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,365 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,365 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -171,9 +171,9 @@
       "solarResource": {
         "value": 21,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,173 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,173 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -186,9 +186,9 @@
       "solarResource": {
         "value": 76,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,342 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,342 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -201,9 +201,9 @@
       "solarResource": {
         "value": 70,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,324 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,324 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -216,9 +216,9 @@
       "solarResource": {
         "value": 89,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,375 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,375 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -231,9 +231,9 @@
       "solarResource": {
         "value": 76,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,340 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,340 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -246,9 +246,9 @@
       "solarResource": {
         "value": 21,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,176 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,176 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -261,9 +261,9 @@
       "solarResource": {
         "value": 56,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,283 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,283 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -276,9 +276,9 @@
       "solarResource": {
         "value": 51,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,272 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,272 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -291,9 +291,9 @@
       "solarResource": {
         "value": 97,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,420 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,420 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -306,9 +306,9 @@
       "solarResource": {
         "value": 85,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,366 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,366 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -321,9 +321,9 @@
       "solarResource": {
         "value": 59,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,292 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,292 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -336,9 +336,9 @@
       "solarResource": {
         "value": 10,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,105 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,105 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -351,9 +351,9 @@
       "solarResource": {
         "value": 50,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,270 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,270 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -366,9 +366,9 @@
       "solarResource": {
         "value": 46,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,261 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,261 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -381,9 +381,9 @@
       "solarResource": {
         "value": 86,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,367 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,367 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -396,9 +396,9 @@
       "solarResource": {
         "value": 69,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,323 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,323 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -411,9 +411,9 @@
       "solarResource": {
         "value": 89,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,375 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,375 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -426,9 +426,9 @@
       "solarResource": {
         "value": 83,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,361 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,361 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -441,9 +441,9 @@
       "solarResource": {
         "value": 38,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,238 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,238 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -456,9 +456,9 @@
       "solarResource": {
         "value": 40,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,245 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,245 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -471,9 +471,9 @@
       "solarResource": {
         "value": 54,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,280 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,280 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -486,9 +486,9 @@
       "solarResource": {
         "value": 5,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,056 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,056 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -501,9 +501,9 @@
       "solarResource": {
         "value": 58,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,290 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,290 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -516,9 +516,9 @@
       "solarResource": {
         "value": 7,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,080 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,080 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -531,9 +531,9 @@
       "solarResource": {
         "value": 100,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,439 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,439 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -546,9 +546,9 @@
       "solarResource": {
         "value": 74,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,333 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,333 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -561,9 +561,9 @@
       "solarResource": {
         "value": 12,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,121 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,121 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -576,9 +576,9 @@
       "solarResource": {
         "value": 23,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,180 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,180 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -591,9 +591,9 @@
       "solarResource": {
         "value": 11,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,108 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,108 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -606,9 +606,9 @@
       "solarResource": {
         "value": 35,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,231 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,231 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -621,9 +621,9 @@
       "solarResource": {
         "value": 45,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,260 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,260 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -636,9 +636,9 @@
       "solarResource": {
         "value": 41,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,246 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,246 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -651,9 +651,9 @@
       "solarResource": {
         "value": 10,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,101 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,101 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -666,9 +666,9 @@
       "solarResource": {
         "value": 96,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,409 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,409 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -681,9 +681,9 @@
       "solarResource": {
         "value": 85,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,366 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,366 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -696,9 +696,9 @@
       "solarResource": {
         "value": 49,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,267 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,267 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -711,9 +711,9 @@
       "solarResource": {
         "value": 48,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,265 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,265 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -726,9 +726,9 @@
       "solarResource": {
         "value": 29,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,205 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,205 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -741,9 +741,9 @@
       "solarResource": {
         "value": 60,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,298 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,298 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -756,9 +756,9 @@
       "solarResource": {
         "value": 14,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,132 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,132 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -771,9 +771,9 @@
       "solarResource": {
         "value": 32,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,216 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,216 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -786,9 +786,9 @@
       "solarResource": {
         "value": 47,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,262 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,262 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -801,9 +801,9 @@
       "solarResource": {
         "value": 15,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,137 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,137 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -816,9 +816,9 @@
       "solarResource": {
         "value": 20,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,168 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,168 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -831,9 +831,9 @@
       "solarResource": {
         "value": 0,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (5,992 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (5,992 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -846,9 +846,9 @@
       "solarResource": {
         "value": 44,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,255 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,255 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -861,9 +861,9 @@
       "solarResource": {
         "value": 19,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,163 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,163 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -876,9 +876,9 @@
       "solarResource": {
         "value": 4,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,047 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,047 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -891,9 +891,9 @@
       "solarResource": {
         "value": 43,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,253 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,253 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -906,9 +906,9 @@
       "solarResource": {
         "value": 37,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,237 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,237 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -921,9 +921,9 @@
       "solarResource": {
         "value": 88,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,372 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,372 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -936,9 +936,9 @@
       "solarResource": {
         "value": 16,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,146 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,146 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -951,9 +951,9 @@
       "solarResource": {
         "value": 64,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,307 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,307 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -966,9 +966,9 @@
       "solarResource": {
         "value": 8,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,090 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,090 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -981,9 +981,9 @@
       "solarResource": {
         "value": 57,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,289 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,289 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -996,9 +996,9 @@
       "solarResource": {
         "value": 39,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,243 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,243 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1011,9 +1011,9 @@
       "solarResource": {
         "value": 27,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,198 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,198 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1026,9 +1026,9 @@
       "solarResource": {
         "value": 68,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,321 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,321 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1041,9 +1041,9 @@
       "solarResource": {
         "value": 52,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,274 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,274 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1056,9 +1056,9 @@
       "solarResource": {
         "value": 14,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,130 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,130 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1071,9 +1071,9 @@
       "solarResource": {
         "value": 45,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,260 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,260 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1086,9 +1086,9 @@
       "solarResource": {
         "value": 71,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,327 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,327 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1101,9 +1101,9 @@
       "solarResource": {
         "value": 35,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,228 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,228 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1116,9 +1116,9 @@
       "solarResource": {
         "value": 92,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,386 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,386 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1131,9 +1131,9 @@
       "solarResource": {
         "value": 27,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,197 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,197 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1146,9 +1146,9 @@
       "solarResource": {
         "value": 12,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,114 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,114 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1161,9 +1161,9 @@
       "solarResource": {
         "value": 17,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,151 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,151 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1176,9 +1176,9 @@
       "solarResource": {
         "value": 98,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,424 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,424 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1191,9 +1191,9 @@
       "solarResource": {
         "value": 50,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,270 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,270 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1206,9 +1206,9 @@
       "solarResource": {
         "value": 66,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,315 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,315 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1221,9 +1221,9 @@
       "solarResource": {
         "value": 75,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,336 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,336 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1236,9 +1236,9 @@
       "solarResource": {
         "value": 17,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,149 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,149 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1251,9 +1251,9 @@
       "solarResource": {
         "value": 99,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,438 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,438 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1266,9 +1266,9 @@
       "solarResource": {
         "value": 19,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,163 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,163 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1281,9 +1281,9 @@
       "solarResource": {
         "value": 73,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,331 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,331 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1296,9 +1296,9 @@
       "solarResource": {
         "value": 31,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,214 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,214 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1311,9 +1311,9 @@
       "solarResource": {
         "value": 81,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,356 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,356 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1326,9 +1326,9 @@
       "solarResource": {
         "value": 93,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,393 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,393 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1341,9 +1341,9 @@
       "solarResource": {
         "value": 6,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,065 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,065 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1356,9 +1356,9 @@
       "solarResource": {
         "value": 31,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,213 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,213 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1371,9 +1371,9 @@
       "solarResource": {
         "value": 65,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,309 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,309 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1386,9 +1386,9 @@
       "solarResource": {
         "value": 91,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,380 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,380 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1401,9 +1401,9 @@
       "solarResource": {
         "value": 91,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,380 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,380 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1416,9 +1416,9 @@
       "solarResource": {
         "value": 10,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,105 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,105 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1431,9 +1431,9 @@
       "solarResource": {
         "value": 11,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,112 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,112 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1446,9 +1446,9 @@
       "solarResource": {
         "value": 56,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,283 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,283 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1461,9 +1461,9 @@
       "solarResource": {
         "value": 2,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,020 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,020 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1476,9 +1476,9 @@
       "solarResource": {
         "value": 14,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,132 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,132 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1491,9 +1491,9 @@
       "solarResource": {
         "value": 97,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,413 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,413 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1506,9 +1506,9 @@
       "solarResource": {
         "value": 98,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,426 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,426 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1521,9 +1521,9 @@
       "solarResource": {
         "value": 67,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,316 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,316 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1536,9 +1536,9 @@
       "solarResource": {
         "value": 1,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,015 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,015 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1551,9 +1551,9 @@
       "solarResource": {
         "value": 25,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,188 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,188 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1566,9 +1566,9 @@
       "solarResource": {
         "value": 83,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,359 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,359 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1581,9 +1581,9 @@
       "solarResource": {
         "value": 5,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,056 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,056 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1596,9 +1596,9 @@
       "solarResource": {
         "value": 61,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,302 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,302 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1611,9 +1611,9 @@
       "solarResource": {
         "value": 37,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,237 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,237 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1626,9 +1626,9 @@
       "solarResource": {
         "value": 58,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,291 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,291 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1641,9 +1641,9 @@
       "solarResource": {
         "value": 13,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,124 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,124 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1656,9 +1656,9 @@
       "solarResource": {
         "value": 44,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,256 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,256 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1671,9 +1671,9 @@
       "solarResource": {
         "value": 47,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,262 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,262 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1686,9 +1686,9 @@
       "solarResource": {
         "value": 79,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,351 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,351 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1701,9 +1701,9 @@
       "solarResource": {
         "value": 26,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,196 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,196 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1716,9 +1716,9 @@
       "solarResource": {
         "value": 20,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,167 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,167 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1731,9 +1731,9 @@
       "solarResource": {
         "value": 46,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,261 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,261 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1746,9 +1746,9 @@
       "solarResource": {
         "value": 3,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,041 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,041 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1761,9 +1761,9 @@
       "solarResource": {
         "value": 42,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,249 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,249 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1776,9 +1776,9 @@
       "solarResource": {
         "value": 30,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,211 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,211 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1791,9 +1791,9 @@
       "solarResource": {
         "value": 91,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,380 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,380 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1806,9 +1806,9 @@
       "solarResource": {
         "value": 95,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,396 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,396 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1821,9 +1821,9 @@
       "solarResource": {
         "value": 32,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,219 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,219 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1836,9 +1836,9 @@
       "solarResource": {
         "value": 100,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,439 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,439 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1851,9 +1851,9 @@
       "solarResource": {
         "value": 47,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,264 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,264 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1866,9 +1866,9 @@
       "solarResource": {
         "value": 61,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,301 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,301 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1881,9 +1881,9 @@
       "solarResource": {
         "value": 49,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,267 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,267 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1896,9 +1896,9 @@
       "solarResource": {
         "value": 29,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,205 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,205 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1911,9 +1911,9 @@
       "solarResource": {
         "value": 82,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,358 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,358 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1926,9 +1926,9 @@
       "solarResource": {
         "value": 51,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,272 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,272 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1941,9 +1941,9 @@
       "solarResource": {
         "value": 81,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,355 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,355 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1956,9 +1956,9 @@
       "solarResource": {
         "value": 53,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,276 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,276 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1971,9 +1971,9 @@
       "solarResource": {
         "value": 21,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,172 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,172 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -1986,9 +1986,9 @@
       "solarResource": {
         "value": 74,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,333 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,333 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2001,9 +2001,9 @@
       "solarResource": {
         "value": 65,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,311 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,311 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2016,9 +2016,9 @@
       "solarResource": {
         "value": 18,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,155 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,155 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2031,9 +2031,9 @@
       "solarResource": {
         "value": 71,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,327 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,327 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2046,9 +2046,9 @@
       "solarResource": {
         "value": 63,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,306 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,306 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2061,9 +2061,9 @@
       "solarResource": {
         "value": 19,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,166 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,166 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2076,9 +2076,9 @@
       "solarResource": {
         "value": 36,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,235 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,235 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2091,9 +2091,9 @@
       "solarResource": {
         "value": 9,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,095 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,095 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2106,9 +2106,9 @@
       "solarResource": {
         "value": 62,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,303 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,303 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2121,9 +2121,9 @@
       "solarResource": {
         "value": 66,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,312 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,312 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2136,9 +2136,9 @@
       "solarResource": {
         "value": 94,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,394 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,394 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2151,9 +2151,9 @@
       "solarResource": {
         "value": 87,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,369 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,369 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2166,9 +2166,9 @@
       "solarResource": {
         "value": 75,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,337 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,337 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2181,9 +2181,9 @@
       "solarResource": {
         "value": 96,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,408 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,408 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2196,9 +2196,9 @@
       "solarResource": {
         "value": 67,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,319 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,319 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2211,9 +2211,9 @@
       "solarResource": {
         "value": 2,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,029 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,029 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2226,9 +2226,9 @@
       "solarResource": {
         "value": 72,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,330 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,330 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2241,9 +2241,9 @@
       "solarResource": {
         "value": 68,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,321 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,321 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2256,9 +2256,9 @@
       "solarResource": {
         "value": 22,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,177 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,177 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2271,9 +2271,9 @@
       "solarResource": {
         "value": 13,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,129 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,129 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2286,9 +2286,9 @@
       "solarResource": {
         "value": 18,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,154 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,154 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2301,9 +2301,9 @@
       "solarResource": {
         "value": 54,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,278 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,278 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2316,9 +2316,9 @@
       "solarResource": {
         "value": 63,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,306 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,306 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2331,9 +2331,9 @@
       "solarResource": {
         "value": 69,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,323 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,323 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2346,9 +2346,9 @@
       "solarResource": {
         "value": 81,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,356 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,356 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2361,9 +2361,9 @@
       "solarResource": {
         "value": 63,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,304 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,304 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2376,9 +2376,9 @@
       "solarResource": {
         "value": 24,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,184 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,184 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2391,9 +2391,9 @@
       "solarResource": {
         "value": 64,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,307 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,307 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2406,9 +2406,9 @@
       "solarResource": {
         "value": 89,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,378 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,378 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2421,9 +2421,9 @@
       "solarResource": {
         "value": 62,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,303 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,303 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2436,9 +2436,9 @@
       "solarResource": {
         "value": 83,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,361 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,361 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2451,9 +2451,9 @@
       "solarResource": {
         "value": 57,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,287 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,287 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2466,9 +2466,9 @@
       "solarResource": {
         "value": 29,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,205 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,205 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2481,9 +2481,9 @@
       "solarResource": {
         "value": 77,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,343 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,343 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2496,9 +2496,9 @@
       "solarResource": {
         "value": 56,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,283 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,283 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2511,9 +2511,9 @@
       "solarResource": {
         "value": 28,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,204 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,204 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2526,9 +2526,9 @@
       "solarResource": {
         "value": 26,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,194 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,194 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2541,9 +2541,9 @@
       "solarResource": {
         "value": 94,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,394 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,394 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2556,9 +2556,9 @@
       "solarResource": {
         "value": 3,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,034 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,034 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2571,9 +2571,9 @@
       "solarResource": {
         "value": 55,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,282 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,282 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2586,9 +2586,9 @@
       "solarResource": {
         "value": 13,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,124 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,124 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2601,9 +2601,9 @@
       "solarResource": {
         "value": 81,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,355 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,355 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2616,9 +2616,9 @@
       "solarResource": {
         "value": 60,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,297 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,297 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2631,9 +2631,9 @@
       "solarResource": {
         "value": 95,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,405 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,405 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2646,9 +2646,9 @@
       "solarResource": {
         "value": 31,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,215 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,215 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2661,9 +2661,9 @@
       "solarResource": {
         "value": 66,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,315 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,315 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2676,9 +2676,9 @@
       "solarResource": {
         "value": 2,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,020 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,020 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2691,9 +2691,9 @@
       "solarResource": {
         "value": 3,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,035 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,035 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2706,9 +2706,9 @@
       "solarResource": {
         "value": 99,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,432 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,432 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2721,9 +2721,9 @@
       "solarResource": {
         "value": 36,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,234 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,234 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2736,9 +2736,9 @@
       "solarResource": {
         "value": 73,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,332 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,332 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2751,9 +2751,9 @@
       "solarResource": {
         "value": 38,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,241 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,241 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2766,9 +2766,9 @@
       "solarResource": {
         "value": 6,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,072 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,072 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2781,9 +2781,9 @@
       "solarResource": {
         "value": 42,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,249 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,249 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2796,9 +2796,9 @@
       "solarResource": {
         "value": 92,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,384 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,384 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2811,9 +2811,9 @@
       "solarResource": {
         "value": 5,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,053 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,053 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2826,9 +2826,9 @@
       "solarResource": {
         "value": 42,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,249 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,249 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2841,9 +2841,9 @@
       "solarResource": {
         "value": 50,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,271 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,271 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2856,9 +2856,9 @@
       "solarResource": {
         "value": 6,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,072 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,072 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2871,9 +2871,9 @@
       "solarResource": {
         "value": 36,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,235 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,235 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2886,9 +2886,9 @@
       "solarResource": {
         "value": 74,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,334 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,334 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2901,9 +2901,9 @@
       "solarResource": {
         "value": 40,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,244 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,244 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2916,9 +2916,9 @@
       "solarResource": {
         "value": 25,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,185 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,185 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2931,9 +2931,9 @@
       "solarResource": {
         "value": 78,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,350 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,350 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2946,9 +2946,9 @@
       "solarResource": {
         "value": 4,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,048 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,048 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2961,9 +2961,9 @@
       "solarResource": {
         "value": 78,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,347 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,347 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2976,9 +2976,9 @@
       "solarResource": {
         "value": 45,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,260 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,260 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -2991,9 +2991,9 @@
       "solarResource": {
         "value": 39,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,243 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,243 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3006,9 +3006,9 @@
       "solarResource": {
         "value": 71,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,326 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,326 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3021,9 +3021,9 @@
       "solarResource": {
         "value": 89,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,378 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,378 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3036,9 +3036,9 @@
       "solarResource": {
         "value": 86,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,367 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,367 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3051,9 +3051,9 @@
       "solarResource": {
         "value": 92,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,387 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,387 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3066,9 +3066,9 @@
       "solarResource": {
         "value": 70,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,324 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,324 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3081,9 +3081,9 @@
       "solarResource": {
         "value": 59,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,293 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,293 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3096,9 +3096,9 @@
       "solarResource": {
         "value": 53,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,277 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,277 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3111,9 +3111,9 @@
       "solarResource": {
         "value": 23,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,181 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,181 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3126,9 +3126,9 @@
       "solarResource": {
         "value": 32,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,216 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,216 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3141,9 +3141,9 @@
       "solarResource": {
         "value": 80,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,353 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,353 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3156,9 +3156,9 @@
       "solarResource": {
         "value": 1,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,002 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,002 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3171,9 +3171,9 @@
       "solarResource": {
         "value": 61,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,302 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,302 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3186,9 +3186,9 @@
       "solarResource": {
         "value": 48,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,266 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,266 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3201,9 +3201,9 @@
       "solarResource": {
         "value": 36,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,235 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,235 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3216,9 +3216,9 @@
       "solarResource": {
         "value": 33,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,220 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,220 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3231,9 +3231,9 @@
       "solarResource": {
         "value": 34,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,225 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,225 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3246,9 +3246,9 @@
       "solarResource": {
         "value": 24,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,182 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,182 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3261,9 +3261,9 @@
       "solarResource": {
         "value": 59,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,292 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,292 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3276,9 +3276,9 @@
       "solarResource": {
         "value": 9,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,093 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,093 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3291,9 +3291,9 @@
       "solarResource": {
         "value": 41,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,248 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,248 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3306,9 +3306,9 @@
       "solarResource": {
         "value": 34,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,227 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,227 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3321,9 +3321,9 @@
       "solarResource": {
         "value": 53,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,276 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,276 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3336,9 +3336,9 @@
       "solarResource": {
         "value": 16,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,145 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,145 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3351,9 +3351,9 @@
       "solarResource": {
         "value": 26,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,196 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,196 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3366,9 +3366,9 @@
       "solarResource": {
         "value": 50,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,271 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,271 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3381,9 +3381,9 @@
       "solarResource": {
         "value": 41,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,246 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,246 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3396,9 +3396,9 @@
       "solarResource": {
         "value": 79,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,351 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,351 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3411,9 +3411,9 @@
       "solarResource": {
         "value": 85,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,366 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,366 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3426,9 +3426,9 @@
       "solarResource": {
         "value": 93,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,391 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,391 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3441,9 +3441,9 @@
       "solarResource": {
         "value": 60,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,294 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,294 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3456,9 +3456,9 @@
       "solarResource": {
         "value": 33,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,220 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,220 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3471,9 +3471,9 @@
       "solarResource": {
         "value": 78,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,350 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,350 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3486,9 +3486,9 @@
       "solarResource": {
         "value": 68,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,321 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,321 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3501,9 +3501,9 @@
       "solarResource": {
         "value": 56,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,283 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,283 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3516,9 +3516,9 @@
       "solarResource": {
         "value": 87,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,371 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,371 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3531,9 +3531,9 @@
       "solarResource": {
         "value": 86,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,368 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,368 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3546,9 +3546,9 @@
       "solarResource": {
         "value": 94,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,394 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,394 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3561,9 +3561,9 @@
       "solarResource": {
         "value": 28,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,200 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,200 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3576,9 +3576,9 @@
       "solarResource": {
         "value": 90,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,379 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,379 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3591,9 +3591,9 @@
       "solarResource": {
         "value": 52,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,273 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,273 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3606,9 +3606,9 @@
       "solarResource": {
         "value": 97,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,413 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,413 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3621,9 +3621,9 @@
       "solarResource": {
         "value": 7,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,081 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,081 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3636,9 +3636,9 @@
       "solarResource": {
         "value": 19,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,166 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,166 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3651,9 +3651,9 @@
       "solarResource": {
         "value": 16,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,147 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,147 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3666,9 +3666,9 @@
       "solarResource": {
         "value": 44,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,255 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,255 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3681,9 +3681,9 @@
       "solarResource": {
         "value": 76,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,342 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,342 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3696,9 +3696,9 @@
       "solarResource": {
         "value": 88,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,372 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,372 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3711,9 +3711,9 @@
       "solarResource": {
         "value": 24,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,182 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,182 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3726,9 +3726,9 @@
       "solarResource": {
         "value": 34,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,224 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,224 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3741,9 +3741,9 @@
       "solarResource": {
         "value": 56,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,285 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,285 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3756,9 +3756,9 @@
       "solarResource": {
         "value": 14,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,132 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,132 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3771,9 +3771,9 @@
       "solarResource": {
         "value": 30,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,210 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,210 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3786,9 +3786,9 @@
       "solarResource": {
         "value": 41,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,248 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,248 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },
@@ -3801,9 +3801,9 @@
       "solarResource": {
         "value": 71,
         "quality": "estimated",
-        "source": "nrel_pvwatts",
-        "vintage": "2026-05-23",
-        "explanation": "Solar resource percentile for 4 kW system (6,327 kWh/yr).",
+        "source": "synthetic_solar",
+        "vintage": "synthetic-v1",
+        "explanation": "Solar-resource proxy percentile for a standard 4 kW system (6,327 kWh/yr). Synthetic planning proxy — not authoritative source data. Pending ingest.",
         "imputed": true
       }
     },

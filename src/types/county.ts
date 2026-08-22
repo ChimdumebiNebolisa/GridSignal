@@ -26,18 +26,24 @@ export type UtilityContextQuality =
   | "estimated"
   | "unknown";
 
+/**
+ * Identifies the origin of a displayed value.
+ *
+ * `synthetic_*` ids denote bundled deterministic planning proxies derived from
+ * county-centroid geometry and population placeholders (ADR 002, audit F-001/F-002).
+ * They MUST NOT be attributed to authoritative providers (FEMA NRI, CDC SVI,
+ * DOE EAGLE-I, NREL PVWatts) until a real ingest replaces them.
+ */
 export type SourceName =
   | "county_geojson"
-  | "county_centroid"
   | "census_population"
   | "open_meteo"
-  | "nrel_pvwatts"
   | "eia_grid_monitor"
-  | "ercot_public_data"
   | "puct_utility_context"
-  | "fema_nri"
-  | "cdc_svi"
-  | "eagle_i";
+  | "synthetic_hazard"
+  | "synthetic_svi"
+  | "synthetic_outage"
+  | "synthetic_solar";
 
 export type LayerName =
   | "structuralNeed"
@@ -55,6 +61,10 @@ export type MissingPolicy =
 export type ProvenanceRecord = {
   id: string;
   vintage: string;
+  /**
+   * For `synthetic_*` sources this records when the placeholder snapshot was
+   * built — never an upstream acquisition time (none exists).
+   */
   fetchedAt: string;
   coverage: string;
   quality: DataQuality;
@@ -64,6 +74,8 @@ export type ProvenanceRecord = {
   sha256?: string;
   limitation?: string;
   staleAfterHours?: number;
+  /** How the bundled values were produced; required for synthetic proxies. */
+  method?: string;
 };
 
 export type DataManifest = {
@@ -71,6 +83,15 @@ export type DataManifest = {
   scoreConfigVersion: string;
   generatedAt: string;
   sources: ProvenanceRecord[];
+  /**
+   * SHA-256 content fingerprints (hex) of bundled input datasets and generated
+   * indicator artifacts, keyed by path relative to src/data. Enables
+   * machine-checked reproducibility and tamper detection.
+   */
+  fingerprints?: {
+    algorithm: string;
+    artifacts: Record<string, string>;
+  };
 };
 
 // --- Indicator types ---
@@ -110,6 +131,11 @@ export type FeasibilityProfile = {
 export type OperationalContext = {
   weatherStressScore: number;
   weatherStressExplanation: string;
+  /**
+   * How the weather-stress number was derived (e.g. a single county-centroid
+   * forecast vs the median across bundled county forecasts).
+   */
+  weatherStressBasis?: string;
   statewideGridStrainScore: number;
   statewideGridStrainExplanation: string;
   asOf: string;

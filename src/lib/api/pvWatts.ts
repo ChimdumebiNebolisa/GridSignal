@@ -15,7 +15,7 @@ const SOURCE_NAME = "NREL PVWatts";
 const LIVE_LIMITATION =
   "PVWatts uses a standard 4 kW system at the county centroid; it is not a site-specific solar design.";
 const CACHE_LIMITATION =
-  "Live PVWatts was not available; using bundled county solar cache or deterministic estimated proxy.";
+  "Live PVWatts was not available; using the bundled synthetic solar proxy. Values are relative placeholders, not site-specific or authoritative solar estimates.";
 
 /** Standard system assumptions per data contract §6 */
 const SYSTEM_DEFAULTS = {
@@ -45,7 +45,8 @@ function solarFromCache(countyFips: string): SolarApiResult {
     systemCapacityKw: SYSTEM_DEFAULTS.system_capacity,
     fetchedAt,
     quality: cached?.quality ?? "estimated",
-    sourceName: SOURCE_NAME,
+    // The bundled cache is a synthetic placeholder, not PVWatts output (ADR 002).
+    sourceName: "Bundled solar proxy (synthetic; pending NREL PVWatts ingest)",
     lastUpdated: fetchedAt,
     limitation: CACHE_LIMITATION,
   };

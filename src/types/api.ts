@@ -47,6 +47,11 @@ export type SolarApiResult = {
 export type GridStrainResult = {
   region: "Texas" | "ERCOT" | "EIA_BalancingAuthority" | "Unknown";
   currentDemandMw: number | null;
+  /**
+   * Historical name kept for API compatibility. For live EIA data this holds
+   * the MAX of the trailing 720-hour (30-day) ERCO demand window — an observed
+   * recent peak, not a forecast. Explanations must not call it a forecast.
+   */
   forecastPeakDemandMw: number | null;
   gridStrainScore: number;
   fetchedAt: string;

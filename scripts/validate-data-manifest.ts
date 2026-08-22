@@ -1,13 +1,28 @@
 /**
- * Validate data manifest and county indicator coverage.
+ * Validate data manifest, county indicator coverage, provenance consistency,
+ * and content fingerprints.
  * Run: npx tsx scripts/validate-data-manifest.ts
  */
 
 import { readFileSync } from "fs";
+import { createHash } from "crypto";
 import { resolve } from "path";
 
 const DATA = resolve(__dirname, "../src/data");
 const EXPECTED_COUNTIES = 254;
+const EXPECTED_SCHEMA_VERSION = "2.2.0";
+
+/**
+ * Bundled indicator components must use synthetic proxy ids only. Attributing
+ * placeholder values to authoritative providers is a provenance violation
+ * (audit F-001/F-002) and fails this gate.
+ */
+const FORBIDDEN_BUNDLED_SOURCE_IDS = new Set([
+  "fema_nri",
+  "cdc_svi",
+  "eagle_i",
+  "nrel_pvwatts",
+]);
 
 type Manifest = {
   schemaVersion: string;
@@ -22,29 +37,40 @@ type Manifest = {
     owner?: string;
     url?: string;
     limitation?: string;
+    method?: string;
+    status?: string;
   }>;
+  fingerprints?: {
+    algorithm?: string;
+    artifacts?: Record<string, string>;
+  };
 };
 
 type StructuralRecord = {
   countyFips: string;
   structuralNeedScore: number | null;
-  components: Record<string, { value: number | null }>;
+  components: Record<string, { value: number | null; source: string }>;
   missingComponents: string[];
 };
 
 type FeasibilityRecord = {
   countyFips: string;
   feasibilityScore: number | null;
-  components: { solarResource: { value: number | null } };
+  components: { solarResource: { value: number | null; source: string } };
 };
 
 function readJson<T>(path: string): T {
   return JSON.parse(readFileSync(path, "utf-8")) as T;
 }
 
+function sha256File(path: string): string {
+  return createHash("sha256").update(readFileSync(path)).digest("hex");
+}
+
 function main(): void {
   const errors: string[] = [];
-  const manifest = readJson<Manifest>(resolve(DATA, "manifests/data-version.json"));
+  const manifestPath = resolve(DATA, "manifests/data-version.json");
+  const manifest = readJson<Manifest>(manifestPath);
   const structural = readJson<StructuralRecord[]>(
     resolve(DATA, "indicators/county-structural-need.json")
   );
@@ -52,8 +78,10 @@ function main(): void {
     resolve(DATA, "indicators/county-feasibility.json")
   );
 
-  if (manifest.schemaVersion !== "2.1.0") {
-    errors.push(`Expected schemaVersion 2.1.0, got ${manifest.schemaVersion}`);
+  if (manifest.schemaVersion !== EXPECTED_SCHEMA_VERSION) {
+    errors.push(
+      `Expected schemaVersion ${EXPECTED_SCHEMA_VERSION}, got ${manifest.schemaVersion}`
+    );
   }
   if (!manifest.generatedAt) {
     errors.push("manifest.generatedAt is required");
@@ -71,7 +99,44 @@ function main(): void {
     if (!source.limitation) {
       errors.push(source.id + ": source limitation is required");
     }
+    if (source.id.startsWith("synthetic_") && !source.method) {
+      errors.push(source.id + ": synthetic sources must document their derivation method");
+    }
+    if (
+      source.id.startsWith("synthetic_") &&
+      source.owner &&
+      /^(fema|cdc|doe|nrel|noaa|usgs)/i.test(source.owner)
+    ) {
+      errors.push(
+        source.id + ": synthetic sources must not claim an authoritative owner"
+      );
+    }
   }
+  const manifestSourceIds = new Set(manifest.sources.map((s) => s.id));
+
+  // --- Fingerprint verification (reproducibility / tamper detection) ---
+  const fingerprints = manifest.fingerprints?.artifacts ?? {};
+  if (Object.keys(fingerprints).length === 0) {
+    errors.push("manifest.fingerprints.artifacts is required for reproducibility");
+  } else {
+    if (manifest.fingerprints?.algorithm !== "sha256") {
+      errors.push("manifest.fingerprints.algorithm must be sha256");
+    }
+    for (const [relPath, expectedHash] of Object.entries(fingerprints)) {
+      const absPath = resolve(DATA, relPath);
+      try {
+        const actual = sha256File(absPath);
+        if (actual !== expectedHash) {
+          errors.push(
+            `fingerprint mismatch for ${relPath}: manifest=${expectedHash} actual=${actual}`
+          );
+        }
+      } catch {
+        errors.push(`fingerprint target missing on disk: ${relPath}`);
+      }
+    }
+  }
+
   if (structural.length !== EXPECTED_COUNTIES) {
     errors.push(`structural need: expected ${EXPECTED_COUNTIES}, got ${structural.length}`);
   }
@@ -86,6 +151,29 @@ function main(): void {
   }
   if (feasibilityFips.size !== EXPECTED_COUNTIES) {
     errors.push("feasibility: duplicate or missing FIPS");
+  }
+
+  const usedComponentSources = new Set<string>();
+  for (const record of structural) {
+    for (const component of Object.values(record.components)) {
+      usedComponentSources.add(component.source);
+    }
+  }
+  for (const record of feasibility) {
+    usedComponentSources.add(record.components.solarResource.source);
+  }
+
+  for (const sourceId of usedComponentSources) {
+    if (FORBIDDEN_BUNDLED_SOURCE_IDS.has(sourceId)) {
+      errors.push(
+        `bundled indicators reference forbidden source id '${sourceId}' — bundled values are synthetic placeholders and must use synthetic_* ids`
+      );
+    }
+    if (sourceId !== "unavailable" && !manifestSourceIds.has(sourceId)) {
+      errors.push(
+        `component source '${sourceId}' has no matching manifest.sources entry`
+      );
+    }
   }
 
   for (const record of structural) {
