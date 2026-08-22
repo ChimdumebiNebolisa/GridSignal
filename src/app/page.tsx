@@ -5,6 +5,10 @@ import {
 } from "@/lib/data/profileService";
 import { getTexasGeoJson } from "@/lib/data/counties";
 
+// Operational context must reflect request-time data, never a build-time bake
+// (audit F-004). Scores themselves remain bundled and deterministic.
+export const dynamic = "force-dynamic";
+
 export default async function Home() {
   const [counties, operationalContext] = await Promise.all([
     buildMapSummaries(),

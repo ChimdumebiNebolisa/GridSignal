@@ -210,7 +210,7 @@ export function normalizeGridStrain(gridData: GridStrainResult): ScoreInput {
 
   let explanation: string;
   if (gridData.currentDemandMw !== null && gridData.forecastPeakDemandMw !== null) {
-    explanation = `Statewide grid strain at ${score}/100 based on ${gridData.currentDemandMw.toLocaleString()} MW demand vs. ${gridData.forecastPeakDemandMw.toLocaleString()} MW forecast peak. This is a statewide signal, not county-level grid reliability.`;
+    explanation = `Statewide grid strain at ${score}/100 based on ${gridData.currentDemandMw.toLocaleString()} MW demand vs. ${gridData.forecastPeakDemandMw.toLocaleString()} MW recent peak (max of the trailing 30-day ERCO demand window, not a forecast). This is a statewide signal, not county-level grid reliability.`;
   } else if (gridData.currentDemandMw !== null) {
     explanation = `Statewide grid strain at ${score}/100 based on ${gridData.currentDemandMw.toLocaleString()} MW current demand. This is a statewide signal, not county-level grid reliability.`;
   } else {

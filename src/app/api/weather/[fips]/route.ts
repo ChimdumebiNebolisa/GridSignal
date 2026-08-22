@@ -2,6 +2,7 @@ import { NextResponse } from "next/server";
 import { getCentroidByFips, getWeatherCacheByFips } from "@/lib/data/counties";
 import { fetchWeather } from "@/lib/api/openMeteo";
 import { normalizeWeatherRisk } from "@/lib/scoring/normalize";
+import { selectWeatherResult } from "@/lib/data/weatherSelection";
 import { apiError } from "@/lib/api/response";
 
 type RouteParams = { params: Promise<{ fips: string }> };
@@ -25,8 +26,8 @@ export async function GET(_request: Request, { params }: RouteParams) {
       centroid.centroidLat,
       centroid.centroidLon
     );
-    const weather =
-      liveWeather.quality === "unavailable" && cached ? cached : liveWeather;
+    // Cache fallback re-evaluates freshness so old snapshots are labeled stale.
+    const weather = selectWeatherResult(liveWeather, cached);
 
     const normalized = normalizeWeatherRisk(weather);
 

@@ -10,7 +10,10 @@ import {
 } from "@/lib/data/counties";
 import { mergeCountyProfile, mergeAllCountyProfiles } from "@/lib/data/mergeCountyProfile";
 import { fetchGridStrain } from "@/lib/api/eia";
-import { buildOperationalContext } from "@/lib/scoring/operationalContext";
+import {
+  buildOperationalContext,
+  buildStatewideOperationalContext,
+} from "@/lib/scoring/operationalContext";
 import { markStale } from "@/lib/data/freshness";
 import type { CountyEnergyProfile, MapCountySummary, OperationalContext } from "@/types/county";
 
@@ -105,7 +108,6 @@ export async function buildMapSummaries(): Promise<MapCountySummary[]> {
 
 export async function buildOperationalContextSummary(): Promise<OperationalContext> {
   const weatherCache = getWeatherCache();
-  const sampleWeather = weatherCache[0] ?? estimatedWeather("48001");
   const gridStrain = await getSharedGridStrain();
-  return buildOperationalContext(sampleWeather, gridStrain);
+  return buildStatewideOperationalContext(weatherCache, gridStrain);
 }
