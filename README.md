@@ -6,14 +6,16 @@ Texas county-level public-data explorer for structural resilience need, backup f
 
 GridSignal publishes two separate annual planning axes:
 
-- **Structural resilience need**: hazard exposure, social vulnerability, and historical outage-burden indicators.
-- **Backup feasibility**: solar-resource feasibility using a standard county-centroid 4 kW system assumption.
-
-**Provenance status (2026-08 audit):** the bundled structural and solar indicator values are **synthetic planning proxies** — deterministic placeholders derived from county-centroid geometry and population (see [docs/audit/2026-08-21-adversarial-audit.md](docs/audit/2026-08-21-adversarial-audit.md) and ADR 002). They are labeled `synthetic_*` in data, manifest, UI, and reports, and are **not** derived from FEMA NRI, CDC/ATSDR SVI, DOE EAGLE-I, or NREL PVWatts until an authoritative ingest replaces them (`scripts/ingest/` documents each path). Weather cache values are genuine Open-Meteo centroid forecasts (bundled snapshot); live Open-Meteo, EIA ERCO, Census, and keyed NREL PVWatts integrations are real.
+- **Structural resilience need**: hazard risk (FEMA NRI) + social vulnerability (CDC/ATSDR SVI), with historical outage burden (DOE EAGLE-I) reserved as a third component.
+- **Backup feasibility**: simulated solar resource for a standard 4 kW fixed-tilt system (EC JRC PVGIS on NREL NSRDB irradiance).
 
 Current weather stress and statewide ERCO grid conditions are shown as operational context only. They do not affect county rankings. GridSignal is a planning signal, not an outage prediction, reliability determination, or professional advice.
 
-Structural scores are withheld when more than one required component is missing. Missing, estimated, cached, stale, fallback, and unavailable data are labeled in profiles and reports. Every build publishes SHA-256 fingerprints of inputs and generated indicators; `npm run data:validate` re-verifies them.
+## Authoritative data and publication gates
+
+Structural and solar values are ingested from authoritative public sources with per-value source, vintage, acquisition time, transformation method, quality, and SHA-256 fingerprints (`scripts/ingest/`, ADR 003). The EAGLE-I outage archive is documented as blocked; its component is withheld rather than proxied.
+
+Rankings publish only when build-time gates pass: ≥90% county coverage, worst-case ±20% single-weight sweep rank stability ≥80%, and outcome-proxy correlation ≥0.4 when outage data exists. **Current bundle: structural ordinal rankings are withheld — worst-case stability 66.5% < 80% — while component values remain visible and labeled.** Feasibility publishes.
 
 ## Local run
 
@@ -23,15 +25,16 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Open `http://localhost:3000`.
+Open `http://localhost:3000` (landing) or `http://localhost:3000/explore` (full interactive explorer).
 
 ## Features
 
-- Interactive Texas county map with 254 counties.
-- Structural need, backup feasibility, need-vs-feasibility quadrant, and current-weather layers.
-- Keyboard-accessible county list as an alternative to map interaction.
-- County profile with component values, no-score reasons, recommendations, utility context, quality labels, provenance, and plain-text export.
-- Search by county, city, or ZIP with approximate-match labels.
+- Editorial landing page with a real-data County Resilience File, comparison table, map preview, two-axis matrix, and provenance section.
+- Interactive Texas county map at `/explore` with all 254 counties.
+- Structural need and backup feasibility layers plus current-weather layer.
+- Keyboard-accessible county list as a non-map alternative.
+- County profiles with component values, no-score reasons, provenance notes, deterministic weight-scenario exploration, quality labels, and plain-text export.
+- Search by county, city, or ZIP with disclosed match confidence.
 - APIs for counties, county profiles, weather context, solar feasibility, statewide grid context, and search.
 
 ## Verification
@@ -45,21 +48,21 @@ npm run data:validate-scoring
 npm run build
 ```
 
+Data refresh: run the ingest scripts in `scripts/ingest/` (FEMA NRI, CDC SVI, PVGIS solar; EAGLE-I documents its blocked state), then `npm run data:build`.
+
 ## Data and limitations
 
-- Structural and feasibility indicators are bundled snapshots and must be refreshed through the data-build/ingest workflow.
-- The current structural and solar bundles are **synthetic placeholders** (`synthetic_hazard`, `synthetic_svi`, `synthetic_outage`, `synthetic_solar`), labeled "Estimated" throughout. The social-vulnerability proxy is the population percentile itself, so high population correlation is structural in this bundle.
-- Weather uses county-centroid Open-Meteo forecasts and may be cached (stale snapshots are labeled) or unavailable.
-- ERCO/EIA grid load is statewide or balancing-authority context, not county-specific reliability; the "peak" shown is the trailing 30-day demand max, not a forecast.
-- The homepage "Current conditions" weather number is the median across all bundled county forecasts, not one county's reading.
-- Utility/service-territory context is approximate and does not affect scores.
-- Deterministic validation on the current bundle: 0.603 Spearman correlation with the outage-burden proxy, worst-case ±20% hazard-weight rank stability of 54.7% (< 80% gate), leave-one-component-out rank stability between 14.6% and 22.0%, and 0.887 population correlation; the cross-horizon composite remains withheld.
+- Hazard risk: percentile of FEMA NRI composite `RISK_SCORE` among Texas counties. Social vulnerability: CDC/ATSDR SVI 2022 overall percentile as published. Solar: PVGIS/NSRDB simulation at the county centroid.
+- Outage burden is withheld (authoritative archive not yet ingested); the structural axis currently computes from two components.
+- Weather uses county-centroid Open-Meteo forecasts; bundled cache entries are labeled cached/stale against a 72-hour window.
+- ERCO/EIA grid load is balancing-authority context, never county-level reliability; the "peak" shown is the trailing 30-day demand max, not a forecast.
+- Ordinal rankings are gated outputs. When the sensitivity gate fails, scores/labels are withheld everywhere while components stay visible.
 
 ## Environment variables
 
 | Variable | Purpose |
 |---|---|
-| `NREL_API_KEY` | Optional live PVWatts requests; bundled solar data remains available without it. |
+| `NREL_API_KEY` | Optional live NREL PVWatts requests (solar endpoint only); bundled PVGIS data remains authoritative without it. |
 | `EIA_API_KEY` | Optional live EIA ERCO requests; statewide fallback remains available without it. |
 | `CENSUS_API_KEY` | Optional population-cache refresh. |
 | `NEXT_PUBLIC_APP_NAME` | Public app title only. |
