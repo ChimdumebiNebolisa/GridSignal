@@ -1,28 +1,161 @@
 @import "tailwindcss";
 
+/*
+ * GridSignal design tokens (DESIGN.md §13).
+ * Deep navy / white / pale cool gray / electric blue / muted status colors.
+ */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --gs-ink: #07111f;
+  --gs-ink-soft: #111c2d;
+  --gs-blue: #2563eb;
+  --gs-blue-hover: #1d4fd8;
+  --gs-blue-soft: #eaf2ff;
+  --gs-paper: #ffffff;
+  --gs-canvas: #f7f9fc;
+  --gs-grid-line: rgba(15, 23, 42, 0.035);
+  --gs-border: #d7dee8;
+  --gs-border-strong: #bcc7d6;
+  --gs-muted: #64748b;
+  --gs-muted-2: #8a98aa;
+  --gs-success: #15803d;
+  --gs-success-bg: #edf9f0;
+  --gs-warning: #9a6700;
+  --gs-warning-bg: #fff8df;
+  --gs-danger: #b42318;
+  --gs-danger-bg: #fff0ed;
+  --gs-info-bg: #edf5ff;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: var(--gs-paper);
+  --color-foreground: var(--gs-ink);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+body {
+  background: var(--gs-paper);
+  color: var(--gs-ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-geist-sans), system-ui, sans-serif;
+/* Barely-visible square grid texture for landing sections (DESIGN.md §14). */
+.gs-grid-bg {
+  background-image:
+    linear-gradient(to right, var(--gs-grid-line) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--gs-grid-line) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Large product frames get soft atmospheric shadow; small cards do not. */
+.gs-frame {
+  background: var(--gs-paper);
+  border: 1px solid var(--gs-border);
+  border-radius: 6px;
+  box-shadow:
+    0 24px 60px rgba(15, 23, 42, 0.10),
+    0 6px 20px rgba(15, 23, 42, 0.06);
+}
+
+.gs-frame-flat {
+  background: var(--gs-paper);
+  border: 1px solid var(--gs-border);
+  border-radius: 4px;
+}
+
+/* Mono technical micro-label (DESIGN.md §15). */
+.gs-label {
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gs-muted);
+}
+
+/* Compact rectilinear buttons — never pills (DESIGN.md §18). */
+.gs-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--gs-blue);
+  color: #fff;
+  border: 1px solid var(--gs-blue-hover);
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 8px 14px;
+  transition: background-color 140ms ease, transform 140ms ease;
+}
+.gs-btn-primary:hover {
+  background: var(--gs-blue-hover);
+}
+.gs-btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #fff;
+  color: var(--gs-ink);
+  border: 1px solid var(--gs-border-strong);
+  border-radius: 3px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 8px 14px;
+  transition: border-color 140ms ease, background-color 140ms ease;
+}
+.gs-btn-secondary:hover {
+  border-color: var(--gs-ink);
+  background: var(--gs-canvas);
+}
+.gs-btn-primary:focus-visible,
+.gs-btn-secondary:focus-visible {
+  outline: 2px solid var(--gs-blue);
+  outline-offset: 2px;
+}
+
+/* Muted pastel annotation notes (DESIGN.md §6). */
+.gs-note {
+  border-radius: 4px;
+  border: 1px solid var(--gs-border);
+  padding: 12px 14px;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--gs-ink-soft);
+}
+.gs-note-yellow { background: var(--gs-warning-bg); }
+.gs-note-blue { background: var(--gs-info-bg); }
+.gs-note-green { background: var(--gs-success-bg); }
+.gs-note-peach { background: var(--gs-danger-bg); }
+
+/* Restrained status chips with non-color text encoding (a11y). */
+.gs-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  border-radius: 2px;
+  padding: 1px 7px;
+  font-family: var(--font-geist-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1px solid var(--gs-border);
+  background: var(--gs-canvas);
+  color: var(--gs-ink-soft);
+  white-space: nowrap;
+}
+.gs-chip-live { background: var(--gs-success-bg); color: var(--gs-success); border-color: #bfe5cc; }
+.gs-chip-cached { background: var(--gs-info-bg); color: #1d4ed8; border-color: #c4d9f7; }
+.gs-chip-estimated { background: var(--gs-warning-bg); color: var(--gs-warning); border-color: #ead79c; }
+.gs-chip-stale { background: #fdf6e3; color: #8a6d00; border-color: #e6d494; }
+.gs-chip-fallback { background: var(--gs-danger-bg); color: var(--gs-danger); border-color: #efc4bd; }
+.gs-chip-unavailable { color: var(--gs-muted); }
+
+@media (prefers-reduced-motion: reduce) {
+  .gs-btn-primary,
+  .gs-btn-secondary {
+    transition: none;
+  }
 }
 
 .leaflet-container {

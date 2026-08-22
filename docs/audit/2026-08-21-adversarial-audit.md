@@ -175,3 +175,14 @@ Note: every gate is green while the underlying finding F-001 exists — the chec
 
 Residual limitations after remediation: authoritative FEMA/SVI/EAGLE-I/PVWatts ingest remains future work requiring external downloads; until then the axes are explicitly-labeled synthetic planning proxies. Live-keyed API behavior untested against real services.
 
+---
+
+## 12. Addendum — 2026-08-22, authoritative ingestion implemented
+
+The placeholder posture above has been replaced (ADR 003):
+
+- FEMA NRI v1.20 counties and CDC/ATSDR SVI 2022 counties now feed the structural axis from their official ArcGIS services; solar comes from EC JRC PVGIS v5.2 on NREL NSRDB irradiance. All snapshots carry provenance envelopes with verified fingerprints.
+- The EAGLE-I archive remains a documented BLOCKED acquisition (`sources/eagle_i/blocked.json`); its component is withheld everywhere rather than proxied.
+- Build-time publication gates were added and are enforced at runtime. On the current real bundle: coverage 100%, worst-case ±20% weight-sweep stability 66.5% (< 80% gate) → **structural ordinal rankings withheld bundle-wide**; feasibility publishes. This supersedes the synthetic-era metrics cited in §2/§11 (0.603 ρ / 54.7% stability / 0.887 population correlation applied to the old fabricated bundle; the new bundle's anchors live in `src/tests/dataIntegrity.test.ts` and `src/tests/validationMetrics.test.ts`).
+- Known-county validation passes against real values (Harris NRI percentile 100 / Loving ≈ 0; Rockwall SVI < 20 vs Zavala/Collingsworth > 80; PVGIS El Paso 7506 kWh > Houston 5745 kWh for the standard 4 kW system).
+

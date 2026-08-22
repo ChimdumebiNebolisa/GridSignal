@@ -56,7 +56,7 @@ describe("mergeCountyProfile timestamps", () => {
     expect(
       [staleWeather.fetchedAt, grid.fetchedAt].includes(profile.lastUpdated)
     ).toBe(true);
-    expect(manifestGenerated).toBe("2.2.0");
+    expect(manifestGenerated).toBe("2.3.0");
   });
 });
 

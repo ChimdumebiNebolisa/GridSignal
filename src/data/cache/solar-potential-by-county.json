@@ -1,1780 +1,1780 @@
 [
   {
     "countyFips": "48001",
-    "annualAcKwh": 6322,
+    "annualAcKwh": 5853.94,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.223Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:48:45.230Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48003",
-    "annualAcKwh": 6179,
+    "annualAcKwh": 7178.95,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:48:46.011Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48005",
-    "annualAcKwh": 6357,
+    "annualAcKwh": 5727.34,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:48:46.784Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48007",
-    "annualAcKwh": 6339,
+    "annualAcKwh": 5919.72,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:01.127Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48009",
-    "annualAcKwh": 6185,
+    "annualAcKwh": 6394.65,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:02.132Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48011",
-    "annualAcKwh": 6081,
+    "annualAcKwh": 6797.01,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:03.086Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48013",
-    "annualAcKwh": 6344,
+    "annualAcKwh": 6087.9,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:04.044Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48015",
-    "annualAcKwh": 6399,
+    "annualAcKwh": 5871.03,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:04.966Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48017",
-    "annualAcKwh": 6089,
+    "annualAcKwh": 7136.22,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:06.475Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48019",
-    "annualAcKwh": 6353,
+    "annualAcKwh": 6076.45,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:07.401Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48021",
-    "annualAcKwh": 6365,
+    "annualAcKwh": 5973.54,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:08.384Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48023",
-    "annualAcKwh": 6173,
+    "annualAcKwh": 6581,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:09.258Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48025",
-    "annualAcKwh": 6342,
+    "annualAcKwh": 5948.99,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:10.149Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48027",
-    "annualAcKwh": 6324,
+    "annualAcKwh": 6118.39,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:11.097Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48029",
-    "annualAcKwh": 6375,
+    "annualAcKwh": 6062.18,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:11.959Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48031",
-    "annualAcKwh": 6340,
+    "annualAcKwh": 6208.5,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:12.895Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48033",
-    "annualAcKwh": 6176,
+    "annualAcKwh": 6837.93,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:13.842Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48035",
-    "annualAcKwh": 6283,
+    "annualAcKwh": 6126.64,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:14.761Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48037",
-    "annualAcKwh": 6272,
+    "annualAcKwh": 5794.84,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:15.607Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48039",
-    "annualAcKwh": 6420,
+    "annualAcKwh": 5780.59,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:16.530Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48041",
-    "annualAcKwh": 6366,
+    "annualAcKwh": 5882.43,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:17.545Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48043",
-    "annualAcKwh": 6292,
+    "annualAcKwh": 7147.71,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:18.552Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48045",
-    "annualAcKwh": 6105,
+    "annualAcKwh": 6831.2,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:19.473Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48047",
-    "annualAcKwh": 6270,
+    "annualAcKwh": 6101.82,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:20.461Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48049",
-    "annualAcKwh": 6261,
+    "annualAcKwh": 6423.06,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:21.373Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48051",
-    "annualAcKwh": 6367,
+    "annualAcKwh": 5900.08,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:22.204Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48053",
-    "annualAcKwh": 6323,
+    "annualAcKwh": 6207.25,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:23.124Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48055",
-    "annualAcKwh": 6375,
+    "annualAcKwh": 6027.09,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:24.043Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48057",
-    "annualAcKwh": 6361,
+    "annualAcKwh": 5967.14,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:24.944Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48059",
-    "annualAcKwh": 6238,
+    "annualAcKwh": 6558.34,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:25.842Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48061",
-    "annualAcKwh": 6245,
+    "annualAcKwh": 6245.84,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:26.837Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48063",
-    "annualAcKwh": 6280,
+    "annualAcKwh": 5859.77,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:27.736Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48065",
-    "annualAcKwh": 6056,
+    "annualAcKwh": 6862.98,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:28.674Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48067",
-    "annualAcKwh": 6290,
+    "annualAcKwh": 5765.18,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:29.617Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48069",
-    "annualAcKwh": 6080,
+    "annualAcKwh": 6987.81,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:30.505Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48071",
-    "annualAcKwh": 6439,
+    "annualAcKwh": 5938.48,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:31.471Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48073",
-    "annualAcKwh": 6333,
+    "annualAcKwh": 5779.37,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:32.285Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48075",
-    "annualAcKwh": 6121,
+    "annualAcKwh": 6652.18,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:33.133Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48077",
-    "annualAcKwh": 6180,
+    "annualAcKwh": 6305.64,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:34.041Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48079",
-    "annualAcKwh": 6108,
+    "annualAcKwh": 7158.03,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:34.935Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48081",
-    "annualAcKwh": 6231,
+    "annualAcKwh": 6683.42,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:35.928Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48083",
-    "annualAcKwh": 6260,
+    "annualAcKwh": 6578.55,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:36.804Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48085",
-    "annualAcKwh": 6246,
+    "annualAcKwh": 6082.22,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:37.702Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48087",
-    "annualAcKwh": 6101,
+    "annualAcKwh": 6725.98,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:38.620Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48089",
-    "annualAcKwh": 6409,
+    "annualAcKwh": 5923.96,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:39.564Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48091",
-    "annualAcKwh": 6366,
+    "annualAcKwh": 6024.67,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:40.421Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48093",
-    "annualAcKwh": 6267,
+    "annualAcKwh": 6406.7,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:41.304Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48095",
-    "annualAcKwh": 6265,
+    "annualAcKwh": 6643.07,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:42.172Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48097",
-    "annualAcKwh": 6205,
+    "annualAcKwh": 6066.98,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:43.140Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48099",
-    "annualAcKwh": 6298,
+    "annualAcKwh": 6201.55,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:44.024Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48101",
-    "annualAcKwh": 6132,
+    "annualAcKwh": 6582.69,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:44.928Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48103",
-    "annualAcKwh": 6216,
+    "annualAcKwh": 7117.95,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:45.867Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48105",
-    "annualAcKwh": 6262,
+    "annualAcKwh": 6888,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:46.766Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48107",
-    "annualAcKwh": 6137,
+    "annualAcKwh": 6974.35,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:47.641Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48109",
-    "annualAcKwh": 6168,
+    "annualAcKwh": 7444.85,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:48.570Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48111",
-    "annualAcKwh": 5992,
+    "annualAcKwh": 6925.37,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:49.487Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48113",
-    "annualAcKwh": 6255,
+    "annualAcKwh": 6106.14,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:50.361Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48115",
-    "annualAcKwh": 6163,
+    "annualAcKwh": 7078.53,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:51.241Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48117",
-    "annualAcKwh": 6047,
+    "annualAcKwh": 7090.1,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:52.116Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48119",
-    "annualAcKwh": 6253,
+    "annualAcKwh": 5887.04,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:53.038Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48121",
-    "annualAcKwh": 6237,
+    "annualAcKwh": 6106.26,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:53.915Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48123",
-    "annualAcKwh": 6372,
+    "annualAcKwh": 5923.47,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:54.794Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48125",
-    "annualAcKwh": 6146,
+    "annualAcKwh": 6833.26,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:55.583Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48127",
-    "annualAcKwh": 6307,
+    "annualAcKwh": 6257.23,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:56.495Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48129",
-    "annualAcKwh": 6090,
+    "annualAcKwh": 6812.16,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:57.405Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48131",
-    "annualAcKwh": 6289,
+    "annualAcKwh": 6198.66,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:58.297Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48133",
-    "annualAcKwh": 6243,
+    "annualAcKwh": 6455.95,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:49:59.217Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48135",
-    "annualAcKwh": 6198,
+    "annualAcKwh": 7243.51,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:00.149Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48137",
-    "annualAcKwh": 6321,
+    "annualAcKwh": 6498.96,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:01.033Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48139",
-    "annualAcKwh": 6274,
+    "annualAcKwh": 6129.8,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:01.973Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48141",
-    "annualAcKwh": 6130,
+    "annualAcKwh": 7506.42,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:02.883Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48143",
-    "annualAcKwh": 6260,
+    "annualAcKwh": 6344.41,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:03.768Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48145",
-    "annualAcKwh": 6327,
+    "annualAcKwh": 6058.09,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:04.674Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48147",
-    "annualAcKwh": 6228,
+    "annualAcKwh": 5984.69,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:05.588Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48149",
-    "annualAcKwh": 6386,
+    "annualAcKwh": 5946.68,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:06.506Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48151",
-    "annualAcKwh": 6197,
+    "annualAcKwh": 6774.39,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:07.345Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48153",
-    "annualAcKwh": 6114,
+    "annualAcKwh": 6937.02,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:08.254Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48155",
-    "annualAcKwh": 6151,
+    "annualAcKwh": 6585.09,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:09.142Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48157",
-    "annualAcKwh": 6424,
+    "annualAcKwh": 5817.62,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:09.975Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48159",
-    "annualAcKwh": 6270,
+    "annualAcKwh": 5845.58,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:10.873Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48161",
-    "annualAcKwh": 6315,
+    "annualAcKwh": 5941.67,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.234Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:11.880Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48163",
-    "annualAcKwh": 6336,
+    "annualAcKwh": 6177.6,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:12.793Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48165",
-    "annualAcKwh": 6149,
+    "annualAcKwh": 7129.16,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:13.697Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48167",
-    "annualAcKwh": 6438,
+    "annualAcKwh": 5816.34,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:27.869Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48169",
-    "annualAcKwh": 6163,
+    "annualAcKwh": 6842.74,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:28.773Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48171",
-    "annualAcKwh": 6331,
+    "annualAcKwh": 6347.58,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:29.637Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48173",
-    "annualAcKwh": 6214,
+    "annualAcKwh": 7033.61,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:30.532Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48175",
-    "annualAcKwh": 6356,
+    "annualAcKwh": 5925.06,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:31.485Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48177",
-    "annualAcKwh": 6393,
+    "annualAcKwh": 5941.18,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:32.337Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48179",
-    "annualAcKwh": 6065,
+    "annualAcKwh": 6775.53,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:33.191Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48181",
-    "annualAcKwh": 6213,
+    "annualAcKwh": 6031.61,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:34.092Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48183",
-    "annualAcKwh": 6309,
+    "annualAcKwh": 5836.11,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:34.986Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48185",
-    "annualAcKwh": 6380,
+    "annualAcKwh": 5815.07,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:35.849Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48187",
-    "annualAcKwh": 6380,
+    "annualAcKwh": 6051.74,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:36.686Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48189",
-    "annualAcKwh": 6105,
+    "annualAcKwh": 7000.08,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:37.507Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48191",
-    "annualAcKwh": 6112,
+    "annualAcKwh": 6653.82,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:38.421Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48193",
-    "annualAcKwh": 6283,
+    "annualAcKwh": 6385.98,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:39.281Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48195",
-    "annualAcKwh": 6020,
+    "annualAcKwh": 6750,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:40.208Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48197",
-    "annualAcKwh": 6132,
+    "annualAcKwh": 6567.98,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:41.099Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48199",
-    "annualAcKwh": 6413,
+    "annualAcKwh": 5623.01,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:42.048Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48201",
-    "annualAcKwh": 6426,
+    "annualAcKwh": 5745.16,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:42.945Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48203",
-    "annualAcKwh": 6316,
+    "annualAcKwh": 5748.91,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:43.860Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48205",
-    "annualAcKwh": 6015,
+    "annualAcKwh": 6988.12,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:44.792Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48207",
-    "annualAcKwh": 6188,
+    "annualAcKwh": 6628.27,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:45.654Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48209",
-    "annualAcKwh": 6359,
+    "annualAcKwh": 6045.75,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:46.597Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48211",
-    "annualAcKwh": 6056,
+    "annualAcKwh": 6607.69,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:47.509Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48213",
-    "annualAcKwh": 6302,
+    "annualAcKwh": 5949.2,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:48.414Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48215",
-    "annualAcKwh": 6237,
+    "annualAcKwh": 6233.9,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:49.304Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48217",
-    "annualAcKwh": 6291,
+    "annualAcKwh": 6180.83,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:50.148Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48219",
-    "annualAcKwh": 6124,
+    "annualAcKwh": 7048.05,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:51.024Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48221",
-    "annualAcKwh": 6256,
+    "annualAcKwh": 6307.67,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:51.984Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48223",
-    "annualAcKwh": 6262,
+    "annualAcKwh": 5911.09,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:52.895Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48225",
-    "annualAcKwh": 6351,
+    "annualAcKwh": 5711.81,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:53.827Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48227",
-    "annualAcKwh": 6196,
+    "annualAcKwh": 6998.42,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:54.735Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48229",
-    "annualAcKwh": 6167,
+    "annualAcKwh": 7552.38,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:55.605Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48231",
-    "annualAcKwh": 6261,
+    "annualAcKwh": 5997.68,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:56.505Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48233",
-    "annualAcKwh": 6041,
+    "annualAcKwh": 6779.6,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:57.361Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48235",
-    "annualAcKwh": 6249,
+    "annualAcKwh": 6860.35,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:58.291Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48237",
-    "annualAcKwh": 6211,
+    "annualAcKwh": 6252.77,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:50:59.177Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48239",
-    "annualAcKwh": 6380,
+    "annualAcKwh": 5875.71,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:00.083Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48241",
-    "annualAcKwh": 6396,
+    "annualAcKwh": 5671.67,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:01.050Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48243",
-    "annualAcKwh": 6219,
+    "annualAcKwh": 7326.3,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:01.966Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48245",
-    "annualAcKwh": 6439,
+    "annualAcKwh": 5824.67,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:02.889Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48247",
-    "annualAcKwh": 6264,
+    "annualAcKwh": 6306.99,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:03.803Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48249",
-    "annualAcKwh": 6301,
+    "annualAcKwh": 6017.49,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:04.731Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48251",
-    "annualAcKwh": 6267,
+    "annualAcKwh": 6206.85,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:05.635Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48253",
-    "annualAcKwh": 6205,
+    "annualAcKwh": 6623.02,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:06.530Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48255",
-    "annualAcKwh": 6358,
+    "annualAcKwh": 6006.92,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:07.405Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48257",
-    "annualAcKwh": 6272,
+    "annualAcKwh": 6013.73,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:08.337Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48259",
-    "annualAcKwh": 6355,
+    "annualAcKwh": 6185.15,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:09.291Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48261",
-    "annualAcKwh": 6276,
+    "annualAcKwh": 6073.05,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:23.530Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48263",
-    "annualAcKwh": 6172,
+    "annualAcKwh": 6732.64,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:24.350Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48265",
-    "annualAcKwh": 6333,
+    "annualAcKwh": 6356.06,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:25.267Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48267",
-    "annualAcKwh": 6311,
+    "annualAcKwh": 6422.68,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:26.184Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48269",
-    "annualAcKwh": 6155,
+    "annualAcKwh": 6663.46,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:27.052Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48271",
-    "annualAcKwh": 6327,
+    "annualAcKwh": 6317.56,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:27.957Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48273",
-    "annualAcKwh": 6306,
+    "annualAcKwh": 6328.47,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:28.869Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48275",
-    "annualAcKwh": 6166,
+    "annualAcKwh": 6571.05,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:29.781Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48277",
-    "annualAcKwh": 6235,
+    "annualAcKwh": 5864.51,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:30.649Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48279",
-    "annualAcKwh": 6095,
+    "annualAcKwh": 7051.01,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:31.517Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48281",
-    "annualAcKwh": 6303,
+    "annualAcKwh": 6299.26,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:32.394Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48283",
-    "annualAcKwh": 6312,
+    "annualAcKwh": 6225.94,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:33.361Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48285",
-    "annualAcKwh": 6394,
+    "annualAcKwh": 5860.65,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:34.261Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48287",
-    "annualAcKwh": 6369,
+    "annualAcKwh": 5984.57,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:35.141Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48289",
-    "annualAcKwh": 6337,
+    "annualAcKwh": 5908.17,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:36.042Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48291",
-    "annualAcKwh": 6408,
+    "annualAcKwh": 5654.83,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:36.964Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48293",
-    "annualAcKwh": 6319,
+    "annualAcKwh": 6039.23,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:37.833Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48295",
-    "annualAcKwh": 6029,
+    "annualAcKwh": 6646.75,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:38.706Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48297",
-    "annualAcKwh": 6330,
+    "annualAcKwh": 6002.63,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:39.511Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48299",
-    "annualAcKwh": 6321,
+    "annualAcKwh": 6273.36,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:40.401Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48301",
-    "annualAcKwh": 6177,
+    "annualAcKwh": 7286.51,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:41.302Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48303",
-    "annualAcKwh": 6129,
+    "annualAcKwh": 6997.29,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:42.173Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48305",
-    "annualAcKwh": 6154,
+    "annualAcKwh": 7022.14,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:43.144Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48307",
-    "annualAcKwh": 6278,
+    "annualAcKwh": 6603.99,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:45.029Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48309",
-    "annualAcKwh": 6306,
+    "annualAcKwh": 6133.24,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:45.937Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48311",
-    "annualAcKwh": 6323,
+    "annualAcKwh": 6089.6,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:46.795Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48313",
-    "annualAcKwh": 6356,
+    "annualAcKwh": 5807.31,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:47.697Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48315",
-    "annualAcKwh": 6304,
+    "annualAcKwh": 5770.16,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:48.622Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48317",
-    "annualAcKwh": 6184,
+    "annualAcKwh": 7105.27,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:49.600Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48319",
-    "annualAcKwh": 6307,
+    "annualAcKwh": 6397.05,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:50.507Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48321",
-    "annualAcKwh": 6378,
+    "annualAcKwh": 6047.91,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:51.383Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48323",
-    "annualAcKwh": 6303,
+    "annualAcKwh": 6343.68,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:52.194Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48325",
-    "annualAcKwh": 6361,
+    "annualAcKwh": 6090.92,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:53.132Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48327",
-    "annualAcKwh": 6287,
+    "annualAcKwh": 6574.2,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:53.975Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48329",
-    "annualAcKwh": 6205,
+    "annualAcKwh": 7135.08,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:54.881Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48331",
-    "annualAcKwh": 6343,
+    "annualAcKwh": 6036.58,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:55.770Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48333",
-    "annualAcKwh": 6283,
+    "annualAcKwh": 6399.42,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:56.658Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48335",
-    "annualAcKwh": 6204,
+    "annualAcKwh": 6830.76,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:57.494Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48337",
-    "annualAcKwh": 6194,
+    "annualAcKwh": 6190.76,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:58.385Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48339",
-    "annualAcKwh": 6394,
+    "annualAcKwh": 5686.21,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:51:59.274Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48341",
-    "annualAcKwh": 6034,
+    "annualAcKwh": 6863.59,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:00.161Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48343",
-    "annualAcKwh": 6282,
+    "annualAcKwh": 5815.45,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:01.113Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48345",
-    "annualAcKwh": 6124,
+    "annualAcKwh": 6822.31,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:01.958Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48347",
-    "annualAcKwh": 6355,
+    "annualAcKwh": 5738.64,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:02.847Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48349",
-    "annualAcKwh": 6297,
+    "annualAcKwh": 6060.21,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:03.725Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48351",
-    "annualAcKwh": 6405,
+    "annualAcKwh": 5655.99,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:04.497Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48353",
-    "annualAcKwh": 6215,
+    "annualAcKwh": 6817.31,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:05.431Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48355",
-    "annualAcKwh": 6315,
+    "annualAcKwh": 6103.77,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:06.393Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48357",
-    "annualAcKwh": 6020,
+    "annualAcKwh": 6705.19,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:07.327Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48359",
-    "annualAcKwh": 6035,
+    "annualAcKwh": 6946.36,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:08.299Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48361",
-    "annualAcKwh": 6432,
+    "annualAcKwh": 5706.18,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:09.220Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48363",
-    "annualAcKwh": 6234,
+    "annualAcKwh": 6269.05,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:10.168Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48365",
-    "annualAcKwh": 6332,
+    "annualAcKwh": 5729.69,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:11.063Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48367",
-    "annualAcKwh": 6241,
+    "annualAcKwh": 6186.96,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:12.001Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48369",
-    "annualAcKwh": 6072,
+    "annualAcKwh": 7031.67,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:12.851Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48371",
-    "annualAcKwh": 6249,
+    "annualAcKwh": 7132.14,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:13.745Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48373",
-    "annualAcKwh": 6384,
+    "annualAcKwh": 5683.43,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:14.607Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48375",
-    "annualAcKwh": 6053,
+    "annualAcKwh": 6899.76,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:15.459Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48377",
-    "annualAcKwh": 6249,
+    "annualAcKwh": 7305.77,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.235Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:16.405Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48379",
-    "annualAcKwh": 6271,
+    "annualAcKwh": 5911.26,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:17.329Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48381",
-    "annualAcKwh": 6072,
+    "annualAcKwh": 6976.49,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:18.152Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48383",
-    "annualAcKwh": 6235,
+    "annualAcKwh": 6989.28,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:19.070Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48385",
-    "annualAcKwh": 6334,
+    "annualAcKwh": 6254.04,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:19.975Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48387",
-    "annualAcKwh": 6244,
+    "annualAcKwh": 5771.55,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:20.929Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48389",
-    "annualAcKwh": 6185,
+    "annualAcKwh": 7267.33,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:21.807Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48391",
-    "annualAcKwh": 6350,
+    "annualAcKwh": 5922.71,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:22.690Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48393",
-    "annualAcKwh": 6048,
+    "annualAcKwh": 6720.19,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:23.674Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48395",
-    "annualAcKwh": 6347,
+    "annualAcKwh": 5928.51,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:24.601Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48397",
-    "annualAcKwh": 6260,
+    "annualAcKwh": 6002.97,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:25.410Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48399",
-    "annualAcKwh": 6243,
+    "annualAcKwh": 6680.33,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:26.334Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48401",
-    "annualAcKwh": 6326,
+    "annualAcKwh": 5826.1,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:27.230Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48403",
-    "annualAcKwh": 6378,
+    "annualAcKwh": 5767.81,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:28.109Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48405",
-    "annualAcKwh": 6367,
+    "annualAcKwh": 5745.96,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:29.065Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48407",
-    "annualAcKwh": 6387,
+    "annualAcKwh": 5696.85,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:29.982Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48409",
-    "annualAcKwh": 6324,
+    "annualAcKwh": 5916.02,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:30.872Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48411",
-    "annualAcKwh": 6293,
+    "annualAcKwh": 6358.32,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:31.704Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48413",
-    "annualAcKwh": 6277,
+    "annualAcKwh": 6722.19,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:32.611Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48415",
-    "annualAcKwh": 6181,
+    "annualAcKwh": 6844.86,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:33.489Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48417",
-    "annualAcKwh": 6216,
+    "annualAcKwh": 6484.76,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:34.323Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48419",
-    "annualAcKwh": 6353,
+    "annualAcKwh": 5725.5,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:35.229Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48421",
-    "annualAcKwh": 6002,
+    "annualAcKwh": 6812.64,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:36.132Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48423",
-    "annualAcKwh": 6302,
+    "annualAcKwh": 5851.96,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:37.059Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48425",
-    "annualAcKwh": 6266,
+    "annualAcKwh": 6224.65,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:37.920Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48427",
-    "annualAcKwh": 6235,
+    "annualAcKwh": 6358.43,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:38.847Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48429",
-    "annualAcKwh": 6220,
+    "annualAcKwh": 6382.62,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:39.742Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48431",
-    "annualAcKwh": 6225,
+    "annualAcKwh": 6907.35,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:40.545Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48433",
-    "annualAcKwh": 6182,
+    "annualAcKwh": 6678.55,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:41.423Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48435",
-    "annualAcKwh": 6292,
+    "annualAcKwh": 6637.34,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:42.370Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48437",
-    "annualAcKwh": 6093,
+    "annualAcKwh": 6952.96,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:43.231Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48439",
-    "annualAcKwh": 6248,
+    "annualAcKwh": 6136.81,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:44.065Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48441",
-    "annualAcKwh": 6227,
+    "annualAcKwh": 6646.38,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:44.940Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48443",
-    "annualAcKwh": 6276,
+    "annualAcKwh": 6923.16,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:45.774Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48445",
-    "annualAcKwh": 6145,
+    "annualAcKwh": 7105.47,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:46.658Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48447",
-    "annualAcKwh": 6196,
+    "annualAcKwh": 6529.76,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:47.468Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48449",
-    "annualAcKwh": 6271,
+    "annualAcKwh": 5824.53,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:48.391Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48451",
-    "annualAcKwh": 6246,
+    "annualAcKwh": 6769.21,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:49.237Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48453",
-    "annualAcKwh": 6351,
+    "annualAcKwh": 6077.16,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:50.074Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48455",
-    "annualAcKwh": 6366,
+    "annualAcKwh": 5746.93,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:51.025Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48457",
-    "annualAcKwh": 6391,
+    "annualAcKwh": 5673.55,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:51.951Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48459",
-    "annualAcKwh": 6294,
+    "annualAcKwh": 5799.18,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:52.864Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48461",
-    "annualAcKwh": 6220,
+    "annualAcKwh": 7181.94,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:53.811Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48463",
-    "annualAcKwh": 6350,
+    "annualAcKwh": 6113.63,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:54.736Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48465",
-    "annualAcKwh": 6321,
+    "annualAcKwh": 6665.81,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:55.625Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48467",
-    "annualAcKwh": 6283,
+    "annualAcKwh": 5922.76,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:56.506Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48469",
-    "annualAcKwh": 6371,
+    "annualAcKwh": 5847.84,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:57.413Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48471",
-    "annualAcKwh": 6368,
+    "annualAcKwh": 5723.4,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:58.294Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48473",
-    "annualAcKwh": 6394,
+    "annualAcKwh": 5846.86,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:52:59.186Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48475",
-    "annualAcKwh": 6200,
+    "annualAcKwh": 7250.36,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:00.090Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48477",
-    "annualAcKwh": 6379,
+    "annualAcKwh": 5912.22,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:00.943Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48479",
-    "annualAcKwh": 6273,
+    "annualAcKwh": 6370.41,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:01.860Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48481",
-    "annualAcKwh": 6413,
+    "annualAcKwh": 5839.81,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:02.768Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48483",
-    "annualAcKwh": 6081,
+    "annualAcKwh": 6691.94,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:03.656Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48485",
-    "annualAcKwh": 6166,
+    "annualAcKwh": 6434.36,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:04.565Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48487",
-    "annualAcKwh": 6147,
+    "annualAcKwh": 6540.44,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:05.487Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48489",
-    "annualAcKwh": 6255,
+    "annualAcKwh": 6081.18,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:06.339Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48491",
-    "annualAcKwh": 6342,
+    "annualAcKwh": 6128.44,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:07.190Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48493",
-    "annualAcKwh": 6372,
+    "annualAcKwh": 6040.82,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:08.074Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48495",
-    "annualAcKwh": 6182,
+    "annualAcKwh": 7273.85,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:09.006Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48497",
-    "annualAcKwh": 6224,
+    "annualAcKwh": 6167.85,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:09.841Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48499",
-    "annualAcKwh": 6285,
+    "annualAcKwh": 5868.15,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:10.713Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48501",
-    "annualAcKwh": 6132,
+    "annualAcKwh": 7139.9,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:11.668Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48503",
-    "annualAcKwh": 6210,
+    "annualAcKwh": 6363.96,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:12.547Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48505",
-    "annualAcKwh": 6248,
+    "annualAcKwh": 6371.05,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:13.463Z",
+    "quality": "cached"
   },
   {
     "countyFips": "48507",
-    "annualAcKwh": 6327,
+    "annualAcKwh": 6157.15,
     "systemCapacityKw": 4,
-    "fetchedAt": "2026-05-23T04:42:53.238Z",
-    "quality": "estimated"
+    "fetchedAt": "2026-08-22T20:53:14.328Z",
+    "quality": "cached"
   }
 ]

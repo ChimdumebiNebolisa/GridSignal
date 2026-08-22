@@ -13,6 +13,11 @@ import type { SolarCacheEntry } from "@/types/county";
 import { buildDataQualitySummary } from "@/lib/data/dataQuality";
 import { getDataManifest, getFeasibilityByFips, getStructuralNeedByFips } from "@/lib/data/indicators";
 import { calculateFeasibility } from "@/lib/scoring/feasibility";
+import {
+  applyFeasibilityGate,
+  applyStructuralGate,
+  gatesFromManifest,
+} from "@/lib/scoring/gates";
 import { buildOperationalContext } from "@/lib/scoring/operationalContext";
 import { calculateStructuralNeed } from "@/lib/scoring/structuralNeed";
 import { buildRecommendation } from "@/lib/scoring/recommendations";
@@ -37,9 +42,9 @@ function defaultStructuralNeedRecord(countyFips: string) {
     countyFips,
     structuralNeedScore: null,
     components: {
-      hazardExposure: { ...unavailable, source: "synthetic_hazard" },
-      socialVulnerability: { ...unavailable, source: "synthetic_svi" },
-      outageBurden: { ...unavailable, source: "synthetic_outage" },
+      hazardExposure: { ...unavailable, source: "fema_nri" },
+      socialVulnerability: { ...unavailable, source: "cdc_svi" },
+      outageBurden: { ...unavailable, source: "eagle_i" },
     },
     missingComponents: ["hazardExposure", "socialVulnerability", "outageBurden"],
     quality: "unavailable" as const,
@@ -54,7 +59,7 @@ function defaultFeasibilityRecord(countyFips: string) {
       solarResource: {
         value: null,
         quality: "unavailable" as const,
-        source: "synthetic_solar",
+        source: "pvgis_nsrdb",
         vintage: "n/a",
         explanation: "Solar feasibility data unavailable.",
       },
@@ -89,43 +94,46 @@ function buildSourceStatus(
       message: "Texas county boundaries from bundled GeoJSON.",
     },
     {
-      source: "synthetic_hazard",
-      sourceName: "Hazard exposure proxy (synthetic)",
+      source: "fema_nri",
+      sourceName: "FEMA National Risk Index (v1.20 counties)",
       quality: profile.structuralNeed.components.hazardExposure.quality,
-      fetchedAt: null,
-      lastUpdated: profileAssembledAt,
+      fetchedAt: profile.structuralNeed.components.hazardExposure.acquiredAt ?? null,
+      lastUpdated: profile.structuralNeed.components.hazardExposure.acquiredAt ?? profileAssembledAt,
       limitation:
-        "Synthetic planning proxy derived from county-centroid geometry and population placeholders. Not FEMA NRI data; pending authoritative ingest.",
-      message: "Structural need — hazard exposure component (synthetic proxy).",
+        "Composite NRI risk score percentile among Texas counties; not an outage forecast or reliability measure.",
+      message: "Structural need — hazard risk component (FEMA NRI RISK_SCORE).",
     },
     {
-      source: "synthetic_svi",
-      sourceName: "Social vulnerability proxy (synthetic)",
+      source: "cdc_svi",
+      sourceName: "CDC/ATSDR Social Vulnerability Index 2022",
       quality: profile.structuralNeed.components.socialVulnerability.quality,
-      fetchedAt: null,
-      lastUpdated: profileAssembledAt,
+      fetchedAt: profile.structuralNeed.components.socialVulnerability.acquiredAt ?? null,
+      lastUpdated:
+        profile.structuralNeed.components.socialVulnerability.acquiredAt ?? profileAssembledAt,
       limitation:
-        "Population-based synthetic placeholder. Not CDC/ATSDR SVI data; pending authoritative ingest.",
-      message: "Structural need — social vulnerability component (synthetic proxy).",
+        "Overall SVI percentile (RPL_THEMES) as published by ATSDR; a planning indicator, not grid reliability.",
+      message: "Structural need — social vulnerability component.",
     },
     {
-      source: "synthetic_outage",
-      sourceName: "Outage burden proxy (synthetic)",
+      source: "eagle_i",
+      sourceName: "DOE EAGLE-I outage burden (2014-2022)",
       quality: profile.structuralNeed.components.outageBurden.quality,
-      fetchedAt: null,
-      lastUpdated: profileAssembledAt,
+      fetchedAt: profile.structuralNeed.components.outageBurden.acquiredAt ?? null,
+      lastUpdated: profile.structuralNeed.components.outageBurden.acquiredAt ?? null,
       limitation:
-        "Synthetic placeholder, not an outage forecast or reliability measure. Not DOE EAGLE-I data; pending authoritative ingest.",
-      message: "Structural need — historical outage burden component (synthetic proxy).",
+        profile.structuralNeed.components.outageBurden.value === null
+          ? "Component withheld: the authoritative EAGLE-I archive is not yet ingested (see sources/eagle_i/blocked.json). No proxy value is used."
+          : "Historical outage burden percentile; a planning indicator, not an outage forecast.",
+      message: "Structural need — historical outage burden component.",
     },
     {
-      source: "synthetic_solar",
-      sourceName: "Solar resource proxy (synthetic)",
+      source: "pvgis_nsrdb",
+      sourceName: "EC JRC PVGIS v5.2 / NSRDB solar simulation",
       quality: profile.feasibility.quality,
-      fetchedAt: solar?.fetchedAt ?? null,
+      fetchedAt: profile.feasibility.components.solarResource.acquiredAt ?? null,
       lastUpdated: solarUpdated,
       limitation:
-        "Synthetic longitude/latitude solar proxy for a standard 4 kW county-centroid system. Not NREL PVWatts output; live PVWatts is used per-request when an API key is configured.",
+        "County-centroid 4 kW fixed-tilt PV simulation on NSRDB irradiance (2005-2015); relative comparison only, not site-specific design and not an NREL PVWatts result.",
       message: profile.feasibility.components.solarResource.explanation,
     },
     {
@@ -161,11 +169,18 @@ function buildSourceStatus(
 export function mergeCountyProfile(inputs: MergeInputs): CountyEnergyProfile {
   const { base, weather, solarCache, gridStrain } = inputs;
   const manifest = getDataManifest();
-  const structuralNeed = calculateStructuralNeed(
-    getStructuralNeedByFips(base.countyFips) ?? defaultStructuralNeedRecord(base.countyFips)
+  const gateState = gatesFromManifest(manifest);
+  const structuralNeed = applyStructuralGate(
+    calculateStructuralNeed(
+      getStructuralNeedByFips(base.countyFips) ?? defaultStructuralNeedRecord(base.countyFips)
+    ),
+    gateState
   );
-  const feasibility = calculateFeasibility(
-    getFeasibilityByFips(base.countyFips) ?? defaultFeasibilityRecord(base.countyFips)
+  const feasibility = applyFeasibilityGate(
+    calculateFeasibility(
+      getFeasibilityByFips(base.countyFips) ?? defaultFeasibilityRecord(base.countyFips)
+    ),
+    gateState
   );
   const operationalContext = buildOperationalContext(weather, gridStrain);
   const { lastUpdated, profileAssembledAt } = deriveProfileTimestamps([

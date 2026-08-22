@@ -29,8 +29,16 @@ export function calculateStructuralNeed(
   ).filter(([, c]) => c.value !== null);
 
   const missingComponents = record.missingComponents;
-  const qualities = Object.values(components).map(componentQuality);
-  const quality = getOverallDataQuality(qualities);
+  // Axis quality reflects what actually feeds the computation: a withheld
+  // component makes the axis PARTIAL (worst of available qualities), not
+  // "unavailable", as long as the score itself remains computable.
+  const qualitiesForQuality = (
+    available.length === 0 ||
+    missingComponents.length > MAX_MISSING_FOR_STRUCTURAL_NEED
+      ? Object.values(components)
+      : Object.values(components).filter((c) => c.value !== null)
+  ).map(componentQuality);
+  const quality = getOverallDataQuality(qualitiesForQuality);
 
   if (available.length === 0 || missingComponents.length > MAX_MISSING_FOR_STRUCTURAL_NEED) {
     return {

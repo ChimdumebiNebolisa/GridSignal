@@ -1,0 +1,17 @@
+{
+  "provenance": {
+    "id": "eagle_i",
+    "sourceName": "DOE EAGLE-I county outage burden (2014-2022 archive)",
+    "endpoint": "https://www.osti.gov/dataexplorer/biblio/dataset/1975202",
+    "status": "blocked",
+    "checkedAt": "2026-08-22T20:53:47.800Z",
+    "reachability": "OSTI record HTTP 200; record reachable",
+    "reason": "The authoritative distribution is a multi-gigabyte county-hour archive requiring bulk download plus aggregation. Automated acquisition exceeds this environment's size/time budget (refusing downloads over ~500MB unattended). No substitute or synthetic value may be used.",
+    "requiredSteps": [
+      "Download the 2014-2022 EAGLE-I archive from the OSTI dataset page.",
+      "Aggregate customer-outage counts per county into a burden metric (document the formula before first use).",
+      "Percentile-rank among Texas counties and write county-outage-burden.json in the standard envelope format used by fema-nri/cdc-svi ingests.",
+      "Re-run npm run data:build; the structural axis will then include three components."
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "pvgis_nsrdb",
+  "sourceName": "EC JRC PVGIS v5.2 PVcalc (PVGIS-NSRDB satellite irradiance)",
+  "endpoint": "https://re.jrc.ec.europa.eu/api/v5_2/PVcalc",
+  "owner": "European Commission Joint Research Centre",
+  "attributionNote": "Irradiance source is NREL's National Solar Radiation Database (NSRDB PSM, years 2005-2015) accessed through PVGIS; temperature data ERA5; simulation is PVGIS's own PV model.",
+  "field": "outputs.totals.fixed.E_y",
+  "rawFieldMeaning": "Annual AC energy (kWh/year) of the specified PV system.",
+  "vintage": "PVGIS v5.2 / PVGIS-NSRDB (2005-2015 climatology)",
+  "acquiredAt": "2026-08-22T20:53:14.745Z",
+  "coverage": "254/254",
+  "quality": "cached",
+  "transformation": "Standard 4 kW crystalline-Si system, fixed mounting, tilt 20deg, south-facing (aspect 0), 14% total losses; E_y rounded to 2 decimals.",
+  "limitation": "County-centroid simulation for relative feasibility comparison across counties; not a site-specific design and not an NREL PVWatts result.",
+  "license": "Free reuse with attribution (EC-JRC PVGIS terms)",
+  "fingerprint": "66271b49e0349f7df795c7cfc9482840f69ef923bfc522723be0956c29146e2f",
+  "adjustments": [
+    "48007 (Aransas County): offshore centroid moved inland 15% toward (31.05, -99.14)",
+    "48167 (Galveston County): offshore centroid moved inland 15% toward (31.05, -99.14)",
+    "48261 (Kenedy County): offshore centroid moved inland 15% toward (31.05, -99.14)"
+  ]
+}

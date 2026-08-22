@@ -25,13 +25,15 @@ describe("sensitivity analysis reproducibility", () => {
     expect(JSON.stringify(a)).toBe(JSON.stringify(b));
   });
 
-  it("reproduces the documented baseline anchors on the committed bundle", () => {
+  it("reproduces documented anchors on the current authoritative bundle", () => {
     const summary = computeValidationSummary(structural, popMap);
     expect(summary.scoredCounties).toBe(254);
-    // Anchors from docs/validation/scoring-validation-output.md (audit baseline).
-    expect(summary.rhoOutageBurden).toBeCloseTo(0.603, 2);
-    expect(summary.rhoPopulation).toBeCloseTo(0.887, 2);
-    expect(summary.hazardWeightStabilityMin).toBeCloseTo(0.547, 2);
+    // Anchors for the real-data bundle (FEMA NRI + CDC SVI; EAGLE-I blocked).
+    // Outcome-proxy correlation is structurally n/a -> spearmanRho over an
+    // empty pairing is 0 by definition.
+    expect(summary.rhoOutageBurden).toBe(0);
+    expect(summary.rhoPopulation).toBeCloseTo(0.801, 2);
+    expect(summary.hazardWeightStabilityMin).toBeCloseTo(0.665, 2);
     expect(summary.compositePublishDecision).toBe("WITHHOLD");
   });
 
