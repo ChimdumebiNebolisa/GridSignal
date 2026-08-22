@@ -1,91 +1,33 @@
 /**
- * Scoring validation: sensitivity analysis and outcome proxy correlation.
+ * Scoring validation: sensitivity analysis and outcome-proxy correlation.
  * Run: npx tsx scripts/validate-scoring.ts
+ *
+ * Writes a deterministic markdown artifact: no wall-clock timestamps, no
+ * randomness. Byte-identical output given identical bundled inputs, so the
+ * committed report doubles as a reproducibility regression check (audit F-007).
  */
 
 import { readFileSync, writeFileSync } from "fs";
 import { resolve } from "path";
-import { calculateStructuralNeed } from "@/lib/scoring/structuralNeed";
-import { SCORE_CONFIG_VERSION, STRUCTURAL_NEED_WEIGHTS } from "@/types/scoring";
-import type { CountyStructuralNeedRecord } from "@/types/county";
+import { SCORE_CONFIG_VERSION } from "@/types/scoring";
+import { computeValidationSummary } from "@/lib/scoring/validationMetrics";
 
 const DATA = resolve(__dirname, "../src/data");
-
-type StructuralRecord = CountyStructuralNeedRecord;
+const OUT_PATH = resolve(
+  __dirname,
+  "../docs/validation/scoring-validation-output.md"
+);
 
 function readJson<T>(path: string): T {
   return JSON.parse(readFileSync(path, "utf-8")) as T;
 }
 
-function spearmanRho(x: number[], y: number[]): number {
-  const n = x.length;
-  if (n < 2) return 0;
-  const rank = (arr: number[]) => {
-    const sorted = arr.map((v, i) => ({ v, i })).sort((a, b) => a.v - b.v);
-    const ranks = new Array(n).fill(0);
-    sorted.forEach((item, rankIdx) => {
-      ranks[item.i] = rankIdx + 1;
-    });
-    return ranks;
-  };
-  const rx = rank(x);
-  const ry = rank(y);
-  const mean = (a: number[]) => a.reduce((s, v) => s + v, 0) / a.length;
-  const mx = mean(rx);
-  const my = mean(ry);
-  let num = 0;
-  let dx = 0;
-  let dy = 0;
-  for (let i = 0; i < n; i++) {
-    const a = rx[i] - mx;
-    const b = ry[i] - my;
-    num += a * b;
-    dx += a * a;
-    dy += b * b;
-  }
-  const den = Math.sqrt(dx * dy);
-  return den === 0 ? 0 : num / den;
+function pct(value: number): string {
+  return `${(value * 100).toFixed(1)}%`;
 }
 
-function computeStructuralScore(r: StructuralRecord): number | null {
-  return calculateStructuralNeed(r).score;
-}
-
-function rankStability(records: StructuralRecord[], perturbation: number): number {
-  const base = records
-    .map((r) => ({ fips: r.countyFips, score: computeStructuralScore(r) }))
-    .filter((r): r is { fips: string; score: number } => r.score !== null)
-    .sort((a, b) => b.score - a.score)
-    .map((r, i) => ({ fips: r.fips, rank: i }));
-
-  const perturbed = records
-    .map((r) => {
-      const h = r.components.hazardExposure.value ?? 0;
-      const s = r.components.socialVulnerability.value ?? 0;
-      const o = r.components.outageBurden.value ?? 0;
-      const hazardWeight = STRUCTURAL_NEED_WEIGHTS.hazardExposure * (1 + perturbation);
-      const socialWeight = STRUCTURAL_NEED_WEIGHTS.socialVulnerability;
-      const outageWeight = STRUCTURAL_NEED_WEIGHTS.outageBurden;
-      const totalWeight = hazardWeight + socialWeight + outageWeight;
-      const score = Math.round(
-        (h * hazardWeight + s * socialWeight + o * outageWeight) / totalWeight
-      );
-      return { fips: r.countyFips, score };
-    })
-    .sort((a, b) => b.score - a.score)
-    .map((r, i) => ({ fips: r.fips, rank: i }));
-
-  const baseMap = new Map(base.map((b) => [b.fips, b.rank]));
-  let stable = 0;
-  for (const p of perturbed) {
-    const br = baseMap.get(p.fips);
-    if (br !== undefined && Math.abs(br - p.rank) <= 5) stable++;
-  }
-  return stable / perturbed.length;
-}
-
-function main() {
-  const structural = readJson<StructuralRecord[]>(
+function main(): void {
+  const structural = readJson(
     resolve(DATA, "indicators/county-structural-need.json")
   );
   const populations = readJson<{ countyFips: string; population: number }[]>(
@@ -93,57 +35,76 @@ function main() {
   );
   const popMap = new Map(populations.map((p) => [p.countyFips, p.population]));
 
-  const needScores: number[] = [];
-  const outageScores: number[] = [];
-  const popScores: number[] = [];
+  const summary = computeValidationSummary(structural, popMap);
 
-  for (const r of structural) {
-    const need = computeStructuralScore(r);
-    const outage = r.components.outageBurden.value;
-    const pop = popMap.get(r.countyFips);
-    if (need !== null && outage !== null && pop !== undefined) {
-      needScores.push(need);
-      outageScores.push(outage);
-      popScores.push(pop);
-    }
-  }
+  const sweepRows = summary.weightSweeps
+    .map(
+      (row) =>
+        `| ${row.component} | ${row.delta >= 0 ? "+" : ""}${Math.round(row.delta * 100)}% | ${pct(row.stableShare)} |`
+    )
+    .join("\n");
 
-  const rhoOutage = spearmanRho(needScores, outageScores);
-  const rhoPop = spearmanRho(needScores, popScores);
-  const stability = rankStability(structural, 0.2);
+  const looRows = summary.leaveOneOut
+    .map(
+      (row) =>
+        `| ${row.component} | ${row.scoredCounties} | ${pct(row.stableShare)} |`
+    )
+    .join("\n");
 
-  const compositePublish =
-    rhoOutage >= 0.4 && stability >= 0.8 ? "ALLOW" : "WITHHOLD";
+  const perturbationRows = summary.inputPerturbations
+    .map(
+      (row) =>
+        `| ${row.delta >= 0 ? "+" : ""}${row.delta} points | ${pct(row.stableShare)} |`
+    )
+    .join("\n");
 
   const report = `# Scoring Validation Output
 
-Generated: ${new Date().toISOString()}
 Score configuration: ${SCORE_CONFIG_VERSION}
+Deterministic artifact — regenerate with \`npm run data:validate-scoring\`. No timestamps by design.
 
 ## Outcome proxy correlation
 
 | Metric | Value | Threshold | Pass |
 |--------|-------|-----------|------|
-| Spearman ρ (structural need vs outage burden) | ${rhoOutage.toFixed(3)} | ≥ 0.4 | ${rhoOutage >= 0.4 ? "Yes" : "No"} |
-| Rank stability (±20% hazard weight) | ${(stability * 100).toFixed(1)}% | ≥ 80% | ${stability >= 0.8 ? "Yes" : "No"} |
+| Scored counties | ${summary.scoredCounties} / ${structural.length} | — | — |
+| Spearman ρ (structural need vs outage burden) | ${summary.rhoOutageBurden.toFixed(3)} | ≥ 0.4 | ${summary.rhoOutageBurden >= 0.4 ? "Yes" : "No"} |
+| Worst-case ±20% hazard-weight rank stability | ${pct(summary.hazardWeightStabilityMin)} | ≥ 80% | ${summary.hazardWeightStabilityMin >= 0.8 ? "Yes" : "No"} |
+
+## Weight sweeps (rank stability vs base within ±5 positions)
+
+| Component | Δ weight | Stable share |
+|---|---|---|
+${sweepRows}
+
+## Leave-one-component-out
+
+| Removed component | Scored counties | Rank stability |
+|---|---|---|
+${looRows}
+
+## Input-value perturbation (uniform shift of all available components)
+
+| Shift | Rank stability |
+|---|---|
+${perturbationRows}
 
 ## Urban/rural bias check
 
 | Metric | Value |
 |--------|-------|
-| Spearman ρ (structural need vs population) | ${rhoPop.toFixed(3)} |
+| Spearman ρ (structural need vs population) | ${summary.rhoPopulation.toFixed(3)} |
 
-High population correlation may indicate proxy bias — review when using authoritative SVI/NRI data.
+High population correlation is a known property of the current synthetic bundle: the social-vulnerability proxy is the population percentile itself (see docs/audit/2026-08-21-adversarial-audit.md). Re-evaluate with authoritative SVI/NRI/EAGLE-I data.
 
 ## Composite publish decision
 
-**${compositePublish}** cross-horizon composite based on current bundled estimates.
+**${summary.compositePublishDecision}** cross-horizon composite based on current bundled estimates.
 `;
 
-  const outPath = resolve(__dirname, "../docs/validation/scoring-validation-output.md");
-  writeFileSync(outPath, report);
+  writeFileSync(OUT_PATH, report);
   console.log(report);
-  console.log(`Written to ${outPath}`);
+  console.log(`Written to ${OUT_PATH}`);
 }
 
 main();
