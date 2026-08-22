@@ -1,1272 +1,2053 @@
-[
-  {
-    "countyFips": "48001",
-    "value": 60,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48003",
-    "value": 28,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48005",
-    "value": 61,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48007",
-    "value": 32,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48009",
-    "value": 70,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48011",
-    "value": 78,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48013",
-    "value": 16,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48015",
-    "value": 19,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48017",
-    "value": 57,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48019",
-    "value": 4,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48021",
-    "value": 27,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48023",
-    "value": 67,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48025",
-    "value": 23,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48027",
-    "value": 82,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48029",
-    "value": 99,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48031",
-    "value": 12,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48033",
-    "value": 41,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48035",
-    "value": 47,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48037",
-    "value": 92,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48039",
-    "value": 69,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48041",
-    "value": 59,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48043",
-    "value": 0,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48045",
-    "value": 72,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48047",
-    "value": 39,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48049",
-    "value": 42,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48051",
-    "value": 25,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48053",
-    "value": 27,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48055",
-    "value": 13,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48057",
-    "value": 27,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48059",
-    "value": 45,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48061",
-    "value": 96,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48063",
-    "value": 73,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48065",
-    "value": 86,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48067",
-    "value": 85,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48069",
-    "value": 71,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48071",
-    "value": 21,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48073",
-    "value": 61,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48075",
-    "value": 79,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48077",
-    "value": 77,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48079",
-    "value": 52,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48081",
-    "value": 29,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48083",
-    "value": 31,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48085",
-    "value": 98,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48087",
-    "value": 84,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48089",
-    "value": 8,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48091",
-    "value": 21,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48093",
-    "value": 40,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48095",
-    "value": 23,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48097",
-    "value": 84,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48099",
-    "value": 49,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48101",
-    "value": 71,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48103",
-    "value": 12,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48105",
-    "value": 6,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48107",
-    "value": 57,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48109",
-    "value": 7,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48111",
-    "value": 92,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48113",
-    "value": 99,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48115",
-    "value": 41,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48117",
-    "value": 76,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48119",
-    "value": 77,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48121",
-    "value": 97,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48123",
-    "value": 14,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48125",
-    "value": 60,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48127",
-    "value": 10,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48129",
-    "value": 83,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48131",
-    "value": 32,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48133",
-    "value": 50,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48135",
-    "value": 45,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48137",
-    "value": 3,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48139",
-    "value": 82,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48141",
-    "value": 97,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48143",
-    "value": 55,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48145",
-    "value": 34,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48147",
-    "value": 86,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48149",
-    "value": 14,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48151",
-    "value": 47,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48153",
-    "value": 66,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48155",
-    "value": 70,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48157",
-    "value": 96,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48159",
-    "value": 75,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48161",
-    "value": 54,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48163",
-    "value": 8,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48165",
-    "value": 35,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48167",
-    "value": 64,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48169",
-    "value": 51,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48171",
-    "value": 11,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48173",
-    "value": 24,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48175",
-    "value": 18,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48177",
-    "value": 6,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48179",
-    "value": 89,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48181",
-    "value": 93,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48183",
-    "value": 85,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48185",
-    "value": 28,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48187",
-    "value": 22,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48189",
-    "value": 69,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48191",
-    "value": 74,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48193",
-    "value": 36,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48195",
-    "value": 94,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48197",
-    "value": 76,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48199",
-    "value": 37,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48201",
-    "value": 100,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48203",
-    "value": 81,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48205",
-    "value": 87,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48207",
-    "value": 56,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48209",
-    "value": 34,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48211",
-    "value": 92,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48213",
-    "value": 68,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48215",
-    "value": 97,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48217",
-    "value": 53,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48219",
-    "value": 56,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48221",
-    "value": 59,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48223",
-    "value": 80,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48225",
-    "value": 50,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48227",
-    "value": 38,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48229",
-    "value": 4,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48231",
-    "value": 84,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48233",
-    "value": 90,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48235",
-    "value": 18,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48237",
-    "value": 66,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48239",
-    "value": 19,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48241",
-    "value": 45,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48243",
-    "value": 1,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48245",
-    "value": 65,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48247",
-    "value": 37,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48249",
-    "value": 36,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48251",
-    "value": 75,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48253",
-    "value": 53,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48255",
-    "value": 12,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48257",
-    "value": 81,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48259",
-    "value": 7,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48261",
-    "value": 49,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48263",
-    "value": 52,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48265",
-    "value": 10,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48267",
-    "value": 8,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48269",
-    "value": 63,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48271",
-    "value": 1,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48273",
-    "value": 43,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48275",
-    "value": 64,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48277",
-    "value": 88,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48279",
-    "value": 64,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48281",
-    "value": 29,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48283",
-    "value": 15,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48285",
-    "value": 9,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48287",
-    "value": 20,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48289",
-    "value": 44,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48291",
-    "value": 36,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48293",
-    "value": 46,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48295",
-    "value": 95,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48297",
-    "value": 22,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48299",
-    "value": 20,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48301",
-    "value": 15,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48303",
-    "value": 94,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48305",
-    "value": 48,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48307",
-    "value": 25,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48309",
-    "value": 80,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48311",
-    "value": 18,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48313",
-    "value": 34,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48315",
-    "value": 73,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48317",
-    "value": 32,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48319",
-    "value": 16,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48321",
-    "value": 29,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48323",
-    "value": 10,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48325",
-    "value": 5,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48327",
-    "value": 17,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48329",
-    "value": 48,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48331",
-    "value": 30,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48333",
-    "value": 31,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48335",
-    "value": 35,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48337",
-    "value": 81,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48339",
-    "value": 93,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48341",
-    "value": 89,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48343",
-    "value": 77,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48345",
-    "value": 68,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48347",
-    "value": 62,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48349",
-    "value": 58,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48351",
-    "value": 44,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48353",
-    "value": 38,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48355",
-    "value": 87,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48357",
-    "value": 95,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48359",
-    "value": 82,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48361",
-    "value": 43,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48363",
-    "value": 56,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48365",
-    "value": 66,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48367",
-    "value": 78,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48369",
-    "value": 65,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48371",
-    "value": 5,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48373",
-    "value": 44,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48375",
-    "value": 95,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48377",
-    "value": 1,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48379",
-    "value": 69,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48381",
-    "value": 90,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48383",
-    "value": 19,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48385",
-    "value": 3,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48387",
-    "value": 86,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48389",
-    "value": 13,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48391",
-    "value": 24,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48393",
-    "value": 90,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48395",
-    "value": 33,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48397",
-    "value": 79,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48399",
-    "value": 31,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48401",
-    "value": 68,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48403",
-    "value": 54,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48405",
-    "value": 53,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48407",
-    "value": 33,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48409",
-    "value": 40,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48411",
-    "value": 26,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48413",
-    "value": 11,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48415",
-    "value": 49,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48417",
-    "value": 51,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48419",
-    "value": 62,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48421",
-    "value": 94,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48423",
-    "value": 91,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48425",
-    "value": 51,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48427",
-    "value": 60,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48429",
-    "value": 55,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48431",
-    "value": 26,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48433",
-    "value": 55,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48435",
-    "value": 6,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48437",
-    "value": 71,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48439",
-    "value": 99,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48441",
-    "value": 63,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48443",
-    "value": 2,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48445",
-    "value": 47,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48447",
-    "value": 58,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48449",
-    "value": 83,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48451",
-    "value": 39,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48453",
-    "value": 98,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48455",
-    "value": 40,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48457",
-    "value": 42,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48459",
-    "value": 74,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48461",
-    "value": 16,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48463",
-    "value": 3,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48465",
-    "value": 2,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48467",
-    "value": 72,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48469",
-    "value": 30,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48471",
-    "value": 46,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48473",
-    "value": 25,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48475",
-    "value": 14,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48477",
-    "value": 23,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48479",
-    "value": 67,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48481",
-    "value": 17,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48483",
-    "value": 88,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48485",
-    "value": 91,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48487",
-    "value": 79,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48489",
-    "value": 58,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48491",
-    "value": 88,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48493",
-    "value": 9,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48495",
-    "value": 21,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48497",
-    "value": 75,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48499",
-    "value": 73,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48501",
-    "value": 42,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48503",
-    "value": 62,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48505",
-    "value": 38,
-    "quality": "estimated"
-  },
-  {
-    "countyFips": "48507",
-    "value": 5,
-    "quality": "estimated"
-  }
-]
+{
+  "provenance": {
+    "id": "fema_nri",
+    "sourceName": "FEMA National Risk Index (v1.20) — counties",
+    "endpoint": "https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Counties/FeatureServer/0",
+    "arcgisItemId": "39485e8035d446a5bff03259508ae355",
+    "owner": "FEMA_NationalRiskIndex",
+    "field": "RISK_SCORE",
+    "rawFieldMeaning": "NRI composite Risk Score: expected annual loss x social vulnerability x community resilience, normalized nationally.",
+    "vintage": "v1.20 (live service snapshot)",
+    "acquiredAt": "2026-08-22T20:16:11.441Z",
+    "coverage": "254/254",
+    "quality": "cached",
+    "transformation": "Percentile rank (mid-rank) of RISK_SCORE among the 254 Texas counties; raw score preserved in rawValue.",
+    "limitation": "Composite planning proxy for relative hazard risk; not an outage forecast or reliability measure.",
+    "license": "Public domain (U.S. federal government work)",
+    "recordsFingerprint": "d82a585d3e6bc31dded3e0209a7425b95e0313cba21b3f0e826156b5f304e3cd"
+  },
+  "records": [
+    {
+      "countyFips": "48001",
+      "countyName": "Anderson County",
+      "rawValue": 73.6323155216285,
+      "rating": "Relatively Low",
+      "value": 72,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48003",
+      "countyName": "Andrews County",
+      "rawValue": 8.969465648854962,
+      "rating": "Very Low",
+      "value": 14,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48005",
+      "countyName": "Angelina County",
+      "rawValue": 71.81933842239185,
+      "rating": "Relatively Low",
+      "value": 71,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48007",
+      "countyName": "Aransas County",
+      "rawValue": 61.19592875318066,
+      "rating": "Relatively Low",
+      "value": 60,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48009",
+      "countyName": "Archer County",
+      "rawValue": 7.697201017811704,
+      "rating": "Very Low",
+      "value": 13,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48011",
+      "countyName": "Armstrong County",
+      "rawValue": 20.0381679389313,
+      "rating": "Very Low",
+      "value": 25,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48013",
+      "countyName": "Atascosa County",
+      "rawValue": 60.68702290076335,
+      "rating": "Relatively Low",
+      "value": 58,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48015",
+      "countyName": "Austin County",
+      "rawValue": 53.14885496183206,
+      "rating": "Relatively Low",
+      "value": 49,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48017",
+      "countyName": "Bailey County",
+      "rawValue": 42.43002544529262,
+      "rating": "Very Low",
+      "value": 44,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48019",
+      "countyName": "Bandera County",
+      "rawValue": 66.69847328244275,
+      "rating": "Relatively Low",
+      "value": 66,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48021",
+      "countyName": "Bastrop County",
+      "rawValue": 81.1704834605598,
+      "rating": "Relatively Moderate",
+      "value": 81,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48023",
+      "countyName": "Baylor County",
+      "rawValue": 17.493638676844782,
+      "rating": "Very Low",
+      "value": 22,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48025",
+      "countyName": "Bee County",
+      "rawValue": 62.69083969465649,
+      "rating": "Relatively Low",
+      "value": 62,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48027",
+      "countyName": "Bell County",
+      "rawValue": 91.12595419847328,
+      "rating": "Relatively Moderate",
+      "value": 92,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48029",
+      "countyName": "Bexar County",
+      "rawValue": 99.42748091603053,
+      "rating": "Relatively High",
+      "value": 99,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48031",
+      "countyName": "Blanco County",
+      "rawValue": 33.01526717557252,
+      "rating": "Very Low",
+      "value": 36,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48033",
+      "countyName": "Borden County",
+      "rawValue": 5.693384223918575,
+      "rating": "Very Low",
+      "value": 10,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48035",
+      "countyName": "Bosque County",
+      "rawValue": 36.895674300254456,
+      "rating": "Very Low",
+      "value": 40,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48037",
+      "countyName": "Bowie County",
+      "rawValue": 79.00763358778626,
+      "rating": "Relatively Low",
+      "value": 78,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48039",
+      "countyName": "Brazoria County",
+      "rawValue": 93.63867684478372,
+      "rating": "Relatively Moderate",
+      "value": 94,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48041",
+      "countyName": "Brazos County",
+      "rawValue": 88.35877862595419,
+      "rating": "Relatively Moderate",
+      "value": 90,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48043",
+      "countyName": "Brewster County",
+      "rawValue": 21.055979643765905,
+      "rating": "Very Low",
+      "value": 26,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48045",
+      "countyName": "Briscoe County",
+      "rawValue": 8.746819338422391,
+      "rating": "Very Low",
+      "value": 14,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48047",
+      "countyName": "Brooks County",
+      "rawValue": 60.81424936386769,
+      "rating": "Relatively Low",
+      "value": 59,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48049",
+      "countyName": "Brown County",
+      "rawValue": 64.8854961832061,
+      "rating": "Relatively Low",
+      "value": 64,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48051",
+      "countyName": "Burleson County",
+      "rawValue": 29.134860050890588,
+      "rating": "Very Low",
+      "value": 32,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48053",
+      "countyName": "Burnet County",
+      "rawValue": 76.62213740458014,
+      "rating": "Relatively Low",
+      "value": 75,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48055",
+      "countyName": "Caldwell County",
+      "rawValue": 79.77099236641222,
+      "rating": "Relatively Low",
+      "value": 79,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48057",
+      "countyName": "Calhoun County",
+      "rawValue": 66.2531806615776,
+      "rating": "Relatively Low",
+      "value": 65,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48059",
+      "countyName": "Callahan County",
+      "rawValue": 14.694656488549619,
+      "rating": "Very Low",
+      "value": 21,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48061",
+      "countyName": "Cameron County",
+      "rawValue": 97.29643765903307,
+      "rating": "Relatively High",
+      "value": 97,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48063",
+      "countyName": "Camp County",
+      "rawValue": 39.344783715012724,
+      "rating": "Very Low",
+      "value": 42,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48065",
+      "countyName": "Carson County",
+      "rawValue": 25.222646310432573,
+      "rating": "Very Low",
+      "value": 29,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48067",
+      "countyName": "Cass County",
+      "rawValue": 50.795165394402034,
+      "rating": "Relatively Low",
+      "value": 46,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48069",
+      "countyName": "Castro County",
+      "rawValue": 34.4147582697201,
+      "rating": "Very Low",
+      "value": 37,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48071",
+      "countyName": "Chambers County",
+      "rawValue": 51.844783715012724,
+      "rating": "Relatively Low",
+      "value": 48,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48073",
+      "countyName": "Cherokee County",
+      "rawValue": 61.641221374045806,
+      "rating": "Relatively Low",
+      "value": 61,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48075",
+      "countyName": "Childress County",
+      "rawValue": 19.561068702290076,
+      "rating": "Very Low",
+      "value": 23,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48077",
+      "countyName": "Clay County",
+      "rawValue": 14.28117048346056,
+      "rating": "Very Low",
+      "value": 20,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48079",
+      "countyName": "Cochran County",
+      "rawValue": 12.786259541984732,
+      "rating": "Very Low",
+      "value": 19,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48081",
+      "countyName": "Coke County",
+      "rawValue": 3.657760814249364,
+      "rating": "Very Low",
+      "value": 7,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48083",
+      "countyName": "Coleman County",
+      "rawValue": 20.610687022900763,
+      "rating": "Very Low",
+      "value": 25,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48085",
+      "countyName": "Collin County",
+      "rawValue": 98.85496183206108,
+      "rating": "Relatively High",
+      "value": 98,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48087",
+      "countyName": "Collingsworth County",
+      "rawValue": 27.417302798982192,
+      "rating": "Very Low",
+      "value": 31,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48089",
+      "countyName": "Colorado County",
+      "rawValue": 62.24554707379135,
+      "rating": "Relatively Low",
+      "value": 62,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48091",
+      "countyName": "Comal County",
+      "rawValue": 92.68447837150127,
+      "rating": "Relatively Moderate",
+      "value": 93,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48093",
+      "countyName": "Comanche County",
+      "rawValue": 51.01781170483461,
+      "rating": "Relatively Low",
+      "value": 47,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48095",
+      "countyName": "Concho County",
+      "rawValue": 4.484732824427481,
+      "rating": "Very Low",
+      "value": 9,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48097",
+      "countyName": "Cooke County",
+      "rawValue": 73.31424936386769,
+      "rating": "Relatively Low",
+      "value": 72,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48099",
+      "countyName": "Coryell County",
+      "rawValue": 63.42239185750637,
+      "rating": "Relatively Low",
+      "value": 63,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48101",
+      "countyName": "Cottle County",
+      "rawValue": 12.46819338422392,
+      "rating": "Very Low",
+      "value": 18,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48103",
+      "countyName": "Crane County",
+      "rawValue": 1.145038167938931,
+      "rating": "Very Low",
+      "value": 3,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48105",
+      "countyName": "Crockett County",
+      "rawValue": 5.820610687022901,
+      "rating": "Very Low",
+      "value": 11,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48107",
+      "countyName": "Crosby County",
+      "rawValue": 23.727735368956743,
+      "rating": "Very Low",
+      "value": 28,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48109",
+      "countyName": "Culberson County",
+      "rawValue": 11.641221374045802,
+      "rating": "Very Low",
+      "value": 18,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48111",
+      "countyName": "Dallam County",
+      "rawValue": 51.14503816793893,
+      "rating": "Relatively Low",
+      "value": 47,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48113",
+      "countyName": "Dallas County",
+      "rawValue": 99.6501272264631,
+      "rating": "Very High",
+      "value": 99,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48115",
+      "countyName": "Dawson County",
+      "rawValue": 38.74045801526718,
+      "rating": "Very Low",
+      "value": 42,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48117",
+      "countyName": "Deaf Smith County",
+      "rawValue": 61.800254452926204,
+      "rating": "Relatively Low",
+      "value": 61,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48119",
+      "countyName": "Delta County",
+      "rawValue": 8.9058524173028,
+      "rating": "Very Low",
+      "value": 14,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48121",
+      "countyName": "Denton County",
+      "rawValue": 96.9147582697201,
+      "rating": "Relatively High",
+      "value": 96,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48123",
+      "countyName": "DeWitt County",
+      "rawValue": 83.9058524173028,
+      "rating": "Relatively Moderate",
+      "value": 85,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48125",
+      "countyName": "Dickens County",
+      "rawValue": 13.61323155216285,
+      "rating": "Very Low",
+      "value": 19,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48127",
+      "countyName": "Dimmit County",
+      "rawValue": 35.87786259541985,
+      "rating": "Very Low",
+      "value": 39,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48129",
+      "countyName": "Donley County",
+      "rawValue": 26.622137404580155,
+      "rating": "Very Low",
+      "value": 30,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48131",
+      "countyName": "Duval County",
+      "rawValue": 54.42111959287532,
+      "rating": "Relatively Low",
+      "value": 50,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48133",
+      "countyName": "Eastland County",
+      "rawValue": 41.157760814249365,
+      "rating": "Very Low",
+      "value": 43,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48135",
+      "countyName": "Ector County",
+      "rawValue": 82.82442748091603,
+      "rating": "Relatively Moderate",
+      "value": 84,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48137",
+      "countyName": "Edwards County",
+      "rawValue": 5.725190839694656,
+      "rating": "Very Low",
+      "value": 10,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48139",
+      "countyName": "Ellis County",
+      "rawValue": 81.61577608142494,
+      "rating": "Relatively Moderate",
+      "value": 82,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48141",
+      "countyName": "El Paso County",
+      "rawValue": 95.45165394402035,
+      "rating": "Relatively High",
+      "value": 94,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48143",
+      "countyName": "Erath County",
+      "rawValue": 75,
+      "rating": "Relatively Low",
+      "value": 73,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48145",
+      "countyName": "Falls County",
+      "rawValue": 26.240458015267176,
+      "rating": "Very Low",
+      "value": 29,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48147",
+      "countyName": "Fannin County",
+      "rawValue": 68.12977099236642,
+      "rating": "Relatively Low",
+      "value": 67,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48149",
+      "countyName": "Fayette County",
+      "rawValue": 57.98346055979644,
+      "rating": "Relatively Low",
+      "value": 54,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48151",
+      "countyName": "Fisher County",
+      "rawValue": 1.940203562340967,
+      "rating": "Very Low",
+      "value": 4,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48153",
+      "countyName": "Floyd County",
+      "rawValue": 30.725190839694655,
+      "rating": "Very Low",
+      "value": 34,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48155",
+      "countyName": "Foard County",
+      "rawValue": 4.4529262086514,
+      "rating": "Very Low",
+      "value": 9,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48157",
+      "countyName": "Fort Bend County",
+      "rawValue": 97.45547073791349,
+      "rating": "Relatively High",
+      "value": 97,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48159",
+      "countyName": "Franklin County",
+      "rawValue": 24.80916030534351,
+      "rating": "Very Low",
+      "value": 28,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48161",
+      "countyName": "Freestone County",
+      "rawValue": 56.52035623409669,
+      "rating": "Relatively Low",
+      "value": 53,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48163",
+      "countyName": "Frio County",
+      "rawValue": 55.94783715012722,
+      "rating": "Relatively Low",
+      "value": 52,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48165",
+      "countyName": "Gaines County",
+      "rawValue": 57.63358778625955,
+      "rating": "Relatively Low",
+      "value": 53,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48167",
+      "countyName": "Galveston County",
+      "rawValue": 95.3880407124682,
+      "rating": "Relatively High",
+      "value": 94,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48169",
+      "countyName": "Garza County",
+      "rawValue": 20.006361323155218,
+      "rating": "Very Low",
+      "value": 25,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48171",
+      "countyName": "Gillespie County",
+      "rawValue": 57.69720101781171,
+      "rating": "Relatively Low",
+      "value": 54,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48173",
+      "countyName": "Glasscock County",
+      "rawValue": 4.262086513994911,
+      "rating": "Very Low",
+      "value": 8,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48175",
+      "countyName": "Goliad County",
+      "rawValue": 22.58269720101781,
+      "rating": "Very Low",
+      "value": 27,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48177",
+      "countyName": "Gonzales County",
+      "rawValue": 85.65521628498728,
+      "rating": "Relatively Moderate",
+      "value": 87,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48179",
+      "countyName": "Gray County",
+      "rawValue": 59.891857506361326,
+      "rating": "Relatively Low",
+      "value": 57,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48181",
+      "countyName": "Grayson County",
+      "rawValue": 80.3117048346056,
+      "rating": "Relatively Low",
+      "value": 80,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48183",
+      "countyName": "Gregg County",
+      "rawValue": 86.99109414758269,
+      "rating": "Relatively Moderate",
+      "value": 90,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48185",
+      "countyName": "Grimes County",
+      "rawValue": 56.965648854961835,
+      "rating": "Relatively Low",
+      "value": 53,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48187",
+      "countyName": "Guadalupe County",
+      "rawValue": 91.50763358778626,
+      "rating": "Relatively Moderate",
+      "value": 93,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48189",
+      "countyName": "Hale County",
+      "rawValue": 78.43511450381679,
+      "rating": "Relatively Low",
+      "value": 77,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48191",
+      "countyName": "Hall County",
+      "rawValue": 34.605597964376585,
+      "rating": "Very Low",
+      "value": 38,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48193",
+      "countyName": "Hamilton County",
+      "rawValue": 12.849872773536896,
+      "rating": "Very Low",
+      "value": 19,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48195",
+      "countyName": "Hansford County",
+      "rawValue": 41.98473282442748,
+      "rating": "Very Low",
+      "value": 44,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48197",
+      "countyName": "Hardeman County",
+      "rawValue": 8.651399491094146,
+      "rating": "Very Low",
+      "value": 13,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48199",
+      "countyName": "Hardin County",
+      "rawValue": 69.56106870229007,
+      "rating": "Relatively Low",
+      "value": 68,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48201",
+      "countyName": "Harris County",
+      "rawValue": 99.93638676844783,
+      "rating": "Very High",
+      "value": 100,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48203",
+      "countyName": "Harrison County",
+      "rawValue": 77.70356234096693,
+      "rating": "Relatively Low",
+      "value": 77,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48205",
+      "countyName": "Hartley County",
+      "rawValue": 33.11068702290076,
+      "rating": "Very Low",
+      "value": 36,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48207",
+      "countyName": "Haskell County",
+      "rawValue": 11.704834605597965,
+      "rating": "Very Low",
+      "value": 18,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48209",
+      "countyName": "Hays County",
+      "rawValue": 90.55343511450383,
+      "rating": "Relatively Moderate",
+      "value": 92,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48211",
+      "countyName": "Hemphill County",
+      "rawValue": 16.50763358778626,
+      "rating": "Very Low",
+      "value": 21,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48213",
+      "countyName": "Henderson County",
+      "rawValue": 84.54198473282443,
+      "rating": "Relatively Moderate",
+      "value": 86,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48215",
+      "countyName": "Hidalgo County",
+      "rawValue": 99.01399491094148,
+      "rating": "Relatively High",
+      "value": 98,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48217",
+      "countyName": "Hill County",
+      "rawValue": 72.96437659033079,
+      "rating": "Relatively Low",
+      "value": 71,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48219",
+      "countyName": "Hockley County",
+      "rawValue": 51.43129770992366,
+      "rating": "Relatively Low",
+      "value": 47,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48221",
+      "countyName": "Hood County",
+      "rawValue": 70.51526717557252,
+      "rating": "Relatively Low",
+      "value": 69,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48223",
+      "countyName": "Hopkins County",
+      "rawValue": 71.2150127226463,
+      "rating": "Relatively Low",
+      "value": 70,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48225",
+      "countyName": "Houston County",
+      "rawValue": 60.655216284987276,
+      "rating": "Relatively Low",
+      "value": 58,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48227",
+      "countyName": "Howard County",
+      "rawValue": 54.80279898218829,
+      "rating": "Relatively Low",
+      "value": 50,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48229",
+      "countyName": "Hudspeth County",
+      "rawValue": 2.290076335877862,
+      "rating": "Very Low",
+      "value": 5,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48231",
+      "countyName": "Hunt County",
+      "rawValue": 82.1882951653944,
+      "rating": "Relatively Moderate",
+      "value": 83,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48233",
+      "countyName": "Hutchinson County",
+      "rawValue": 67.68447837150127,
+      "rating": "Relatively Low",
+      "value": 66,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48235",
+      "countyName": "Irion County",
+      "rawValue": 1.78117048346056,
+      "rating": "Very Low",
+      "value": 3,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48237",
+      "countyName": "Jack County",
+      "rawValue": 11.38676844783715,
+      "rating": "Very Low",
+      "value": 17,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48239",
+      "countyName": "Jackson County",
+      "rawValue": 71.69211195928753,
+      "rating": "Relatively Low",
+      "value": 70,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48241",
+      "countyName": "Jasper County",
+      "rawValue": 61.1323155216285,
+      "rating": "Relatively Low",
+      "value": 60,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48243",
+      "countyName": "Jeff Davis County",
+      "rawValue": 2.926208651399491,
+      "rating": "Very Low",
+      "value": 5,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48245",
+      "countyName": "Jefferson County",
+      "rawValue": 95.67430025445293,
+      "rating": "Relatively High",
+      "value": 95,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48247",
+      "countyName": "Jim Hogg County",
+      "rawValue": 45.45165394402035,
+      "rating": "Relatively Low",
+      "value": 45,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48249",
+      "countyName": "Jim Wells County",
+      "rawValue": 86.51399491094148,
+      "rating": "Relatively Moderate",
+      "value": 88,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48251",
+      "countyName": "Johnson County",
+      "rawValue": 86.67302798982189,
+      "rating": "Relatively Moderate",
+      "value": 89,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48253",
+      "countyName": "Jones County",
+      "rawValue": 37.94529262086514,
+      "rating": "Very Low",
+      "value": 41,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48255",
+      "countyName": "Karnes County",
+      "rawValue": 58.42875318066157,
+      "rating": "Relatively Low",
+      "value": 55,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48257",
+      "countyName": "Kaufman County",
+      "rawValue": 76.17684478371501,
+      "rating": "Relatively Low",
+      "value": 75,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48259",
+      "countyName": "Kendall County",
+      "rawValue": 65.48982188295165,
+      "rating": "Relatively Low",
+      "value": 65,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48261",
+      "countyName": "Kenedy County",
+      "rawValue": 28.37150127226463,
+      "rating": "Very Low",
+      "value": 32,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48263",
+      "countyName": "Kent County",
+      "rawValue": 1.081424936386768,
+      "rating": "Very Low",
+      "value": 2,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48265",
+      "countyName": "Kerr County",
+      "rawValue": 77.16284987277355,
+      "rating": "Relatively Low",
+      "value": 76,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48267",
+      "countyName": "Kimble County",
+      "rawValue": 32.156488549618324,
+      "rating": "Very Low",
+      "value": 35,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48269",
+      "countyName": "King County",
+      "rawValue": 0.318066157760814,
+      "rating": "Very Low",
+      "value": 1,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48271",
+      "countyName": "Kinney County",
+      "rawValue": 2.194656488549618,
+      "rating": "Very Low",
+      "value": 4,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48273",
+      "countyName": "Kleberg County",
+      "rawValue": 84.4147582697201,
+      "rating": "Relatively Moderate",
+      "value": 86,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48275",
+      "countyName": "Knox County",
+      "rawValue": 17.84351145038168,
+      "rating": "Very Low",
+      "value": 23,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48277",
+      "countyName": "Lamar County",
+      "rawValue": 79.54834605597965,
+      "rating": "Relatively Low",
+      "value": 79,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48279",
+      "countyName": "Lamb County",
+      "rawValue": 61.22773536895675,
+      "rating": "Relatively Low",
+      "value": 60,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48281",
+      "countyName": "Lampasas County",
+      "rawValue": 29.930025445292618,
+      "rating": "Very Low",
+      "value": 33,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48283",
+      "countyName": "La Salle County",
+      "rawValue": 22.55089058524173,
+      "rating": "Very Low",
+      "value": 27,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48285",
+      "countyName": "Lavaca County",
+      "rawValue": 78.9440203562341,
+      "rating": "Relatively Low",
+      "value": 78,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48287",
+      "countyName": "Lee County",
+      "rawValue": 40.458015267175576,
+      "rating": "Very Low",
+      "value": 42,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48289",
+      "countyName": "Leon County",
+      "rawValue": 58.30152671755725,
+      "rating": "Relatively Low",
+      "value": 55,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48291",
+      "countyName": "Liberty County",
+      "rawValue": 79.51653944020356,
+      "rating": "Relatively Low",
+      "value": 79,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48293",
+      "countyName": "Limestone County",
+      "rawValue": 59.25572519083969,
+      "rating": "Relatively Low",
+      "value": 57,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48295",
+      "countyName": "Lipscomb County",
+      "rawValue": 27.89440203562341,
+      "rating": "Very Low",
+      "value": 31,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48297",
+      "countyName": "Live Oak County",
+      "rawValue": 33.74681933842239,
+      "rating": "Very Low",
+      "value": 36,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48299",
+      "countyName": "Llano County",
+      "rawValue": 70.3880407124682,
+      "rating": "Relatively Low",
+      "value": 69,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48301",
+      "countyName": "Loving County",
+      "rawValue": 0.031806615776081,
+      "rating": "Very Low",
+      "value": 0,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48303",
+      "countyName": "Lubbock County",
+      "rawValue": 96.2468193384224,
+      "rating": "Relatively High",
+      "value": 95,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48305",
+      "countyName": "Lynn County",
+      "rawValue": 22.99618320610687,
+      "rating": "Very Low",
+      "value": 27,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48307",
+      "countyName": "McCulloch County",
+      "rawValue": 10.05089058524173,
+      "rating": "Very Low",
+      "value": 16,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48309",
+      "countyName": "McLennan County",
+      "rawValue": 91.22137404580153,
+      "rating": "Relatively Moderate",
+      "value": 92,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48311",
+      "countyName": "McMullen County",
+      "rawValue": 0.572519083969466,
+      "rating": "Very Low",
+      "value": 1,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48313",
+      "countyName": "Madison County",
+      "rawValue": 34.891857506361326,
+      "rating": "Very Low",
+      "value": 38,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48315",
+      "countyName": "Marion County",
+      "rawValue": 29.166666666666668,
+      "rating": "Very Low",
+      "value": 32,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48317",
+      "countyName": "Martin County",
+      "rawValue": 19.974554707379134,
+      "rating": "Very Low",
+      "value": 24,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48319",
+      "countyName": "Mason County",
+      "rawValue": 10.973282442748092,
+      "rating": "Very Low",
+      "value": 17,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48321",
+      "countyName": "Matagorda County",
+      "rawValue": 80.34351145038168,
+      "rating": "Relatively Low",
+      "value": 80,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48323",
+      "countyName": "Maverick County",
+      "rawValue": 64.15394402035624,
+      "rating": "Relatively Low",
+      "value": 64,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48325",
+      "countyName": "Medina County",
+      "rawValue": 68.70229007633588,
+      "rating": "Relatively Low",
+      "value": 67,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48327",
+      "countyName": "Menard County",
+      "rawValue": 3.053435114503817,
+      "rating": "Very Low",
+      "value": 5,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48329",
+      "countyName": "Midland County",
+      "rawValue": 81.20229007633588,
+      "rating": "Relatively Moderate",
+      "value": 82,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48331",
+      "countyName": "Milam County",
+      "rawValue": 58.07888040712468,
+      "rating": "Relatively Low",
+      "value": 55,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48333",
+      "countyName": "Mills County",
+      "rawValue": 5.597964376590331,
+      "rating": "Very Low",
+      "value": 10,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48335",
+      "countyName": "Mitchell County",
+      "rawValue": 19.751908396946565,
+      "rating": "Very Low",
+      "value": 24,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48337",
+      "countyName": "Montague County",
+      "rawValue": 54.86641221374045,
+      "rating": "Relatively Low",
+      "value": 51,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48339",
+      "countyName": "Montgomery County",
+      "rawValue": 95.73791348600508,
+      "rating": "Relatively High",
+      "value": 95,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48341",
+      "countyName": "Moore County",
+      "rawValue": 61.895674300254456,
+      "rating": "Relatively Low",
+      "value": 62,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48343",
+      "countyName": "Morris County",
+      "rawValue": 34.541984732824424,
+      "rating": "Very Low",
+      "value": 37,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48345",
+      "countyName": "Motley County",
+      "rawValue": 3.180661577608142,
+      "rating": "Very Low",
+      "value": 6,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48347",
+      "countyName": "Nacogdoches County",
+      "rawValue": 80.72519083969466,
+      "rating": "Relatively Low",
+      "value": 81,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48349",
+      "countyName": "Navarro County",
+      "rawValue": 75.25445292620864,
+      "rating": "Relatively Low",
+      "value": 73,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48351",
+      "countyName": "Newton County",
+      "rawValue": 27.16284987277354,
+      "rating": "Very Low",
+      "value": 31,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48353",
+      "countyName": "Nolan County",
+      "rawValue": 37.849872773536894,
+      "rating": "Very Low",
+      "value": 41,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48355",
+      "countyName": "Nueces County",
+      "rawValue": 96.62849872773536,
+      "rating": "Relatively High",
+      "value": 96,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48357",
+      "countyName": "Ochiltree County",
+      "rawValue": 34.86005089058524,
+      "rating": "Very Low",
+      "value": 38,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48359",
+      "countyName": "Oldham County",
+      "rawValue": 9.701017811704835,
+      "rating": "Very Low",
+      "value": 15,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48361",
+      "countyName": "Orange County",
+      "rawValue": 85.90966921119593,
+      "rating": "Relatively Moderate",
+      "value": 88,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48363",
+      "countyName": "Palo Pinto County",
+      "rawValue": 55.216284987277355,
+      "rating": "Relatively Low",
+      "value": 51,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48365",
+      "countyName": "Panola County",
+      "rawValue": 55.43893129770993,
+      "rating": "Relatively Low",
+      "value": 51,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48367",
+      "countyName": "Parker County",
+      "rawValue": 81.10687022900763,
+      "rating": "Relatively Moderate",
+      "value": 81,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48369",
+      "countyName": "Parmer County",
+      "rawValue": 81.80661577608143,
+      "rating": "Relatively Moderate",
+      "value": 82,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48371",
+      "countyName": "Pecos County",
+      "rawValue": 25.127226463104325,
+      "rating": "Very Low",
+      "value": 29,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48373",
+      "countyName": "Polk County",
+      "rawValue": 75.57251908396947,
+      "rating": "Relatively Low",
+      "value": 74,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48375",
+      "countyName": "Potter County",
+      "rawValue": 90.48982188295165,
+      "rating": "Relatively Moderate",
+      "value": 91,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48377",
+      "countyName": "Presidio County",
+      "rawValue": 10.241730279898219,
+      "rating": "Very Low",
+      "value": 16,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48379",
+      "countyName": "Rains County",
+      "rawValue": 14.09033078880407,
+      "rating": "Very Low",
+      "value": 20,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48381",
+      "countyName": "Randall County",
+      "rawValue": 86.76844783715013,
+      "rating": "Relatively Moderate",
+      "value": 89,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48383",
+      "countyName": "Reagan County",
+      "rawValue": 5.884223918575064,
+      "rating": "Very Low",
+      "value": 11,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48385",
+      "countyName": "Real County",
+      "rawValue": 42.589058524173026,
+      "rating": "Very Low",
+      "value": 44,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48387",
+      "countyName": "Red River County",
+      "rawValue": 64.7264631043257,
+      "rating": "Relatively Low",
+      "value": 64,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48389",
+      "countyName": "Reeves County",
+      "rawValue": 19.147582697201017,
+      "rating": "Very Low",
+      "value": 23,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48391",
+      "countyName": "Refugio County",
+      "rawValue": 37.468193384223916,
+      "rating": "Very Low",
+      "value": 40,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48393",
+      "countyName": "Roberts County",
+      "rawValue": 3.11704834605598,
+      "rating": "Very Low",
+      "value": 6,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48395",
+      "countyName": "Robertson County",
+      "rawValue": 29.580152671755727,
+      "rating": "Very Low",
+      "value": 33,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48397",
+      "countyName": "Rockwall County",
+      "rawValue": 70.73791348600508,
+      "rating": "Relatively Low",
+      "value": 69,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48399",
+      "countyName": "Runnels County",
+      "rawValue": 26.494910941475823,
+      "rating": "Very Low",
+      "value": 30,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48401",
+      "countyName": "Rusk County",
+      "rawValue": 54.007633587786266,
+      "rating": "Relatively Low",
+      "value": 49,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48403",
+      "countyName": "Sabine County",
+      "rawValue": 22.105597964376592,
+      "rating": "Very Low",
+      "value": 26,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48405",
+      "countyName": "San Augustine County",
+      "rawValue": 17.62086513994911,
+      "rating": "Very Low",
+      "value": 22,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48407",
+      "countyName": "San Jacinto County",
+      "rawValue": 58.87404580152672,
+      "rating": "Relatively Low",
+      "value": 56,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48409",
+      "countyName": "San Patricio County",
+      "rawValue": 85.40076335877863,
+      "rating": "Relatively Moderate",
+      "value": 87,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48411",
+      "countyName": "San Saba County",
+      "rawValue": 7.283715012722647,
+      "rating": "Very Low",
+      "value": 12,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48413",
+      "countyName": "Schleicher County",
+      "rawValue": 3.753180661577608,
+      "rating": "Very Low",
+      "value": 7,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48415",
+      "countyName": "Scurry County",
+      "rawValue": 29.993638676844785,
+      "rating": "Very Low",
+      "value": 34,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48417",
+      "countyName": "Shackelford County",
+      "rawValue": 1.431297709923664,
+      "rating": "Very Low",
+      "value": 3,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48419",
+      "countyName": "Shelby County",
+      "rawValue": 55.72519083969466,
+      "rating": "Relatively Low",
+      "value": 52,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48421",
+      "countyName": "Sherman County",
+      "rawValue": 30.279898218829516,
+      "rating": "Very Low",
+      "value": 34,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48423",
+      "countyName": "Smith County",
+      "rawValue": 84.16030534351145,
+      "rating": "Relatively Moderate",
+      "value": 85,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48425",
+      "countyName": "Somervell County",
+      "rawValue": 10.814249363867685,
+      "rating": "Very Low",
+      "value": 16,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48427",
+      "countyName": "Starr County",
+      "rawValue": 84.79643765903307,
+      "rating": "Relatively Moderate",
+      "value": 86,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48429",
+      "countyName": "Stephens County",
+      "rawValue": 9.223918575063614,
+      "rating": "Very Low",
+      "value": 15,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48431",
+      "countyName": "Sterling County",
+      "rawValue": 1.11323155216285,
+      "rating": "Very Low",
+      "value": 2,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48433",
+      "countyName": "Stonewall County",
+      "rawValue": 3.816793893129771,
+      "rating": "Very Low",
+      "value": 8,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48435",
+      "countyName": "Sutton County",
+      "rawValue": 7.061068702290077,
+      "rating": "Very Low",
+      "value": 12,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48437",
+      "countyName": "Swisher County",
+      "rawValue": 37.43638676844784,
+      "rating": "Very Low",
+      "value": 40,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48439",
+      "countyName": "Tarrant County",
+      "rawValue": 99.14122137404581,
+      "rating": "Relatively High",
+      "value": 99,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48441",
+      "countyName": "Taylor County",
+      "rawValue": 83.81043256997455,
+      "rating": "Relatively Moderate",
+      "value": 84,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48443",
+      "countyName": "Terrell County",
+      "rawValue": 0.413486005089058,
+      "rating": "Very Low",
+      "value": 1,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48445",
+      "countyName": "Terry County",
+      "rawValue": 52.035623409669206,
+      "rating": "Relatively Low",
+      "value": 48,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48447",
+      "countyName": "Throckmorton County",
+      "rawValue": 3.307888040712468,
+      "rating": "Very Low",
+      "value": 6,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48449",
+      "countyName": "Titus County",
+      "rawValue": 46.81933842239186,
+      "rating": "Relatively Low",
+      "value": 46,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48451",
+      "countyName": "Tom Green County",
+      "rawValue": 77.32188295165395,
+      "rating": "Relatively Low",
+      "value": 76,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48453",
+      "countyName": "Travis County",
+      "rawValue": 97.74173027989822,
+      "rating": "Relatively High",
+      "value": 97,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48455",
+      "countyName": "Trinity County",
+      "rawValue": 60.62340966921119,
+      "rating": "Relatively Low",
+      "value": 58,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48457",
+      "countyName": "Tyler County",
+      "rawValue": 61.00508905852418,
+      "rating": "Relatively Low",
+      "value": 59,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48459",
+      "countyName": "Upshur County",
+      "rawValue": 66.92111959287533,
+      "rating": "Relatively Low",
+      "value": 66,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48461",
+      "countyName": "Upton County",
+      "rawValue": 7.665394402035624,
+      "rating": "Very Low",
+      "value": 12,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48463",
+      "countyName": "Uvalde County",
+      "rawValue": 70.0381679389313,
+      "rating": "Relatively Low",
+      "value": 68,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48465",
+      "countyName": "Val Verde County",
+      "rawValue": 76.08142493638677,
+      "rating": "Relatively Low",
+      "value": 75,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48467",
+      "countyName": "Van Zandt County",
+      "rawValue": 58.778625954198475,
+      "rating": "Relatively Low",
+      "value": 56,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48469",
+      "countyName": "Victoria County",
+      "rawValue": 86.4821882951654,
+      "rating": "Relatively Moderate",
+      "value": 88,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48471",
+      "countyName": "Walker County",
+      "rawValue": 73.82315521628499,
+      "rating": "Relatively Low",
+      "value": 73,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48473",
+      "countyName": "Waller County",
+      "rawValue": 70.26081424936386,
+      "rating": "Relatively Low",
+      "value": 68,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48475",
+      "countyName": "Ward County",
+      "rawValue": 15.362595419847327,
+      "rating": "Very Low",
+      "value": 21,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48477",
+      "countyName": "Washington County",
+      "rawValue": 71.97837150127226,
+      "rating": "Relatively Low",
+      "value": 71,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48479",
+      "countyName": "Webb County",
+      "rawValue": 89.24936386768448,
+      "rating": "Relatively Moderate",
+      "value": 90,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48481",
+      "countyName": "Wharton County",
+      "rawValue": 83.01526717557252,
+      "rating": "Relatively Moderate",
+      "value": 84,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48483",
+      "countyName": "Wheeler County",
+      "rawValue": 41.28498727735369,
+      "rating": "Very Low",
+      "value": 43,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48485",
+      "countyName": "Wichita County",
+      "rawValue": 81.90203562340967,
+      "rating": "Relatively Moderate",
+      "value": 83,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48487",
+      "countyName": "Wilbarger County",
+      "rawValue": 46.087786259541986,
+      "rating": "Relatively Low",
+      "value": 45,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48489",
+      "countyName": "Willacy County",
+      "rawValue": 77.48091603053436,
+      "rating": "Relatively Low",
+      "value": 77,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48491",
+      "countyName": "Williamson County",
+      "rawValue": 90.10814249363868,
+      "rating": "Relatively Moderate",
+      "value": 91,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48493",
+      "countyName": "Wilson County",
+      "rawValue": 75.54071246819338,
+      "rating": "Relatively Low",
+      "value": 74,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48495",
+      "countyName": "Winkler County",
+      "rawValue": 4.134860050890586,
+      "rating": "Very Low",
+      "value": 8,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48497",
+      "countyName": "Wise County",
+      "rawValue": 58.96946564885496,
+      "rating": "Relatively Low",
+      "value": 56,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48499",
+      "countyName": "Wood County",
+      "rawValue": 63.231552162849866,
+      "rating": "Relatively Low",
+      "value": 63,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48501",
+      "countyName": "Yoakum County",
+      "rawValue": 46.0559796437659,
+      "rating": "Relatively Low",
+      "value": 45,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48503",
+      "countyName": "Young County",
+      "rawValue": 36.354961832061065,
+      "rating": "Very Low",
+      "value": 39,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48505",
+      "countyName": "Zapata County",
+      "rawValue": 31.361323155216287,
+      "rating": "Very Low",
+      "value": 35,
+      "quality": "cached"
+    },
+    {
+      "countyFips": "48507",
+      "countyName": "Zavala County",
+      "rawValue": 53.62595419847328,
+      "rating": "Relatively Low",
+      "value": 49,
+      "quality": "cached"
+    }
+  ]
+}
