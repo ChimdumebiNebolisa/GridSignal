@@ -63,6 +63,8 @@ Every score-bearing component exposes value, quality, source, vintage, explanati
 
 ## Manifest
 
-`src/data/manifests/data-version.json` publishes `schemaVersion`, `scoreConfigVersion`, `generatedAt`, and source records with id, vintage, fetched timestamp, coverage, quality, and available provenance/limitation metadata.
+`src/data/manifests/data-version.json` publishes `schemaVersion`, `scoreConfigVersion`, `generatedAt`, source records (id, vintage, built time, coverage, quality, method, limitation), and SHA-256 `fingerprints` for bundled inputs and generated indicators.
 
-Current score configuration version: `two-axis-v1`.
+Current schema version: `2.2.0`. Current score configuration version: `two-axis-v1`.
+
+Provenance rule: bundled structural and solar components use `synthetic_*` source ids and are never attributed to authoritative providers until a real ingest replaces them (ADR 002). `npm run data:validate` enforces fingerprints, component↔manifest binding, and this rule.

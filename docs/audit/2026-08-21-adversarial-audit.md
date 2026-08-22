@@ -104,7 +104,8 @@ Note: every gate is green while the underlying finding F-001 exists — the chec
 | F-008 | Medium | P2 | High | Data/Search | City/ZIP lookup collisions resolved silently (last-writer-wins); two competing generators write the same files |
 | F-009 | Low | P3 | High | Search/UX | Partial county-name matches carry confidence "exact" |
 | F-010 | Low | P3 | High | UX | SearchBox response race (no cancellation of stale requests) |
-| F-011 | Low | P3 | High | Hygiene | `tsconfig.tsbuildinfo`/`next-env.d.ts` tracked despite gitignore patterns |
+
+**Retracted during remediation:** an eleventh hygiene finding ("tsconfig.tsbuildinfo/next-env.d.ts tracked despite gitignore") was retracted after verification — `git ls-files --error-unmatch` proves both files are untracked and correctly ignored. The initial census conflated an on-disk listing with the tracked-file index.
 
 ## 7. Detailed Findings (evidence)
 
@@ -136,7 +137,7 @@ Note: every gate is green while the underlying finding F-001 exists — the chec
 ### F-008 — Lookup generation collisions
 - **Evidence:** `generate-cache-data.ts:214` and `generate-lookup-data.ts:110` both assign `cityMap[name] = {single county}` — duplicate city names collapse last-writer-wins; both scripts target the same output files with different upstream sources/methods. Verified example: "Fairview" absent entirely; ZIP 75104 (Cedar Hill, spans two counties) resolves to first crosswalk row.
 
-### F-009/F-010/F-011
+### F-009/F-010
 - `countySearch.ts:38-51`: startsWith/contains matches assigned `confidence:"exact"`.
 - `SearchBox.tsx:17-35`: no AbortController; out-of-order responses can render stale result sets.
 - `.gitignore` lists `*.tsbuildinfo`/`next-env.d.ts`; both are tracked.
@@ -173,3 +174,4 @@ Note: every gate is green while the underlying finding F-001 exists — the chec
 - **P3/R5:** Hygiene (untrack ignored build artifacts). *(Implemented)*
 
 Residual limitations after remediation: authoritative FEMA/SVI/EAGLE-I/PVWatts ingest remains future work requiring external downloads; until then the axes are explicitly-labeled synthetic planning proxies. Live-keyed API behavior untested against real services.
+

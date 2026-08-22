@@ -35,10 +35,12 @@ All responses expose quality/timestamp/limitation metadata where applicable. Err
 ## Data and cache policy
 
 - County geometry, centroids, population, utility context, indicators, and solar/weather caches are bundled static data.
-- Weather and grid upstream requests use bounded timeouts and explicit cache/fallback behavior.
-- PVWatts falls back to bundled solar cache; EIA falls back to the documented statewide sample.
+- Bundled structural and solar indicator values are synthetic planning proxies (`synthetic_*` ids, ADR 002); authoritative ingest paths live in `scripts/ingest/` and the build refuses to fabricate missing snapshots.
+- The data manifest records SHA-256 fingerprints of inputs and generated indicators; `npm run data:validate` re-verifies them.
+- Weather and grid upstream requests use bounded timeouts and explicit cache/fallback behavior; cache fallbacks re-check freshness so stale snapshots stay labeled stale.
+- PVWatts falls back to the bundled solar proxy (clearly labeled, never attributed to NREL); EIA falls back to the documented statewide sample.
 - Runtime code does not write cache files.
-- Private API keys are server-only.
+- Private API keys are server-only. The homepage renders per request so operational context is not baked at build time.
 
 ## Accessibility and performance
 

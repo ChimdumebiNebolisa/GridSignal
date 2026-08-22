@@ -7,11 +7,13 @@ Texas county-level public-data explorer for structural resilience need, backup f
 GridSignal publishes two separate annual planning axes:
 
 - **Structural resilience need**: hazard exposure, social vulnerability, and historical outage-burden indicators.
-- **Backup feasibility**: solar-resource feasibility using a standard county-centroid PVWatts assumption.
+- **Backup feasibility**: solar-resource feasibility using a standard county-centroid 4 kW system assumption.
+
+**Provenance status (2026-08 audit):** the bundled structural and solar indicator values are **synthetic planning proxies** — deterministic placeholders derived from county-centroid geometry and population (see [docs/audit/2026-08-21-adversarial-audit.md](docs/audit/2026-08-21-adversarial-audit.md) and ADR 002). They are labeled `synthetic_*` in data, manifest, UI, and reports, and are **not** derived from FEMA NRI, CDC/ATSDR SVI, DOE EAGLE-I, or NREL PVWatts until an authoritative ingest replaces them (`scripts/ingest/` documents each path). Weather cache values are genuine Open-Meteo centroid forecasts (bundled snapshot); live Open-Meteo, EIA ERCO, Census, and keyed NREL PVWatts integrations are real.
 
 Current weather stress and statewide ERCO grid conditions are shown as operational context only. They do not affect county rankings. GridSignal is a planning signal, not an outage prediction, reliability determination, or professional advice.
 
-Structural scores are withheld when more than one required component is missing. Missing, estimated, cached, stale, fallback, and unavailable data are labeled in profiles and reports.
+Structural scores are withheld when more than one required component is missing. Missing, estimated, cached, stale, fallback, and unavailable data are labeled in profiles and reports. Every build publishes SHA-256 fingerprints of inputs and generated indicators; `npm run data:validate` re-verifies them.
 
 ## Local run
 
@@ -46,12 +48,12 @@ npm run build
 ## Data and limitations
 
 - Structural and feasibility indicators are bundled snapshots and must be refreshed through the data-build/ingest workflow.
-- FEMA NRI, CDC/ATSDR SVI, and DOE EAGLE-I values are labeled estimated in the current bundle.
-- Solar values are cached or estimated; PVWatts uses a standard 4 kW system at the county centroid and is not site-specific design advice.
-- Weather uses county-centroid forecasts and may be cached or unavailable.
-- ERCO/EIA grid load is statewide or balancing-authority context, not county-specific reliability.
+- The current structural and solar bundles are **synthetic placeholders** (`synthetic_hazard`, `synthetic_svi`, `synthetic_outage`, `synthetic_solar`), labeled "Estimated" throughout. The social-vulnerability proxy is the population percentile itself, so high population correlation is structural in this bundle.
+- Weather uses county-centroid Open-Meteo forecasts and may be cached (stale snapshots are labeled) or unavailable.
+- ERCO/EIA grid load is statewide or balancing-authority context, not county-specific reliability; the "peak" shown is the trailing 30-day demand max, not a forecast.
+- The homepage "Current conditions" weather number is the median across all bundled county forecasts, not one county's reading.
 - Utility/service-territory context is approximate and does not affect scores.
-- The current structural validation reports 0.603 Spearman correlation with the outage-burden proxy, 55.1% rank stability under the documented perturbation, and 0.887 population correlation; the cross-horizon composite remains withheld.
+- Deterministic validation on the current bundle: 0.603 Spearman correlation with the outage-burden proxy, worst-case ±20% hazard-weight rank stability of 54.7% (< 80% gate), leave-one-component-out rank stability between 14.6% and 22.0%, and 0.887 population correlation; the cross-horizon composite remains withheld.
 
 ## Environment variables
 
