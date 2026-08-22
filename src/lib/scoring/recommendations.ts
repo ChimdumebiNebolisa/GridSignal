@@ -13,7 +13,9 @@ export function buildRecommendation(profile: CountyEnergyProfile): string {
     const reason =
       need.noScoreReason === "missing_components"
         ? "more than one indicator component is missing"
-        : "the required indicator data is unavailable";
+        : need.noScoreReason === "gates_failed"
+          ? "coverage or sensitivity validation gates failed for the current data bundle"
+          : "the required indicator data is unavailable";
     return `Structural resilience need is withheld because ${reason}.${driverText} Review the component breakdown and data gaps. Backup feasibility is ${feasibilityLabel}. This is a planning signal, not an outage prediction.`;
   }
 

@@ -2,6 +2,7 @@
 
 import type { NoScoreReason, PlanningLabel } from "@/types/county";
 import { getPlanningLabelDisplayText } from "@/lib/scoring/labels";
+import { noScoreReasonText } from "@/lib/scoring/gates";
 
 type IndicatorSummaryProps = {
   title: string;
@@ -33,9 +34,7 @@ export function IndicatorSummary({
       <p className="mt-1 text-xs text-slate-500">
         {score !== null
           ? getPlanningLabelDisplayText(label as PlanningLabel)
-          : noScoreReason === "missing_components"
-            ? "Score withheld because more than one indicator component is missing"
-            : "Score unavailable because required indicator data is unavailable"}
+          : noScoreReasonText(noScoreReason ?? "unavailable")}
       </p>
       {subtitle && <p className="mt-2 text-xs text-slate-500">{subtitle}</p>}
     </div>

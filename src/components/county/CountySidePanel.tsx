@@ -3,6 +3,7 @@
 import type { CountyEnergyProfile } from "@/types/county";
 import { IndicatorSummary } from "./ScoreSummary";
 import { ScoreBreakdown } from "./ScoreBreakdown";
+import { ScenarioPanel } from "./ScenarioPanel";
 import { RecommendationCard } from "./RecommendationCard";
 import { DataQualityBadge } from "./DataQualityBadge";
 import { ReportActions } from "./ReportActions";
@@ -78,6 +79,8 @@ export function CountySidePanel({
       </div>
 
       <ScoreBreakdown profile={profile} />
+
+      <ScenarioPanel structural={profile.structuralNeed} />
 
       <RecommendationCard recommendation={profile.recommendation} />
 

@@ -8,7 +8,7 @@
 export type BackupPriorityLabel = "Low" | "Medium" | "High" | "Critical";
 
 export type PlanningLabel = "Lower" | "Moderate" | "Elevated" | "Highest";
-export type NoScoreReason = "missing_components" | "unavailable";
+export type NoScoreReason = "missing_components" | "unavailable" | "gates_failed";
 
 export type GridRegion = "ERCOT" | "Non-ERCOT" | "Unknown";
 
@@ -27,12 +27,9 @@ export type UtilityContextQuality =
   | "unknown";
 
 /**
- * Identifies the origin of a displayed value.
- *
- * `synthetic_*` ids denote bundled deterministic planning proxies derived from
- * county-centroid geometry and population placeholders (ADR 002, audit F-001/F-002).
- * They MUST NOT be attributed to authoritative providers (FEMA NRI, CDC SVI,
- * DOE EAGLE-I, NREL PVWatts) until a real ingest replaces them.
+ * Identifies the origin of a displayed value. Bundled indicator values come
+ * from authoritative public ingests (fema_nri, cdc_svi, eagle_i, pvgis_nsrdb);
+ * runtime context comes from open_meteo / eia_grid_monitor.
  */
 export type SourceName =
   | "county_geojson"
@@ -40,10 +37,10 @@ export type SourceName =
   | "open_meteo"
   | "eia_grid_monitor"
   | "puct_utility_context"
-  | "synthetic_hazard"
-  | "synthetic_svi"
-  | "synthetic_outage"
-  | "synthetic_solar";
+  | "fema_nri"
+  | "cdc_svi"
+  | "eagle_i"
+  | "pvgis_nsrdb";
 
 export type LayerName =
   | "structuralNeed"
@@ -61,21 +58,42 @@ export type MissingPolicy =
 export type ProvenanceRecord = {
   id: string;
   vintage: string;
-  /**
-   * For `synthetic_*` sources this records when the placeholder snapshot was
-   * built — never an upstream acquisition time (none exists).
-   */
+  /** When this snapshot was acquired from the authoritative upstream. */
   fetchedAt: string;
   coverage: string;
   quality: DataQuality;
   url?: string;
+  endpoint?: string;
+  /** e.g. "blocked" when an authoritative acquisition is documented as infeasible. */
+  status?: string;
   owner?: string;
   license?: string;
   sha256?: string;
   limitation?: string;
   staleAfterHours?: number;
-  /** How the bundled values were produced; required for synthetic proxies. */
+  /** How bundled values were produced (field used + transformation). */
   method?: string;
+};
+
+/** Build-time publication gates. Rankings are withheld when gates fail. */
+export type RankingGates = {
+  structural: {
+    /** Share of counties with a computable structural score (0-1). */
+    coverageShare: number;
+    coveragePass: boolean;
+    stabilityWorstCase: number | null;
+    stabilityPass: boolean | null;
+    proxyCorrelation: number | null;
+    proxyPass: boolean | null;
+    pass: boolean;
+    notes: string[];
+  };
+  feasibility: {
+    coverageShare: number;
+    coveragePass: boolean;
+    pass: boolean;
+  };
+  rankingsPublished: boolean;
 };
 
 export type DataManifest = {
@@ -83,6 +101,7 @@ export type DataManifest = {
   scoreConfigVersion: string;
   generatedAt: string;
   sources: ProvenanceRecord[];
+  gates?: RankingGates;
   /**
    * SHA-256 content fingerprints (hex) of bundled input datasets and generated
    * indicator artifacts, keyed by path relative to src/data. Enables
@@ -103,6 +122,10 @@ export type IndicatorComponent = {
   vintage: string;
   explanation: string;
   imputed?: boolean;
+  /** When the value was acquired from its authoritative upstream, if applicable. */
+  acquiredAt?: string;
+  /** Upstream acquisition/refresh path, when applicable. */
+  method?: string;
 };
 
 export type StructuralNeedProfile = {
