@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { SearchResult } from "@/types/county";
 
 type SearchBoxProps = {
@@ -13,8 +13,15 @@ export function SearchBox({ onSelectCounty }: SearchBoxProps) {
   const [open, setOpen] = useState(false);
   const [loading, setLoading] = useState(false);
   const [empty, setEmpty] = useState(false);
+  const abortRef = useRef<AbortController | null>(null);
 
   const runSearch = useCallback(async (q: string) => {
+    // Cancel any in-flight request so an out-of-order response can never
+    // overwrite a newer result set (audit F-010).
+    abortRef.current?.abort();
+    const controller = new AbortController();
+    abortRef.current = controller;
+
     if (!q.trim()) {
       setResults([]);
       setEmpty(false);
@@ -22,15 +29,18 @@ export function SearchBox({ onSelectCounty }: SearchBoxProps) {
     }
     setLoading(true);
     try {
-      const res = await fetch(`/api/search?q=${encodeURIComponent(q)}`);
+      const res = await fetch(`/api/search?q=${encodeURIComponent(q)}`, {
+        signal: controller.signal,
+      });
       const data = await res.json();
       setResults(data.results ?? []);
       setEmpty((data.results ?? []).length === 0);
-    } catch {
+    } catch (error) {
+      if ((error as Error).name === "AbortError") return;
       setResults([]);
       setEmpty(true);
     } finally {
-      setLoading(false);
+      if (!controller.signal.aborted) setLoading(false);
     }
   }, []);
 
@@ -47,6 +57,10 @@ export function SearchBox({ onSelectCounty }: SearchBoxProps) {
     }, 300);
     return () => clearTimeout(timer);
   }, [query, runSearch]);
+
+  useEffect(() => {
+    return () => abortRef.current?.abort();
+  }, []);
 
   function handleSelect(result: SearchResult) {
     onSelectCounty(result.countyFips);

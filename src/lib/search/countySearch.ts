@@ -40,14 +40,15 @@ export function searchCountyNames(
         countyFips: county.countyFips,
         displayName: county.countyName,
         matchType: "county",
-        confidence: "exact",
+        // Partial name matches are not exact county identification.
+        confidence: "approximate",
       });
     } else if (name.includes(q) || nameNoSuffix.includes(q)) {
       contains.push({
         countyFips: county.countyFips,
         displayName: county.countyName,
         matchType: "county",
-        confidence: "exact",
+        confidence: "approximate",
       });
     }
   }
