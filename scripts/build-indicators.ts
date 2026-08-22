@@ -1,15 +1,16 @@
 /**
- * Build county indicator snapshots from bundled source files.
+ * Build county indicator snapshots from authoritative ingested sources.
  * Run: npx tsx scripts/build-indicators.ts
  *
- * Provenance policy (ADR 002, audit F-001/F-002/F-003):
- * - Bundled structural/feasibility values are SYNTHETIC planning proxies
- *   derived from county-centroid geometry and population placeholders.
- * - They are labeled `synthetic_*` end-to-end and are NEVER attributed to
- *   FEMA NRI, CDC SVI, DOE EAGLE-I, or NREL PVWatts until a real ingest lands.
- * - Missing source snapshots abort the build; this script never fabricates data.
- * - The manifest records SHA-256 fingerprints of every input and output so the
- *   bundle is machine-verifiable (npm run data:validate).
+ * Provenance policy (ADR 002/003):
+ * - Structural and solar values come exclusively from authoritative ingests
+ *   (FEMA NRI, CDC/ATSDR SVI, DOE EAGLE-I when available, EC JRC PVGIS).
+ * - Source snapshots use a provenance-envelope format with per-file
+ *   fingerprints; missing or tampered snapshots abort the build.
+ * - The DOE EAGLE-I archive is currently a documented BLOCKED acquisition;
+ *   its component is unavailable — never fabricated or proxied.
+ * - Coverage/sensitivity gates are evaluated at build time and recorded in
+ *   the manifest; runtime withholds ordinal rankings when gates fail.
  */
 
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from "fs";
@@ -17,6 +18,11 @@ import { createHash } from "crypto";
 import { resolve } from "path";
 import { calculateStructuralNeed } from "@/lib/scoring/structuralNeed";
 import { SCORE_CONFIG_VERSION } from "@/types/scoring";
+import {
+  computeValidationSummary,
+  type StructuralRecord,
+} from "@/lib/scoring/validationMetrics";
+import type { RankingGates } from "@/types/county";
 
 const ROOT = resolve(__dirname, "..");
 const DATA = resolve(ROOT, "src/data");
@@ -24,96 +30,181 @@ const SOURCES = resolve(DATA, "sources");
 const INDICATORS = resolve(DATA, "indicators");
 const MANIFESTS = resolve(DATA, "manifests");
 
-type Centroid = {
-  countyFips: string;
-  countyName: string;
-  centroidLat: number;
-  centroidLon: number;
+type Centroid = { countyFips: string; countyName: string; centroidLat: number; centroidLon: number };
+type PopulationRecord = { countyFips: string; population: number };
+
+type Envelope = {
+  provenance: {
+    id: string;
+    sourceName: string;
+    endpoint?: string;
+    owner?: string;
+    field?: string;
+    vintage: string;
+    acquiredAt: string;
+    coverage: string;
+    quality: string;
+    transformation?: string;
+    limitation: string;
+    license?: string;
+    recordsFingerprint?: string;
+    fingerprint?: string;
+    attributionNote?: string;
+    status?: string;
+    reason?: string;
+  };
+  records: Array<{
+    countyFips: string;
+    rawValue?: number | null;
+    value: number | null;
+    quality: string;
+  }>;
 };
 
-type PopulationRecord = {
-  countyFips: string;
-  population: number;
-};
-
-type SourceCountyValue = {
-  countyFips: string;
-  value: number | null;
-  quality: "cached" | "estimated";
-};
-
-function readJson<T>(path: string): T {
-  return JSON.parse(readFileSync(path, "utf-8")) as T;
-}
-
-function percentileRank(value: number, all: number[]): number {
-  const sorted = [...all].sort((a, b) => a - b);
-  const below = sorted.filter((v) => v < value).length;
-  const equal = sorted.filter((v) => v === value).length;
-  return Math.round(((below + 0.5 * equal) / sorted.length) * 100);
+function sha256(text: string): string {
+  return createHash("sha256").update(text).digest("hex");
 }
 
 function sha256File(path: string): string {
-  return createHash("sha256").update(readFileSync(path)).digest("hex");
+  return sha256(readFileSync(path));
 }
 
-function requireSourceSnapshots(): {
-  hazard: SourceCountyValue[];
-  svi: SourceCountyValue[];
-  outage: SourceCountyValue[];
-} {
-  const hazardPath = resolve(SOURCES, "fema_nri/county-hazard.json");
-  const sviPath = resolve(SOURCES, "cdc_svi/county-svi.json");
-  const outagePath = resolve(SOURCES, "eagle_i/county-outage-burden.json");
+function loadEnvelope(path: string): Envelope | null {
+  if (!existsSync(path)) return null;
+  const env = JSON.parse(readFileSync(path, "utf-8")) as Envelope;
+  if (!env.provenance || !Array.isArray(env.records)) {
+    throw new Error(`Malformed source snapshot envelope: ${path}`);
+  }
+  const expected = env.provenance.recordsFingerprint ?? env.provenance.fingerprint;
+  if (!expected) throw new Error(`Snapshot ${path} has no records fingerprint`);
+  const actual = sha256(JSON.stringify(env.records));
+  if (actual !== expected) {
+    throw new Error(`Snapshot fingerprint mismatch for ${path}: manifest=${expected} actual=${actual}`);
+  }
+  return env;
+}
 
-  const missing = [hazardPath, sviPath, outagePath].filter((p) => !existsSync(p));
-  if (missing.length > 0) {
+function requireEnvelope(id: string, path: string): Envelope {
+  const env = loadEnvelope(path);
+  if (!env) {
     throw new Error(
-      "Missing bundled source snapshot(s):\n  " +
-        missing.join("\n  ") +
-        "\nAuthoritative ingest is required (see scripts/ingest/). " +
-        "This build intentionally refuses to fabricate source data."
+      `Missing authoritative snapshot for ${id}: ${path}\n` +
+        "Run the corresponding scripts/ingest/* pipeline. This build never fabricates source data."
     );
   }
+  return env;
+}
+
+function recordMap(env: Envelope): Map<string, Envelope["records"][number]> {
+  return new Map(env.records.map((r) => [r.countyFips, r]));
+}
+
+/** Coverage/sensitivity gates. Rankings are published only when all pass. */
+function evaluateGates(
+  structural: StructuralRecord[],
+  populations: Map<string, number>,
+  feasibilityScored: number,
+  total: number
+): RankingGates {
+  const summary = computeValidationSummary(structural, populations);
+  const coverageShare = summary.scoredCounties / total;
+  const coveragePass = coverageShare >= 0.9;
+
+  const stabilityWorstCase = summary.hazardWeightStabilityMin;
+  const stabilityPass = stabilityWorstCase >= 0.8;
+
+  // Outcome-proxy correlation only applies when the outage-burden component
+  // is present; otherwise it is not applicable (null), not failing.
+  const outagePresent = structural.some(
+    (r) => r.components.outageBurden.value !== null
+  );
+  const proxyCorrelation = outagePresent ? summary.rhoOutageBurden : null;
+  const proxyPass = proxyCorrelation === null ? null : proxyCorrelation >= 0.4;
+
+  const notes: string[] = [];
+  if (!coveragePass) notes.push("structural coverage below 90%");
+  if (stabilityPass === false)
+    notes.push("worst-case +/-20% weight sweep rank stability below 80%");
+  if (proxyPass === false) notes.push("outcome-proxy correlation below 0.4");
+
+  const feasCoverage = feasibilityScored / total;
+  const feasPass = feasCoverage >= 0.9;
+
+  const structuralPass =
+    coveragePass && stabilityPass !== false && proxyPass !== false;
 
   return {
-    hazard: readJson(hazardPath),
-    svi: readJson(sviPath),
-    outage: readJson(outagePath),
+    structural: {
+      coverageShare,
+      coveragePass,
+      stabilityWorstCase,
+      stabilityPass,
+      proxyCorrelation,
+      proxyPass,
+      pass: structuralPass,
+      notes,
+    },
+    feasibility: { coverageShare: feasCoverage, coveragePass: feasPass, pass: feasPass },
+    rankingsPublished: structuralPass && feasPass,
   };
 }
 
 function main() {
   const centroids = readJson<Centroid[]>(resolve(DATA, "county-centroids.json"));
   const populations = readJson<PopulationRecord[]>(resolve(DATA, "county-population.json"));
+  const popMap = new Map(populations.map((p) => [p.countyFips, p.population]));
+
+  const hazardEnv = requireEnvelope(
+    "fema_nri",
+    resolve(SOURCES, "fema_nri/county-hazard.json")
+  );
+  const sviEnv = requireEnvelope("cdc_svi", resolve(SOURCES, "cdc_svi/county-svi.json"));
+
+  const outagePath = resolve(SOURCES, "eagle_i/county-outage-burden.json");
+  const outageBlockedPath = resolve(SOURCES, "eagle_i/blocked.json");
+  const outageEnv = loadEnvelope(outagePath); // may be null -> component unavailable
+  if (!outageEnv && !existsSync(outageBlockedPath)) {
+    throw new Error(
+      "No EAGLE-I snapshot and no blocked.json marker. Run scripts/ingest/eagle-i.ts to record the acquisition state."
+    );
+  }
+
   const solarCache = readJson<
-    { countyFips: string; annualAcKwh: number; quality: string; fetchedAt: string }[]
+    { countyFips: string; annualAcKwh: number; systemCapacityKw: number; fetchedAt: string; quality: string }[]
   >(resolve(DATA, "cache/solar-potential-by-county.json"));
+  const solarProvPath = resolve(DATA, "cache/solar-potential-provenance.json");
+  if (!existsSync(solarProvPath)) {
+    throw new Error(
+      "Missing cache/solar-potential-provenance.json. Solar values must come from scripts/ingest/pvgis-solar.ts."
+    );
+  }
+  const solarProv = JSON.parse(readFileSync(solarProvPath, "utf-8")) as Envelope["provenance"];
+  const solarExpected = solarProv.fingerprint;
+  const solarActual = sha256(JSON.stringify(solarCache));
+  if (solarExpected !== solarActual) {
+    throw new Error(
+      `Solar cache fingerprint mismatch: manifest=${solarExpected} actual=${solarActual}`
+    );
+  }
 
-  const { hazard, svi, outage } = requireSourceSnapshots();
-  const hazardMap = new Map(hazard.map((h) => [h.countyFips, h]));
-  const sviMap = new Map(svi.map((s) => [s.countyFips, s]));
-  const outageMap = new Map(outage.map((o) => [o.countyFips, o]));
-
-  const allSolarKwh = solarCache.filter((s) => s.annualAcKwh > 0).map((s) => s.annualAcKwh);
-  // Generation time of the bundled synthetic solar placeholder cache.
-  const solarCacheBuiltAt =
-    solarCache.find((s) => s.fetchedAt)?.fetchedAt ?? new Date().toISOString();
+  const hazardByFips = recordMap(hazardEnv);
+  const sviByFips = recordMap(sviEnv);
+  const outageByFips = outageEnv ? recordMap(outageEnv) : new Map();
+  const solarByFips = new Map(solarCache.map((s) => [s.countyFips, s]));
 
   mkdirSync(INDICATORS, { recursive: true });
   mkdirSync(MANIFESTS, { recursive: true });
 
-  const syntheticNote =
-    "Synthetic planning proxy — not authoritative source data. Pending ingest.";
-
-  const structuralNeedInputs = centroids.map((c) => {
-    const h = hazardMap.get(c.countyFips);
-    const s = sviMap.get(c.countyFips);
-    const o = outageMap.get(c.countyFips);
+  const structuralNeedInputs: StructuralRecord[] = centroids.map((c) => {
+    const h = hazardByFips.get(c.countyFips);
+    const s = sviByFips.get(c.countyFips);
+    const o = outageByFips.get(c.countyFips);
     const missing: string[] = [];
     if (h?.value == null) missing.push("hazardExposure");
     if (s?.value == null) missing.push("socialVulnerability");
     if (o?.value == null) missing.push("outageBurden");
+
+    const outageUnavailableText = `Historical outage burden unavailable: the DOE EAGLE-I archive acquisition is documented as blocked (sources/eagle_i/blocked.json).`;
 
     return {
       countyFips: c.countyFips,
@@ -122,121 +213,150 @@ function main() {
         hazardExposure: {
           value: h?.value ?? null,
           quality: h?.quality ?? "unavailable",
-          source: "synthetic_hazard",
-          vintage: "synthetic-v1",
-          explanation: `Hazard-exposure proxy percentile among Texas counties (${h?.value ?? "unavailable"}). ${syntheticNote}`,
-          imputed: h?.quality === "estimated",
+          source: "fema_nri",
+          vintage: hazardEnv.provenance.vintage,
+          acquiredAt: hazardEnv.provenance.acquiredAt,
+          method: `${hazardEnv.provenance.transformation ?? ""} Field ${hazardEnv.provenance.field}.`,
+          explanation: `Hazard risk percentile among Texas counties (${h?.value ?? "unavailable"}; NRI RISK_SCORE raw ${h?.rawValue ?? "n/a"}).`,
+          imputed: false,
         },
         socialVulnerability: {
           value: s?.value ?? null,
           quality: s?.quality ?? "unavailable",
-          source: "synthetic_svi",
-          vintage: "synthetic-v1",
-          explanation: `Social-vulnerability proxy percentile among Texas counties (${s?.value ?? "unavailable"}). ${syntheticNote}`,
-          imputed: s?.quality === "estimated",
+          source: "cdc_svi",
+          vintage: sviEnv.provenance.vintage,
+          acquiredAt: sviEnv.provenance.acquiredAt,
+          method: sviEnv.provenance.transformation,
+          explanation: `CDC/ATSDR SVI 2022 overall percentile, national scale (${s?.value ?? "unavailable"}).`,
+          imputed: false,
         },
-        outageBurden: {
-          value: o?.value ?? null,
-          quality: o?.quality ?? "unavailable",
-          source: "synthetic_outage",
-          vintage: "synthetic-v1",
-          explanation: `Outage-burden proxy percentile among Texas counties (${o?.value ?? "unavailable"}). ${syntheticNote}`,
-          imputed: o?.quality === "estimated",
-        },
+        outageBurden: o
+          ? {
+              value: o.value ?? null,
+              quality: o.quality ?? "unavailable",
+              source: "eagle_i",
+              vintage: outageEnv!.provenance.vintage,
+              acquiredAt: outageEnv!.provenance.acquiredAt,
+              method: outageEnv!.provenance.transformation,
+              explanation: `Historical outage burden percentile (${o.value ?? "unavailable"}).`,
+              imputed: false,
+            }
+          : {
+              value: null,
+              quality: "unavailable" as const,
+              source: "eagle_i",
+              vintage: "n/a",
+              explanation: outageUnavailableText,
+              imputed: false,
+            },
       },
       missingComponents: missing,
-      quality: "estimated" as const,
+      quality: "cached" as const,
     };
   });
+
   const structuralNeed = structuralNeedInputs.map((record) => ({
     ...record,
     structuralNeedScore: calculateStructuralNeed(record).score,
   }));
 
+  const allSolarKwh = solarCache.filter((s) => s.annualAcKwh > 0).map((s) => s.annualAcKwh);
+
+  function percentileOf(value: number, all: number[]): number {
+    const sorted = [...all].sort((a, b) => a - b);
+    const below = sorted.filter((v) => v < value).length;
+    const equal = sorted.filter((v) => v === value).length;
+    return Math.round(((below + 0.5 * equal) / sorted.length) * 100);
+  }
+
   const feasibility = centroids.map((c) => {
-    const solar = solarCache.find((s) => s.countyFips === c.countyFips);
+    const solar = solarByFips.get(c.countyFips);
     const kwh = solar?.annualAcKwh ?? 0;
-    const score = kwh > 0 ? percentileRank(kwh, allSolarKwh) : null;
+    const score = kwh > 0 ? percentileOf(kwh, allSolarKwh) : null;
     return {
       countyFips: c.countyFips,
       feasibilityScore: score,
       components: {
         solarResource: {
           value: score,
-          quality: (solar?.quality as "cached" | "estimated") ?? "estimated",
-          source: "synthetic_solar",
-          vintage: "synthetic-v1",
-          explanation: `Solar-resource proxy percentile for a standard 4 kW system (${kwh > 0 ? Math.round(kwh).toLocaleString() : "unavailable"} kWh/yr). ${syntheticNote}`,
-          imputed: true,
+          quality: solar?.quality ?? "unavailable",
+          source: "pvgis_nsrdb",
+          vintage: solarProv.vintage,
+          acquiredAt: solar.fetchedAt,
+          method: solarProv.transformation,
+          explanation: `PVGIS/NSRDB simulated output for a standard 4 kW system (${kwh > 0 ? Math.round(kwh).toLocaleString() : "unavailable"} kWh/yr); percentile among Texas counties.`,
+          imputed: false,
         },
       },
-      quality: (solar?.quality as "cached" | "estimated") ?? "estimated",
+      quality: solar?.quality ?? "unavailable",
     };
   });
+
+  function percentileOf(value: number, all: number[]): number {
+    const sorted = [...all].sort((a, b) => a - b);
+    const below = sorted.filter((v) => v < value).length;
+    const equal = sorted.filter((v) => v === value).length;
+    return Math.round(((below + 0.5 * equal) / sorted.length) * 100);
+  }
+
+  function readJson<T>(path: string): T {
+    return JSON.parse(readFileSync(path, "utf-8")) as T;
+  }
 
   const generatedAt = new Date().toISOString();
   const structuralPath = resolve(INDICATORS, "county-structural-need.json");
   const feasibilityPath = resolve(INDICATORS, "county-feasibility.json");
 
+  const gates = evaluateGates(
+    structuralNeed,
+    popMap,
+    feasibility.filter((f) => f.feasibilityScore !== null).length,
+    centroids.length
+  );
+
   const manifest = {
-    schemaVersion: "2.2.0",
+    schemaVersion: "2.3.0",
     scoreConfigVersion: SCORE_CONFIG_VERSION,
     generatedAt,
+    gates,
     sources: [
       {
-        id: "synthetic_hazard",
+        ...hazardEnv.provenance,
+        method: hazardEnv.provenance.transformation,
+        fetchedAt: hazardEnv.provenance.acquiredAt,
         role: "structural_need_component",
-        status: "synthetic_placeholder",
-        vintage: "synthetic-v1",
-        fetchedAt: generatedAt,
-        coverage: `${centroids.length}/${centroids.length}`,
-        quality: "estimated",
-        owner: "GridSignal build pipeline",
-        method:
-          "Deterministic placeholder percentiles derived from county-centroid coordinates and population placeholders; awaiting FEMA NRI v1.20 county ingest.",
-        limitation:
-          "Not FEMA NRI data. Synthetic hazard-exposure proxy; not an outage forecast.",
       },
       {
-        id: "synthetic_svi",
+        ...sviEnv.provenance,
+        method: sviEnv.provenance.transformation,
+        fetchedAt: sviEnv.provenance.acquiredAt,
         role: "structural_need_component",
-        status: "synthetic_placeholder",
-        vintage: "synthetic-v1",
-        fetchedAt: generatedAt,
-        coverage: `${centroids.length}/${centroids.length}`,
-        quality: "estimated",
-        owner: "GridSignal build pipeline",
-        method:
-          "Placeholder percentiles of county population; awaiting CDC/ATSDR SVI county ingest.",
-        limitation: "Not CDC/ATSDR SVI data. Population is a vulnerability proxy only.",
       },
+      outageEnv
+        ? {
+            ...outageEnv.provenance,
+            method: outageEnv.provenance.transformation,
+            fetchedAt: outageEnv.provenance.acquiredAt,
+            role: "structural_need_component",
+          }
+        : {
+            id: "eagle_i",
+            sourceName: "DOE EAGLE-I county outage burden",
+            status: "blocked",
+            vintage: "n/a",
+            fetchedAt: generatedAt,
+            coverage: "0/254",
+            quality: "unavailable",
+            reason:
+              "Authoritative multi-GB archive not acquirable in this environment; see sources/eagle_i/blocked.json.",
+            limitation:
+              "Component withheld rather than fabricated; structural axis scores on remaining components.",
+            role: "structural_need_component",
+          },
       {
-        id: "synthetic_outage",
-        role: "structural_need_component",
-        status: "synthetic_placeholder",
-        vintage: "synthetic-v1",
-        fetchedAt: generatedAt,
-        coverage: `${centroids.length}/${centroids.length}`,
-        quality: "estimated",
-        owner: "GridSignal build pipeline",
-        method:
-          "Deterministic placeholder percentiles derived from county-centroid coordinates and population; awaiting DOE EAGLE-I historical aggregation.",
-        limitation:
-          "Not DOE EAGLE-I data. Synthetic outage-burden proxy; not a reliability prediction.",
-      },
-      {
-        id: "synthetic_solar",
+        ...solarProv,
+        fetchedAt: solarProv.acquiredAt,
         role: "feasibility_component",
-        status: "synthetic_placeholder",
-        vintage: "synthetic-v1",
-        fetchedAt: solarCacheBuiltAt,
-        coverage: `${solarCache.length}/${centroids.length}`,
-        quality: "estimated",
-        owner: "GridSignal build pipeline",
-        method:
-          "Deterministic longitude/latitude irradiance proxy for a standard 4 kW system at the county centroid; live NREL PVWatts remains available per-request with an API key but does not feed this bundle.",
-        limitation:
-          "Not NREL PVWatts output. Solar-resource proxy for relative comparison only.",
       },
     ],
     fingerprints: {
@@ -247,15 +367,15 @@ function main() {
         "cache/solar-potential-by-county.json": sha256File(
           resolve(DATA, "cache/solar-potential-by-county.json")
         ),
+        "cache/solar-potential-provenance.json": sha256File(solarProvPath),
         "sources/fema_nri/county-hazard.json": sha256File(
           resolve(SOURCES, "fema_nri/county-hazard.json")
         ),
-        "sources/cdc_svi/county-svi.json": sha256File(
-          resolve(SOURCES, "cdc_svi/county-svi.json")
-        ),
-        "sources/eagle_i/county-outage-burden.json": sha256File(
-          resolve(SOURCES, "eagle_i/county-outage-burden.json")
-        ),
+        "sources/cdc_svi/county-svi.json": sha256File(resolve(SOURCES, "cdc_svi/county-svi.json")),
+        ...(existsSync(outageBlockedPath)
+          ? { "sources/eagle_i/blocked.json": sha256File(outageBlockedPath) }
+          : {}),
+        ...(outageEnv ? { "sources/eagle_i/county-outage-burden.json": sha256File(outagePath) } : {}),
         "indicators/county-structural-need.json": "",
         "indicators/county-feasibility.json": "",
       } as Record<string, string>,
@@ -266,14 +386,27 @@ function main() {
   const feasibilityJson = JSON.stringify(feasibility, null, 2);
 
   manifest.fingerprints.artifacts["indicators/county-structural-need.json"] =
-    createHash("sha256").update(structuralJson).digest("hex");
+    sha256(structuralJson);
   manifest.fingerprints.artifacts["indicators/county-feasibility.json"] =
-    createHash("sha256").update(feasibilityJson).digest("hex");
+    sha256(feasibilityJson);
 
   writeFileSync(structuralPath, structuralJson);
   writeFileSync(feasibilityPath, feasibilityJson);
   writeFileSync(resolve(MANIFESTS, "data-version.json"), JSON.stringify(manifest, null, 2));
+
   console.log(`Built indicators for ${centroids.length} counties.`);
+  console.log(
+    `Gates: structural=${gates.structural.pass} feasibility=${gates.feasibility.pass} rankingsPublished=${gates.rankingsPublished}`
+  );
+  console.log(
+    `  coverage=${(gates.structural.coverageShare * 100).toFixed(1)}% stabilityWorstCase=${
+      gates.structural.stabilityWorstCase === null
+        ? "n/a"
+        : (gates.structural.stabilityWorstCase * 100).toFixed(1) + "%"
+    } proxy=${gates.structural.proxyCorrelation === null ? "n/a" : gates.structural.proxyCorrelation.toFixed(3)}`
+  );
+  for (const note of gates.structural.notes) console.log(`  gate-note: ${note}`);
 }
 
 main();
+

@@ -1,55 +1,103 @@
 {
-  "schemaVersion": "2.2.0",
+  "schemaVersion": "2.3.0",
   "scoreConfigVersion": "two-axis-v1",
-  "generatedAt": "2026-08-22T05:08:40.088Z",
+  "generatedAt": "2026-08-22T21:56:44.933Z",
+  "gates": {
+    "structural": {
+      "coverageShare": 1,
+      "coveragePass": true,
+      "stabilityWorstCase": 0.6653543307086615,
+      "stabilityPass": false,
+      "proxyCorrelation": null,
+      "proxyPass": null,
+      "pass": false,
+      "notes": [
+        "worst-case +/-20% weight sweep rank stability below 80%"
+      ]
+    },
+    "feasibility": {
+      "coverageShare": 1,
+      "coveragePass": true,
+      "pass": true
+    },
+    "rankingsPublished": false
+  },
   "sources": [
     {
-      "id": "synthetic_hazard",
-      "role": "structural_need_component",
-      "status": "synthetic_placeholder",
-      "vintage": "synthetic-v1",
-      "fetchedAt": "2026-08-22T05:08:40.088Z",
+      "id": "fema_nri",
+      "sourceName": "FEMA National Risk Index (v1.20) — counties",
+      "endpoint": "https://services.arcgis.com/XG15cJAlne2vxtgt/arcgis/rest/services/National_Risk_Index_Counties/FeatureServer/0",
+      "arcgisItemId": "39485e8035d446a5bff03259508ae355",
+      "owner": "FEMA_NationalRiskIndex",
+      "field": "RISK_SCORE",
+      "rawFieldMeaning": "NRI composite Risk Score: expected annual loss x social vulnerability x community resilience, normalized nationally.",
+      "vintage": "v1.20 (live service snapshot)",
+      "acquiredAt": "2026-08-22T20:16:11.441Z",
       "coverage": "254/254",
-      "quality": "estimated",
-      "owner": "GridSignal build pipeline",
-      "method": "Deterministic placeholder percentiles derived from county-centroid coordinates and population placeholders; awaiting FEMA NRI v1.20 county ingest.",
-      "limitation": "Not FEMA NRI data. Synthetic hazard-exposure proxy; not an outage forecast."
+      "quality": "cached",
+      "transformation": "Percentile rank (mid-rank) of RISK_SCORE among the 254 Texas counties; raw score preserved in rawValue.",
+      "limitation": "Composite planning proxy for relative hazard risk; not an outage forecast or reliability measure.",
+      "license": "Public domain (U.S. federal government work)",
+      "recordsFingerprint": "d82a585d3e6bc31dded3e0209a7425b95e0313cba21b3f0e826156b5f304e3cd",
+      "method": "Percentile rank (mid-rank) of RISK_SCORE among the 254 Texas counties; raw score preserved in rawValue.",
+      "fetchedAt": "2026-08-22T20:16:11.441Z",
+      "role": "structural_need_component"
     },
     {
-      "id": "synthetic_svi",
-      "role": "structural_need_component",
-      "status": "synthetic_placeholder",
-      "vintage": "synthetic-v1",
-      "fetchedAt": "2026-08-22T05:08:40.088Z",
+      "id": "cdc_svi",
+      "sourceName": "CDC/ATSDR Social Vulnerability Index 2022 — US counties",
+      "endpoint": "https://services3.arcgis.com/ZvidGQkLaDJxRSJ2/arcgis/rest/services/CDC_ATSDR_Social_Vulnerability_Index_2022_USA/FeatureServer/1",
+      "arcgisItemId": "f2af3fd35858443293b75d5f73c7d4d3",
+      "owner": "data_cdc",
+      "field": "RPL_THEMES",
+      "rawFieldMeaning": "Overall county summary ranking (percentile 0-1) across all four SVI themes, nationally.",
+      "vintage": "SVI 2022 (live service snapshot)",
+      "acquiredAt": "2026-08-22T20:16:16.497Z",
       "coverage": "254/254",
-      "quality": "estimated",
-      "owner": "GridSignal build pipeline",
-      "method": "Placeholder percentiles of county population; awaiting CDC/ATSDR SVI county ingest.",
-      "limitation": "Not CDC/ATSDR SVI data. Population is a vulnerability proxy only."
+      "quality": "cached",
+      "transformation": "RPL_THEMES scaled to 0-100 exactly as published by ATSDR; no re-ranking applied.",
+      "limitation": "Social vulnerability percentile; a planning indicator, not a measure of grid reliability.",
+      "license": "U.S. Government work, public domain",
+      "recordsFingerprint": "f1f3acd7b09c87772f24167a49e7ab2b17ace07a7e6d6b0ac64a51ec45c26292",
+      "method": "RPL_THEMES scaled to 0-100 exactly as published by ATSDR; no re-ranking applied.",
+      "fetchedAt": "2026-08-22T20:16:16.497Z",
+      "role": "structural_need_component"
     },
     {
-      "id": "synthetic_outage",
-      "role": "structural_need_component",
-      "status": "synthetic_placeholder",
-      "vintage": "synthetic-v1",
-      "fetchedAt": "2026-08-22T05:08:40.088Z",
-      "coverage": "254/254",
-      "quality": "estimated",
-      "owner": "GridSignal build pipeline",
-      "method": "Deterministic placeholder percentiles derived from county-centroid coordinates and population; awaiting DOE EAGLE-I historical aggregation.",
-      "limitation": "Not DOE EAGLE-I data. Synthetic outage-burden proxy; not a reliability prediction."
+      "id": "eagle_i",
+      "sourceName": "DOE EAGLE-I county outage burden",
+      "status": "blocked",
+      "vintage": "n/a",
+      "fetchedAt": "2026-08-22T21:56:44.933Z",
+      "coverage": "0/254",
+      "quality": "unavailable",
+      "reason": "Authoritative multi-GB archive not acquirable in this environment; see sources/eagle_i/blocked.json.",
+      "limitation": "Component withheld rather than fabricated; structural axis scores on remaining components.",
+      "role": "structural_need_component"
     },
     {
-      "id": "synthetic_solar",
-      "role": "feasibility_component",
-      "status": "synthetic_placeholder",
-      "vintage": "synthetic-v1",
-      "fetchedAt": "2026-05-23T04:42:53.223Z",
+      "id": "pvgis_nsrdb",
+      "sourceName": "EC JRC PVGIS v5.2 PVcalc (PVGIS-NSRDB satellite irradiance)",
+      "endpoint": "https://re.jrc.ec.europa.eu/api/v5_2/PVcalc",
+      "owner": "European Commission Joint Research Centre",
+      "attributionNote": "Irradiance source is NREL's National Solar Radiation Database (NSRDB PSM, years 2005-2015) accessed through PVGIS; temperature data ERA5; simulation is PVGIS's own PV model.",
+      "field": "outputs.totals.fixed.E_y",
+      "rawFieldMeaning": "Annual AC energy (kWh/year) of the specified PV system.",
+      "vintage": "PVGIS v5.2 / PVGIS-NSRDB (2005-2015 climatology)",
+      "acquiredAt": "2026-08-22T20:53:14.745Z",
       "coverage": "254/254",
-      "quality": "estimated",
-      "owner": "GridSignal build pipeline",
-      "method": "Deterministic longitude/latitude irradiance proxy for a standard 4 kW system at the county centroid; live NREL PVWatts remains available per-request with an API key but does not feed this bundle.",
-      "limitation": "Not NREL PVWatts output. Solar-resource proxy for relative comparison only."
+      "quality": "cached",
+      "transformation": "Standard 4 kW crystalline-Si system, fixed mounting, tilt 20deg, south-facing (aspect 0), 14% total losses; E_y rounded to 2 decimals.",
+      "limitation": "County-centroid simulation for relative feasibility comparison across counties; not a site-specific design and not an NREL PVWatts result.",
+      "license": "Free reuse with attribution (EC-JRC PVGIS terms)",
+      "fingerprint": "66271b49e0349f7df795c7cfc9482840f69ef923bfc522723be0956c29146e2f",
+      "adjustments": [
+        "48007 (Aransas County): offshore centroid moved inland 15% toward (31.05, -99.14)",
+        "48167 (Galveston County): offshore centroid moved inland 15% toward (31.05, -99.14)",
+        "48261 (Kenedy County): offshore centroid moved inland 15% toward (31.05, -99.14)"
+      ],
+      "fetchedAt": "2026-08-22T20:53:14.745Z",
+      "role": "feasibility_component"
     }
   ],
   "fingerprints": {
@@ -57,12 +105,13 @@
     "artifacts": {
       "county-centroids.json": "8684fa452a91a32291ffba1cc481c6b8c06011cbb896d269d9d5b140de4c9d94",
       "county-population.json": "8796c3828551afd2877c0f13995802fa921ac870b64c19e1d589d1211e1b3d11",
-      "cache/solar-potential-by-county.json": "d9a28fb50ba8249e04f9be02378470eee5767a99a77f185e551501a5d90c84ed",
-      "sources/fema_nri/county-hazard.json": "0bfa0f1b7e31a5746c83856f595770796d1b9a05415b15e67fc25ace865cf1d6",
-      "sources/cdc_svi/county-svi.json": "f385c6288676e6d85e44685e4f85be1840225823805e83cb2a888786d3c8200c",
-      "sources/eagle_i/county-outage-burden.json": "80ed8b7c531756581eacd36951d43b0d24278dbf1d7778200d7f1ac7bbc77762",
-      "indicators/county-structural-need.json": "647bb6dc08f32f9c410cee372ac342b6e13821485f9c4eb1a9863ba517072498",
-      "indicators/county-feasibility.json": "a5294fb8f70675fff77f522ea3d5dc29ee4cdc1e0bf94cd4fc711373ae93f10b"
+      "cache/solar-potential-by-county.json": "baee101883d0da761e08f1dfd0b2fd38ef949bbd32c20fe48dd10d7ac9bd956b",
+      "cache/solar-potential-provenance.json": "75858a11fe78bd94100a3b85ecd2275117e00aa4ef081e6abce7ad2267a3ad72",
+      "sources/fema_nri/county-hazard.json": "56f6aaa2ed77de8547e256df417f46971e610cb0dba1552105ce54c29a067f66",
+      "sources/cdc_svi/county-svi.json": "75bc00e2c49ea7fda1cef9fc4d2024b9c758814b35945138cc7fba128f3947d4",
+      "sources/eagle_i/blocked.json": "0bc4ad9e36d9648ee0a572f55994fc18c4580e2e767606dca15ddc45a8990134",
+      "indicators/county-structural-need.json": "bf54a72076eaa91bcb5a159da0369b9dda1316390ba79ea98ea85765442af513",
+      "indicators/county-feasibility.json": "4015c4f420febac6ba138774f8e5ddf308e5899313e1f35fbcba2dfe8026df51"
     }
   }
 }
