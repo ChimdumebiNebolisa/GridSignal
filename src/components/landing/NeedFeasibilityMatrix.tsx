@@ -108,13 +108,8 @@ export function NeedFeasibilityMatrix({
 
   return (
     <div className="gs-frame overflow-hidden">
-      <div className="flex items-center justify-between border-b border-[var(--gs-border)] bg-[var(--gs-canvas)] px-4 py-2">
+      <div className="border-b border-[var(--gs-border)] bg-[var(--gs-canvas)] px-4 py-2">
         <span className="font-mono text-xs font-semibold">NEED VS FEASIBILITY MATRIX</span>
-        {isGated && (
-          <span className="rounded-sm border border-[#ead79c] bg-[var(--gs-warning-bg)] px-1.5 py-0.5 font-mono text-[9px] tracking-widest text-[var(--gs-warning)]">
-            DEMO VIEW · SEE LABELS
-          </span>
-        )}
       </div>
 
       <div className="space-y-5 p-4 pb-5 md:p-6 md:pb-7">
