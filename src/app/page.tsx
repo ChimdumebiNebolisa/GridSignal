@@ -29,10 +29,10 @@ export default function Home() {
       </a>
       <LandingNav />
       <main id="main">
-        <Hero rankingsPublished={rankingsPublished} />
-
-        {/* Hero artifact with offset annotation notes */}
+        {/* Hero + County Resilience File share one continuous grid section
+            so the background tiles seamlessly and a single divider closes it. */}
         <section className="gs-grid-bg border-b border-[var(--gs-border)]">
+          <Hero rankingsPublished={rankingsPublished} />
           <div className="mx-auto max-w-6xl px-4 pb-16 md:pb-24">
             <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_248px]">
               <CountyFile hero={hero} />

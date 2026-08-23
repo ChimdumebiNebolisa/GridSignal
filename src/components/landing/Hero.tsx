@@ -2,8 +2,7 @@ import Link from "next/link";
 
 export function Hero({ rankingsPublished }: { rankingsPublished: boolean }) {
   return (
-    <section className="gs-grid-bg border-b border-[var(--gs-border)]">
-      <div className="mx-auto max-w-6xl px-4 pb-16 pt-20 text-center md:pb-24 md:pt-28">
+    <div className="mx-auto max-w-6xl px-4 pb-12 pt-16 text-center md:pb-16 md:pt-24">
         <p className="mx-auto inline-block rounded-sm border border-[#c4d9f7] bg-[var(--gs-blue-soft)] px-3 py-1 gs-label !text-[#1d4ed8]">
           Texas grid resilience planning
         </p>
@@ -30,7 +29,6 @@ export function Hero({ rankingsPublished }: { rankingsPublished: boolean }) {
             VIEW METHODOLOGY
           </a>
         </div>
-      </div>
-    </section>
+    </div>
   );
 }
