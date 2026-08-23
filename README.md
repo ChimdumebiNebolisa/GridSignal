@@ -69,8 +69,4 @@ Data refresh: run the ingest scripts in `scripts/ingest/` (FEMA NRI, CDC SVI, PV
 
 Private keys stay server-side. Never place secrets in `NEXT_PUBLIC_*` variables.
 
-## Repository
-
-[ChimdumebiNebolisa/GridSignal](https://github.com/ChimdumebiNebolisa/GridSignal)
-
 License: MIT
