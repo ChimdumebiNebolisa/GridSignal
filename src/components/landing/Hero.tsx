@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export function Hero({ rankingsPublished }: { rankingsPublished: boolean }) {
+export function Hero() {
   return (
     <div className="mx-auto max-w-6xl px-4 pb-12 pt-16 text-center md:pb-16 md:pt-24">
         <p className="mx-auto inline-block rounded-sm border border-[#c4d9f7] bg-[var(--gs-blue-soft)] px-3 py-1 gs-label !text-[#1d4ed8]">
@@ -16,10 +16,11 @@ export function Hero({ rankingsPublished }: { rankingsPublished: boolean }) {
           attached to every value. It is a planning signal, not an outage
           prediction.
         </p>
-        <p className="mx-auto mt-4 max-w-[700px] font-mono text-xs text-[var(--gs-muted-2)]">
-          {rankingsPublished
-            ? "Indicator values are bundled snapshots; quality and provenance are labeled on every value."
-            : "Current bundle: structural ordinal rankings are withheld because the sensitivity gate did not pass (66.5% worst-case stability vs an 80% target). Component values remain visible."}
+        <p className="mx-auto mt-4 max-w-[700px] font-mono text-xs leading-relaxed text-[var(--gs-muted-2)]">
+          The same standard 4 kW backup system yields 34% more power in
+          Hudspeth County than in Hardin County (7,552 vs 5,623 kWh/yr,
+          bundled PVGIS/NSRDB values). GridSignal surfaces signals like this
+          for all 254 Texas counties.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-3">
           <Link href="/explore" className="gs-btn-primary">

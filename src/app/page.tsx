@@ -17,7 +17,6 @@ export default function Home() {
   const manifest = getDataManifest();
   const { rows: tableRows, sortedBy } = selectComparisonRows(summaries);
   const geojson = getTexasGeoJson();
-  const rankingsPublished = manifest?.gates?.rankingsPublished ?? false;
 
   return (
     <div className="min-h-screen bg-white">
@@ -32,7 +31,7 @@ export default function Home() {
         {/* Hero + County Resilience File share one continuous grid section
             so the background tiles seamlessly and a single divider closes it. */}
         <section className="gs-grid-bg border-b border-[var(--gs-border)]">
-          <Hero rankingsPublished={rankingsPublished} />
+          <Hero />
           <div className="mx-auto max-w-6xl px-4 pb-16 md:pb-24">
             <div className="grid gap-4 lg:grid-cols-[minmax(0,1fr)_248px]">
               <CountyFile hero={hero} />
