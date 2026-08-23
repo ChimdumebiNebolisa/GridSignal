@@ -12,7 +12,7 @@ type MatrixPoint = {
 
 const QUADRANT_KEYS = Object.keys(QUADRANT_LABELS) as Array<keyof typeof QUADRANT_LABELS>;
 
-/** Fictional demonstration points — never presented as measured counties. */
+/** Fictional demonstration points; never presented as measured counties. */
 const DEMO_POINTS: MatrixPoint[] = [
   { key: "demo-a", name: "Example A", x: 78, y: 76, illustrative: true },
   { key: "demo-b", name: "Example B", x: 24, y: 68, illustrative: true },
@@ -70,7 +70,7 @@ function AxisFrame({ children, tall }: { children: React.ReactNode; tall: boolea
  * Restrained CSS 2x2 matrix. Real counties are plotted only when BOTH axis
  * values exist. When rankings are gated, an explicitly-badged ILLUSTRATIVE
  * demo (fictional [Example] chips, dashed styling) shows how the matrix
- * reads — clearly separated from any live data, never fabricated into it.
+ * reads, clearly separated from any live data, never fabricated into it.
  */
 export function NeedFeasibilityMatrix({
   summaries,
@@ -112,7 +112,7 @@ export function NeedFeasibilityMatrix({
         <span className="font-mono text-xs font-semibold">NEED VS FEASIBILITY MATRIX</span>
         {isGated && (
           <span className="rounded-sm border border-[#ead79c] bg-[var(--gs-warning-bg)] px-1.5 py-0.5 font-mono text-[9px] tracking-widest text-[var(--gs-warning)]">
-            DEMO VIEW — SEE LABELS
+            DEMO VIEW · SEE LABELS
           </span>
         )}
       </div>

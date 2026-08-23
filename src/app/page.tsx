@@ -44,7 +44,7 @@ export default function Home() {
                 </AnnotationNote>
                 <AnnotationNote tone="blue" label="Backup feasibility">
                   Solar-resource feasibility for a standard 4 kW fixed-tilt
-                  system — a separate axis, never merged with structural need.
+                  system; a separate axis, never merged with structural need.
                 </AnnotationNote>
                 <AnnotationNote tone="green" label="Provenance">
                   Every value shows source, vintage, acquisition time,

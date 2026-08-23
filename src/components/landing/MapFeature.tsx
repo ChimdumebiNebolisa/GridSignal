@@ -23,7 +23,7 @@ type MapFeatureProps = {
 
 /**
  * Read-only landing preview of the real explorer map. Clicking a county
- * deep-links into /explore — the full interaction lives there.
+ * deep-links into /explore; the full interaction lives there.
  */
 export function MapFeature({ summaries, geojson }: MapFeatureProps) {
   const router = useRouter();

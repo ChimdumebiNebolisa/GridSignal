@@ -15,16 +15,16 @@ const CARDS: Array<{
 }> = [
   {
     label: "Hazard risk",
-    title: "Structural indicators — hazard",
+    title: "Structural indicators: hazard",
     provenance:
       "FEMA National Risk Index v1.20 counties, official FEMA GeoPlatform feature service.",
     freshness: "Bundled snapshot; acquisition timestamp and SHA-256 fingerprint in the manifest.",
     scope: "Percentile of NRI composite RISK_SCORE among the 254 Texas counties.",
-    limitation: "Planning proxy for relative hazard risk — not an outage forecast.",
+    limitation: "Planning proxy for relative hazard risk; not an outage forecast.",
   },
   {
     label: "Vulnerability",
-    title: "Structural indicators — social vulnerability",
+    title: "Structural indicators: social vulnerability",
     provenance: "CDC/ATSDR Social Vulnerability Index 2022, official CDC ArcGIS service (owner data_cdc).",
     freshness: "Bundled snapshot; acquisition timestamp and fingerprint in the manifest.",
     scope: "Overall SVI percentile (RPL_THEMES ×100) exactly as published by ATSDR.",
@@ -32,10 +32,10 @@ const CARDS: Array<{
   },
   {
     label: "Outage burden",
-    title: "Structural indicators — outage history",
+    title: "Structural indicators: outage history",
     provenance:
       "DOE EAGLE-I 2014–2022 archive. Acquisition is currently documented as blocked in sources/eagle_i/blocked.json.",
-    freshness: "Component withheld — no substitute value is used anywhere in the product.",
+    freshness: "Component withheld; no substitute value is used anywhere in the product.",
     scope:
       "Not applicable while blocked; structural scores currently compute from the two available components.",
     limitation:
@@ -43,7 +43,7 @@ const CARDS: Array<{
   },
   {
     label: "Solar feasibility",
-    title: "Backup feasibility — solar resource",
+    title: "Backup feasibility: solar resource",
     provenance:
       "EC JRC PVGIS v5.2 PVcalc on NREL NSRDB satellite irradiance (2005–2015 climatology). Keyless public API.",
     freshness: "Bundled snapshot with per-county acquisition time and bundle fingerprint.",
@@ -53,7 +53,7 @@ const CARDS: Array<{
   },
   {
     label: "Weather context",
-    title: "Operating context — weather",
+    title: "Operating context: weather",
     provenance: "Open-Meteo forecast API at county centroids; live per request in /explore.",
     freshness: "Bundled cache entries are labeled cached/stale against a 72-hour window.",
     scope: "Near-term county weather stress; displayed as context only.",
@@ -61,10 +61,10 @@ const CARDS: Array<{
   },
   {
     label: "Statewide grid",
-    title: "Operating context — ERCO/EIA load",
+    title: "Operating context: ERCO/EIA load",
     provenance: "EIA Hourly Electric Grid Monitor, ERCO balancing-authority demand.",
     freshness: "15-minute TTL when an EIA key is configured; documented neutral fallback otherwise.",
-    scope: "Statewide/balancing-authority signal — explicitly not county-level reliability.",
+    scope: "Statewide/balancing-authority signal; explicitly not county-level reliability.",
     limitation: "Never implies county-level measurements; never affects rankings.",
   },
 ];
@@ -81,7 +81,7 @@ export function ProvenanceSection({ manifest }: ProvenanceSectionProps) {
         transformation method, quality, and a verifiable fingerprint.
         {" "}
         {manifest?.gates?.rankingsPublished === false &&
-          "For the current bundle, ordinal rankings are withheld because sensitivity gates did not pass — component values remain visible and labeled."}
+          "For the current bundle, ordinal rankings are withheld because sensitivity gates did not pass; component values remain visible and labeled."}
       </p>
 
       <div className="mt-8 grid gap-4 md:grid-cols-2 lg:grid-cols-3">

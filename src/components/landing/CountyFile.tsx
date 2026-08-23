@@ -27,7 +27,7 @@ function IndicatorRow({
       </div>
       <div className="flex shrink-0 items-center gap-3">
         <span className="font-mono text-sm font-semibold tabular-nums">
-          {value !== null ? `${value}/100` : "—"}
+          {value !== null ? `${value}/100` : "n/a"}
         </span>
         <StatusTag quality={quality} />
       </div>
@@ -109,13 +109,6 @@ export function CountyFile({ hero }: CountyFileProps) {
                 source="eagle_i · withheld (archive not ingested)"
               />
             </ul>
-            {need.score === null && (
-              <p className="mt-2 font-mono text-[11px] text-[var(--gs-warning)]">
-                {need.noScoreReason === "gates_failed"
-                  ? "Ranking withheld: coverage/sensitivity gate failed for this bundle."
-                  : "Score withheld."}
-              </p>
-            )}
           </section>
 
           <section className="p-4 pt-3">
@@ -127,7 +120,7 @@ export function CountyFile({ hero }: CountyFileProps) {
             </div>
             <ul className="gs-frame-flat overflow-hidden">
               <IndicatorRow
-                label="Solar resource — 4 kW fixed tilt"
+                label="Solar resource (4 kW fixed tilt)"
                 value={feas.components.solarResource.value}
                 quality={feas.components.solarResource.quality}
                 source="pvgis_nsrdb · E_y percentile"
@@ -137,7 +130,7 @@ export function CountyFile({ hero }: CountyFileProps) {
 
           <section className="bg-[var(--gs-canvas)] p-4">
             <div className="mb-2 flex items-center justify-between">
-              <TechnicalLabel>Operating context — does not affect scores</TechnicalLabel>
+              <TechnicalLabel>Operating context (does not affect scores)</TechnicalLabel>
             </div>
             <div className="grid grid-cols-2 gap-2">
               <div className="gs-frame-flat p-2.5">
