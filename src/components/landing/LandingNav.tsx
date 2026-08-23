@@ -14,21 +14,27 @@ export function LandingNav() {
           <span className="text-sm font-semibold tracking-tight">GridSignal</span>
           <span className="gs-label !text-[var(--gs-muted-2)]">Texas</span>
         </Link>
-        <nav aria-label="Primary" className="hidden items-center gap-6 md:flex">
+        <nav aria-label="Primary" className="hidden items-center gap-2 md:flex">
           {LINKS.map((l) => (
             <a
               key={l.href}
               href={l.href}
-              className="gs-label transition-colors hover:text-white"
+              className="gs-label px-3 py-3 !text-[var(--gs-on-dark-muted)] transition-colors hover:!text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
             >
               {l.label}
             </a>
           ))}
-          <Link href="/explore" className="gs-label transition-colors hover:text-white">
+          <Link
+            href="/explore"
+            className="gs-label px-3 py-3 !text-[var(--gs-on-dark-muted)] transition-colors hover:!text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+          >
             Explore
           </Link>
         </nav>
-        <Link href="/explore" className="gs-btn-primary">
+        <Link
+          href="/explore"
+          className="gs-btn-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+        >
           EXPLORE TEXAS
         </Link>
       </div>

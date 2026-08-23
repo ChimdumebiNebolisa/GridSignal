@@ -1,7 +1,7 @@
 {
   "schemaVersion": "2.3.0",
   "scoreConfigVersion": "two-axis-v1",
-  "generatedAt": "2026-08-22T21:56:44.933Z",
+  "generatedAt": "2026-08-23T00:42:56.205Z",
   "gates": {
     "structural": {
       "coverageShare": 1,
@@ -68,7 +68,7 @@
       "sourceName": "DOE EAGLE-I county outage burden",
       "status": "blocked",
       "vintage": "n/a",
-      "fetchedAt": "2026-08-22T21:56:44.933Z",
+      "fetchedAt": "2026-08-23T00:42:56.205Z",
       "coverage": "0/254",
       "quality": "unavailable",
       "reason": "Authoritative multi-GB archive not acquirable in this environment; see sources/eagle_i/blocked.json.",
@@ -105,11 +105,11 @@
     "artifacts": {
       "county-centroids.json": "8684fa452a91a32291ffba1cc481c6b8c06011cbb896d269d9d5b140de4c9d94",
       "county-population.json": "8796c3828551afd2877c0f13995802fa921ac870b64c19e1d589d1211e1b3d11",
-      "cache/solar-potential-by-county.json": "baee101883d0da761e08f1dfd0b2fd38ef949bbd32c20fe48dd10d7ac9bd956b",
-      "cache/solar-potential-provenance.json": "75858a11fe78bd94100a3b85ecd2275117e00aa4ef081e6abce7ad2267a3ad72",
-      "sources/fema_nri/county-hazard.json": "56f6aaa2ed77de8547e256df417f46971e610cb0dba1552105ce54c29a067f66",
-      "sources/cdc_svi/county-svi.json": "75bc00e2c49ea7fda1cef9fc4d2024b9c758814b35945138cc7fba128f3947d4",
-      "sources/eagle_i/blocked.json": "0bc4ad9e36d9648ee0a572f55994fc18c4580e2e767606dca15ddc45a8990134",
+      "cache/solar-potential-by-county.json": "5caeb3de4521ece473a63e0173b17b75617fb46921d799ea46d1af22baf4c0e9",
+      "cache/solar-potential-provenance.json": "2c6f30a89f83139790c32fda3779a730c727c8e1195a295bb7079172245bf6be",
+      "sources/fema_nri/county-hazard.json": "e65ec5dd37fb377da7806461cd25a35416efb5da283f5637680cabd7432fc6cd",
+      "sources/cdc_svi/county-svi.json": "888d275323f16d6cdecc25dae6e8abafb6cf7e752e1a859010e9b0b732b136fa",
+      "sources/eagle_i/blocked.json": "867172ccaa6d86f3c36dbe90121923514d95ad3df6c6ea666177e29d1b096edd",
       "indicators/county-structural-need.json": "bf54a72076eaa91bcb5a159da0369b9dda1316390ba79ea98ea85765442af513",
       "indicators/county-feasibility.json": "4015c4f420febac6ba138774f8e5ddf308e5899313e1f35fbcba2dfe8026df51"
     }

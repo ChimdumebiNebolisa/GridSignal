@@ -20,7 +20,7 @@ export function LayerTogglePanel({ selected, onChange }: LayerTogglePanelProps) 
         {ACTIVE_LAYERS.map((layer) => (
           <label
             key={layer}
-            className={`cursor-pointer rounded px-2 py-1.5 text-xs ${
+            className={`cursor-pointer rounded px-2 py-1.5 text-xs transition-colors focus-within:outline-none has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-[var(--gs-blue)] has-[:focus-visible]:ring-offset-1 ${
               selected === layer
                 ? "bg-slate-800 text-white"
                 : "text-slate-700 hover:bg-slate-100"

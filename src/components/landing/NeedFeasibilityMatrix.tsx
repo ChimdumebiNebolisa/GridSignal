@@ -72,6 +72,7 @@ export function NeedFeasibilityMatrix({
           <span className="absolute -left-2 top-1/2 hidden -rotate-90 font-mono text-[10px] tracking-widest text-[var(--gs-muted)] md:block">
             STRUCTURAL NEED →
           </span>
+          <span className="sr-only md:hidden">Structural need increases upward. </span>
           <span className="absolute bottom-[-22px] left-1/2 -translate-x-1/2 font-mono text-[10px] tracking-widest text-[var(--gs-muted)]">
             BACKUP FEASIBILITY →
           </span>

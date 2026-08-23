@@ -76,17 +76,23 @@ export function SearchBox({ onSelectCounty }: SearchBoxProps) {
       <input
         id="county-search"
         type="search"
+        role="combobox"
+        aria-expanded={open && results.length > 0}
+        aria-controls="county-search-results"
+        aria-autocomplete="list"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
         onFocus={() => results.length > 0 && setOpen(true)}
         placeholder="Search county, city, or ZIP"
-        className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm shadow-sm focus:border-slate-500 focus:outline-none focus:ring-1 focus:ring-slate-500"
+        className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm shadow-sm focus-visible:border-slate-500 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-slate-500"
         autoComplete="off"
       />
       {open && (
         <ul
+          id="county-search-results"
           className="absolute z-[1000] mt-1 max-h-60 w-full overflow-auto rounded-lg border border-slate-200 bg-white py-1 shadow-lg"
           role="listbox"
+          aria-label="Search results"
         >
           {loading && (
             <li className="px-3 py-2 text-sm text-slate-500">Searching...</li>

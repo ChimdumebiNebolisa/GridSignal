@@ -16,7 +16,10 @@
   --gs-border: #d7dee8;
   --gs-border-strong: #bcc7d6;
   --gs-muted: #64748b;
-  --gs-muted-2: #8a98aa;
+  /* Secondary text: must hold >=4.5:1 on paper AND canvas (WCAG 1.4.3). */
+  --gs-muted-2: #5b6b82;
+  /* Muted text for DARK surfaces only (nav/CTA), >=4.5:1 on --gs-ink. */
+  --gs-on-dark-muted: #9fb0c8;
   --gs-success: #15803d;
   --gs-success-bg: #edf9f0;
   --gs-warning: #9a6700;
@@ -152,6 +155,14 @@ body {
 .gs-chip-unavailable { color: var(--gs-muted); }
 
 @media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
   .gs-btn-primary,
   .gs-btn-secondary {
     transition: none;

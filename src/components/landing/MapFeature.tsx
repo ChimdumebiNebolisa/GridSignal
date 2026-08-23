@@ -30,7 +30,11 @@ export function MapFeature({ summaries, geojson }: MapFeatureProps) {
   const layer: LayerName = "feasibility"; // feasibility axis is currently the published one
 
   return (
-    <div className="gs-frame overflow-hidden">
+    <div
+      className="gs-frame overflow-hidden"
+      role="region"
+      aria-label="Interactive preview of the Texas county feasibility map. Full interaction available in the explorer."
+    >
       <div className="flex items-center justify-between border-b border-[var(--gs-border)] bg-[var(--gs-canvas)] px-4 py-2">
         <span className="font-mono text-xs font-semibold">TEXAS COUNTY SIGNAL MAP</span>
         <span className="font-mono text-[10px] text-[var(--gs-muted-2)]">

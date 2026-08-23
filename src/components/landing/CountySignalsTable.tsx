@@ -40,14 +40,18 @@ export function CountySignalsTable({ rows }: { rows: MapCountySummary[] }) {
   return (
     <div className="gs-frame overflow-hidden">
       <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[var(--gs-border)] bg-[var(--gs-canvas)] px-3 py-2">
-        <div className="flex flex-wrap gap-1.5" role="tablist" aria-label="Sort comparison table">
+        <div
+          className="flex flex-wrap gap-1.5"
+          role="group"
+          aria-label="Sort comparison table"
+        >
           {FILTERS.map((f) => (
             <button
               key={f.key}
-              role="tab"
-              aria-selected={filter === f.key}
+              type="button"
+              aria-pressed={filter === f.key}
               onClick={() => setFilter(f.key)}
-              className={`rounded-sm border px-2 py-1 font-mono text-[10px] tracking-wide transition-colors ${
+              className={`min-h-7 rounded-sm border px-2.5 font-mono text-[10px] tracking-wide transition-colors focus-visible:outline-2 focus-visible:outline-offset-1 focus-visible:outline-[var(--gs-blue)] ${
                 filter === f.key
                   ? "border-[var(--gs-ink)] bg-[var(--gs-ink)] text-white"
                   : "border-[var(--gs-border)] bg-white text-[var(--gs-muted)] hover:border-[var(--gs-border-strong)]"
@@ -57,13 +61,18 @@ export function CountySignalsTable({ rows }: { rows: MapCountySummary[] }) {
             </button>
           ))}
         </div>
-        <p className="font-mono text-[10px] text-[var(--gs-muted-2)]">
+        <p className="font-mono text-[10px] text-[var(--gs-muted-2)]" aria-live="polite">
           sorted by {filter === "all" ? "county name" : FILTERS.find((f) => f.key === filter)?.label.toLowerCase()}
         </p>
       </div>
 
       <div className="overflow-x-auto">
         <table className="w-full min-w-[640px] border-collapse text-sm">
+          <caption className="sr-only">
+            County signals comparison: structural need, backup feasibility,
+            weather context, and data quality for selected Texas counties.
+            Sorted as indicated by the active filter.
+          </caption>
           <thead>
             <tr className="border-b border-[var(--gs-border)] bg-white">
               {["COUNTY", "STRUCTURAL NEED", "BACKUP FEASIBILITY", "WEATHER CONTEXT", "DATA QUALITY"].map((h) => (
