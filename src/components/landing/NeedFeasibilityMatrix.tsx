@@ -118,48 +118,35 @@ export function NeedFeasibilityMatrix({
       </div>
 
       <div className="space-y-5 p-4 pb-5 md:p-6 md:pb-7">
-        {/* ---------- Live matrix ---------- */}
-        <div>
-          <p className="mb-2 gs-label">Live view</p>
-          <div className="mx-auto flex w-full max-w-[420px] gap-2">
-            <div className="relative w-5 shrink-0" aria-hidden>
-              <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-90 whitespace-nowrap font-mono text-[10px] tracking-widest text-[var(--gs-muted)]">
-                STRUCTURAL NEED →
-              </span>
+        {/* ---------- Live matrix (only when real counties can be placed) ---------- */}
+        {!isGated && (
+          <div>
+            <p className="mb-2 gs-label">Live view</p>
+            <div className="mx-auto flex w-full max-w-[420px] gap-2">
+              <div className="relative w-5 shrink-0" aria-hidden>
+                <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 -rotate-90 whitespace-nowrap font-mono text-[10px] tracking-widest text-[var(--gs-muted)]">
+                  STRUCTURAL NEED →
+                </span>
+              </div>
+              <div className="min-w-0 flex-1">
+                <AxisFrame tall>
+                  <QuadrantScaffolding />
+                  {shown.map((p) => (
+                    <PointChip key={p.key} p={p} />
+                  ))}
+                </AxisFrame>
+                <p className="mt-3 text-center font-mono text-[10px] tracking-widest text-[var(--gs-muted)]">
+                  BACKUP FEASIBILITY →
+                </p>
+              </div>
             </div>
-            <div className="min-w-0 flex-1">
-              <AxisFrame tall={!isGated}>
-                {!isGated && (
-                  <>
-                    <QuadrantScaffolding />
-                    {shown.map((p) => (
-                      <PointChip key={p.key} p={p} />
-                    ))}
-                  </>
-                )}
-                {isGated && (
-                  <div className="flex h-full items-center justify-center p-4">
-                    <div className="max-w-[300px] rounded-sm border border-dashed border-[var(--gs-border-strong)] bg-[var(--gs-canvas)] px-4 py-4 text-center">
-                      <p className="font-mono text-[10px] tracking-widest text-[var(--gs-warning)]">
-                        NO COUNTIES PLOTTED
-                      </p>
-                      <p className="mt-1.5 text-xs leading-relaxed text-[var(--gs-muted)]">
-                        Structural rankings are withheld by the sensitivity
-                        gate, so no real county can be placed yet.
-                      </p>
-                      <p className="mt-2 font-mono text-[10px] leading-relaxed text-[var(--gs-muted-2)]">
-                        See the labeled demo below.
-                      </p>
-                    </div>
-                  </div>
-                )}
-              </AxisFrame>
-              <p className="mt-3 text-center font-mono text-[10px] tracking-widest text-[var(--gs-muted)]">
-                BACKUP FEASIBILITY →
+            {withheldCount > 0 && (
+              <p className="mt-3 text-center font-mono text-[10px] text-[var(--gs-muted-2)]">
+                {withheldCount} counties lack both axis values and are not placed.
               </p>
-            </div>
+            )}
           </div>
-        </div>
+        )}
 
         {/* ---------- Illustrative demo (gated bundles only) ---------- */}
         {isGated && (
@@ -189,17 +176,11 @@ export function NeedFeasibilityMatrix({
               </div>
             </div>
             <p className="mx-auto mt-3 max-w-[440px] text-center font-mono text-[10px] leading-relaxed text-[var(--gs-muted-2)]">
-              Shows how published county chips will sit inside the quadrants
-              once the sensitivity gate passes. Every demo point is fictional
-              and bracketed; no real county position is implied.
+              Live county chips will replace this demo once the sensitivity
+              gate passes. Every point here is fictional and bracketed; no
+              real county position is implied.
             </p>
           </div>
-        )}
-
-        {!isGated && withheldCount > 0 && (
-          <p className="text-center font-mono text-[10px] text-[var(--gs-muted-2)]">
-            {withheldCount} counties lack both axis values and are not placed.
-          </p>
         )}
 
         <p className="mx-auto max-w-[440px] text-center font-mono text-[10px] leading-relaxed text-[var(--gs-muted-2)]">
